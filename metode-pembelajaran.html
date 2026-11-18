@@ -1,0 +1,111 @@
+﻿<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Metode Pembelajaran â€” BIANCA EDUSPACE</title>
+  <meta name="description" content="Katalog metode pembelajaran untuk guru dan calon guru SD." />
+  <link rel="icon" type="image/png" href="images/logo-bianca.jpg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="css/model-pembelajaran.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container navbar">
+      <a class="brand" href="index.html">
+        <img class="brand-logo" src="images/logo-bianca.jpg" alt="Logo BIANCA EDUSPACE" />
+        <span class="brand-name">BIANCA EDUSPACE</span>
+      </a>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+      </button>
+      <nav class="nav-menu" aria-label="Main navigation">
+        <a class="nav-link" href="index.html">Beranda</a>
+        <a class="nav-link" href="model-pembelajaran.html">Model Pembelajaran</a>
+        <a class="nav-link" href="metode-pembelajaran.html">Metode Pembelajaran</a>
+        <a class="nav-link" href="panduan-mengajar.html">Panduan Mengajar</a>
+        <a class="nav-link" href="tentang-kami.html">Tentang Kami</a>
+      </nav>
+    </div>
+  </header>
+  <main class="page-content">
+    <div class="container">
+      <nav class="breadcrumb" aria-label="Breadcrumb">
+        <a href="index.html">Beranda</a> / Metode Pembelajaran
+      </nav>
+      <h1 class="page-title">Explore Teaching Methods</h1>
+      <p class="page-desc">Temukan berbagai metode pembelajaran yang dapat membantu guru menyampaikan materi, membangun interaksi, dan menciptakan pengalaman belajar yang bermakna.</p>
+      <div class="toolbar">
+        <input id="searchInput" type="search" placeholder="Cari metode pembelajaran..." aria-label="Cari metode" />
+        <select id="filterSelect" aria-label="Filter kategori">
+          <option value="all">Semua Kategori</option>
+          <option value="komunikasi">Komunikasi &amp; Interaksi</option>
+          <option value="kolaborasi">Kolaborasi</option>
+          <option value="praktik">Praktik &amp; Pengalaman</option>
+          <option value="eksplorasi">Eksplorasi &amp; Kreativitas</option>
+        </select>
+      </div>
+      <div id="modelGrid" class="model-grid"></div>
+
+      <section class="section" style="padding-top:2rem;">
+        <div class="section-head">
+          <h2 class="section-title">Choose the Right Teaching Method</h2>
+          <p class="section-desc">Setiap metode memiliki karakteristik dan tujuan yang berbeda. Guru perlu mempertimbangkan tujuan pembelajaran, materi, kondisi kelas, serta karakteristik siswa sebelum menentukan metode yang digunakan.</p>
+        </div>
+        <ul class="detail-list">
+          <li>Tujuan pembelajaran.</li>
+          <li>Karakteristik materi.</li>
+          <li>Kebutuhan dan kemampuan siswa.</li>
+          <li>Ketersediaan waktu.</li>
+          <li>Sarana dan prasarana.</li>
+          <li>Kondisi lingkungan belajar.</li>
+        </ul>
+        <p>Guru dapat mengombinasikan beberapa metode dalam satu kegiatan pembelajaran.</p>
+      </section>
+    </div>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="footer-brand-name">BIANCA EDUSPACE</div>
+          <div class="footer-slogan">Inspire to Learn, Empower to Grow</div>
+          <p class="footer-text">Ruang edukasi untuk belajar, berkarya, dan berkembang bersama.</p>
+        </div>
+        <div>
+          <div class="footer-heading">Navigasi</div>
+          <ul class="footer-list">
+            <li><a href="index.html">Beranda</a></li>
+            <li><a href="model-pembelajaran.html">Model Pembelajaran</a></li>
+            <li><a href="metode-pembelajaran.html">Metode Pembelajaran</a></li>
+            <li><a href="panduan-mengajar.html">Panduan Mengajar</a></li>
+            <li><a href="tentang-kami.html">Tentang Kami</a></li>
+          </ul>
+        </div>
+        <div>
+          <div class="footer-heading">Informasi</div>
+          <ul class="footer-list">
+            <li><a href="tentang-kami.html">Tentang Bianca EduSpace</a></li>
+            <li><a href="tentang-kami.html">Visi dan Misi</a></li>
+            <li><a href="tentang-kami.html">Tujuan Pendidikan</a></li>
+          </ul>
+        </div>
+        <div>
+          <div class="footer-heading">Brand Statement</div>
+          <p class="footer-statement">Creative Learning. Innovative Education. Collaborative Growth.</p>
+        </div>
+      </div>
+      <div class="footer-bottom">© 2026 BIANCA EDUSPACE. All Rights Reserved.</div>
+    </div>
+  </footer>
+  <button id="backToTop" class="back-to-top" aria-label="Kembali ke atas">â†‘</button>
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script src="script.js" defer></script>
+  <script src="js/metode-pembelajaran.js" defer></script>
+</body>
+</html>
+
+

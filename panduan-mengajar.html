@@ -1,0 +1,484 @@
+﻿<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Panduan Mengajar â€” BIANCA EDUSPACE</title>
+  <meta name="description" content="Panduan Mengajar BIANCA EDUSPACE: pusat informasi dan rangkuman seluruh model dan metode pembelajaran." />
+  <link rel="icon" type="image/png" href="images/logo-bianca.jpg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="css/model-pembelajaran.css" />
+  <style>
+    .progress-bar { position: fixed; top: 0; left: 0; height: 4px; width: 0; background: linear-gradient(90deg,#2585F5,#38BDF8); z-index: 200; transition: width .1s; }
+    .quiz-box { background:#f5f8fd; padding:1.5rem; border-radius:.75rem; margin-top:1.5rem; }
+    .quiz-q { margin-bottom:1.25rem; }
+    .quiz-opt { display:block; margin:.4rem 0; }
+    .quiz-result { margin-top:1rem; font-weight:600; color:#1646A0; }
+    .print-btn { position:fixed; bottom:80px; right:24px; background:#1646A0; color:#fff; border:none; border-radius:999px; padding:.6rem 1rem; cursor:pointer; z-index:150; }
+    table { width:100%; border-collapse:collapse; margin:1rem 0; font-size:.9rem; }
+    th,td { border:1px solid rgba(7,21,46,.1); padding:.6rem; vertical-align:top; }
+    th { background:#1646A0; color:#fff; }
+    .quiz-feedback { margin-top:.5rem; font-size:.9rem; }
+    .quiz-feedback.ok { color:#16a34a; }
+    .quiz-feedback.err { color:#dc2626; }
+    .card-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:1rem; margin:1.5rem 0; }
+    .info-card { background:#f5f8fd; border-radius:.75rem; padding:1.25rem; border:1px solid rgba(7,21,46,.08); }
+    .info-card h4 { margin:0 0 .5rem; color:#1646A0; }
+    .info-card p { margin:.25rem 0; font-size:.9rem; }
+    .info-card a { color:#2585F5; text-decoration:none; font-weight:600; }
+  </style>
+</head>
+<body>
+  <div class="progress-bar" id="progressBar"></div>
+  <header class="site-header">
+    <div class="container navbar">
+      <a class="brand" href="index.html">
+        <img class="brand-logo" src="images/logo-bianca.jpg" alt="Logo BIANCA EDUSPACE" />
+        <span class="brand-name">BIANCA EDUSPACE</span>
+      </a>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+      </button>
+      <nav class="nav-menu" aria-label="Main navigation">
+        <a class="nav-link" href="index.html">Beranda</a>
+        <a class="nav-link" href="model-pembelajaran.html">Model Pembelajaran</a>
+        <a class="nav-link" href="metode-pembelajaran.html">Metode Pembelajaran</a>
+        <a class="nav-link" href="panduan-mengajar.html">Panduan Mengajar</a>
+        <a class="nav-link" href="tentang-kami.html">Tentang Kami</a>
+      </nav>
+    </div>
+  </header>
+  <main class="page-content">
+    <div class="container">
+      <nav class="breadcrumb" aria-label="Breadcrumb">
+        <a href="index.html">Beranda</a> / Panduan Mengajar
+      </nav>
+      <h1 class="page-title">Panduan Mengajar</h1>
+      <p class="page-desc">Pusat informasi dan rangkuman seluruh model dan metode pembelajaran BIANCA EDUSPACE.</p>
+
+      <div class="detail-layout">
+        <aside class="detail-toc">
+          <div class="footer-heading">Daftar Isi</div>
+          <ul class="footer-list">
+            <li><a href="#pengantar">A. Pengantar</a></li>
+            <li><a href="#model">B. Model Pembelajaran</a></li>
+            <li><a href="#metode">C. Metode Pembelajaran</a></li>
+            <li><a href="#perbedaan">D. Perbedaan Model dan Metode</a></li>
+            <li><a href="#pilih">E. Memilih Strategi</a></li>
+            <li><a href="#kombinasi">F. Kombinasi Model dan Metode</a></li>
+            <li><a href="#mapel">G. Penerapan di Mata Pelajaran</a></li>
+            <li><a href="#skenario">H. Skenario Mengajar</a></li>
+            <li><a href="#tips">I. Tips Guru Efektif</a></li>
+            <li><a href="#quiz">J. Evaluasi Pemahaman</a></li>
+          </ul>
+        </aside>
+        <article class="detail-content">
+
+<h2 id="pengantar">A. Pengantar Panduan Mengajar</h2>
+<p>Panduan Mengajar merupakan pusat informasi dan rangkuman seluruh model dan metode pembelajaran yang tersedia di BIANCA EDUSPACE. Halaman ini ditujukan untuk membantu mahasiswa PGSD, calon guru, dan guru Sekolah Dasar memahami, membandingkan, memilih, serta menerapkan model dan metode pembelajaran secara tepat.</p>
+<p>Panduan Mengajar adalah perencanaan yang disusun guru sebelum kegiatan pembelajaran dilaksanakan. Perencanaan ini mencakup tujuan, materi, strategi, media, sumber belajar, langkah kegiatan, dan penilaian.</p>
+<p>Perencanaan pembelajaran penting karena membantu guru menetapkan tujuan yang jelas, memilih materi yang sesuai, menentukan cara mengajar yang efektif, dan menyiapkan penilaian yang tepat.</p>
+<p>Model pembelajaran merupakan kerangka atau pola yang mengorganisasikan proses pembelajaran secara menyeluruh. Metode pembelajaran merupakan cara yang digunakan untuk melaksanakan kegiatan pembelajaran.</p>
+<p>Hubungan antara tujuan, materi, karakteristik siswa, model, metode, dan evaluasi bersifat saling terkait. Tujuan menentukan materi, materi menentukan model, model menentukan metode, dan evaluasi memeriksa apakah tujuan tercapai.</p>
+
+<h2 id="model">B. Mengenal Model Pembelajaran</h2>
+<p>Berikut 10 model pembelajaran yang tersedia di BIANCA EDUSPACE. Setiap model memiliki karakteristik dan tujuan yang berbeda. Pilih sesuai kebutuhan pembelajaran.</p>
+<div class="card-grid">
+  <div class="info-card">
+    <h4>1. Problem Based Learning (PBL)</h4>
+    <p>Pembelajaran berbasis masalah kontekstual.</p>
+    <p><strong>Cocok:</strong> Ketika siswa perlu menyelesaikan masalah nyata.</p>
+    <a href="model/pbl.html">Lihat materi lengkap â†’</a>
+  </div>
+  <div class="info-card">
+    <h4>2. Project Based Learning (PjBL)</h4>
+    <p>Pembelajaran berbasis proyek.</p>
+    <p><strong>Cocok:</strong> Ketika siswa perlu menghasilkan produk.</p>
+    <a href="model/pjbl.html">Lihat materi lengkap â†’</a>
+  </div>
+  <div class="info-card">
+    <h4>3. Discovery Learning</h4>
+    <p>Pembelajaran penemuan.</p>
+    <p><strong>Cocok:</strong> Ketika siswa perlu menemukan konsep.</p>
+    <a href="model/discovery-learning.html">Lihat materi lengkap â†’</a>
+  </div>
+  <div class="info-card">
+    <h4>4. Inquiry Learning</h4>
+    <p>Pembelajaran inkuiri.</p>
+    <p><strong>Cocok:</strong> Ketika siswa perlu menyelidiki fenomena.</p>
+    <a href="model/inquiry-learning.html">Lihat materi lengkap â†’</a>
+  </div>
+  <div class="info-card">
+    <h4>5. Cooperative Learning</h4>
+    <p>Pembelajaran kooperatif.</p>
+    <p><strong>Cocok:</strong> Ketika siswa perlu bekerja sama.</p>
+    <a href="model/cooperative-learning.html">Lihat materi lengkap â†’</a>
+  </div>
+  <div class="info-card">
+    <h4>6. Contextual Teaching and Learning (CTL)</h4>
+    <p>Pembelajaran kontekstual.</p>
+    <p><strong>Cocok:</strong> Ketika materi perlu dihubungkan dengan kehidupan nyata.</p>
+    <a href="model/ctl.html">Lihat materi lengkap â†’</a>
+  </div>
+  <div class="info-card">
+    <h4>7. Direct Instruction</h4>
+    <p>Pembelajaran langsung.</p>
+    <p><strong>Cocok:</strong> Ketika materi membutuhkan penjelasan sistematis.</p>
+    <a href="model/direct-instruction.html">Lihat materi lengkap â†’</a>
+  </div>
+  <div class="info-card">
+    <h4>8. Problem Solving</h4>
+    <p>Pembelajaran pemecahan masalah.</p>
+    <p><strong>Cocok:</strong> Ketika siswa perlu berpikir kritis.</p>
+    <a href="model/problem-solving.html">Lihat materi lengkap â†’</a>
+  </div>
+  <div class="info-card">
+    <h4>9. Experiential Learning</h4>
+    <p>Pembelajaran berbasis pengalaman.</p>
+    <p><strong>Cocok:</strong> Ketika siswa perlu belajar dari pengalaman.</p>
+    <a href="model/experiential-learning.html">Lihat materi lengkap â†’</a>
+  </div>
+  <div class="info-card">
+    <h4>10. Numbered Heads Together (NHT)</h4>
+    <p>Pembelajaran kooperatif berbasis penomoran.</p>
+    <p><strong>Cocok:</strong> Ketika semua siswa perlu berpartisipasi.</p>
+    <a href="model/nht.html">Lihat materi lengkap â†’</a>
+  </div>
+</div>
+
+<h2 id="metode">C. Mengenal Metode Pembelajaran</h2>
+<p>Berikut 12 metode pembelajaran yang tersedia di BIANCA EDUSPACE.</p>
+<div class="card-grid">
+  <div class="info-card">
+    <h4>1. Ceramah</h4>
+    <p>Pembelajaran dengan penjelasan lisan.</p>
+    <a href="metode/ceramah.html">Lihat materi lengkap â†’</a>
+  </div>
+  <div class="info-card">
+    <h4>2. Tanya Jawab</h4>
+    <p>Pembelajaran tanya jawab.</p>
+    <a href="metode/tanya-jawab.html">Lihat materi lengkap â†’</a>
+  </div>
+  <div class="info-card">
+    <h4>3. Diskusi</h4>
+    <p>Pembelajaran diskusi.</p>
+    <a href="metode/diskusi.html">Lihat materi lengkap â†’</a>
+  </div>
+  <div class="info-card">
+    <h4>4. Demonstrasi</h4>
+    <p>Pembelajaran demonstrasi.</p>
+    <a href="metode/demonstrasi.html">Lihat materi lengkap â†’</a>
+  </div>
+  <div class="info-card">
+    <h4>5. Eksperimen</h4>
+    <p>Pembelajaran eksperimen.</p>
+    <a href="metode/eksperimen.html">Lihat materi lengkap â†’</a>
+  </div>
+  <div class="info-card">
+    <h4>6. Penugasan</h4>
+    <p>Pembelajaran penugasan.</p>
+    <a href="metode/penugasan.html">Lihat materi lengkap â†’</a>
+  </div>
+  <div class="info-card">
+    <h4>7. Simulasi</h4>
+    <p>Pembelajaran simulasi.</p>
+    <a href="metode/simulasi.html">Lihat materi lengkap â†’</a>
+  </div>
+  <div class="info-card">
+    <h4>8. Role Playing</h4>
+    <p>Pembelajaran bermain peran.</p>
+    <a href="metode/role-playing.html">Lihat materi lengkap â†’</a>
+  </div>
+  <div class="info-card">
+    <h4>9. Kerja Kelompok</h4>
+    <p>Pembelajaran kerja kelompok.</p>
+    <a href="metode/kerja-kelompok.html">Lihat materi lengkap â†’</a>
+  </div>
+  <div class="info-card">
+    <h4>10. Karyawisata</h4>
+    <p>Pembelajaran karyawisata.</p>
+    <a href="metode/karyawisata.html">Lihat materi lengkap â†’</a>
+  </div>
+  <div class="info-card">
+    <h4>11. Drill (Latihan)</h4>
+    <p>Pembelajaran latihan.</p>
+    <a href="metode/drill.html">Lihat materi lengkap â†’</a>
+  </div>
+  <div class="info-card">
+    <h4>12. Storytelling (Bercerita)</h4>
+    <p>Pembelajaran bercerita.</p>
+    <a href="metode/storytelling.html">Lihat materi lengkap â†’</a>
+  </div>
+</div>
+
+<h2 id="perbedaan">D. Perbedaan Model dan Metode Pembelajaran</h2>
+<p>Model pembelajaran merupakan kerangka yang mengorganisasikan proses pembelajaran secara menyeluruh. Metode pembelajaran merupakan cara yang digunakan untuk melaksanakan kegiatan pembelajaran.</p>
+<table>
+  <tr><th>Aspek</th><th>Model Pembelajaran</th><th>Metode Pembelajaran</th></tr>
+  <tr><td>Pengertian</td><td>Kerangka atau pola pembelajaran</td><td>Cara melaksanakan kegiatan pembelajaran</td></tr>
+  <tr><td>Cakupan</td><td>Menyeluruh</td><td>Spesifik</td></tr>
+  <tr><td>Fungsi</td><td>Mengorganisasikan pembelajaran</td><td>Menyampaikan materi</td></tr>
+  <tr><td>Contoh</td><td>PBL, CTL, Discovery Learning</td><td>Ceramah, diskusi, demonstrasi</td></tr>
+  <tr><td>Hubungan</td><td>Menentukan metode yang digunakan</td><td>Menjalankan model yang dipilih</td></tr>
+</table>
+<p>Contoh konkret: Guru menggunakan model PBL (model) dan metode diskusi (metode) untuk mengajarkan materi ekosistem.</p>
+
+<h2 id="pilih">E. Panduan Memilih Model dan Metode</h2>
+<p>Pemilihan model dan metode harus mempertimbangkan:</p>
+<ul class="detail-list">
+  <li>Tujuan pembelajaran.</li>
+  <li>Karakteristik materi.</li>
+  <li>Usia dan perkembangan siswa.</li>
+  <li>Kemampuan dan kebutuhan siswa.</li>
+  <li>Waktu pembelajaran.</li>
+  <li>Ketersediaan fasilitas.</li>
+  <li>Kondisi lingkungan sekolah.</li>
+</ul>
+<p><strong>Contoh situasi:</strong> Materi pengukuran panjang di kelas IV. Rekomendasi: Model CTL dengan metode eksperimen dan demonstrasi. Alasan: Materi perlu dihubungkan dengan pengalaman nyata.</p>
+<p>Tidak ada model yang selalu paling baik untuk semua kondisi. Pilih sesuai kebutuhan.</p>
+
+<h2 id="kombinasi">F. Mengombinasikan Model dan Metode</h2>
+<p>Model dan metode dapat digunakan secara saling melengkapi. Berikut contoh kombinasi di SD:</p>
+<ol class="detail-list">
+  <li><strong>IPAS - Rantai Makanan:</strong> Model Cooperative Learning + Metode diskusi dan simulasi. Kegiatan: Siswa mendiskusikan dan menyusun rantai makanan.</li>
+  <li><strong>Matematika - Pengukuran:</strong> Model CTL + Metode eksperimen. Kegiatan: Siswa mengukur benda di sekitar kelas.</li>
+  <li><strong>Bahasa Indonesia - Teks Deskripsi:</strong> Model Discovery Learning + Metode pengamatan dan penugasan. Kegiatan: Siswa mengamati objek dan menulis deskripsi.</li>
+  <li><strong>Pendidikan Pancasila - Aturan Sekolah:</strong> Model Problem Solving + Metode diskusi. Kegiatan: Siswa menyelesaikan masalah aturan kelas.</li>
+  <li><strong>IPAS - Pertumbuhan Tanaman:</strong> Model Experiential Learning + Metode eksperimen. Kegiatan: Siswa menanam dan mengamati tanaman.</li>
+</ol>
+
+<h2 id="mapel">G. Penerapan dalam Berbagai Mata Pelajaran SD</h2>
+<p>Pemilihan strategi harus menyesuaikan tujuan dan karakteristik materi.</p>
+<ul class="detail-list">
+  <li><strong>Bahasa Indonesia:</strong> Model Discovery Learning, metode pengamatan dan penugasan.</li>
+  <li><strong>Matematika:</strong> Model Direct Instruction, metode demonstrasi dan drill.</li>
+  <li><strong>IPAS:</strong> Model Inquiry Learning, metode eksperimen dan diskusi.</li>
+  <li><strong>Pendidikan Pancasila:</strong> Model Cooperative Learning, metode diskusi dan role playing.</li>
+  <li><strong>Seni dan Prakarya:</strong> Model CTL, metode demonstrasi dan penugasan.</li>
+  <li><strong>PJOK:</strong> Model Experiential Learning, metode praktik dan demonstrasi.</li>
+</ul>
+
+<h2 id="skenario">H. Contoh Skenario Mengajar</h2>
+<h3>Skenario 1: Matematika - Perkalian Bersusun (Kelas IV)</h3>
+<p><strong>Tujuan:</strong> Siswa dapat menyelesaikan perkalian bersusun.</p>
+<p><strong>Model:</strong> Direct Instruction. <strong>Metode:</strong> Demonstrasi dan drill.</p>
+<p><strong>Media:</strong> Papan tulis, kartu soal, lembar latihan.</p>
+<p><strong>Pendahuluan:</strong> Guru mengajukan pertanyaan tentang jumlah pensil dalam kotak.</p>
+<p><strong>Inti:</strong> Guru mendemonstrasikan langkah perkalian, membimbing latihan, memberikan latihan mandiri.</p>
+<p><strong>Penutup:</strong> Guru menyimpulkan langkah dan memberikan penguatan.</p>
+<p><strong>Penilaian:</strong> Soal latihan dan pengamatan proses.</p>
+
+<h3>Skenario 2: IPAS - Rantai Makanan (Kelas IV)</h3>
+<p><strong>Tujuan:</strong> Siswa dapat menyusun rantai makanan.</p>
+<p><strong>Model:</strong> Cooperative Learning (NHT). <strong>Metode:</strong> Diskusi dan simulasi.</p>
+<p><strong>Media:</strong> Kartu gambar, lembar kerja.</p>
+<p><strong>Pendahuluan:</strong> Guru menunjukkan gambar ekosistem.</p>
+<p><strong>Inti:</strong> Siswa berdiskusi dalam kelompok, menyusun rantai makanan, menjawab pertanyaan.</p>
+<p><strong>Penutup:</strong> Guru menyimpulkan dan memberikan evaluasi.</p>
+<p><strong>Penilaian:</strong> Lembar kerja dan pengamatan kerja sama.</p>
+
+<h3>Skenario 3: Bahasa Indonesia - Teks Deskripsi (Kelas IV)</h3>
+<p><strong>Tujuan:</strong> Siswa dapat menulis teks deskripsi.</p>
+<p><strong>Model:</strong> Discovery Learning. <strong>Metode:</strong> Pengamatan dan penugasan.</p>
+<p><strong>Media:</strong> Objek di kelas, lembar kerja.</p>
+<p><strong>Pendahuluan:</strong> Guru mengajak siswa mengamati objek di kelas.</p>
+<p><strong>Inti:</strong> Siswa mencatat ciri-ciri objek, mendiskusikan, menulis deskripsi.</p>
+<p><strong>Penutup:</strong> Guru menyimpulkan dan memberikan umpan balik.</p>
+<p><strong>Penilaian:</strong> Hasil tulisan dan proses pengamatan.</p>
+
+<h2 id="tips">I. Tips Menjadi Guru yang Efektif</h2>
+<ul class="detail-list">
+  <li><strong>Membuka pembelajaran:</strong> Gunakan pertanyaan pemantik dan hubungkan dengan pengalaman siswa.</li>
+  <li><strong>Membangun keterlibatan:</strong> Berikan kesempatan siswa bertanya dan berpendapat.</li>
+  <li><strong>Mengelola kelas:</strong> Tetapkan aturan dan rutinitas yang jelas.</li>
+  <li><strong>Memberikan pertanyaan:</strong> Gunakan pertanyaan yang mendorong berpikir.</li>
+  <li><strong>Menghadapi perbedaan kemampuan:</strong> Berikan bantuan sesuai kebutuhan siswa.</li>
+  <li><strong>Memberikan umpan balik:</strong> Berikan koreksi yang membangun dan spesifik.</li>
+  <li><strong>Melakukan refleksi:</strong> Tinjau kegiatan dan perbaiki untuk pertemuan berikutnya.</li>
+</ul>
+
+<h2 id="quiz">J. Evaluasi Pemahaman</h2>
+<div class="quiz-box" id="quizContainer">
+  <div class="quiz-q" data-correct="a" data-explain="Model pembelajaran adalah kerangka atau pola yang mengorganisasikan proses pembelajaran.">
+    <p>1. Apa yang dimaksud dengan model pembelajaran?</p>
+    <label class="quiz-opt"><input type="radio" name="q1" value="a"> Kerangka pembelajaran.</label>
+    <label class="quiz-opt"><input type="radio" name="q1" value="b"> Cara menyampaikan materi.</label>
+    <label class="quiz-opt"><input type="radio" name="q1" value="c"> Alat pembelajaran.</label>
+    <label class="quiz-opt"><input type="radio" name="q1" value="d"> Media pembelajaran.</label>
+    <div class="quiz-feedback"></div>
+  </div>
+  <div class="quiz-q" data-correct="b" data-explain="Metode pembelajaran adalah cara yang digunakan untuk melaksanakan kegiatan pembelajaran.">
+    <p>2. Apa yang dimaksud dengan metode pembelajaran?</p>
+    <label class="quiz-opt"><input type="radio" name="q2" value="a"> Kerangka pembelajaran.</label>
+    <label class="quiz-opt"><input type="radio" name="q2" value="b"> Cara melaksanakan pembelajaran.</label>
+    <label class="quiz-opt"><input type="radio" name="q2" value="c"> Tujuan pembelajaran.</label>
+    <label class="quiz-opt"><input type="radio" name="q2" value="d"> Evaluasi pembelajaran.</label>
+    <div class="quiz-feedback"></div>
+  </div>
+  <div class="quiz-q" data-correct="c" data-explain="PBL dimulai dengan menghadirkan masalah yang mendorong siswa melakukan penyelidikan.">
+    <p>3. Model yang dimulai dengan masalah adalah ...</p>
+    <label class="quiz-opt"><input type="radio" name="q3" value="a"> Discovery Learning.</label>
+    <label class="quiz-opt"><input type="radio" name="q3" value="b"> Direct Instruction.</label>
+    <label class="quiz-opt"><input type="radio" name="q3" value="c"> Problem Based Learning.</label>
+    <label class="quiz-opt"><input type="radio" name="q3" value="d"> Cooperative Learning.</label>
+    <div class="quiz-feedback"></div>
+  </div>
+  <div class="quiz-q" data-correct="a" data-explain="Ceramah adalah metode penjelasan lisan oleh guru.">
+    <p>4. Metode yang berupa penjelasan lisan guru disebut ...</p>
+    <label class="quiz-opt"><input type="radio" name="q4" value="a"> Ceramah.</label>
+    <label class="quiz-opt"><input type="radio" name="q4" value="b"> Diskusi.</label>
+    <label class="quiz-opt"><input type="radio" name="q4" value="c"> Eksperimen.</label>
+    <label class="quiz-opt"><input type="radio" name="q4" value="d"> Simulasi.</label>
+    <div class="quiz-feedback"></div>
+  </div>
+  <div class="quiz-q" data-correct="b" data-explain="CTL menghubungkan materi dengan kehidupan nyata siswa.">
+    <p>5. Model yang menghubungkan materi dengan kehidupan nyata adalah ...</p>
+    <label class="quiz-opt"><input type="radio" name="q5" value="a"> Direct Instruction.</label>
+    <label class="quiz-opt"><input type="radio" name="q5" value="b"> Contextual Teaching and Learning.</label>
+    <label class="quiz-opt"><input type="radio" name="q5" value="c"> Cooperative Learning.</label>
+    <label class="quiz-opt"><input type="radio" name="q5" value="d"> Discovery Learning.</label>
+    <div class="quiz-feedback"></div>
+  </div>
+  <div class="quiz-q" data-correct="c" data-explain="Metode demonstrasi menunjukkan cara melakukan suatu kegiatan.">
+    <p>6. Metode yang menunjukkan cara melakukan kegiatan disebut ...</p>
+    <label class="quiz-opt"><input type="radio" name="q6" value="a"> Ceramah.</label>
+    <label class="quiz-opt"><input type="radio" name="q6" value="b"> Diskusi.</label>
+    <label class="quiz-opt"><input type="radio" name="q6" value="c"> Demonstrasi.</label>
+    <label class="quiz-opt"><input type="radio" name="q6" value="d"> Penugasan.</label>
+    <div class="quiz-feedback"></div>
+  </div>
+  <div class="quiz-q" data-correct="a" data-explain="Discovery Learning menempatkan siswa sebagai penemu konsep.">
+    <p>7. Model yang menempatkan siswa sebagai penemu konsep adalah ...</p>
+    <label class="quiz-opt"><input type="radio" name="q7" value="a"> Discovery Learning.</label>
+    <label class="quiz-opt"><input type="radio" name="q7" value="b"> Direct Instruction.</label>
+    <label class="quiz-opt"><input type="radio" name="q7" value="c"> Cooperative Learning.</label>
+    <label class="quiz-opt"><input type="radio" name="q7" value="d"> Problem Solving.</label>
+    <div class="quiz-feedback"></div>
+  </div>
+  <div class="quiz-q" data-correct="b" data-explain="Metode drill digunakan untuk melatih keterampilan berulang.">
+    <p>8. Metode yang digunakan untuk melatih keterampilan berulang disebut ...</p>
+    <label class="quiz-opt"><input type="radio" name="q8" value="a"> Ceramah.</label>
+    <label class="quiz-opt"><input type="radio" name="q8" value="b"> Drill.</label>
+    <label class="quiz-opt"><input type="radio" name="q8" value="c"> Simulasi.</label>
+    <label class="quiz-opt"><input type="radio" name="q8" value="d"> Storytelling.</label>
+    <div class="quiz-feedback"></div>
+  </div>
+  <div class="quiz-q" data-correct="c" data-explain="Experiential Learning menggunakan pengalaman sebagai sumber belajar.">
+    <p>9. Model yang menggunakan pengalaman sebagai sumber belajar adalah ...</p>
+    <label class="quiz-opt"><input type="radio" name="q9" value="a"> Inquiry Learning.</label>
+    <label class="quiz-opt"><input type="radio" name="q9" value="b"> Direct Instruction.</label>
+    <label class="quiz-opt"><input type="radio" name="q9" value="c"> Experiential Learning.</label>
+    <label class="quiz-opt"><input type="radio" name="q9" value="d"> Cooperative Learning.</label>
+    <div class="quiz-feedback"></div>
+  </div>
+  <div class="quiz-q" data-correct="a" data-explain="Metode storytelling menggunakan cerita untuk menyampaikan materi.">
+    <p>10. Metode yang menggunakan cerita untuk menyampaikan materi disebut ...</p>
+    <label class="quiz-opt"><input type="radio" name="q10" value="a"> Storytelling.</label>
+    <label class="quiz-opt"><input type="radio" name="q10" value="b"> Diskusi.</label>
+    <label class="quiz-opt"><input type="radio" name="q10" value="c"> Demonstrasi.</label>
+    <label class="quiz-opt"><input type="radio" name="q10" value="d"> Penugasan.</label>
+    <div class="quiz-feedback"></div>
+  </div>
+  <button id="submitQuiz" class="print-btn" style="position:static;margin-top:1rem;">Kirim Jawaban</button>
+  <button id="retryQuiz" class="print-btn" style="position:static;margin-top:1rem;display:none;">Coba Lagi</button>
+  <div class="quiz-result" id="quizResult"></div>
+</div>
+
+<p><a href="index.html">â† Kembali ke Beranda</a></p>
+
+        </article>
+      </div>
+    </div>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="footer-brand-name">BIANCA EDUSPACE</div>
+          <div class="footer-slogan">Inspire to Learn, Empower to Grow</div>
+          <p class="footer-text">Ruang edukasi untuk belajar, berkarya, dan berkembang bersama.</p>
+        </div>
+        <div>
+          <div class="footer-heading">Navigasi</div>
+          <ul class="footer-list">
+            <li><a href="index.html">Beranda</a></li>
+            <li><a href="model-pembelajaran.html">Model Pembelajaran</a></li>
+            <li><a href="metode-pembelajaran.html">Metode Pembelajaran</a></li>
+            <li><a href="panduan-mengajar.html">Panduan Mengajar</a></li>
+            <li><a href="tentang-kami.html">Tentang Kami</a></li>
+          </ul>
+        </div>
+        <div>
+          <div class="footer-heading">Informasi</div>
+          <ul class="footer-list">
+            <li><a href="tentang-kami.html">Tentang Bianca EduSpace</a></li>
+            <li><a href="tentang-kami.html">Visi dan Misi</a></li>
+            <li><a href="tentang-kami.html">Tujuan Pendidikan</a></li>
+          </ul>
+        </div>
+        <div>
+          <div class="footer-heading">Brand Statement</div>
+          <p class="footer-statement">Creative Learning. Innovative Education. Collaborative Growth.</p>
+        </div>
+      </div>
+      <div class="footer-bottom">© 2026 BIANCA EDUSPACE. All Rights Reserved.</div>
+    </div>
+  </footer>
+  <button id="backToTop" class="back-to-top" aria-label="Kembali ke atas">â†‘</button>
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script src="script.js" defer></script>
+  <script>
+    (function () {
+      const submit = document.getElementById('submitQuiz');
+      const retry = document.getElementById('retryQuiz');
+      const result = document.getElementById('quizResult');
+      const qs = document.querySelectorAll('.quiz-q');
+
+      function grade() {
+        let score = 0;
+        qs.forEach((q, i) => {
+          const name = 'q' + (i + 1);
+          const sel = document.querySelector('input[name="' + name + '"]:checked');
+          const fb = q.querySelector('.quiz-feedback');
+          const correct = q.dataset.correct;
+          if (sel && sel.value === correct) {
+            score++;
+            fb.textContent = 'Benar. ' + q.dataset.explain;
+            fb.className = 'quiz-feedback ok';
+          } else {
+            fb.textContent = 'Salah. Jawaban benar: ' + correct.toUpperCase() + '. ' + q.dataset.explain;
+            fb.className = 'quiz-feedback err';
+          }
+        });
+        const pct = Math.round((score / qs.length) * 100);
+        result.textContent = 'Skor: ' + score + ' / ' + qs.length + ' (' + pct + '/100)';
+        retry.style.display = 'inline-block';
+      }
+
+      function reset() {
+        qs.forEach(q => {
+          q.querySelectorAll('input[type="radio"]').forEach(r => r.checked = false);
+          const fb = q.querySelector('.quiz-feedback');
+          if (fb) { fb.textContent = ''; fb.className = 'quiz-feedback'; }
+        });
+        result.textContent = '';
+        retry.style.display = 'none';
+      }
+
+      submit.addEventListener('click', grade);
+      retry.addEventListener('click', reset);
+    })();
+
+    window.addEventListener('scroll', () => {
+      const h = document.documentElement;
+      const pct = (h.scrollTop / (h.scrollHeight - h.clientHeight)) * 100;
+      document.getElementById('progressBar').style.width = pct + '%';
+    }, { passive: true });
+    const btn = document.getElementById('backToTop');
+    if (btn) { window.addEventListener('scroll', () => btn.classList.toggle('show', window.scrollY > 300), { passive: true }); btn.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' })); }
+  </script>
+</body>
+</html>

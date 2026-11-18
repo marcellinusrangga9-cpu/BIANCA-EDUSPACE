@@ -1,0 +1,655 @@
+﻿<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Problem Based Learning (PBL) — BIANCA EDUSPACE</title>
+  <meta name="description" content="Materi mendalam Model Pembelajaran Problem Based Learning (PBL)." />
+  <link rel="icon" type="image/png" href="../images/logo-bianca.jpg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../style.css" />
+  <link rel="stylesheet" href="../css/model-pembelajaran.css" />
+  <style>
+    .progress-bar { position: fixed; top: 0; left: 0; height: 4px; width: 0; background: linear-gradient(90deg,#2585F5,#38BDF8); z-index: 200; transition: width .1s; }
+    .quiz-box { background:#f5f8fd; padding:1.5rem; border-radius:.75rem; margin-top:1.5rem; }
+    .quiz-q { margin-bottom:1.25rem; }
+    .quiz-opt { display:block; margin:.4rem 0; }
+    .quiz-result { margin-top:1rem; font-weight:600; color:#1646A0; }
+    .print-btn { position:fixed; bottom:80px; right:24px; background:#1646A0; color:#fff; border:none; border-radius:999px; padding:.6rem 1rem; cursor:pointer; z-index:150; }
+    table { width:100%; border-collapse:collapse; margin:1rem 0; font-size:.9rem; }
+    th,td { border:1px solid rgba(7,21,46,.1); padding:.6rem; vertical-align:top; }
+    th { background:#1646A0; color:#fff; }
+    .quiz-feedback { margin-top:.5rem; font-size:.9rem; }
+    .quiz-feedback.ok { color:#16a34a; }
+    .quiz-feedback.err { color:#dc2626; }
+  </style>
+</head>
+<body>
+  <div class="progress-bar" id="progressBar"></div>
+  <header class="site-header">
+    <div class="container navbar">
+      <a class="brand" href="../index.html">
+        <img class="brand-logo" src="../images/logo-bianca.jpg" alt="Logo BIANCA EDUSPACE" />
+        <span class="brand-name">BIANCA EDUSPACE</span>
+      </a>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+      </button>
+      <nav class="nav-menu" aria-label="Main navigation">
+        <a class="nav-link" href="../index.html">Beranda</a>
+        <a class="nav-link" href="../model-pembelajaran.html">Model Pembelajaran</a>
+        <a class="nav-link" href="../metode-pembelajaran.html">Metode Pembelajaran</a>
+        <a class="nav-link" href="../panduan-mengajar.html">Panduan Mengajar</a>
+        <a class="nav-link" href="../tentang-kami.html">Tentang Kami</a>
+      </nav>
+    </div>
+  </header>
+  <main class="page-content">
+    <div class="container">
+      <nav class="breadcrumb" aria-label="Breadcrumb">
+        <a href="../index.html">Beranda</a> / <a href="../model-pembelajaran.html">Model Pembelajaran</a> / Problem Based Learning (PBL)
+      </nav>
+      <h1 class="page-title">Problem Based Learning (PBL)</h1>
+      <p class="page-desc">Model pembelajaran berbasis masalah kontekstual.</p>
+
+      <div class="detail-layout">
+        <aside class="detail-toc">
+          <div class="footer-heading">Daftar Isi</div>
+          <ul class="footer-list">
+            <li><a href="#a">A. Pengenalan</a></li>
+            <li><a href="#b">B. Landasan Konseptual</a></li>
+            <li><a href="#c">C. Tujuan dan Manfaat</a></li>
+            <li><a href="#d">D. Karakteristik dan Prinsip</a></li>
+            <li><a href="#e">E. Jenis dan Variasi</a></li>
+            <li><a href="#f">F. Sintaks</a></li>
+            <li><a href="#g">G. Kelebihan dan Keterbatasan</a></li>
+            <li><a href="#h">H. Penerapan di SD</a></li>
+            <li><a href="#i">I. Rancangan Pembelajaran</a></li>
+            <li><a href="#j">J. Penilaian</a></li>
+            <li><a href="#k">K. Kesalahan Umum</a></li>
+            <li><a href="#l">L. Adaptasi</a></li>
+            <li><a href="#m">M. Refleksi dan Diskusi</a></li>
+            <li><a href="#n">N. Penutup</a></li>
+            <li><a href="#quiz">Uji Pemahaman</a></li>
+          </ul>
+        </aside>
+        <article class="detail-content">
+
+          <h2 id="a">A. Pengenalan Problem Based Learning (PBL)</h2>
+          <p>Problem Based Learning (PBL) atau Pembelajaran Berbasis Masalah merupakan model pembelajaran yang menjadikan suatu permasalahan sebagai titik awal bagi peserta didik untuk memperoleh pengetahuan dan mengembangkan keterampilan berpikir.</p>
+          <p>Dalam model ini, pembelajaran tidak selalu dimulai dengan penjelasan materi oleh guru. Sebaliknya, siswa terlebih dahulu dihadapkan pada permasalahan yang berkaitan dengan kehidupan nyata atau situasi yang dekat dengan pengalaman mereka. Permasalahan tersebut mendorong siswa untuk mengamati, mengajukan pertanyaan, mencari informasi, berdiskusi, dan menyusun solusi berdasarkan hasil penyelidikan.</p>
+          <p>Guru berperan sebagai fasilitator yang membantu siswa memahami permasalahan, mengarahkan proses pencarian informasi, serta memberikan bimbingan ketika diperlukan. Sementara itu, siswa menjadi pihak yang aktif membangun pemahaman melalui proses penyelesaian masalah.</p>
+          <p>Sebagai contoh, guru mengawali pembelajaran IPAS dengan menunjukkan kondisi lingkungan sekolah yang memiliki banyak sampah plastik. Guru kemudian mengajukan pertanyaan: "Bagaimana cara mengurangi sampah plastik di lingkungan sekolah kita?"</p>
+          <p>Pertanyaan tersebut menjadi awal bagi siswa untuk mengidentifikasi penyebab masalah, mengumpulkan informasi, mendiskusikan alternatif penyelesaian, dan menyampaikan solusi yang dapat diterapkan.</p>
+          <p>Dengan demikian, PBL tidak hanya mengarahkan siswa untuk memperoleh jawaban, tetapi juga melatih proses berpikir dalam memahami dan menyelesaikan suatu permasalahan.</p>
+
+          <h2 id="b">B. Landasan Konseptual</h2>
+          <p>Problem Based Learning memiliki landasan konseptual yang menempatkan permasalahan sebagai bagian penting dalam proses membangun pengetahuan.</p>
+          <p>Beberapa gagasan yang mendukung model ini antara lain:</p>
+          <h3>1. Konstruktivisme</h3>
+          <p>Pengetahuan dibangun secara aktif oleh peserta didik melalui pengalaman dan interaksi dengan lingkungan. Dalam PBL, siswa mengembangkan pemahaman melalui proses mengidentifikasi dan menyelesaikan masalah.</p>
+          <h3>2. Pembelajaran kontekstual</h3>
+          <p>Permasalahan yang digunakan dihubungkan dengan situasi nyata atau pengalaman siswa. Hal ini membantu siswa memahami hubungan antara materi pembelajaran dengan kehidupan sehari-hari.</p>
+          <h3>3. Pembelajaran kolaboratif</h3>
+          <p>Proses penyelesaian masalah dapat melibatkan kerja sama antarsiswa. Mereka bertukar informasi, menyampaikan pendapat, dan mempertimbangkan berbagai alternatif penyelesaian.</p>
+          <h3>4. Pengembangan kemampuan berpikir kritis</h3>
+          <p>Siswa dilatih untuk mengidentifikasi informasi, membedakan fakta dan pendapat, menemukan hubungan sebab akibat, serta menilai kemungkinan solusi.</p>
+          <h3>5. Pembelajaran melalui penyelidikan</h3>
+          <p>Siswa tidak hanya menerima informasi yang diberikan guru, tetapi juga berusaha memperoleh informasi melalui pengamatan, membaca sumber belajar, bertanya, dan kegiatan penyelidikan lainnya.</p>
+          <p>Landasan tersebut menunjukkan bahwa PBL menempatkan siswa sebagai peserta aktif dalam proses pembelajaran. Namun, tingkat kemandirian dan kompleksitas masalah harus disesuaikan dengan usia serta kemampuan peserta didik.</p>
+
+          <h2 id="c">C. Tujuan dan Manfaat</h2>
+          <h3>1. Tujuan Problem Based Learning</h3>
+          <ol class="detail-list">
+            <li>Mengembangkan kemampuan siswa dalam memahami dan menyelesaikan permasalahan.</li>
+            <li>Melatih kemampuan berpikir kritis, logis, dan analitis.</li>
+            <li>Mendorong siswa mencari serta menggunakan informasi dari berbagai sumber.</li>
+            <li>Mengembangkan keterampilan bekerja sama dan berkomunikasi.</li>
+            <li>Membantu siswa menghubungkan pengetahuan dengan situasi kehidupan nyata.</li>
+            <li>Mendorong kemandirian dan tanggung jawab dalam belajar.</li>
+            <li>Mengembangkan kemampuan menyampaikan solusi berdasarkan alasan yang dapat dipertanggungjawabkan.</li>
+          </ol>
+          <h3>2. Manfaat bagi peserta didik</h3>
+          <ul class="detail-list">
+            <li>Lebih aktif dalam menemukan pengetahuan.</li>
+            <li>Terbiasa menghadapi situasi yang membutuhkan pemikiran.</li>
+            <li>Memahami manfaat materi dalam kehidupan sehari-hari.</li>
+            <li>Belajar mempertimbangkan beberapa kemungkinan solusi.</li>
+            <li>Mengembangkan rasa ingin tahu.</li>
+            <li>Memperoleh pengalaman bekerja sama dan menyampaikan pendapat.</li>
+          </ul>
+          <h3>3. Manfaat bagi guru</h3>
+          <ul class="detail-list">
+            <li>Mengetahui cara siswa memahami suatu permasalahan.</li>
+            <li>Mengembangkan pembelajaran yang kontekstual.</li>
+            <li>Mengamati proses berpikir dan kerja sama siswa.</li>
+            <li>Menghubungkan beberapa konsep pembelajaran dalam satu permasalahan.</li>
+            <li>Mengembangkan kegiatan belajar yang lebih bermakna.</li>
+          </ul>
+
+          <h2 id="d">D. Karakteristik dan Prinsip Pelaksanaan</h2>
+          <h3>1. Karakteristik Problem Based Learning</h3>
+          <ol class="detail-list">
+            <li>Pembelajaran diawali dengan suatu permasalahan.</li>
+            <li>Masalah berkaitan dengan situasi nyata atau konteks yang dapat dipahami siswa.</li>
+            <li>Siswa berperan aktif dalam proses penyelidikan.</li>
+            <li>Guru berperan sebagai fasilitator dan pembimbing.</li>
+            <li>Siswa dapat bekerja secara individu maupun kelompok.</li>
+            <li>Proses pencarian informasi menjadi bagian penting pembelajaran.</li>
+            <li>Hasil pembelajaran dapat berupa solusi, laporan, presentasi, atau bentuk penyajian lainnya.</li>
+            <li>Evaluasi memperhatikan proses dan hasil penyelesaian masalah.</li>
+          </ol>
+          <h3>2. Prinsip pelaksanaan</h3>
+          <ul class="detail-list">
+            <li><strong>Berorientasi pada masalah:</strong> masalah menjadi dasar kegiatan pembelajaran.</li>
+            <li><strong>Relevan:</strong> masalah berhubungan dengan materi dan kehidupan siswa.</li>
+            <li><strong>Terbuka terhadap berbagai solusi:</strong> siswa dapat mengembangkan alternatif penyelesaian yang berbeda selama memiliki alasan yang tepat.</li>
+            <li><strong>Penyelidikan terarah:</strong> pencarian informasi dilakukan berdasarkan kebutuhan untuk memahami masalah.</li>
+            <li><strong>Kolaboratif:</strong> siswa memperoleh kesempatan berdiskusi dan bekerja sama.</li>
+            <li><strong>Berbasis bukti:</strong> solusi disusun berdasarkan informasi dan alasan yang dapat dijelaskan.</li>
+            <li><strong>Reflektif:</strong> siswa mengevaluasi proses dan hasil penyelesaian masalah.</li>
+          </ul>
+
+          <h2 id="e">E. Jenis dan Variasi Permasalahan</h2>
+          <p>Permasalahan dalam PBL dapat disesuaikan dengan karakteristik materi dan tingkat perkembangan siswa.</p>
+          <h3>1. Masalah lingkungan</h3>
+          <p>Permasalahan yang berkaitan dengan kondisi lingkungan sekitar.</p>
+          <p><strong>Contoh:</strong> Mengapa halaman sekolah sering dipenuhi sampah setelah jam istirahat?</p>
+          <h3>2. Masalah sosial</h3>
+          <p>Permasalahan yang berhubungan dengan interaksi dan kehidupan masyarakat.</p>
+          <p><strong>Contoh:</strong> Bagaimana cara menciptakan suasana kelas yang nyaman bagi seluruh siswa?</p>
+          <h3>3. Masalah kesehatan</h3>
+          <p>Permasalahan yang berkaitan dengan kebersihan dan kebiasaan hidup sehat.</p>
+          <p><strong>Contoh:</strong> Mengapa siswa perlu membiasakan diri mencuci tangan sebelum makan?</p>
+          <h3>4. Masalah kehidupan sehari-hari</h3>
+          <p>Permasalahan sederhana yang dapat ditemukan dalam kegiatan harian.</p>
+          <p><strong>Contoh:</strong> Bagaimana cara mengatur penggunaan air agar tidak terbuang sia-sia?</p>
+          <h3>5. Masalah yang berkaitan dengan konsep akademik</h3>
+          <p>Permasalahan yang digunakan untuk membantu siswa memahami konsep mata pelajaran.</p>
+          <p><strong>Contoh:</strong> Bagaimana menentukan jumlah ubin yang diperlukan untuk menutupi lantai berbentuk persegi panjang?</p>
+          <h3>Variasi pelaksanaan PBL</h3>
+          <ul class="detail-list">
+            <li>PBL berbasis pengamatan lingkungan.</li>
+            <li>PBL berbasis kasus sederhana.</li>
+            <li>PBL berbasis pertanyaan pemantik.</li>
+            <li>PBL berbasis situasi kehidupan sehari-hari.</li>
+            <li>PBL berbasis permasalahan lintas mata pelajaran.</li>
+          </ul>
+          <p>Permasalahan tidak harus selalu besar atau rumit. Untuk siswa sekolah dasar, masalah sederhana yang dekat dengan pengalaman mereka justru dapat menjadi titik awal pembelajaran yang efektif.</p>
+
+          <h2 id="f">F. Sintaks atau Langkah Langkah Pelaksanaan</h2>
+          <p>Problem Based Learning umumnya dilaksanakan melalui lima tahapan utama.</p>
+          <h3>1. Orientasi peserta didik terhadap masalah</h3>
+          <p>Guru memperkenalkan permasalahan yang akan dipelajari.</p>
+          <p><strong>Kegiatan guru:</strong></p>
+          <ul class="detail-list">
+            <li>Menyampaikan tujuan pembelajaran.</li>
+            <li>Menampilkan situasi atau permasalahan.</li>
+            <li>Mengajukan pertanyaan pemantik.</li>
+            <li>Mendorong siswa mengamati dan mengidentifikasi masalah.</li>
+          </ul>
+          <p><strong>Kegiatan siswa:</strong></p>
+          <ul class="detail-list">
+            <li>Mengamati permasalahan.</li>
+            <li>Mengungkapkan hal yang diketahui.</li>
+            <li>Mengajukan pertanyaan.</li>
+            <li>Menyampaikan dugaan awal.</li>
+          </ul>
+          <h3>2. Mengorganisasikan peserta didik untuk belajar</h3>
+          <p>Guru membantu siswa mempersiapkan kegiatan penyelidikan.</p>
+          <p><strong>Kegiatan guru:</strong></p>
+          <ul class="detail-list">
+            <li>Membentuk kelompok apabila diperlukan.</li>
+            <li>Menjelaskan tugas dan aturan kerja.</li>
+            <li>Membantu siswa menentukan informasi yang perlu dicari.</li>
+            <li>Membagi tanggung jawab dalam kelompok.</li>
+          </ul>
+          <p><strong>Kegiatan siswa:</strong></p>
+          <ul class="detail-list">
+            <li>Mendiskusikan permasalahan.</li>
+            <li>Menentukan hal yang perlu diketahui.</li>
+            <li>Menyusun rencana pencarian informasi.</li>
+            <li>Membagi tugas secara adil.</li>
+          </ul>
+          <h3>3. Membimbing penyelidikan individu maupun kelompok</h3>
+          <p>Guru mendampingi proses pengumpulan dan pengolahan informasi.</p>
+          <p><strong>Kegiatan guru:</strong></p>
+          <ul class="detail-list">
+            <li>Memberikan sumber belajar yang relevan.</li>
+            <li>Membimbing siswa melakukan pengamatan.</li>
+            <li>Mengajukan pertanyaan pengarah.</li>
+            <li>Membantu siswa yang mengalami kesulitan tanpa langsung memberikan seluruh jawaban.</li>
+          </ul>
+          <p><strong>Kegiatan siswa:</strong></p>
+          <ul class="detail-list">
+            <li>Mengumpulkan informasi.</li>
+            <li>Melakukan pengamatan atau percobaan sederhana.</li>
+            <li>Berdiskusi berdasarkan temuan.</li>
+            <li>Menghubungkan informasi dengan permasalahan.</li>
+          </ul>
+          <h3>4. Mengembangkan dan menyajikan hasil</h3>
+          <p>Guru membantu siswa menyiapkan hasil penyelesaian masalah.</p>
+          <p><strong>Kegiatan guru:</strong></p>
+          <ul class="detail-list">
+            <li>Memberikan arahan penyusunan hasil.</li>
+            <li>Menentukan bentuk penyajian.</li>
+            <li>Memberikan kesempatan kepada setiap kelompok untuk menyampaikan hasil.</li>
+          </ul>
+          <p><strong>Kegiatan siswa:</strong></p>
+          <ul class="detail-list">
+            <li>Menyusun solusi berdasarkan hasil penyelidikan.</li>
+            <li>Membuat laporan, poster, atau bentuk karya lainnya.</li>
+            <li>Menjelaskan alasan pemilihan solusi.</li>
+            <li>Menanggapi hasil kelompok lain.</li>
+          </ul>
+          <h3>5. Menganalisis dan mengevaluasi proses pemecahan masalah</h3>
+          <p>Guru mengajak siswa meninjau kembali proses dan hasil kegiatan.</p>
+          <p><strong>Kegiatan guru:</strong></p>
+          <ul class="detail-list">
+            <li>Mengajak siswa membahas ketepatan solusi.</li>
+            <li>Memberikan penguatan konsep.</li>
+            <li>Mengidentifikasi kesulitan yang muncul.</li>
+            <li>Melakukan evaluasi pembelajaran.</li>
+          </ul>
+          <p><strong>Kegiatan siswa:</strong></p>
+          <ul class="detail-list">
+            <li>Menilai kembali solusi yang dibuat.</li>
+            <li>Menyampaikan pengalaman selama kegiatan.</li>
+            <li>Mengidentifikasi hal yang telah dipelajari.</li>
+            <li>Merefleksikan manfaat pembelajaran.</li>
+          </ul>
+
+          <h2 id="g">G. Kelebihan dan Keterbatasan</h2>
+          <h3>1. Kelebihan</h3>
+          <ol class="detail-list">
+            <li>Mendorong siswa terlibat aktif dalam pembelajaran.</li>
+            <li>Melatih kemampuan berpikir kritis dan pemecahan masalah.</li>
+            <li>Membantu menghubungkan materi dengan kehidupan nyata.</li>
+            <li>Mengembangkan keterampilan komunikasi dan kerja sama.</li>
+            <li>Mendorong rasa ingin tahu dan kemandirian.</li>
+            <li>Memberikan pengalaman belajar melalui penyelidikan.</li>
+            <li>Membantu siswa memahami bahwa suatu permasalahan dapat memiliki beberapa alternatif penyelesaian.</li>
+          </ol>
+          <h3>2. Keterbatasan</h3>
+          <ol class="detail-list">
+            <li>Membutuhkan waktu lebih banyak dibandingkan pembelajaran yang hanya berpusat pada penjelasan guru.</li>
+            <li>Siswa yang belum terbiasa dapat mengalami kesulitan mengidentifikasi masalah.</li>
+            <li>Ketersediaan sumber belajar dapat memengaruhi proses penyelidikan.</li>
+            <li>Diskusi kelompok berisiko didominasi oleh beberapa siswa.</li>
+            <li>Guru perlu memiliki keterampilan dalam membimbing proses penyelesaian masalah.</li>
+            <li>Tidak semua materi cocok disampaikan sepenuhnya menggunakan PBL.</li>
+          </ol>
+          <h3>3. Cara mengatasi keterbatasan</h3>
+          <p>Guru dapat memilih masalah dengan tingkat kesulitan yang sesuai, menyediakan sumber informasi, membagi tugas kelompok secara jelas, serta memberikan pertanyaan pengarah. Waktu pembelajaran juga perlu direncanakan agar kegiatan penyelidikan dan presentasi dapat berjalan seimbang.</p>
+
+          <h2 id="h">H. Penerapan Problem Based Learning di Sekolah Dasar</h2>
+          <p>PBL dapat digunakan pada berbagai mata pelajaran dengan permasalahan yang sesuai dengan karakteristik peserta didik.</p>
+          <h3>1. IPAS</h3>
+          <p><strong>Materi:</strong> Pencemaran lingkungan.</p>
+          <p><strong>Permasalahan:</strong> Mengapa lingkungan sekolah sering dipenuhi sampah plastik?</p>
+          <p><strong>Kegiatan:</strong></p>
+          <ul class="detail-list">
+            <li>Siswa mengamati kondisi lingkungan sekolah.</li>
+            <li>Siswa mengidentifikasi sumber sampah.</li>
+            <li>Siswa mencari informasi mengenai dampak sampah plastik.</li>
+            <li>Siswa mendiskusikan alternatif pengurangan sampah.</li>
+            <li>Siswa menyampaikan solusi yang dapat diterapkan di sekolah.</li>
+          </ul>
+          <h3>2. Matematika</h3>
+          <p><strong>Materi:</strong> Pengukuran luas.</p>
+          <p><strong>Permasalahan:</strong> Bagaimana menentukan jumlah ubin yang diperlukan untuk menutupi lantai kelas?</p>
+          <p><strong>Kegiatan:</strong></p>
+          <ul class="detail-list">
+            <li>Siswa mengamati bentuk lantai.</li>
+            <li>Siswa mengukur panjang dan lebar menggunakan alat ukur.</li>
+            <li>Siswa menghitung luas.</li>
+            <li>Siswa menentukan kebutuhan ubin berdasarkan ukuran yang diberikan.</li>
+            <li>Siswa menjelaskan cara memperoleh hasil.</li>
+          </ul>
+          <h3>3. Bahasa Indonesia</h3>
+          <p><strong>Materi:</strong> Memahami informasi dalam teks.</p>
+          <p><strong>Permasalahan:</strong> Bagaimana menemukan informasi penting dari bacaan tentang kebersihan lingkungan?</p>
+          <p><strong>Kegiatan:</strong></p>
+          <ul class="detail-list">
+            <li>Siswa membaca teks yang disediakan.</li>
+            <li>Siswa mengidentifikasi masalah dalam bacaan.</li>
+            <li>Siswa menemukan informasi pendukung.</li>
+            <li>Siswa menyusun solusi berdasarkan informasi.</li>
+            <li>Siswa menyampaikan hasil menggunakan bahasa sendiri.</li>
+          </ul>
+          <h3>4. Pendidikan Pancasila</h3>
+          <p><strong>Materi:</strong> Hak, kewajiban, dan tanggung jawab.</p>
+          <p><strong>Permasalahan:</strong> Mengapa masih ada siswa yang tidak melaksanakan tugas piket kelas?</p>
+          <p><strong>Kegiatan:</strong></p>
+          <ul class="detail-list">
+            <li>Siswa mengamati situasi yang disajikan guru.</li>
+            <li>Siswa mengidentifikasi penyebab masalah.</li>
+            <li>Siswa mendiskusikan hak dan kewajiban di kelas.</li>
+            <li>Siswa menyusun kesepakatan bersama.</li>
+            <li>Siswa menyampaikan tindakan yang dapat dilakukan.</li>
+          </ul>
+          <h3>5. Seni Budaya dan Prakarya</h3>
+          <p><strong>Materi:</strong> Pemanfaatan bahan bekas.</p>
+          <p><strong>Permasalahan:</strong> Bagaimana mengubah bahan bekas menjadi benda yang bermanfaat?</p>
+          <p><strong>Kegiatan:</strong></p>
+          <ul class="detail-list">
+            <li>Siswa mengidentifikasi bahan bekas yang tersedia.</li>
+            <li>Siswa mencari contoh pemanfaatannya.</li>
+            <li>Siswa merancang karya sederhana.</li>
+            <li>Siswa membuat produk.</li>
+            <li>Siswa menjelaskan manfaat dan proses pembuatannya.</li>
+          </ul>
+
+          <h2 id="i">I. Contoh Rancangan Pembelajaran</h2>
+          <p><strong>Topik:</strong> Mengurangi Sampah Plastik di Lingkungan Sekolah</p>
+          <p><strong>Mata Pelajaran:</strong> IPAS</p>
+          <p><strong>Kelas:</strong> IV SD</p>
+          <p><strong>Materi:</strong> Permasalahan Lingkungan dan Pengelolaan Sampah</p>
+          <p><strong>Model:</strong> Problem Based Learning</p>
+          <p><strong>Tujuan Pembelajaran:</strong></p>
+          <p>Peserta didik mampu mengidentifikasi permasalahan sampah plastik di lingkungan sekolah, menjelaskan dampaknya, serta mengembangkan solusi sederhana berdasarkan hasil pengamatan dan diskusi.</p>
+          <p><strong>Media dan Alat:</strong></p>
+          <ul class="detail-list">
+            <li>Foto atau gambar kondisi lingkungan sekolah.</li>
+            <li>Lembar kerja peserta didik.</li>
+            <li>Alat tulis.</li>
+            <li>Kertas karton atau media presentasi.</li>
+            <li>Lingkungan sekolah sebagai objek pengamatan.</li>
+          </ul>
+          <p><strong>Kegiatan Pembelajaran:</strong></p>
+          <p><strong>Pendahuluan</strong></p>
+          <p>Guru membuka pembelajaran dengan menunjukkan gambar halaman sekolah yang dipenuhi sampah plastik. Guru mengajukan pertanyaan:</p>
+          <p>"Menurut kalian, mengapa sampah plastik masih sering ditemukan di lingkungan sekolah? Apa yang dapat kita lakukan untuk menguranginya?"</p>
+          <p>Guru menyampaikan tujuan pembelajaran dan mengajak siswa memahami masalah tersebut.</p>
+          <p><strong>Kegiatan Inti</strong></p>
+          <p><strong>Tahap 1. Orientasi terhadap masalah</strong></p>
+          <ul class="detail-list">
+            <li>Siswa mengamati gambar atau kondisi lingkungan sekolah.</li>
+            <li>Siswa menyampaikan hal yang mereka temukan.</li>
+            <li>Guru mengarahkan siswa untuk mengidentifikasi permasalahan utama.</li>
+          </ul>
+          <p><strong>Tahap 2. Mengorganisasikan siswa</strong></p>
+          <ul class="detail-list">
+            <li>Guru membentuk beberapa kelompok.</li>
+            <li>Setiap kelompok memperoleh tugas mengkaji permasalahan sampah plastik.</li>
+            <li>Siswa membagi tanggung jawab pengamatan dan pencarian informasi.</li>
+          </ul>
+          <p><strong>Tahap 3. Membimbing penyelidikan</strong></p>
+          <ul class="detail-list">
+            <li>Siswa mengamati beberapa lokasi di lingkungan sekolah.</li>
+            <li>Siswa mencatat jenis dan sumber sampah yang ditemukan.</li>
+            <li>Siswa mendiskusikan dampak sampah plastik.</li>
+            <li>Guru memberikan pertanyaan pengarah dan sumber informasi.</li>
+          </ul>
+          <p><strong>Tahap 4. Mengembangkan dan menyajikan hasil</strong></p>
+          <ul class="detail-list">
+            <li>Setiap kelompok menyusun alternatif solusi.</li>
+            <li>Siswa membuat poster atau rancangan kampanye pengurangan sampah.</li>
+            <li>Kelompok mempresentasikan hasil penyelidikan.</li>
+            <li>Siswa memberikan tanggapan terhadap solusi kelompok lain.</li>
+          </ul>
+          <p><strong>Tahap 5. Menganalisis dan mengevaluasi</strong></p>
+          <ul class="detail-list">
+            <li>Guru bersama siswa menilai kelayakan solusi.</li>
+            <li>Siswa mengidentifikasi solusi yang dapat diterapkan.</li>
+            <li>Guru memberikan penguatan mengenai pengelolaan sampah.</li>
+            <li>Siswa merefleksikan proses pembelajaran.</li>
+          </ul>
+          <p><strong>Penutup</strong></p>
+          <p>Guru bersama siswa menyimpulkan penyebab dan dampak sampah plastik serta langkah sederhana untuk menguranginya. Siswa menyampaikan satu tindakan yang akan dilakukan untuk menjaga kebersihan lingkungan sekolah.</p>
+
+          <h2 id="j">J. Penilaian Pembelajaran</h2>
+          <p>Penilaian dalam PBL perlu memperhatikan proses penyelidikan, kualitas pemikiran, kerja sama, dan hasil penyelesaian masalah.</p>
+          <h3>1. Penilaian sikap dan proses</h3>
+          <p>Aspek yang diamati:</p>
+          <ul class="detail-list">
+            <li>Keaktifan dalam diskusi.</li>
+            <li>Tanggung jawab terhadap tugas.</li>
+            <li>Kemampuan bekerja sama.</li>
+            <li>Kesungguhan melakukan penyelidikan.</li>
+            <li>Sikap menghargai pendapat.</li>
+          </ul>
+          <h3>2. Penilaian pengetahuan</h3>
+          <p>Aspek yang dinilai:</p>
+          <ul class="detail-list">
+            <li>Kemampuan mengidentifikasi masalah.</li>
+            <li>Pemahaman terhadap konsep yang dipelajari.</li>
+            <li>Kemampuan menjelaskan hubungan sebab akibat.</li>
+            <li>Ketepatan menggunakan informasi.</li>
+          </ul>
+          <h3>3. Penilaian keterampilan</h3>
+          <p>Aspek yang dinilai:</p>
+          <ul class="detail-list">
+            <li>Kemampuan mengumpulkan informasi.</li>
+            <li>Kemampuan menyusun alternatif solusi.</li>
+            <li>Kualitas hasil karya atau laporan.</li>
+            <li>Kemampuan mempresentasikan hasil penyelidikan.</li>
+          </ul>
+          <h3>4. Contoh rubrik penilaian</h3>
+          <table>
+            <tr><th>Skor</th><th>Kriteria</th></tr>
+            <tr><td>4</td><td>Mengidentifikasi masalah secara tepat, menggunakan informasi relevan, dan menyampaikan solusi dengan alasan yang jelas</td></tr>
+            <tr><td>3</td><td>Memahami masalah dan menyampaikan solusi yang cukup tepat</td></tr>
+            <tr><td>2</td><td>Memahami sebagian masalah tetapi masih membutuhkan arahan dalam menyusun solusi</td></tr>
+            <tr><td>1</td><td>Belum mampu mengidentifikasi masalah dan membutuhkan pendampingan intensif</td></tr>
+          </table>
+          <p>Guru dapat menggunakan hasil penilaian untuk memberikan umpan balik terhadap proses dan hasil belajar siswa.</p>
+
+          <h2 id="k">K. Kesalahan Umum dalam Penerapan</h2>
+          <p>Beberapa kesalahan yang perlu dihindari dalam penerapan PBL antara lain:</p>
+          <ol class="detail-list">
+            <li>Memberikan masalah yang terlalu sulit bagi tingkat perkembangan siswa.</li>
+            <li>Menggunakan masalah yang tidak berkaitan dengan tujuan pembelajaran.</li>
+            <li>Guru langsung memberikan jawaban tanpa memberikan kesempatan penyelidikan.</li>
+            <li>Menganggap diskusi kelompok sudah cukup tanpa proses pencarian informasi.</li>
+            <li>Tidak memberikan arahan dan pendampingan kepada siswa.</li>
+            <li>Membiarkan beberapa siswa mendominasi kegiatan kelompok.</li>
+            <li>Hanya menilai hasil akhir tanpa memperhatikan proses.</li>
+            <li>Tidak melakukan penguatan konsep setelah penyelesaian masalah.</li>
+          </ol>
+          <p>PBL membutuhkan keseimbangan antara kebebasan siswa dalam menyelidiki dan bimbingan guru agar kegiatan tetap terarah.</p>
+
+          <h2 id="l">L. Adaptasi terhadap Kebutuhan Siswa</h2>
+          <p>Kemampuan peserta didik dalam memahami masalah dan mencari solusi tidak selalu sama. Oleh karena itu, guru perlu memberikan penyesuaian.</p>
+          <h3>Bagi siswa yang membutuhkan pendampingan</h3>
+          <ul class="detail-list">
+            <li>Sajikan masalah melalui gambar atau situasi konkret.</li>
+            <li>Gunakan pertanyaan sederhana dan bertahap.</li>
+            <li>Berikan sumber informasi yang mudah dipahami.</li>
+            <li>Pecah permasalahan menjadi beberapa bagian kecil.</li>
+            <li>Berikan pendampingan selama proses penyelidikan.</li>
+          </ul>
+          <h3>Bagi siswa yang memiliki kemampuan lebih berkembang</h3>
+          <ul class="detail-list">
+            <li>Berikan masalah dengan beberapa kemungkinan solusi.</li>
+            <li>Dorong siswa menggunakan lebih dari satu sumber informasi.</li>
+            <li>Minta siswa membandingkan kelebihan dan kekurangan solusi.</li>
+            <li>Berikan kesempatan mengembangkan rancangan tindakan yang lebih kompleks.</li>
+          </ul>
+          <h3>Bagi kelas dengan kemampuan beragam</h3>
+          <ul class="detail-list">
+            <li>Bentuk kelompok dengan pembagian tugas yang jelas.</li>
+            <li>Gunakan lembar kerja dengan panduan bertahap.</li>
+            <li>Berikan beberapa pilihan bentuk penyajian hasil.</li>
+            <li>Pastikan setiap siswa memperoleh kesempatan berpartisipasi.</li>
+          </ul>
+          <p>Penyesuaian tersebut membantu siswa terlibat dalam penyelesaian masalah sesuai dengan kemampuan dan kebutuhan belajarnya.</p>
+
+          <h2 id="m">M. Pertanyaan Refleksi dan Diskusi</h2>
+          <p>Gunakan pertanyaan berikut untuk memperdalam pemahaman.</p>
+          <ol class="detail-list">
+            <li>Mengapa permasalahan menjadi titik awal dalam model Problem Based Learning?</li>
+            <li>Apa perbedaan peran guru dan siswa dalam penerapan PBL?</li>
+            <li>Mengapa siswa perlu melakukan penyelidikan sebelum menentukan solusi?</li>
+            <li>Bagaimana cara memilih masalah yang sesuai untuk siswa sekolah dasar?</li>
+            <li>Apakah satu permasalahan selalu memiliki satu solusi yang benar? Jelaskan.</li>
+            <li>Bagaimana guru memastikan setiap anggota kelompok terlibat dalam kegiatan penyelesaian masalah?</li>
+            <li>Mengapa evaluasi proses sama pentingnya dengan evaluasi hasil dalam PBL?</li>
+          </ol>
+          <p><strong>Aktivitas refleksi:</strong></p>
+          <p>Bayangkan kamu menjadi guru kelas IV SD. Kamu menemukan bahwa banyak siswa sering membuang sampah sembarangan di lingkungan sekolah.</p>
+          <p>Susunlah satu permasalahan pembelajaran berdasarkan situasi tersebut. Kemudian tentukan:</p>
+          <ul class="detail-list">
+            <li>Pertanyaan pemantik.</li>
+            <li>Informasi yang perlu dicari siswa.</li>
+            <li>Kegiatan penyelidikan.</li>
+            <li>Alternatif solusi.</li>
+            <li>Bentuk penyajian hasil.</li>
+          </ul>
+
+          <h2 id="n">N. Penutup dan Pengembangan Pemahaman</h2>
+          <p>Problem Based Learning merupakan model pembelajaran yang menempatkan permasalahan sebagai titik awal dalam membangun pengetahuan dan keterampilan peserta didik.</p>
+          <p>Melalui proses mengidentifikasi masalah, mengumpulkan informasi, melakukan penyelidikan, berdiskusi, dan menyusun solusi, siswa memperoleh pengalaman belajar yang melibatkan kemampuan berpikir kritis, komunikasi, kolaborasi, dan pemecahan masalah.</p>
+          <p>Dalam penerapannya di sekolah dasar, guru perlu memilih permasalahan yang dekat dengan kehidupan siswa dan sesuai dengan tingkat perkembangan mereka. Guru juga harus memberikan bimbingan yang cukup agar proses penyelidikan berlangsung terarah tanpa menghilangkan kesempatan siswa untuk berpikir mandiri.</p>
+          <p>Keberhasilan PBL tidak hanya diukur dari apakah siswa menemukan solusi, tetapi juga dari bagaimana mereka memahami permasalahan, menggunakan informasi, mempertimbangkan alternatif, dan menjelaskan alasan di balik keputusan yang diambil.</p>
+          <p>Dengan demikian, PBL dapat membantu membangun pengalaman belajar yang lebih kontekstual, aktif, dan bermakna bagi peserta didik.</p>
+          <p><strong>Refleksi akhir:</strong> Setelah mempelajari Problem Based Learning, calon guru diharapkan mampu merancang permasalahan yang relevan, membimbing proses penyelidikan, serta memberikan kesempatan kepada siswa untuk membangun pengetahuan melalui pengalaman menyelesaikan masalah.</p>
+
+          <div style="margin-top:2rem; display:flex; justify-content:space-between;">
+            <a class="btn btn-ghost" href="../model-pembelajaran.html">Kembali ke Katalog</a>
+            <a class="btn btn-primary" href="../model-pembelajaran.html">Daftar Model</a>
+          </div>
+
+          <h2 id="quiz">Uji Pemahaman</h2>
+          <div class="quiz-box" id="quizContainer">
+            <div class="quiz-q" data-correct="c" data-explain="PBL dimulai dengan menghadirkan permasalahan yang mendorong siswa melakukan penyelidikan dan membangun pemahaman.">
+              <p>1. Apa yang menjadi titik awal pembelajaran dalam Problem Based Learning?</p>
+              <label class="quiz-opt"><input type="radio" name="q1" value="a"> Penjelasan panjang dari guru.</label>
+              <label class="quiz-opt"><input type="radio" name="q1" value="b"> Pemberian tugas hafalan.</label>
+              <label class="quiz-opt"><input type="radio" name="q1" value="c"> Permasalahan yang berkaitan dengan konteks pembelajaran.</label>
+              <label class="quiz-opt"><input type="radio" name="q1" value="d"> Kegiatan ujian sebelum pembelajaran.</label>
+              <div class="quiz-feedback"></div>
+            </div>
+            <div class="quiz-q" data-correct="b" data-explain="Guru membimbing siswa agar proses penyelesaian masalah tetap terarah tanpa menghilangkan keaktifan mereka.">
+              <p>2. Dalam model PBL, peran utama guru adalah ...</p>
+              <label class="quiz-opt"><input type="radio" name="q2" value="a"> Memberikan seluruh jawaban kepada siswa.</label>
+              <label class="quiz-opt"><input type="radio" name="q2" value="b"> Menjadi fasilitator dan pembimbing proses penyelidikan.</label>
+              <label class="quiz-opt"><input type="radio" name="q2" value="c"> Mengambil alih seluruh kegiatan kelompok.</label>
+              <label class="quiz-opt"><input type="radio" name="q2" value="d"> Membatasi siswa untuk mengemukakan pendapat.</label>
+              <div class="quiz-feedback"></div>
+            </div>
+            <div class="quiz-q" data-correct="a" data-explain="Tahap penyelidikan memberikan kesempatan kepada siswa untuk memperoleh dan mengolah informasi yang dibutuhkan.">
+              <p>3. Kegiatan yang sesuai dengan tahap membimbing penyelidikan adalah ...</p>
+              <label class="quiz-opt"><input type="radio" name="q3" value="a"> Siswa mengumpulkan informasi dan melakukan pengamatan untuk memahami masalah.</label>
+              <label class="quiz-opt"><input type="radio" name="q3" value="b"> Guru langsung menyampaikan kesimpulan tanpa diskusi.</label>
+              <label class="quiz-opt"><input type="radio" name="q3" value="c"> Siswa hanya menyalin materi dari papan tulis.</label>
+              <label class="quiz-opt"><input type="radio" name="q3" value="d"> Siswa menghafalkan seluruh jawaban.</label>
+              <div class="quiz-feedback"></div>
+            </div>
+            <div class="quiz-q" data-correct="d" data-explain="Masalah yang sesuai perkembangan siswa membuat proses pembelajaran lebih mudah dipahami dan dapat diikuti.">
+              <p>4. Mengapa permasalahan dalam PBL harus sesuai dengan karakteristik siswa SD?</p>
+              <label class="quiz-opt"><input type="radio" name="q4" value="a"> Agar siswa tidak perlu berpikir.</label>
+              <label class="quiz-opt"><input type="radio" name="q4" value="b"> Agar guru dapat menghindari kegiatan diskusi.</label>
+              <label class="quiz-opt"><input type="radio" name="q4" value="c"> Agar masalah hanya dapat diselesaikan oleh siswa yang paling pintar.</label>
+              <label class="quiz-opt"><input type="radio" name="q4" value="d"> Agar siswa mampu memahami konteks masalah dan terlibat dalam penyelidikan.</label>
+              <div class="quiz-feedback"></div>
+            </div>
+            <div class="quiz-q" data-correct="c" data-explain="PBL menilai proses dan hasil karena keduanya merupakan bagian penting dari pengalaman belajar.">
+              <p>5. Apa yang perlu diperhatikan dalam mengevaluasi pembelajaran PBL?</p>
+              <label class="quiz-opt"><input type="radio" name="q5" value="a"> Hanya jumlah halaman laporan.</label>
+              <label class="quiz-opt"><input type="radio" name="q5" value="b"> Hanya kecepatan siswa menyelesaikan masalah.</label>
+              <label class="quiz-opt"><input type="radio" name="q5" value="c"> Proses penyelidikan, pemahaman, kerja sama, dan kualitas solusi.</label>
+              <label class="quiz-opt"><input type="radio" name="q5" value="d"> Hanya kelompok yang memperoleh jawaban paling cepat.</label>
+              <div class="quiz-feedback"></div>
+            </div>
+            <button class="btn btn-primary" id="submitQuiz">Periksa Jawaban</button>
+            <button class="btn btn-ghost" id="retryQuiz" style="display:none;margin-left:.5rem;">Ulangi Kuis</button>
+            <div class="quiz-result" id="quizResult"></div>
+          </div>
+
+        </article>
+      </div>
+    </div>
+  </main>
+  <button class="print-btn" onclick="window.print()">Cetak</button>
+  <button id="backToTop" class="back-to-top" aria-label="Kembali ke atas">^</button>
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="footer-brand-name">BIANCA EDUSPACE</div>
+          <div class="footer-slogan">Inspire to Learn, Empower to Grow</div>
+          <p class="footer-text">Ruang edukasi untuk belajar, berkarya, dan berkembang bersama.</p>
+        </div>
+        <div>
+          <div class="footer-heading">Navigasi</div>
+          <ul class="footer-list">
+            <li><a href="../index.html">Beranda</a></li>
+            <li><a href="../model-pembelajaran.html">Model Pembelajaran</a></li>
+            <li><a href="../metode-pembelajaran.html">Metode Pembelajaran</a></li>
+            <li><a href="../panduan-mengajar.html">Panduan Mengajar</a></li>
+            <li><a href="../tentang-kami.html">Tentang Kami</a></li>
+          </ul>
+        </div>
+        <div>
+          <div class="footer-heading">Informasi</div>
+          <ul class="footer-list">
+            <li><a href="../tentang-kami.html">Tentang Bianca EduSpace</a></li>
+            <li><a href="../tentang-kami.html">Visi dan Misi</a></li>
+            <li><a href="../tentang-kami.html">Tujuan Pendidikan</a></li>
+          </ul>
+        </div>
+        <div>
+          <div class="footer-heading">Brand Statement</div>
+          <p class="footer-statement">Creative Learning. Innovative Education. Collaborative Growth.</p>
+        </div>
+      </div>
+      <div class="footer-bottom">© 2026 BIANCA EDUSPACE. All Rights Reserved.</div>
+    </div>
+  </footer>
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script src="../script.js" defer></script>
+  <script>
+    (function () {
+      const submit = document.getElementById('submitQuiz');
+      const retry = document.getElementById('retryQuiz');
+      const result = document.getElementById('quizResult');
+      const qs = document.querySelectorAll('.quiz-q');
+
+      function grade() {
+        let score = 0;
+        qs.forEach((q, i) => {
+          const name = 'q' + (i + 1);
+          const sel = document.querySelector('input[name="' + name + '"]:checked');
+          const fb = q.querySelector('.quiz-feedback');
+          const correct = q.dataset.correct;
+          if (sel && sel.value === correct) {
+            score++;
+            fb.textContent = 'Benar. ' + q.dataset.explain;
+            fb.className = 'quiz-feedback ok';
+          } else {
+            fb.textContent = 'Salah. Jawaban benar: ' + correct.toUpperCase() + '. ' + q.dataset.explain;
+            fb.className = 'quiz-feedback err';
+          }
+        });
+        const pct = Math.round((score / qs.length) * 100);
+        result.textContent = 'Skor: ' + score + ' / ' + qs.length + ' (' + pct + '/100)';
+        retry.style.display = 'inline-block';
+      }
+
+      function reset() {
+        qs.forEach(q => {
+          q.querySelectorAll('input[type="radio"]').forEach(r => r.checked = false);
+          const fb = q.querySelector('.quiz-feedback');
+          if (fb) { fb.textContent = ''; fb.className = 'quiz-feedback'; }
+        });
+        result.textContent = '';
+        retry.style.display = 'none';
+      }
+
+      submit.addEventListener('click', grade);
+      retry.addEventListener('click', reset);
+    })();
+
+    window.addEventListener('scroll', () => {
+      const h = document.documentElement;
+      const pct = (h.scrollTop / (h.scrollHeight - h.clientHeight)) * 100;
+      document.getElementById('progressBar').style.width = pct + '%';
+    }, { passive: true });
+    const btn = document.getElementById('backToTop');
+    if (btn) { window.addEventListener('scroll', () => btn.classList.toggle('show', window.scrollY > 300), { passive: true }); btn.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' })); }
+  </script>
+</body>
+</html>

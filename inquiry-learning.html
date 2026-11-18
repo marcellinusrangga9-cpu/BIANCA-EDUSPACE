@@ -1,0 +1,575 @@
+﻿<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Inquiry Learning — BIANCA EDUSPACE</title>
+  <meta name="description" content="Materi mendalam Model Pembelajaran Inquiry Learning." />
+  <link rel="icon" type="image/png" href="../images/logo-bianca.jpg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../style.css" />
+  <link rel="stylesheet" href="../css/model-pembelajaran.css" />
+  <style>
+    .progress-bar { position: fixed; top: 0; left: 0; height: 4px; width: 0; background: linear-gradient(90deg,#2585F5,#38BDF8); z-index: 200; transition: width .1s; }
+    .quiz-box { background:#f5f8fd; padding:1.5rem; border-radius:.75rem; margin-top:1.5rem; }
+    .quiz-q { margin-bottom:1.25rem; }
+    .quiz-opt { display:block; margin:.4rem 0; }
+    .quiz-result { margin-top:1rem; font-weight:600; color:#1646A0; }
+    .print-btn { position:fixed; bottom:80px; right:24px; background:#1646A0; color:#fff; border:none; border-radius:999px; padding:.6rem 1rem; cursor:pointer; z-index:150; }
+    table { width:100%; border-collapse:collapse; margin:1rem 0; font-size:.9rem; }
+    th,td { border:1px solid rgba(7,21,46,.1); padding:.6rem; vertical-align:top; }
+    th { background:#1646A0; color:#fff; }
+    .quiz-feedback { margin-top:.5rem; font-size:.9rem; }
+    .quiz-feedback.ok { color:#16a34a; }
+    .quiz-feedback.err { color:#dc2626; }
+  </style>
+</head>
+<body>
+  <div class="progress-bar" id="progressBar"></div>
+  <header class="site-header">
+    <div class="container navbar">
+      <a class="brand" href="../index.html">
+        <img class="brand-logo" src="../images/logo-bianca.jpg" alt="Logo BIANCA EDUSPACE" />
+        <span class="brand-name">BIANCA EDUSPACE</span>
+      </a>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+      </button>
+      <nav class="nav-menu" aria-label="Main navigation">
+        <a class="nav-link" href="../index.html">Beranda</a>
+        <a class="nav-link" href="../model-pembelajaran.html">Model Pembelajaran</a>
+        <a class="nav-link" href="../metode-pembelajaran.html">Metode Pembelajaran</a>
+        <a class="nav-link" href="../panduan-mengajar.html">Panduan Mengajar</a>
+        <a class="nav-link" href="../tentang-kami.html">Tentang Kami</a>
+      </nav>
+    </div>
+  </header>
+  <main class="page-content">
+    <div class="container">
+      <nav class="breadcrumb" aria-label="Breadcrumb">
+        <a href="../index.html">Beranda</a> / <a href="../model-pembelajaran.html">Model Pembelajaran</a> / Inquiry Learning
+      </nav>
+      <h1 class="page-title">Inquiry Learning</h1>
+      <p class="page-desc">Model pembelajaran berbasis inkuiri.</p>
+
+      <div class="detail-layout">
+        <aside class="detail-toc">
+          <div class="footer-heading">Daftar Isi</div>
+          <ul class="footer-list">
+            <li><a href="#a">A. Pengenalan</a></li>
+            <li><a href="#b">B. Landasan Konseptual</a></li>
+            <li><a href="#c">C. Tujuan dan Manfaat</a></li>
+            <li><a href="#d">D. Karakteristik dan Prinsip</a></li>
+            <li><a href="#e">E. Variasi Kegiatan</a></li>
+            <li><a href="#f">F. Sintaks</a></li>
+            <li><a href="#g">G. Kelebihan dan Keterbatasan</a></li>
+            <li><a href="#h">H. Penerapan di SD</a></li>
+            <li><a href="#i">I. Rancangan Pembelajaran</a></li>
+            <li><a href="#j">J. Penilaian</a></li>
+            <li><a href="#k">K. Kesalahan Umum</a></li>
+            <li><a href="#l">L. Adaptasi</a></li>
+            <li><a href="#m">M. Refleksi dan Diskusi</a></li>
+            <li><a href="#n">N. Penutup</a></li>
+            <li><a href="#quiz">Uji Pemahaman</a></li>
+          </ul>
+        </aside>
+        <article class="detail-content">
+
+<h2 id="a">A. Pengenalan Inquiry Learning</h2>
+<h3>1. Pengertian</h3>
+<p>Inquiry Learning merupakan model pembelajaran yang menempatkan proses penyelidikan sebagai bagian utama dalam memperoleh pengetahuan. Melalui model ini, peserta didik diarahkan untuk mengajukan pertanyaan, merumuskan masalah, menyusun dugaan sementara, mengumpulkan informasi, menganalisis bukti, dan menarik kesimpulan.</p>
+<p>Dalam Inquiry Learning, siswa tidak hanya menerima penjelasan dari guru, tetapi terlibat aktif dalam mencari jawaban berdasarkan proses penyelidikan yang sistematis.</p>
+<p>Guru berperan sebagai fasilitator yang membantu siswa menentukan arah penyelidikan, menyediakan sumber belajar, memberikan pertanyaan pengarah, dan memastikan proses belajar tetap sesuai dengan tujuan pembelajaran.</p>
+<h3>2. Gambaran sederhana</h3>
+<p>Guru mengajak siswa kelas V mengamati lingkungan sekolah. Mereka menemukan bahwa beberapa bagian halaman sekolah memiliki genangan air setelah hujan, sedangkan bagian lainnya cepat kering.</p>
+<p>Guru kemudian mengajukan pertanyaan, "Mengapa air lebih lama menggenang di satu tempat dibandingkan tempat lainnya?"</p>
+<p>Siswa mulai mengamati kondisi permukaan tanah, membandingkan lokasi, mengumpulkan informasi, dan mendiskusikan kemungkinan penyebabnya.</p>
+<p>Dari kegiatan tersebut, siswa belajar menyusun pertanyaan, mencari bukti, dan membangun penjelasan berdasarkan hasil penyelidikan.</p>
+<h3>3. Inti pembelajaran</h3>
+<p>Inquiry Learning menekankan bahwa pengetahuan diperoleh melalui proses bertanya, menyelidiki, menguji informasi, dan menyusun penjelasan yang didukung bukti.</p>
+
+<h2 id="b">B. Landasan Konseptual</h2>
+<h3>1. Dasar pemikiran</h3>
+<p>Inquiry Learning memiliki hubungan dengan pandangan pembelajaran yang menekankan keaktifan siswa dalam membangun pengetahuan melalui proses penyelidikan.</p>
+<p>Siswa didorong untuk tidak menerima informasi secara pasif. Mereka belajar memahami suatu permasalahan dengan mengajukan pertanyaan, mengumpulkan data, memeriksa informasi, dan menyusun penjelasan.</p>
+<p>Model ini juga sejalan dengan gagasan John Dewey mengenai pembelajaran melalui pengalaman dan proses berpikir reflektif. Permasalahan dapat menjadi titik awal bagi siswa untuk melakukan penyelidikan dan membangun pemahaman.</p>
+<h3>2. Penyelidikan sebagai proses belajar</h3>
+<p>Dalam Inquiry Learning, penyelidikan bukan sekadar mencari jawaban di buku atau internet. Penyelidikan merupakan proses yang memiliki arah dan didasarkan pada pertanyaan yang dapat dijawab melalui informasi atau bukti.</p>
+<p>Proses tersebut dapat melibatkan:</p>
+<ul class="detail-list">
+  <li>Mengidentifikasi fenomena.</li>
+  <li>Mengajukan pertanyaan.</li>
+  <li>Merumuskan masalah.</li>
+  <li>Menyusun dugaan sementara.</li>
+  <li>Menentukan informasi yang dibutuhkan.</li>
+  <li>Mengumpulkan data.</li>
+  <li>Menganalisis hasil.</li>
+  <li>Menyusun penjelasan.</li>
+  <li>Mengomunikasikan hasil penyelidikan.</li>
+</ul>
+<h3>3. Prinsip utama</h3>
+<p><strong>a. Berorientasi pada pertanyaan</strong><br>Pembelajaran dimulai dari pertanyaan atau permasalahan yang mendorong siswa untuk mencari penjelasan.</p>
+<p><strong>b. Mengutamakan bukti</strong><br>Penjelasan yang disusun siswa harus didukung informasi atau hasil pengamatan.</p>
+<p><strong>c. Melibatkan proses berpikir</strong><br>Siswa tidak hanya mengumpulkan informasi, tetapi juga membandingkan, menganalisis, dan menafsirkan data.</p>
+<p><strong>d. Memberikan ruang bagi siswa</strong><br>Siswa mendapatkan kesempatan untuk terlibat dalam menentukan langkah penyelidikan sesuai tingkat kemampuannya.</p>
+<p><strong>e. Bimbingan yang terarah</strong><br>Guru membantu siswa menjaga fokus penyelidikan tanpa mengambil alih seluruh proses berpikir mereka.</p>
+
+<h2 id="c">C. Tujuan dan Manfaat Inquiry Learning</h2>
+<h3>1. Tujuan</h3>
+<p>Inquiry Learning bertujuan untuk:</p>
+<ol class="detail-list">
+  <li>Mengembangkan kemampuan bertanya dan merumuskan masalah.</li>
+  <li>Melatih siswa melakukan penyelidikan secara sistematis.</li>
+  <li>Mengembangkan kemampuan mencari dan mengolah informasi.</li>
+  <li>Membiasakan siswa menggunakan bukti dalam menyusun penjelasan.</li>
+  <li>Meningkatkan kemampuan berpikir kritis dan logis.</li>
+  <li>Mengembangkan kemandirian dan tanggung jawab belajar.</li>
+  <li>Melatih kemampuan mengomunikasikan hasil penyelidikan.</li>
+</ol>
+<h3>2. Manfaat bagi siswa SD</h3>
+<p><strong>a. Mengembangkan rasa ingin tahu</strong><br>Siswa terbiasa memperhatikan fenomena di sekitarnya dan mengajukan pertanyaan tentang hal yang belum dipahami.</p>
+<p><strong>b. Melatih keterampilan penyelidikan</strong><br>Siswa belajar mengamati, mencatat, membandingkan, dan mengumpulkan informasi.</p>
+<p><strong>c. Membentuk kebiasaan berpikir berdasarkan bukti</strong><br>Siswa memahami bahwa suatu pendapat perlu didukung alasan dan informasi yang relevan.</p>
+<p><strong>d. Mengembangkan kemampuan memecahkan masalah</strong><br>Siswa belajar memahami permasalahan sebelum menentukan penjelasan atau solusi.</p>
+<p><strong>e. Meningkatkan kemampuan komunikasi</strong><br>Siswa memperoleh kesempatan menyampaikan pertanyaan, proses, dan hasil penyelidikan.</p>
+<h3>3. Manfaat bagi guru</h3>
+<p>Guru dapat mengetahui cara siswa memahami suatu fenomena, mengenali kemampuan berpikir mereka, dan mengembangkan kegiatan pembelajaran yang mendorong keterlibatan aktif.</p>
+
+<h2 id="d">D. Karakteristik dan Prinsip Pelaksanaan</h2>
+<h3>1. Karakteristik Inquiry Learning</h3>
+<p><strong>a. Pembelajaran berawal dari pertanyaan</strong><br>Pertanyaan menjadi dasar bagi siswa untuk melakukan penyelidikan.</p>
+<p><strong>b. Siswa terlibat dalam proses pencarian informasi</strong><br>Siswa memperoleh informasi melalui pengamatan, percobaan, wawancara sederhana, bacaan, atau sumber lain yang relevan.</p>
+<p><strong>c. Menggunakan proses penyelidikan</strong><br>Kegiatan belajar disusun melalui tahapan yang membantu siswa memperoleh jawaban secara sistematis.</p>
+<p><strong>d. Menggunakan data dan bukti</strong><br>Siswa diminta menunjukkan informasi yang mendukung penjelasannya.</p>
+<p><strong>e. Mengembangkan penalaran</strong><br>Siswa menghubungkan hasil pengamatan dengan konsep yang sedang dipelajari.</p>
+<p><strong>f. Mengomunikasikan hasil</strong><br>Siswa menyampaikan hasil penyelidikan secara lisan, tertulis, visual, atau melalui bentuk presentasi sederhana.</p>
+<h3>2. Prinsip pelaksanaan</h3>
+<ul class="detail-list">
+  <li>Pertanyaan penyelidikan harus sesuai dengan tujuan pembelajaran.</li>
+  <li>Masalah perlu dekat dengan pengalaman siswa.</li>
+  <li>Informasi yang dikumpulkan harus relevan.</li>
+  <li>Siswa perlu dibimbing untuk membedakan dugaan dan bukti.</li>
+  <li>Kegiatan penyelidikan harus aman dan sesuai usia.</li>
+  <li>Guru memberikan bantuan tanpa mendominasi proses.</li>
+  <li>Kesimpulan disusun berdasarkan hasil penyelidikan.</li>
+</ul>
+<h3>3. Tingkat bimbingan dalam Inquiry Learning</h3>
+<p><strong>a. Structured Inquiry (Inkuiri Terstruktur)</strong><br>Guru menentukan pertanyaan dan prosedur penyelidikan. Siswa mengikuti langkah yang tersedia untuk mengumpulkan serta menganalisis data. Bentuk ini cocok digunakan ketika siswa baru mengenal proses penyelidikan.</p>
+<p><strong>b. Guided Inquiry (Inkuiri Terbimbing)</strong><br>Guru memberikan permasalahan atau pertanyaan utama, sedangkan siswa memperoleh kesempatan lebih luas untuk menentukan cara mengumpulkan dan mengolah informasi dengan arahan guru.</p>
+<p><strong>c. Open Inquiry (Inkuiri Terbuka)</strong><br>Siswa memiliki keleluasaan lebih besar dalam menentukan pertanyaan, merancang penyelidikan, mengumpulkan data, dan menyusun penjelasan. Penerapannya membutuhkan kesiapan siswa, kemampuan mengelola kegiatan, serta bimbingan yang sesuai.</p>
+<p><strong>d. Confirmation Inquiry (Inkuiri Konfirmasi)</strong><br>Guru memberikan pertanyaan, prosedur, dan hasil atau konsep yang perlu dipahami. Siswa melakukan penyelidikan untuk memeriksa atau mengonfirmasi konsep tersebut melalui bukti. Tingkat-tingkat tersebut dapat digunakan sebagai variasi pendekatan penyelidikan. Guru perlu memilih tingkat bimbingan sesuai tujuan dan kesiapan siswa.</p>
+
+<h2 id="e">E. Variasi Kegiatan Inquiry Learning</h2>
+<ol class="detail-list">
+  <li><strong>Inquiry melalui pengamatan</strong> — Siswa menyelidiki suatu fenomena dengan mengamati objek atau kondisi tertentu. Contoh: mengamati perbedaan kondisi tanaman yang tumbuh di tempat terang dan tempat teduh.</li>
+  <li><strong>Inquiry melalui percobaan</strong> — Siswa melakukan percobaan untuk mengumpulkan data dan memeriksa dugaan. Contoh: menyelidiki faktor yang memengaruhi kecepatan es mencair.</li>
+  <li><strong>Inquiry melalui bacaan</strong> — Siswa menggunakan teks atau sumber informasi untuk menyelidiki suatu pertanyaan. Contoh: mencari informasi mengenai penyebab banjir dan membandingkan beberapa faktor penyebabnya.</li>
+  <li><strong>Inquiry melalui wawancara</strong> — Siswa mengumpulkan informasi dari narasumber yang relevan. Contoh: mewawancarai petugas kebersihan sekolah tentang pengelolaan sampah.</li>
+  <li><strong>Inquiry melalui perbandingan</strong> — Siswa membandingkan dua atau lebih kondisi untuk menemukan hubungan atau perbedaan. Contoh: membandingkan kondisi tanah yang tertutup rumput dengan tanah terbuka setelah terkena air.</li>
+  <li><strong>Inquiry berbasis lingkungan</strong> — Siswa menjadikan lingkungan sekitar sebagai sumber penyelidikan. Contoh: menyelidiki jenis sampah yang paling banyak ditemukan di lingkungan sekolah.</li>
+</ol>
+
+<h2 id="f">F. Sintaks atau Langkah-Langkah Inquiry Learning</h2>
+<p>Langkah Inquiry Learning dapat disesuaikan dengan bentuk dan tingkat bimbingan yang digunakan. Berikut salah satu alur pelaksanaan yang dapat diterapkan dalam pembelajaran SD.</p>
+<h3>1. Orientation (Orientasi)</h3>
+<p>Guru memperkenalkan situasi atau fenomena yang akan diselidiki agar siswa memahami konteks pembelajaran.</p>
+<p><strong>Kegiatan guru:</strong> Menampilkan fenomena atau permasalahan; menghubungkan topik dengan kehidupan siswa; menjelaskan tujuan kegiatan; membangkitkan rasa ingin tahu siswa.</p>
+<p><strong>Kegiatan siswa:</strong> Mengamati fenomena; memperhatikan informasi awal; menyampaikan tanggapan; mengidentifikasi hal yang menarik perhatian.</p>
+<p><strong>Contoh:</strong> Guru memperlihatkan gambar lingkungan sekolah yang memiliki banyak sampah setelah jam istirahat.</p>
+<h3>2. Formulating Questions (Merumuskan Pertanyaan atau Masalah)</h3>
+<p>Siswa dibimbing untuk menyusun pertanyaan yang akan menjadi fokus penyelidikan.</p>
+<p><strong>Kegiatan guru:</strong> Mengajukan pertanyaan pemantik; membantu siswa memperjelas masalah; memastikan pertanyaan dapat diselidiki; membatasi fokus agar kegiatan tidak terlalu luas.</p>
+<p><strong>Kegiatan siswa:</strong> Mengidentifikasi masalah; menyampaikan pertanyaan; menentukan hal yang ingin diketahui; menyusun pertanyaan utama bersama kelompok.</p>
+<p><strong>Contoh:</strong> "Mengapa sampah lebih banyak ditemukan di sekitar kantin dibandingkan di halaman sekolah?"</p>
+<h3>3. Formulating Hypotheses (Menyusun Dugaan Sementara)</h3>
+<p>Siswa menyusun dugaan awal sebagai jawaban sementara terhadap pertanyaan yang telah dibuat.</p>
+<p><strong>Kegiatan guru:</strong> Menjelaskan bahwa dugaan belum tentu benar; mengarahkan siswa memberikan alasan; mendorong siswa menyusun dugaan yang dapat diperiksa.</p>
+<p><strong>Kegiatan siswa:</strong> Mengemukakan kemungkinan jawaban; menjelaskan alasan dugaan; mencatat dugaan sementara; menentukan informasi yang diperlukan untuk memeriksanya.</p>
+<p><strong>Contoh:</strong> Siswa menduga bahwa sampah lebih banyak ditemukan di sekitar kantin karena banyak kegiatan membeli dan mengonsumsi makanan di tempat tersebut.</p>
+<h3>4. Collecting Data (Mengumpulkan Data)</h3>
+<p>Siswa melakukan penyelidikan untuk memperoleh informasi yang diperlukan.</p>
+<p><strong>Kegiatan guru:</strong> Menyiapkan alat dan sumber informasi; menjelaskan prosedur serta aturan keselamatan; memberikan lembar pengamatan; membimbing kegiatan pengumpulan data.</p>
+<p><strong>Kegiatan siswa:</strong> Melakukan pengamatan; menghitung atau mencatat temuan; melakukan wawancara sederhana jika diperlukan; mengumpulkan informasi dari sumber yang relevan.</p>
+<p><strong>Contoh:</strong> Siswa mengamati beberapa lokasi sekolah dan mencatat jumlah serta jenis sampah yang ditemukan.</p>
+<h3>5. Analyzing Data (Menganalisis Data)</h3>
+<p>Siswa mengolah dan menafsirkan data untuk mengetahui hubungan antara hasil penyelidikan dengan pertanyaan utama.</p>
+<p><strong>Kegiatan guru:</strong> Membantu siswa mengelompokkan data; mengajukan pertanyaan analisis; mengarahkan siswa membandingkan hasil; membantu mengidentifikasi informasi yang belum cukup.</p>
+<p><strong>Kegiatan siswa:</strong> Mengelompokkan hasil pengamatan; membandingkan temuan antarlokasi; membuat tabel atau diagram sederhana; menafsirkan hasil penyelidikan.</p>
+<p><strong>Contoh:</strong> Siswa membandingkan jumlah sampah di kantin, halaman, dan ruang kelas untuk mengetahui lokasi dengan temuan sampah terbanyak.</p>
+<h3>6. Drawing Conclusions (Menarik Kesimpulan)</h3>
+<p>Siswa menyusun kesimpulan berdasarkan hasil analisis data.</p>
+<p><strong>Kegiatan guru:</strong> Membimbing siswa menyusun penjelasan; memeriksa kesesuaian kesimpulan dengan bukti; meluruskan pemahaman yang kurang tepat; menghubungkan hasil dengan konsep pembelajaran.</p>
+<p><strong>Kegiatan siswa:</strong> Menjawab pertanyaan penyelidikan; membandingkan dugaan awal dengan hasil; menjelaskan bukti pendukung; menyusun kesimpulan.</p>
+<p><strong>Contoh:</strong> Siswa menyimpulkan bahwa jumlah sampah yang ditemukan berkaitan dengan aktivitas di setiap lokasi sekolah. Kesimpulan dibuat berdasarkan data pengamatan, bukan sekadar perkiraan.</p>
+<h3>7. Communicating Results (Mengomunikasikan Hasil)</h3>
+<p>Siswa menyampaikan proses dan hasil penyelidikan kepada guru atau teman sekelas.</p>
+<p><strong>Kegiatan guru:</strong> Memberikan kesempatan presentasi; mengarahkan diskusi antarkelompok; memberikan umpan balik; menyampaikan penguatan konsep.</p>
+<p><strong>Kegiatan siswa:</strong> Menyajikan hasil pengamatan; menjelaskan proses penyelidikan; menjawab pertanyaan teman; menyampaikan hal yang dipelajari.</p>
+<p><strong>Contoh:</strong> Setiap kelompok mempresentasikan tabel pengamatan dan kesimpulan mengenai persebaran sampah di sekolah.</p>
+
+<h2 id="g">G. Kelebihan dan Keterbatasan</h2>
+<h3>1. Kelebihan</h3>
+<ul class="detail-list">
+  <li><strong>Mengembangkan kemampuan berpikir kritis</strong> — Siswa belajar menilai informasi dan menggunakan bukti sebelum menyusun penjelasan.</li>
+  <li><strong>Meningkatkan keterampilan bertanya</strong> — Siswa terbiasa menyusun pertanyaan yang berkaitan dengan fenomena di sekitarnya.</li>
+  <li><strong>Melatih keterampilan penyelidikan</strong> — Siswa memperoleh pengalaman mengamati, mengumpulkan, dan menganalisis data.</li>
+  <li><strong>Mengembangkan kemandirian belajar</strong> — Siswa didorong untuk mencari informasi dan terlibat aktif dalam proses belajar.</li>
+  <li><strong>Membiasakan penggunaan bukti</strong> — Siswa belajar membedakan pendapat, dugaan, dan kesimpulan yang didukung informasi.</li>
+  <li><strong>Mengembangkan komunikasi</strong> — Siswa berlatih menyampaikan hasil penyelidikan secara jelas dan bertanggung jawab.</li>
+</ul>
+<h3>2. Keterbatasan</h3>
+<ul class="detail-list">
+  <li><strong>Membutuhkan waktu yang cukup</strong> — Penyelidikan memerlukan waktu untuk merumuskan pertanyaan, mengumpulkan data, dan menganalisis hasil.</li>
+  <li><strong>Membutuhkan persiapan guru</strong> — Guru perlu memastikan masalah, sumber informasi, prosedur, dan media pembelajaran telah disiapkan.</li>
+  <li><strong>Membutuhkan kemampuan awal siswa</strong> — Siswa yang belum terbiasa bertanya atau mengolah informasi mungkin membutuhkan bimbingan lebih banyak.</li>
+  <li><strong>Tidak semua pertanyaan dapat diselidiki secara langsung</strong> — Beberapa fenomena memerlukan alat, waktu, atau sumber informasi yang tidak tersedia di sekolah.</li>
+  <li><strong>Berpotensi kehilangan fokus</strong> — Jika pertanyaan terlalu luas, siswa dapat mengumpulkan informasi yang tidak berkaitan dengan tujuan pembelajaran.</li>
+</ul>
+<h3>3. Upaya mengatasi keterbatasan</h3>
+<ul class="detail-list">
+  <li>Memilih masalah yang dekat dengan kehidupan siswa.</li>
+  <li>Menggunakan pertanyaan penyelidikan yang jelas dan terarah.</li>
+  <li>Menyediakan lembar kerja.</li>
+  <li>Mengatur waktu setiap tahapan.</li>
+  <li>Memberikan contoh cara mencatat data.</li>
+  <li>Menyesuaikan tingkat bimbingan dengan kemampuan siswa.</li>
+  <li>Memanfaatkan lingkungan sekitar sebagai sumber belajar.</li>
+  <li>Memastikan kegiatan aman dan realistis dilakukan.</li>
+</ul>
+
+<h2 id="h">H. Penerapan Inquiry Learning di Sekolah Dasar</h2>
+<h3>1. Bahasa Indonesia</h3>
+<p><strong>Materi:</strong> Informasi dalam teks laporan hasil pengamatan.</p>
+<p>Siswa membaca teks atau mengamati objek, merumuskan pertanyaan, mencari informasi yang relevan, lalu menyusun penjelasan berdasarkan hasil pengamatan.</p>
+<h3>2. Matematika</h3>
+<p><strong>Materi:</strong> Pengumpulan dan penyajian data.</p>
+<p>Siswa menyelidiki jenis transportasi yang digunakan teman sekelas untuk berangkat ke sekolah. Mereka mengumpulkan data, menghitung jumlah, menyajikannya dalam diagram, dan menyusun kesimpulan.</p>
+<h3>3. IPAS</h3>
+<p><strong>Materi:</strong> Faktor yang memengaruhi pertumbuhan tanaman.</p>
+<p>Siswa menyelidiki perbedaan pertumbuhan tanaman melalui pengamatan terhadap kondisi lingkungan tertentu dengan memperhatikan faktor yang perlu dikendalikan.</p>
+<h3>4. Pendidikan Pancasila</h3>
+<p><strong>Materi:</strong> Pelaksanaan aturan di lingkungan sekolah.</p>
+<p>Siswa mengamati situasi di sekolah, mengidentifikasi permasalahan terkait aturan, mengumpulkan informasi melalui pengamatan atau wawancara, lalu menyusun penjelasan tentang pentingnya aturan.</p>
+<h3>5. Seni Rupa</h3>
+<p><strong>Materi:</strong> Penggunaan warna dalam karya seni.</p>
+<p>Siswa mengamati beberapa karya, membandingkan penggunaan warna, kemudian menyelidiki bagaimana kombinasi warna menghasilkan kesan yang berbeda.</p>
+<h3>6. Pendidikan Jasmani</h3>
+<p><strong>Materi:</strong> Aktivitas gerak dan kebugaran.</p>
+<p>Siswa mengamati perubahan kondisi tubuh setelah melakukan aktivitas fisik sederhana yang aman, kemudian membandingkan hasil pengamatan dan menyampaikan penjelasan sesuai arahan guru.</p>
+
+<h2 id="i">I. Contoh Rancangan Pembelajaran</h2>
+<p><strong>Topik:</strong> Menyelidiki Persebaran Sampah di Lingkungan Sekolah</p>
+<p><strong>Satuan pendidikan:</strong> Sekolah Dasar<br><strong>Mata pelajaran:</strong> IPAS<br><strong>Materi:</strong> Lingkungan dan permasalahannya<br><strong>Model:</strong> Inquiry Learning<br><strong>Alokasi waktu:</strong> 2 x 35 menit</p>
+<h3>Tujuan pembelajaran</h3>
+<p>Setelah mengikuti pembelajaran, siswa diharapkan mampu:</p>
+<ol class="detail-list">
+  <li>Mengidentifikasi permasalahan sampah di lingkungan sekolah.</li>
+  <li>Merumuskan pertanyaan penyelidikan sederhana.</li>
+  <li>Mengumpulkan data melalui pengamatan.</li>
+  <li>Mengolah dan membandingkan hasil pengamatan.</li>
+  <li>Menyusun kesimpulan berdasarkan bukti.</li>
+  <li>Menyampaikan hasil penyelidikan secara berkelompok.</li>
+</ol>
+<h3>Media dan alat</h3>
+<ul class="detail-list">
+  <li>Lembar pengamatan.</li>
+  <li>Alat tulis.</li>
+  <li>Papan alas untuk menulis.</li>
+  <li>Gambar atau denah sederhana lingkungan sekolah.</li>
+  <li>Sarung tangan apabila diperlukan untuk kegiatan pengamatan yang telah dinyatakan aman oleh guru.</li>
+</ul>
+<p>Siswa tidak perlu menyentuh atau mengambil sampah secara langsung. Pengamatan dapat dilakukan dari jarak aman.</p>
+<h3>Langkah pembelajaran</h3>
+<p><strong>1. Orientation</strong> — Guru memperlihatkan gambar beberapa area sekolah yang memiliki kondisi kebersihan berbeda. Siswa mengamati dan menyampaikan hal yang mereka temukan.</p>
+<p><strong>2. Formulating Questions</strong> — Guru mengajak siswa merumuskan pertanyaan: "Apakah jumlah sampah di setiap area sekolah sama?"</p>
+<p><strong>3. Formulating Hypotheses</strong> — Siswa menyusun dugaan awal. Misalnya, siswa menduga bahwa area kantin memiliki lebih banyak sampah karena aktivitas makan dan membeli makanan.</p>
+<p><strong>4. Collecting Data</strong> — Siswa dibagi menjadi beberapa kelompok. Setiap kelompok mengamati area yang telah ditentukan dan mencatat jumlah sampah yang terlihat berdasarkan kategori sederhana.</p>
+<p><strong>5. Analyzing Data</strong> — Siswa membandingkan hasil pengamatan dari setiap lokasi. Data disajikan dalam tabel sederhana.</p>
+<p><strong>6. Drawing Conclusions</strong> — Siswa menyusun kesimpulan berdasarkan data yang diperoleh dan membandingkannya dengan dugaan awal.</p>
+<p><strong>7. Communicating Results</strong> — Setiap kelompok mempresentasikan hasil pengamatan dan menyampaikan saran untuk menjaga kebersihan lingkungan sekolah.</p>
+<h3>Contoh tabel pengamatan</h3>
+<table>
+  <tr><th>Lokasi</th><th>Sampah kertas</th><th>Sampah plastik</th><th>Jumlah</th></tr>
+  <tr><td>Kantin</td><td>3</td><td>7</td><td>10</td></tr>
+  <tr><td>Halaman</td><td>4</td><td>2</td><td>6</td></tr>
+  <tr><td>Ruang kelas</td><td>2</td><td>3</td><td>5</td></tr>
+</table>
+<p>Angka pada tabel merupakan contoh data simulasi untuk latihan. Dalam pelaksanaan pembelajaran, siswa mengisi tabel berdasarkan hasil pengamatan sebenarnya.</p>
+<h3>Penutup</h3>
+<p>Guru mengajak siswa merefleksikan proses penyelidikan, membahas perbedaan dugaan awal dengan hasil pengamatan, dan menegaskan pentingnya menjaga kebersihan lingkungan sekolah.</p>
+
+<h2 id="j">J. Penilaian dalam Inquiry Learning</h2>
+<p>Penilaian dilakukan terhadap proses penyelidikan sekaligus pemahaman yang diperoleh siswa.</p>
+<h3>1. Penilaian sikap</h3>
+<p>Aspek yang dapat diamati:</p>
+<ul class="detail-list">
+  <li>Rasa ingin tahu.</li>
+  <li>Ketelitian.</li>
+  <li>Kejujuran dalam mencatat data.</li>
+  <li>Tanggung jawab.</li>
+  <li>Kerja sama.</li>
+  <li>Keterbukaan terhadap pendapat dan bukti.</li>
+</ul>
+<h3>2. Penilaian pengetahuan</h3>
+<p>Penilaian dapat dilakukan melalui:</p>
+<ul class="detail-list">
+  <li>Pertanyaan lisan.</li>
+  <li>Kuis tertulis.</li>
+  <li>Penjelasan hasil penyelidikan.</li>
+  <li>Kemampuan menghubungkan bukti dengan kesimpulan.</li>
+</ul>
+<h3>3. Penilaian keterampilan</h3>
+<p>Aspek yang dapat dinilai:</p>
+<ul class="detail-list">
+  <li>Kemampuan merumuskan pertanyaan.</li>
+  <li>Kemampuan menyusun dugaan sementara.</li>
+  <li>Ketepatan mengumpulkan informasi.</li>
+  <li>Kemampuan mengolah data.</li>
+  <li>Kemampuan menyusun kesimpulan.</li>
+  <li>Kemampuan mengomunikasikan hasil.</li>
+</ul>
+<h3>4. Contoh rubrik sederhana</h3>
+<table>
+  <tr><th>Aspek</th><th>Baik sekali</th><th>Baik</th><th>Perlu bimbingan</th></tr>
+  <tr><td>Pertanyaan</td><td>Jelas dan dapat diselidiki</td><td>Cukup jelas</td><td>Belum sesuai fokus</td></tr>
+  <tr><td>Pengumpulan data</td><td>Teliti dan sistematis</td><td>Ada data yang kurang</td><td>Membutuhkan banyak arahan</td></tr>
+  <tr><td>Analisis</td><td>Menemukan hubungan berdasarkan data</td><td>Analisis masih sederhana</td><td>Belum mampu mengolah data</td></tr>
+  <tr><td>Kesimpulan</td><td>Didukung bukti yang relevan</td><td>Sebagian didukung bukti</td><td>Belum sesuai hasil</td></tr>
+  <tr><td>Presentasi</td><td>Jelas dan runtut</td><td>Cukup jelas</td><td>Membutuhkan bantuan</td></tr>
+</table>
+<p>Rubrik dapat dikembangkan sesuai kelas, materi, dan tujuan pembelajaran.</p>
+
+<h2 id="k">K. Kesalahan Umum dalam Penerapan</h2>
+<ol class="detail-list">
+  <li><strong>Pertanyaan penyelidikan terlalu luas</strong> — Siswa diberikan pertanyaan yang sulit dijawab dalam waktu pembelajaran. <em>Perbaikan:</em> Batasi pertanyaan agar dapat diselidiki melalui kegiatan sederhana.</li>
+  <li><strong>Siswa hanya mencari jawaban di internet</strong> — Kegiatan berubah menjadi pencarian informasi tanpa proses pemeriksaan atau analisis. <em>Perbaikan:</em> Ajak siswa membandingkan sumber, mengamati fenomena, dan menjelaskan bukti yang digunakan.</li>
+  <li><strong>Dugaan dianggap sebagai kesimpulan</strong> — Siswa menganggap jawaban awal pasti benar. <em>Perbaikan:</em> Jelaskan bahwa dugaan merupakan jawaban sementara yang perlu diperiksa melalui penyelidikan.</li>
+  <li><strong>Pengumpulan data tidak terarah</strong> — Siswa mengumpulkan banyak informasi yang tidak berkaitan dengan pertanyaan. <em>Perbaikan:</em> Gunakan lembar pengamatan dan tentukan informasi yang dibutuhkan sejak awal.</li>
+  <li><strong>Guru terlalu mendominasi</strong> — Guru memberikan seluruh pertanyaan, jawaban, dan penjelasan sehingga siswa tidak terlibat dalam proses berpikir. <em>Perbaikan:</em> Berikan ruang bagi siswa untuk menyusun pertanyaan dan menjelaskan hasil dengan bimbingan yang sesuai.</li>
+  <li><strong>Kesimpulan tidak didukung data</strong> — Siswa menyampaikan pendapat tanpa menunjukkan hasil penyelidikan. <em>Perbaikan:</em> Biasakan siswa menyertakan bukti ketika menjelaskan hasil.</li>
+  <li><strong>Tidak ada komunikasi hasil</strong> — Kegiatan berhenti setelah data dikumpulkan. <em>Perbaikan:</em> Sediakan waktu untuk presentasi, diskusi, atau penulisan laporan sederhana.</li>
+</ol>
+
+<h2 id="l">L. Adaptasi terhadap Kebutuhan Siswa</h2>
+<h3>1. Untuk kelas rendah</h3>
+<p>Gunakan penyelidikan sederhana yang mengandalkan objek konkret dan pertanyaan yang mudah dipahami.</p>
+<p>Contoh:</p>
+<ul class="detail-list">
+  <li>Mengamati perbedaan bentuk daun.</li>
+  <li>Menyelidiki benda yang dapat menghasilkan bunyi.</li>
+  <li>Mengelompokkan benda berdasarkan teksturnya.</li>
+</ul>
+<p>Guru menyediakan pertanyaan dan prosedur yang jelas.</p>
+<h3>2. Untuk kelas tinggi</h3>
+<p>Siswa dapat dilibatkan dalam penyelidikan yang lebih kompleks.</p>
+<p>Contoh:</p>
+<ul class="detail-list">
+  <li>Menyelidiki jenis sampah yang paling banyak ditemukan di sekolah.</li>
+  <li>Membandingkan penggunaan air di beberapa kegiatan sehari-hari.</li>
+  <li>Mengamati hubungan kondisi lingkungan dengan pertumbuhan tanaman.</li>
+</ul>
+<p>Siswa dapat menyusun pertanyaan, menentukan cara pengumpulan data, dan menyajikan hasil dalam bentuk tabel atau diagram.</p>
+<h3>3. Untuk siswa yang membutuhkan bantuan tambahan</h3>
+<ul class="detail-list">
+  <li>Gunakan pertanyaan dengan bahasa sederhana.</li>
+  <li>Sediakan pilihan pertanyaan penyelidikan.</li>
+  <li>Berikan lembar pengamatan yang sudah memiliki kategori.</li>
+  <li>Gunakan gambar atau objek konkret.</li>
+  <li>Berikan tambahan waktu.</li>
+  <li>Dampingi siswa ketika mengolah informasi.</li>
+</ul>
+<h3>4. Untuk siswa yang berkembang lebih cepat</h3>
+<ul class="detail-list">
+  <li>Berikan pertanyaan lanjutan.</li>
+  <li>Ajak membandingkan lebih banyak sumber informasi.</li>
+  <li>Minta siswa menjelaskan keterbatasan hasil pengamatan.</li>
+  <li>Berikan kesempatan menyusun prosedur penyelidikan sederhana.</li>
+  <li>Dorong siswa mengembangkan pertanyaan baru berdasarkan temuan.</li>
+</ul>
+<h3>5. Pemanfaatan teknologi</h3>
+<p>Teknologi dapat mendukung proses penyelidikan melalui:</p>
+<ul class="detail-list">
+  <li>Video pengamatan fenomena alam.</li>
+  <li>Kamera untuk mendokumentasikan objek.</li>
+  <li>Spreadsheet sederhana untuk mengolah data.</li>
+  <li>Peta digital untuk mengenali lokasi.</li>
+  <li>Presentasi digital untuk menyampaikan hasil.</li>
+</ul>
+<p>Teknologi harus digunakan sesuai kebutuhan. Penggunaan perangkat digital tidak boleh menggantikan proses berpikir dan pemeriksaan bukti.</p>
+
+<h2 id="m">M. Pertanyaan Refleksi dan Diskusi</h2>
+<h3>Pertanyaan pemahaman</h3>
+<ol class="detail-list">
+  <li>Mengapa pertanyaan menjadi bagian penting dalam Inquiry Learning?</li>
+  <li>Apa perbedaan antara dugaan sementara dan kesimpulan?</li>
+  <li>Mengapa siswa perlu mengumpulkan bukti sebelum menyusun penjelasan?</li>
+  <li>Bagaimana peran guru dalam membantu siswa melakukan penyelidikan?</li>
+  <li>Apa perbedaan utama antara Structured Inquiry dan Open Inquiry?</li>
+  <li>Apakah penyelidikan selalu harus dilakukan melalui percobaan? Jelaskan.</li>
+  <li>Bagaimana cara memastikan informasi yang dikumpulkan siswa relevan dengan masalah?</li>
+</ol>
+<h3>Refleksi calon guru</h3>
+<p>Bayangkan kamu mengajar kelas V SD dan menemukan bahwa siswa sering membuang sampah sembarangan.</p>
+<p>Kamu ingin mengajak mereka memahami penyebab permasalahan tersebut melalui Inquiry Learning.</p>
+<p>Tuliskan:</p>
+<ul class="detail-list">
+  <li>Pertanyaan utama yang akan diselidiki.</li>
+  <li>Dugaan sementara yang mungkin muncul.</li>
+  <li>Data yang perlu dikumpulkan.</li>
+  <li>Cara menganalisis data.</li>
+  <li>Bentuk kesimpulan yang diharapkan.</li>
+  <li>Cara siswa menyampaikan hasil penyelidikan.</li>
+</ul>
+
+<h2 id="n">N. Penutup dan Penguatan Pemahaman</h2>
+<p>Inquiry Learning merupakan model pembelajaran yang menekankan proses penyelidikan untuk membangun pengetahuan melalui pertanyaan, pengumpulan informasi, analisis data, dan penyusunan kesimpulan berdasarkan bukti.</p>
+<p>Melalui kegiatan penyelidikan, siswa belajar bahwa memahami suatu permasalahan membutuhkan proses berpikir yang terarah. Mereka tidak hanya mencari jawaban, tetapi juga perlu mengetahui alasan dan bukti yang mendukung jawaban tersebut.</p>
+<p>Dalam penerapan di sekolah dasar, guru perlu menyesuaikan tingkat kesulitan masalah, tingkat bimbingan, sumber belajar, dan prosedur penyelidikan dengan perkembangan siswa.</p>
+<p>Hal yang perlu diingat adalah Inquiry Learning bukan sekadar kegiatan mencari informasi. Inti model ini terletak pada proses menyelidiki pertanyaan secara sistematis dan menggunakan hasil penyelidikan untuk membangun pemahaman.</p>
+<p><strong>Pesan utama:</strong></p>
+<p>Siswa yang terbiasa bertanya, menyelidiki, dan memeriksa bukti akan belajar memahami pengetahuan secara lebih mendalam.</p>
+
+<h2 id="quiz">Uji Pemahaman</h2>
+<div class="quiz-box" id="quizContainer">
+  <div class="quiz-q" data-correct="b" data-explain="Pertanyaan atau permasalahan menjadi dasar bagi siswa untuk melakukan penyelidikan dan mencari penjelasan.">
+    <p>1. Apa yang menjadi titik awal penting dalam Inquiry Learning?</p>
+    <label class="quiz-opt"><input type="radio" name="q1" value="a"> Pemberian tugas menghafal</label>
+    <label class="quiz-opt"><input type="radio" name="q1" value="b"> Pertanyaan atau permasalahan yang diselidiki</label>
+    <label class="quiz-opt"><input type="radio" name="q1" value="c"> Penjelasan lengkap dari guru</label>
+    <label class="quiz-opt"><input type="radio" name="q1" value="d"> Penyalinan materi dari buku</label>
+    <div class="quiz-feedback"></div>
+  </div>
+  <div class="quiz-q" data-correct="c" data-explain="Dugaan sementara merupakan jawaban awal yang perlu diperiksa menggunakan informasi atau bukti.">
+    <p>2. Dalam Inquiry Learning, dugaan sementara berfungsi untuk ...</p>
+    <label class="quiz-opt"><input type="radio" name="q2" value="a"> Menjadi jawaban akhir yang tidak perlu diperiksa</label>
+    <label class="quiz-opt"><input type="radio" name="q2" value="b"> Menggantikan seluruh data pengamatan</label>
+    <label class="quiz-opt"><input type="radio" name="q2" value="c"> Menjadi jawaban awal yang perlu diuji melalui penyelidikan</label>
+    <label class="quiz-opt"><input type="radio" name="q2" value="d"> Menghindari kegiatan pengumpulan informasi</label>
+    <div class="quiz-feedback"></div>
+  </div>
+  <div class="quiz-q" data-correct="c" data-explain="Analyzing Data merupakan tahap mengolah dan menafsirkan informasi yang telah dikumpulkan.">
+    <p>3. Tahap ketika siswa mengelompokkan dan membandingkan hasil pengamatan disebut ...</p>
+    <label class="quiz-opt"><input type="radio" name="q3" value="a"> Orientation</label>
+    <label class="quiz-opt"><input type="radio" name="q3" value="b"> Formulating Questions</label>
+    <label class="quiz-opt"><input type="radio" name="q3" value="c"> Analyzing Data</label>
+    <label class="quiz-opt"><input type="radio" name="q3" value="d"> Communicating Results</label>
+    <div class="quiz-feedback"></div>
+  </div>
+  <div class="quiz-q" data-correct="a" data-explain="Dalam Structured Inquiry, guru memberikan struktur berupa pertanyaan dan prosedur, sedangkan siswa menjalankan penyelidikan serta mempelajari hasilnya.">
+    <p>4. Dalam Structured Inquiry, siapa yang menentukan prosedur penyelidikan?</p>
+    <label class="quiz-opt"><input type="radio" name="q4" value="a"> Guru menyediakan pertanyaan dan prosedur penyelidikan</label>
+    <label class="quiz-opt"><input type="radio" name="q4" value="b"> Siswa menentukan seluruh prosedur tanpa arahan</label>
+    <label class="quiz-opt"><input type="radio" name="q4" value="c"> Orang tua menentukan hasil penyelidikan</label>
+    <label class="quiz-opt"><input type="radio" name="q4" value="d"> Siswa hanya menerima kesimpulan akhir</label>
+    <div class="quiz-feedback"></div>
+  </div>
+  <div class="quiz-q" data-correct="a" data-explain="Siswa menggunakan hasil pengamatan sebagai dasar untuk menyusun kesimpulan.">
+    <p>5. Seorang siswa menyimpulkan bahwa kantin merupakan lokasi dengan sampah terbanyak karena hasil pengamatannya menunjukkan jumlah sampah paling tinggi di lokasi tersebut. Tindakan siswa ini menunjukkan ...</p>
+    <label class="quiz-opt"><input type="radio" name="q5" value="a"> Menyusun kesimpulan berdasarkan bukti</label>
+    <label class="quiz-opt"><input type="radio" name="q5" value="b"> Membuat dugaan tanpa pemeriksaan</label>
+    <label class="quiz-opt"><input type="radio" name="q5" value="c"> Menghafalkan informasi dari buku</label>
+    <label class="quiz-opt"><input type="radio" name="q5" value="d"> Menghindari proses analisis data</label>
+    <div class="quiz-feedback"></div>
+  </div>
+  <button id="submitQuiz" class="print-btn" style="position:static;margin-top:1rem;">Kirim Jawaban</button>
+  <button id="retryQuiz" class="print-btn" style="position:static;margin-top:1rem;display:none;">Coba Lagi</button>
+  <div class="quiz-result" id="quizResult"></div>
+</div>
+
+<p><a href="../model-pembelajaran.html">← Kembali ke Katalog</a></p>
+
+        </article>
+      </div>
+    </div>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="footer-brand-name">BIANCA EDUSPACE</div>
+          <div class="footer-slogan">Inspire to Learn, Empower to Grow</div>
+          <p class="footer-text">Ruang edukasi untuk belajar, berkarya, dan berkembang bersama.</p>
+        </div>
+        <div>
+          <div class="footer-heading">Navigasi</div>
+          <ul class="footer-list">
+            <li><a href="../index.html">Beranda</a></li>
+            <li><a href="../model-pembelajaran.html">Model Pembelajaran</a></li>
+            <li><a href="../metode-pembelajaran.html">Metode Pembelajaran</a></li>
+            <li><a href="../panduan-mengajar.html">Panduan Mengajar</a></li>
+            <li><a href="../tentang-kami.html">Tentang Kami</a></li>
+          </ul>
+        </div>
+        <div>
+          <div class="footer-heading">Informasi</div>
+          <ul class="footer-list">
+            <li><a href="../tentang-kami.html">Tentang Bianca EduSpace</a></li>
+            <li><a href="../tentang-kami.html">Visi dan Misi</a></li>
+            <li><a href="../tentang-kami.html">Tujuan Pendidikan</a></li>
+          </ul>
+        </div>
+        <div>
+          <div class="footer-heading">Brand Statement</div>
+          <p class="footer-statement">Creative Learning. Innovative Education. Collaborative Growth.</p>
+        </div>
+      </div>
+      <div class="footer-bottom">© 2026 BIANCA EDUSPACE. All Rights Reserved.</div>
+    </div>
+  </footer>
+  <button id="backToTop" class="back-to-top" aria-label="Kembali ke atas">↑</button>
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script src="../script.js" defer></script>
+  <script>
+    (function () {
+      const submit = document.getElementById('submitQuiz');
+      const retry = document.getElementById('retryQuiz');
+      const result = document.getElementById('quizResult');
+      const qs = document.querySelectorAll('.quiz-q');
+
+      function grade() {
+        let score = 0;
+        qs.forEach((q, i) => {
+          const name = 'q' + (i + 1);
+          const sel = document.querySelector('input[name="' + name + '"]:checked');
+          const fb = q.querySelector('.quiz-feedback');
+          const correct = q.dataset.correct;
+          if (sel && sel.value === correct) {
+            score++;
+            fb.textContent = 'Benar. ' + q.dataset.explain;
+            fb.className = 'quiz-feedback ok';
+          } else {
+            fb.textContent = 'Salah. Jawaban benar: ' + correct.toUpperCase() + '. ' + q.dataset.explain;
+            fb.className = 'quiz-feedback err';
+          }
+        });
+        const pct = Math.round((score / qs.length) * 100);
+        result.textContent = 'Skor: ' + score + ' / ' + qs.length + ' (' + pct + '/100)';
+        retry.style.display = 'inline-block';
+      }
+
+      function reset() {
+        qs.forEach(q => {
+          q.querySelectorAll('input[type="radio"]').forEach(r => r.checked = false);
+          const fb = q.querySelector('.quiz-feedback');
+          if (fb) { fb.textContent = ''; fb.className = 'quiz-feedback'; }
+        });
+        result.textContent = '';
+        retry.style.display = 'none';
+      }
+
+      submit.addEventListener('click', grade);
+      retry.addEventListener('click', reset);
+    })();
+
+    window.addEventListener('scroll', () => {
+      const h = document.documentElement;
+      const pct = (h.scrollTop / (h.scrollHeight - h.clientHeight)) * 100;
+      document.getElementById('progressBar').style.width = pct + '%';
+    }, { passive: true });
+    const btn = document.getElementById('backToTop');
+    if (btn) { window.addEventListener('scroll', () => btn.classList.toggle('show', window.scrollY > 300), { passive: true }); btn.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' })); }
+  </script>
+</body>
+</html>

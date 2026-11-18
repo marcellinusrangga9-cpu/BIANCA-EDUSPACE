@@ -1,0 +1,694 @@
+﻿<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Metode Kerja Kelompok (Group Work) — BIANCA EDUSPACE</title>
+  <meta name="description" content="Materi mendalam Metode Kerja Kelompok untuk guru dan calon guru SD." />
+  <link rel="icon" type="image/png" href="../images/logo-bianca.jpg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../style.css" />
+  <link rel="stylesheet" href="../css/model-pembelajaran.css" />
+  <style>
+    .progress-bar { position: fixed; top: 0; left: 0; height: 4px; width: 0; background: linear-gradient(90deg,#2585F5,#38BDF8); z-index: 200; transition: width .1s; }
+    .quiz-box { background:#f5f8fd; padding:1.5rem; border-radius:.75rem; margin-top:1.5rem; }
+    .quiz-q { margin-bottom:1.25rem; }
+    .quiz-opt { display:block; margin:.4rem 0; }
+    .quiz-result { margin-top:1rem; font-weight:600; color:#1646A0; }
+    .print-btn { position:fixed; bottom:80px; right:24px; background:#1646A0; color:#fff; border:none; border-radius:999px; padding:.6rem 1rem; cursor:pointer; z-index:150; }
+    table { width:100%; border-collapse:collapse; margin:1rem 0; font-size:.9rem; }
+    th,td { border:1px solid rgba(7,21,46,.1); padding:.6rem; vertical-align:top; }
+    th { background:#1646A0; color:#fff; }
+    .quiz-feedback { margin-top:.5rem; font-size:.9rem; }
+    .quiz-feedback.ok { color:#16a34a; }
+    .quiz-feedback.err { color:#dc2626; }
+  </style>
+</head>
+<body>
+  <div class="progress-bar" id="progressBar"></div>
+  <header class="site-header">
+    <div class="container navbar">
+      <a class="brand" href="../index.html">
+        <img class="brand-logo" src="../images/logo-bianca.jpg" alt="Logo BIANCA EDUSPACE" />
+        <span class="brand-name">BIANCA EDUSPACE</span>
+      </a>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+      </button>
+      <nav class="nav-menu" aria-label="Main navigation">
+        <a class="nav-link" href="../index.html">Beranda</a>
+        <a class="nav-link" href="../model-pembelajaran.html">Model Pembelajaran</a>
+        <a class="nav-link" href="../metode-pembelajaran.html">Metode Pembelajaran</a>
+        <a class="nav-link" href="../panduan-mengajar.html">Panduan Mengajar</a>
+        <a class="nav-link" href="../tentang-kami.html">Tentang Kami</a>
+      </nav>
+    </div>
+  </header>
+  <main class="page-content">
+    <div class="container">
+      <nav class="breadcrumb" aria-label="Breadcrumb">
+        <a href="../index.html">Beranda</a> / <a href="../metode-pembelajaran.html">Metode Pembelajaran</a> / Metode Kerja Kelompok
+      </nav>
+      <h1 class="page-title">Metode Kerja Kelompok (Group Work)</h1>
+      <p class="page-desc">Kerja sama kelompok untuk menyelesaikan tugas bersama.</p>
+
+      <div class="detail-layout">
+        <aside class="detail-toc">
+          <div class="footer-heading">Daftar Isi</div>
+          <ul class="footer-list">
+            <li><a href="#a">A. Pengenalan</a></li>
+            <li><a href="#b">B. Landasan Konseptual</a></li>
+            <li><a href="#c">C. Tujuan dan Manfaat</a></li>
+            <li><a href="#d">D. Karakteristik dan Prinsip</a></li>
+            <li><a href="#e">E. Jenis dan Variasi</a></li>
+            <li><a href="#f">F. Langkah Langkah</a></li>
+            <li><a href="#g">G. Kelebihan dan Keterbatasan</a></li>
+            <li><a href="#h">H. Penerapan di SD</a></li>
+            <li><a href="#i">I. Rancangan Pembelajaran</a></li>
+            <li><a href="#j">J. Penilaian</a></li>
+            <li><a href="#k">K. Kesalahan Umum</a></li>
+            <li><a href="#l">L. Adaptasi</a></li>
+            <li><a href="#m">M. Refleksi dan Diskusi</a></li>
+            <li><a href="#n">N. Penutup</a></li>
+            <li><a href="#quiz">Uji Pemahaman</a></li>
+          </ul>
+        </aside>
+        <article class="detail-content">
+
+          <h2 id="a">A. Pengenalan Metode Kerja Kelompok</h2>
+          <h3>1. Pengertian Metode Kerja Kelompok</h3>
+          <p>Metode kerja kelompok merupakan metode pembelajaran yang melibatkan sejumlah peserta didik untuk bekerja bersama dalam menyelesaikan tugas, memecahkan masalah, menghasilkan suatu karya, atau mencapai tujuan pembelajaran yang telah ditentukan.</p>
+          <p>Dalam metode ini, siswa dibagi menjadi beberapa kelompok dengan anggota dan tugas tertentu. Setiap anggota memiliki kesempatan untuk memberikan kontribusi sesuai kemampuan dan tanggung jawabnya.</p>
+          <p>Kerja kelompok tidak hanya berarti mengumpulkan beberapa siswa dalam satu tempat. Kegiatan tersebut perlu dirancang agar setiap anggota terlibat secara aktif, saling membantu, dan memiliki tanggung jawab terhadap hasil pekerjaan kelompok.</p>
+          <p>Sebagai contoh, dalam pembelajaran IPAS tentang lingkungan, guru membagi siswa menjadi beberapa kelompok. Setiap kelompok diminta mengamati kondisi lingkungan sekolah, mencatat permasalahan yang ditemukan, mengelompokkan hasil pengamatan, dan menyusun usulan menjaga kebersihan lingkungan.</p>
+          <p>Dalam kegiatan tersebut, siswa dapat berbagi tugas sebagai pengamat, pencatat, penyusun laporan, dan penyaji hasil. Semua anggota bekerja untuk menghasilkan satu tujuan bersama.</p>
+          <h3>2. Hakikat Metode Kerja Kelompok</h3>
+          <p>Hakikat metode kerja kelompok terletak pada proses belajar melalui kolaborasi dan tanggung jawab bersama.</p>
+          <p>Siswa tidak hanya bertanggung jawab terhadap tugasnya sendiri, tetapi juga belajar memahami bahwa kontribusi setiap anggota berpengaruh terhadap keberhasilan kelompok.</p>
+          <p>Metode ini memberikan kesempatan kepada siswa untuk mengembangkan kemampuan bekerja sama, mengatur tugas, menyelesaikan perbedaan, dan menghargai kemampuan anggota lainnya.</p>
+          <p>Keberhasilan kerja kelompok tidak seharusnya hanya ditentukan oleh hasil akhir. Proses keterlibatan, pembagian tanggung jawab, komunikasi, dan kontribusi setiap anggota juga menjadi bagian penting dari pembelajaran.</p>
+          <h3>3. Peran Guru dan Siswa</h3>
+          <p><strong>Peran guru:</strong></p>
+          <ul class="detail-list">
+            <li>Menentukan tujuan pembelajaran dan tugas kelompok.</li>
+            <li>Menentukan jumlah anggota serta komposisi kelompok.</li>
+            <li>Menjelaskan prosedur dan hasil yang diharapkan.</li>
+            <li>Membantu kelompok membagi tanggung jawab.</li>
+            <li>Mengamati proses kerja setiap kelompok.</li>
+            <li>Memberikan bimbingan ketika muncul kesulitan.</li>
+            <li>Memastikan semua anggota memperoleh kesempatan berkontribusi.</li>
+            <li>Melakukan penilaian terhadap proses dan hasil kerja.</li>
+          </ul>
+          <p><strong>Peran siswa:</strong></p>
+          <ul class="detail-list">
+            <li>Memahami tujuan dan tugas kelompok.</li>
+            <li>Berpartisipasi sesuai tanggung jawab.</li>
+            <li>Membantu anggota yang mengalami kesulitan.</li>
+            <li>Menghargai pendapat dan kemampuan teman.</li>
+            <li>Menyelesaikan tugas sesuai kesepakatan.</li>
+            <li>Menjaga komunikasi dan kerja sama.</li>
+            <li>Bertanggung jawab terhadap hasil pekerjaan kelompok.</li>
+          </ul>
+
+          <h2 id="b">B. Landasan Konseptual Metode Kerja Kelompok</h2>
+          <p>Metode kerja kelompok dapat dikembangkan berdasarkan beberapa prinsip pembelajaran berikut.</p>
+          <h3>1. Pembelajaran Kolaboratif</h3>
+          <p>Siswa belajar bersama dengan saling memberikan kontribusi untuk menyelesaikan tugas. Setiap anggota memiliki kesempatan untuk berbagi pengetahuan, keterampilan, dan pengalaman.</p>
+          <h3>2. Ketergantungan Positif</h3>
+          <p>Keberhasilan kelompok berkaitan dengan kontribusi setiap anggotanya. Siswa belajar bahwa tujuan bersama dapat dicapai melalui kerja sama, bukan hanya usaha satu orang.</p>
+          <h3>3. Tanggung Jawab Individu</h3>
+          <p>Meskipun bekerja dalam kelompok, setiap siswa tetap memiliki tanggung jawab pribadi. Pembagian tugas harus jelas agar tidak ada anggota yang hanya bergantung pada pekerjaan teman.</p>
+          <h3>4. Interaksi Sosial</h3>
+          <p>Kegiatan kelompok memberikan kesempatan kepada siswa untuk berkomunikasi, saling membantu, menghargai perbedaan, dan membangun hubungan positif.</p>
+          <h3>5. Refleksi Kelompok</h3>
+          <p>Setelah menyelesaikan tugas, siswa perlu mengevaluasi proses kerja sama. Mereka dapat membahas hal yang sudah berjalan baik dan bagian yang perlu diperbaiki.</p>
+
+          <h2 id="c">C. Tujuan dan Manfaat Metode Kerja Kelompok</h2>
+          <h3>1. Tujuan</h3>
+          <p>Metode kerja kelompok bertujuan untuk:</p>
+          <ol class="detail-list">
+            <li>Mengembangkan kemampuan bekerja sama dalam mencapai tujuan bersama.</li>
+            <li>Melatih tanggung jawab terhadap tugas individu dan kelompok.</li>
+            <li>Mengembangkan kemampuan berkomunikasi.</li>
+            <li>Membiasakan siswa menghargai perbedaan kemampuan dan pendapat.</li>
+            <li>Melatih kemampuan mengatur dan membagi pekerjaan.</li>
+            <li>Mengembangkan keterampilan menyelesaikan masalah.</li>
+            <li>Mendorong keterlibatan aktif seluruh anggota.</li>
+            <li>Mengembangkan kemandirian dalam menyelesaikan tugas bersama.</li>
+          </ol>
+          <h3>2. Manfaat bagi Siswa</h3>
+          <p><strong>Manfaat kognitif:</strong></p>
+          <ul class="detail-list">
+            <li>Memperluas pemahaman melalui pertukaran pengetahuan.</li>
+            <li>Melatih kemampuan menganalisis tugas.</li>
+            <li>Membantu siswa menemukan berbagai cara penyelesaian.</li>
+            <li>Mengembangkan kemampuan berpikir kritis.</li>
+          </ul>
+          <p><strong>Manfaat afektif:</strong></p>
+          <ul class="detail-list">
+            <li>Menumbuhkan rasa tanggung jawab.</li>
+            <li>Mengembangkan kepedulian terhadap teman.</li>
+            <li>Meningkatkan sikap toleransi.</li>
+            <li>Melatih kesabaran dan saling menghargai.</li>
+            <li>Membangun rasa memiliki terhadap hasil bersama.</li>
+          </ul>
+          <p><strong>Manfaat keterampilan:</strong></p>
+          <ul class="detail-list">
+            <li>Melatih komunikasi dan koordinasi.</li>
+            <li>Mengembangkan kemampuan membagi tugas.</li>
+            <li>Melatih pengelolaan waktu.</li>
+            <li>Mengembangkan keterampilan menyelesaikan masalah.</li>
+            <li>Meningkatkan kemampuan menyampaikan hasil kerja.</li>
+          </ul>
+
+          <h2 id="d">D. Karakteristik dan Prinsip Metode Kerja Kelompok</h2>
+          <h3>1. Karakteristik</h3>
+          <p><strong>a. Terdapat tujuan bersama</strong></p>
+          <p>Setiap kelompok bekerja untuk mencapai hasil yang telah ditentukan.</p>
+          <p><strong>b. Memiliki pembagian tugas</strong></p>
+          <p>Anggota kelompok memperoleh tanggung jawab yang jelas sesuai kebutuhan kegiatan.</p>
+          <p><strong>c. Melibatkan interaksi antaranggota</strong></p>
+          <p>Siswa saling berkomunikasi, memberikan bantuan, dan mengoordinasikan pekerjaan.</p>
+          <p><strong>d. Mengembangkan tanggung jawab individu</strong></p>
+          <p>Setiap siswa memiliki kontribusi yang harus dipenuhi.</p>
+          <p><strong>e. Menghasilkan suatu pekerjaan</strong></p>
+          <p>Kegiatan dapat menghasilkan laporan, karya, presentasi, penyelesaian masalah, atau bentuk hasil lainnya.</p>
+          <p><strong>f. Memerlukan pengelolaan kelompok</strong></p>
+          <p>Anggota perlu mengatur waktu, tugas, perlengkapan, dan proses penyelesaian pekerjaan.</p>
+          <p><strong>g. Memerlukan evaluasi bersama</strong></p>
+          <p>Kelompok perlu meninjau hasil dan proses kerja sama yang telah dilakukan.</p>
+          <h3>2. Prinsip Pelaksanaan</h3>
+          <ul class="detail-list">
+            <li>Tugas harus sesuai dengan tujuan pembelajaran.</li>
+            <li>Jumlah anggota disesuaikan dengan kebutuhan kegiatan.</li>
+            <li>Pembagian tanggung jawab harus jelas.</li>
+            <li>Semua anggota memperoleh kesempatan berpartisipasi.</li>
+            <li>Tugas tidak boleh hanya dikerjakan oleh satu orang.</li>
+            <li>Guru perlu memperhatikan dinamika kelompok.</li>
+            <li>Hasil kerja dan kontribusi individu perlu dinilai secara seimbang.</li>
+            <li>Kelompok perlu diberikan kesempatan melakukan refleksi.</li>
+          </ul>
+
+          <h2 id="e">E. Jenis dan Variasi Metode Kerja Kelompok</h2>
+          <h3>1. Kelompok Kecil</h3>
+          <p>Siswa dibagi menjadi kelompok dengan jumlah anggota relatif sedikit agar interaksi dan pembagian tugas lebih mudah dilakukan.</p>
+          <p><strong>Contoh:</strong> Kelompok beranggotakan empat siswa mengerjakan lembar pengamatan bagian tumbuhan.</p>
+          <h3>2. Kelompok Besar</h3>
+          <p>Beberapa siswa bekerja dalam satu kelompok dengan pembagian tugas yang lebih terstruktur.</p>
+          <p><strong>Contoh:</strong> Satu kelompok kelas menyusun proyek pameran hasil karya dengan bagian pekerjaan yang berbeda.</p>
+          <h3>3. Kelompok Berdasarkan Minat</h3>
+          <p>Siswa dikelompokkan berdasarkan ketertarikan terhadap topik atau aktivitas tertentu.</p>
+          <p><strong>Contoh:</strong> Siswa memilih kelompok yang membuat poster, model sederhana, atau laporan tentang lingkungan.</p>
+          <h3>4. Kelompok Heterogen</h3>
+          <p>Kelompok terdiri atas siswa dengan kemampuan, karakter, atau pengalaman yang beragam.</p>
+          <p><strong>Contoh:</strong> Siswa dengan kemampuan yang berbeda bekerja bersama membuat karya tentang sumber energi.</p>
+          <h3>5. Kelompok Homogen</h3>
+          <p>Anggota kelompok memiliki karakteristik atau tingkat kemampuan yang relatif serupa sesuai tujuan kegiatan.</p>
+          <p><strong>Contoh:</strong> Guru membentuk kelompok latihan berdasarkan kebutuhan belajar untuk memberikan pendampingan yang lebih terarah.</p>
+          <h3>6. Kelompok Berdasarkan Pembagian Tugas</h3>
+          <p>Setiap anggota memiliki tanggung jawab khusus yang saling melengkapi.</p>
+          <p><strong>Contoh:</strong> Dalam kegiatan membuat laporan, satu siswa bertugas mengamati, satu mencatat, satu menyusun gambar, dan satu mempresentasikan hasil.</p>
+          <h3>7. Kelompok Berbasis Produk</h3>
+          <p>Siswa bekerja sama menghasilkan suatu karya atau produk pembelajaran.</p>
+          <p><strong>Contoh:</strong> Membuat poster hemat energi, model ekosistem sederhana, atau majalah dinding kelas.</p>
+
+          <h2 id="f">F. Langkah Langkah Pelaksanaan Metode Kerja Kelompok</h2>
+          <h3>1. Tahap Perencanaan</h3>
+          <p>Guru:</p>
+          <ul class="detail-list">
+            <li>Menentukan tujuan pembelajaran.</li>
+            <li>Memilih tugas yang sesuai.</li>
+            <li>Menentukan jumlah anggota kelompok.</li>
+            <li>Menyiapkan bahan dan alat.</li>
+            <li>Menentukan waktu pengerjaan.</li>
+            <li>Menyusun kriteria penilaian.</li>
+          </ul>
+          <h3>2. Tahap Pembentukan Kelompok</h3>
+          <p>Guru membagi siswa ke dalam kelompok sesuai kebutuhan pembelajaran.</p>
+          <p>Pembagian kelompok perlu mempertimbangkan jumlah siswa, karakteristik, kemampuan, serta pemerataan kesempatan belajar.</p>
+          <h3>3. Tahap Penjelasan Tugas</h3>
+          <p>Guru menjelaskan:</p>
+          <ul class="detail-list">
+            <li>Tujuan kegiatan.</li>
+            <li>Bentuk hasil yang diharapkan.</li>
+            <li>Langkah pengerjaan.</li>
+            <li>Pembagian tanggung jawab.</li>
+            <li>Batas waktu.</li>
+            <li>Kriteria penilaian.</li>
+          </ul>
+          <h3>4. Tahap Pembagian Tanggung Jawab</h3>
+          <p>Setiap kelompok menentukan pembagian pekerjaan.</p>
+          <p>Contohnya:</p>
+          <ul class="detail-list">
+            <li>Ketua kelompok mengoordinasikan pekerjaan.</li>
+            <li>Pencatat menuliskan hasil.</li>
+            <li>Pengamat mengumpulkan informasi.</li>
+            <li>Penyusun menata hasil pekerjaan.</li>
+            <li>Penyaji menyampaikan hasil kelompok.</li>
+          </ul>
+          <p>Peran dapat dipertukarkan sesuai kebutuhan agar setiap siswa memperoleh pengalaman yang beragam.</p>
+          <h3>5. Tahap Pelaksanaan Kerja Kelompok</h3>
+          <p>Siswa mulai menyelesaikan tugas berdasarkan kesepakatan.</p>
+          <p>Guru berkeliling untuk:</p>
+          <ul class="detail-list">
+            <li>Mengamati proses kerja.</li>
+            <li>Memberikan bimbingan.</li>
+            <li>Membantu kelompok yang mengalami kesulitan.</li>
+            <li>Mengingatkan siswa yang kurang terlibat.</li>
+            <li>Memastikan pekerjaan sesuai tujuan.</li>
+          </ul>
+          <h3>6. Tahap Penyampaian Hasil</h3>
+          <p>Setiap kelompok menyampaikan hasil pekerjaannya melalui presentasi, laporan, demonstrasi, pameran karya, atau bentuk lain yang sesuai.</p>
+          <h3>7. Tahap Evaluasi dan Refleksi</h3>
+          <p>Guru bersama siswa menilai hasil dan proses kegiatan.</p>
+          <p>Kelompok dapat mengevaluasi:</p>
+          <ul class="detail-list">
+            <li>Apakah tugas selesai sesuai tujuan?</li>
+            <li>Apakah semua anggota berkontribusi?</li>
+            <li>Apakah pembagian tugas berjalan baik?</li>
+            <li>Kesulitan apa yang muncul?</li>
+            <li>Bagaimana cara memperbaiki kerja sama?</li>
+          </ul>
+
+          <h2 id="g">G. Kelebihan dan Keterbatasan Metode Kerja Kelompok</h2>
+          <h3>1. Kelebihan</h3>
+          <p><strong>a. Mengembangkan kemampuan kolaborasi</strong></p>
+          <p>Siswa belajar mencapai tujuan melalui kontribusi bersama.</p>
+          <p><strong>b. Melatih tanggung jawab</strong></p>
+          <p>Setiap anggota belajar memenuhi tugas yang telah disepakati.</p>
+          <p><strong>c. Memperluas pemahaman</strong></p>
+          <p>Siswa dapat memperoleh pengetahuan dan cara pandang dari teman.</p>
+          <p><strong>d. Mengembangkan keterampilan sosial</strong></p>
+          <p>Kegiatan membantu siswa berlatih berkomunikasi, menghargai perbedaan, dan saling membantu.</p>
+          <p><strong>e. Meningkatkan keterlibatan</strong></p>
+          <p>Siswa memiliki kesempatan untuk berperan aktif dalam proses pembelajaran.</p>
+          <p><strong>f. Mengembangkan kreativitas</strong></p>
+          <p>Anggota kelompok dapat menggabungkan gagasan untuk menghasilkan karya.</p>
+          <p><strong>g. Melatih penyelesaian masalah</strong></p>
+          <p>Siswa belajar menghadapi kendala dan mencari jalan keluar bersama.</p>
+          <h3>2. Keterbatasan</h3>
+          <p><strong>a. Kontribusi anggota tidak selalu merata</strong></p>
+          <p>Sebagian siswa dapat terlalu dominan, sedangkan anggota lainnya kurang terlibat.</p>
+          <p><strong>b. Membutuhkan waktu</strong></p>
+          <p>Proses koordinasi dan penyelesaian tugas dapat membutuhkan waktu lebih panjang.</p>
+          <p><strong>c. Berpotensi terjadi konflik</strong></p>
+          <p>Perbedaan pendapat dan kebiasaan kerja dapat menimbulkan perselisihan.</p>
+          <p><strong>d. Membutuhkan pengawasan guru</strong></p>
+          <p>Guru harus memastikan seluruh kelompok bekerja sesuai tujuan.</p>
+          <p><strong>e. Penilaian individu lebih menantang</strong></p>
+          <p>Hasil kelompok belum tentu menggambarkan kemampuan setiap anggota.</p>
+          <h3>3. Upaya Mengatasi Keterbatasan</h3>
+          <ul class="detail-list">
+            <li>Tentukan tugas setiap anggota secara jelas.</li>
+            <li>Berikan kesempatan bergantian memegang tanggung jawab.</li>
+            <li>Tetapkan aturan kerja kelompok.</li>
+            <li>Gunakan batas waktu yang realistis.</li>
+            <li>Pantau kontribusi setiap siswa.</li>
+            <li>Sediakan penilaian individu dan kelompok.</li>
+            <li>Bantu siswa menyelesaikan perbedaan secara positif.</li>
+          </ul>
+
+          <h2 id="h">H. Penerapan Metode Kerja Kelompok di Sekolah Dasar</h2>
+          <h3>1. Bahasa Indonesia</h3>
+          <p><strong>Materi:</strong> Menyusun teks deskripsi.</p>
+          <p><strong>Kegiatan:</strong> Siswa bekerja dalam kelompok untuk mengamati suatu objek, mengumpulkan kosakata, dan menyusun teks deskripsi bersama.</p>
+          <p><strong>Tujuan:</strong> Mengembangkan kemampuan mengamati, menyusun kalimat, dan bekerja sama.</p>
+          <h3>2. Matematika</h3>
+          <p><strong>Materi:</strong> Bangun datar.</p>
+          <p><strong>Kegiatan:</strong> Setiap kelompok mengidentifikasi bentuk bangun datar pada benda di lingkungan kelas dan menyusun daftar hasil pengamatan.</p>
+          <p><strong>Tujuan:</strong> Memahami karakteristik bangun datar melalui pengamatan bersama.</p>
+          <h3>3. IPAS</h3>
+          <p><strong>Materi:</strong> Ekosistem.</p>
+          <p><strong>Kegiatan:</strong> Kelompok membuat model sederhana hubungan antara makhluk hidup dan lingkungannya.</p>
+          <p><strong>Tujuan:</strong> Memahami hubungan antarkomponen ekosistem serta mengembangkan keterampilan kolaborasi.</p>
+          <h3>4. Pendidikan Pancasila</h3>
+          <p><strong>Materi:</strong> Hak, kewajiban, dan tanggung jawab.</p>
+          <p><strong>Kegiatan:</strong> Siswa membuat kesepakatan kelas dan menyusun pembagian tugas menjaga kebersihan.</p>
+          <p><strong>Tujuan:</strong> Mengembangkan rasa tanggung jawab dan kesadaran hidup bersama.</p>
+          <h3>5. Seni Budaya</h3>
+          <p><strong>Materi:</strong> Karya seni rupa.</p>
+          <p><strong>Kegiatan:</strong> Siswa membuat poster kelompok bertema menjaga lingkungan sekolah.</p>
+          <p><strong>Tujuan:</strong> Mengembangkan kreativitas, koordinasi, dan kemampuan menghasilkan karya bersama.</p>
+          <h3>6. Pendidikan Jasmani, Olahraga, dan Kesehatan</h3>
+          <p><strong>Materi:</strong> Permainan sederhana.</p>
+          <p><strong>Kegiatan:</strong> Siswa bekerja dalam kelompok menyelesaikan permainan yang membutuhkan koordinasi dan kerja sama.</p>
+          <p><strong>Tujuan:</strong> Melatih kekompakan, komunikasi, dan sikap sportif.</p>
+
+          <h2 id="i">I. Contoh Rancangan Pembelajaran dengan Metode Kerja Kelompok</h2>
+          <p><strong>Membuat Poster tentang Menjaga Lingkungan Sekolah</strong></p>
+          <p><strong>Identitas pembelajaran:</strong></p>
+          <p>Mata pelajaran: IPAS</p>
+          <p>Jenjang: Sekolah Dasar</p>
+          <p>Kelas: IV</p>
+          <p>Materi: Menjaga lingkungan</p>
+          <p>Metode: Kerja Kelompok</p>
+          <p>Alokasi waktu: 2 x 35 menit</p>
+          <p><strong>1. Tujuan Pembelajaran</strong></p>
+          <p>Setelah mengikuti kegiatan, siswa diharapkan mampu:</p>
+          <ol class="detail-list">
+            <li>Mengidentifikasi permasalahan kebersihan lingkungan sekolah.</li>
+            <li>Menjelaskan pentingnya menjaga kebersihan.</li>
+            <li>Mengembangkan gagasan untuk mengatasi permasalahan lingkungan.</li>
+            <li>Bekerja sama dalam menghasilkan poster.</li>
+            <li>Menunjukkan tanggung jawab terhadap tugas kelompok.</li>
+          </ol>
+          <p><strong>2. Alat dan Bahan</strong></p>
+          <ul class="detail-list">
+            <li>Kertas gambar atau karton.</li>
+            <li>Pensil dan penghapus.</li>
+            <li>Spidol atau pensil warna.</li>
+            <li>Penggaris.</li>
+            <li>Gambar pendukung jika tersedia.</li>
+          </ul>
+          <p><strong>3. Pembentukan Kelompok</strong></p>
+          <p>Guru membagi siswa menjadi beberapa kelompok dengan jumlah sekitar empat sampai lima siswa.</p>
+          <p>Setiap kelompok menentukan pembagian tugas berdasarkan kebutuhan.</p>
+          <p>Contoh pembagian:</p>
+          <ul class="detail-list">
+            <li>Ketua kelompok: Mengatur koordinasi.</li>
+            <li>Pengamat: Mengidentifikasi permasalahan lingkungan.</li>
+            <li>Penulis: Menyusun pesan poster.</li>
+            <li>Ilustrator: Membuat gambar.</li>
+            <li>Penyaji: Menjelaskan hasil karya.</li>
+          </ul>
+          <p>Satu siswa dapat membantu lebih dari satu pekerjaan jika diperlukan. Pembagian tersebut tidak boleh membuat anggota lain kehilangan kesempatan berkontribusi.</p>
+          <p><strong>4. Pelaksanaan Kegiatan</strong></p>
+          <p><strong>Kegiatan pendahuluan</strong></p>
+          <p>Guru mengajak siswa mengamati kondisi lingkungan sekolah dan membahas kebiasaan menjaga kebersihan.</p>
+          <p><strong>Kegiatan inti</strong></p>
+          <ol class="detail-list">
+            <li>Guru menjelaskan tujuan dan aturan kerja kelompok.</li>
+            <li>Siswa membentuk kelompok.</li>
+            <li>Setiap kelompok mengamati permasalahan kebersihan.</li>
+            <li>Anggota kelompok bertukar gagasan.</li>
+            <li>Kelompok memilih pesan utama poster.</li>
+            <li>Anggota membagi tugas pembuatan poster.</li>
+            <li>Siswa menyusun gambar dan tulisan.</li>
+            <li>Kelompok menyelesaikan poster.</li>
+            <li>Setiap kelompok mempresentasikan hasilnya.</li>
+          </ol>
+          <p><strong>Kegiatan penutup</strong></p>
+          <p>Guru memberikan umpan balik terhadap hasil karya dan proses kerja sama. Siswa kemudian menyampaikan hal yang dipelajari dari kegiatan.</p>
+          <p><strong>5. Contoh Lembar Kerja Kelompok</strong></p>
+          <p><strong>Nama kelompok:</strong> ....................................</p>
+          <p><strong>Anggota:</strong> ....................................</p>
+          <p><strong>Tema:</strong> Menjaga Lingkungan Sekolah</p>
+          <p>Jawablah pertanyaan berikut bersama kelompok:</p>
+          <ol class="detail-list">
+            <li>Permasalahan kebersihan apa yang ditemukan di lingkungan sekolah?</li>
+            <li>Apa penyebab permasalahan tersebut?</li>
+            <li>Bagaimana cara mengatasinya?</li>
+            <li>Pesan apa yang ingin disampaikan melalui poster?</li>
+            <li>Bagaimana pembagian tugas setiap anggota?</li>
+          </ol>
+          <p><strong>Hasil pekerjaan:</strong> Poster ajakan menjaga kebersihan lingkungan sekolah.</p>
+          <p><strong>6. Penilaian</strong></p>
+          <p><strong>Pengetahuan:</strong></p>
+          <ul class="detail-list">
+            <li>Kemampuan mengidentifikasi permasalahan lingkungan.</li>
+            <li>Pemahaman tentang pentingnya kebersihan.</li>
+            <li>Ketepatan gagasan yang disampaikan.</li>
+          </ul>
+          <p><strong>Keterampilan:</strong></p>
+          <ul class="detail-list">
+            <li>Kemampuan menyusun poster.</li>
+            <li>Kemampuan menyampaikan hasil.</li>
+            <li>Kemampuan bekerja sesuai pembagian tugas.</li>
+          </ul>
+          <p><strong>Sikap:</strong></p>
+          <ul class="detail-list">
+            <li>Tanggung jawab.</li>
+            <li>Kerja sama.</li>
+            <li>Menghargai pendapat.</li>
+            <li>Kepedulian terhadap lingkungan.</li>
+          </ul>
+          <p><strong>7. Rubrik Penilaian</strong></p>
+          <table>
+            <tr><th>Aspek</th><th>4 (Sangat Baik)</th><th>3 (Baik)</th><th>2 (Cukup)</th><th>1 (Perlu Bimbingan)</th></tr>
+            <tr><td>Partisipasi</td><td>Aktif memberikan kontribusi</td><td>Berkontribusi dengan baik</td><td>Kurang aktif</td><td>Belum menunjukkan kontribusi</td></tr>
+            <tr><td>Tanggung jawab</td><td>Menyelesaikan tugas secara mandiri dan tepat waktu</td><td>Menyelesaikan tugas dengan sedikit arahan</td><td>Membutuhkan beberapa arahan</td><td>Belum menyelesaikan tugas</td></tr>
+            <tr><td>Kerja sama</td><td>Aktif membantu seluruh anggota</td><td>Bekerja sama dengan baik</td><td>Masih perlu diarahkan</td><td>Belum menunjukkan kerja sama</td></tr>
+            <tr><td>Hasil karya</td><td>Pesan jelas, kreatif, dan sesuai tema</td><td>Sesuai tema dan cukup jelas</td><td>Kurang lengkap</td><td>Belum sesuai tujuan</td></tr>
+          </table>
+
+          <h2 id="j">J. Penilaian dalam Metode Kerja Kelompok</h2>
+          <p>Penilaian harus memperhatikan hasil kelompok sekaligus kontribusi masing-masing anggota.</p>
+          <h3>1. Penilaian Pengetahuan</h3>
+          <p>Mengukur pemahaman siswa terhadap materi yang dikerjakan.</p>
+          <p>Bentuk penilaian:</p>
+          <ul class="detail-list">
+            <li>Pertanyaan lisan.</li>
+            <li>Tes tertulis.</li>
+            <li>Lembar kerja.</li>
+            <li>Penjelasan hasil pekerjaan.</li>
+          </ul>
+          <h3>2. Penilaian Keterampilan</h3>
+          <p>Mengamati kemampuan siswa dalam melaksanakan tugas.</p>
+          <p>Aspek yang dinilai:</p>
+          <ul class="detail-list">
+            <li>Kemampuan menyelesaikan tugas.</li>
+            <li>Ketepatan penggunaan alat dan bahan.</li>
+            <li>Kemampuan menyusun hasil kerja.</li>
+            <li>Kemampuan mempresentasikan hasil.</li>
+          </ul>
+          <h3>3. Penilaian Sikap</h3>
+          <p>Mengamati perilaku siswa selama bekerja.</p>
+          <p>Aspek yang dinilai:</p>
+          <ul class="detail-list">
+            <li>Tanggung jawab.</li>
+            <li>Kerja sama.</li>
+            <li>Kepedulian.</li>
+            <li>Kedisiplinan.</li>
+            <li>Sikap menghargai teman.</li>
+          </ul>
+          <h3>4. Penilaian Individu dan Kelompok</h3>
+          <p>Penilaian individu digunakan untuk mengetahui kontribusi setiap siswa, sedangkan penilaian kelompok digunakan untuk mengetahui kualitas hasil bersama.</p>
+          <p>Guru dapat menggabungkan:</p>
+          <ul class="detail-list">
+            <li>Observasi selama kegiatan.</li>
+            <li>Penilaian produk.</li>
+            <li>Penilaian presentasi.</li>
+            <li>Refleksi individu.</li>
+            <li>Penilaian antarteman secara sederhana.</li>
+          </ul>
+          <p><strong>Catatan:</strong> Nilai kelompok tidak boleh secara otomatis dianggap mencerminkan kemampuan semua anggota. Guru tetap perlu mengamati keterlibatan setiap siswa.</p>
+
+          <h2 id="k">K. Kesalahan Umum dalam Penerapan Metode Kerja Kelompok</h2>
+          <h3>1. Hanya Satu Siswa yang Mengerjakan Tugas</h3>
+          <p><strong>Masalah:</strong> Anggota lain hanya menunggu hasil.</p>
+          <p><strong>Solusi:</strong> Buat pembagian tanggung jawab dan pantau kontribusi setiap anggota.</p>
+          <h3>2. Pembagian Tugas Tidak Jelas</h3>
+          <p><strong>Masalah:</strong> Siswa saling menunggu atau mengerjakan pekerjaan yang sama.</p>
+          <p><strong>Solusi:</strong> Tentukan tugas, tanggung jawab, dan batas waktu.</p>
+          <h3>3. Kelompok Terlalu Besar</h3>
+          <p><strong>Masalah:</strong> Sebagian siswa kesulitan mendapatkan kesempatan berkontribusi.</p>
+          <p><strong>Solusi:</strong> Sesuaikan jumlah anggota dengan jenis kegiatan dan kebutuhan pembelajaran.</p>
+          <h3>4. Guru Hanya Menilai Hasil Akhir</h3>
+          <p><strong>Masalah:</strong> Proses kerja sama dan kontribusi individu tidak diperhatikan.</p>
+          <p><strong>Solusi:</strong> Gunakan observasi, penilaian individu, dan penilaian kelompok.</p>
+          <h3>5. Tidak Ada Koordinasi</h3>
+          <p><strong>Masalah:</strong> Anggota bekerja tanpa arah yang sama.</p>
+          <p><strong>Solusi:</strong> Tentukan tujuan dan lakukan pemeriksaan perkembangan pekerjaan.</p>
+          <h3>6. Perbedaan Pendapat Menjadi Konflik</h3>
+          <p><strong>Masalah:</strong> Siswa sulit menerima gagasan teman.</p>
+          <p><strong>Solusi:</strong> Ajarkan cara menyampaikan pendapat, mendengarkan, dan mengambil keputusan bersama.</p>
+          <h3>7. Tugas Tidak Sesuai Kemampuan Siswa</h3>
+          <p><strong>Masalah:</strong> Sebagian siswa merasa terlalu kesulitan atau kurang tertantang.</p>
+          <p><strong>Solusi:</strong> Sesuaikan tingkat kesulitan dan berikan dukungan yang diperlukan.</p>
+
+          <h2 id="l">L. Adaptasi Metode Kerja Kelompok terhadap Kondisi Siswa</h2>
+          <h3>1. Siswa yang Kurang Percaya Diri</h3>
+          <p>Berikan tugas yang dapat dilakukan secara bertahap. Guru dapat memulai dengan tanggung jawab sederhana sebelum memberikan tugas yang membutuhkan komunikasi lebih aktif.</p>
+          <h3>2. Perbedaan Kemampuan Belajar</h3>
+          <p>Susun tugas yang memungkinkan setiap siswa berkontribusi berdasarkan kemampuan. Berikan pendampingan bagi siswa yang membutuhkan bantuan tambahan.</p>
+          <h3>3. Kelas dengan Jumlah Siswa Besar</h3>
+          <p>Bentuk beberapa kelompok kecil dengan tugas dan petunjuk yang jelas. Gunakan lembar pemantauan agar guru dapat mengamati perkembangan setiap kelompok.</p>
+          <h3>4. Keterbatasan Sarana</h3>
+          <p>Gunakan bahan yang tersedia di sekitar sekolah. Pilih kegiatan yang tidak membutuhkan peralatan mahal.</p>
+          <h3>5. Keterbatasan Waktu</h3>
+          <p>Tentukan target yang realistis, sederhanakan hasil pekerjaan, dan bagi kegiatan menjadi tahapan yang jelas.</p>
+          <h3>6. Perbedaan Karakter Siswa</h3>
+          <p>Berikan kesempatan kepada setiap siswa untuk menyampaikan pendapat dan memilih cara berkontribusi. Hindari memberikan label seperti siswa paling pintar atau paling lemah.</p>
+          <h3>7. Siswa yang Kurang Terlibat</h3>
+          <p>Guru perlu mencari penyebabnya, kemudian memberikan tugas yang lebih jelas, dukungan, atau kesempatan untuk mencoba tanggung jawab baru.</p>
+
+          <h2 id="m">M. Pertanyaan Refleksi dan Diskusi</h2>
+          <ol class="detail-list">
+            <li>Apa yang membedakan metode kerja kelompok dengan metode diskusi?</li>
+            <li>Mengapa pembagian tanggung jawab penting dalam kegiatan kelompok?</li>
+            <li>Bagaimana cara memastikan semua anggota memiliki kontribusi?</li>
+            <li>Apa yang sebaiknya dilakukan ketika salah satu anggota tidak menjalankan tugas?</li>
+            <li>Mengapa penilaian individu tetap diperlukan dalam kerja kelompok?</li>
+            <li>Bagaimana guru menangani perbedaan pendapat antaranggota?</li>
+            <li>Apakah semua materi pembelajaran cocok menggunakan metode kerja kelompok? Jelaskan.</li>
+            <li>Bagaimana cara membangun kerja sama yang sehat di antara siswa SD?</li>
+          </ol>
+          <p><strong>Aktivitas refleksi mahasiswa PGSD:</strong></p>
+          <p>Bayangkan kamu menjadi guru kelas V SD. Kamu ingin mengajarkan materi tentang keberagaman budaya Indonesia.</p>
+          <p>Rancang satu kegiatan kerja kelompok dengan ketentuan:</p>
+          <ul class="detail-list">
+            <li>Tujuan pembelajaran.</li>
+            <li>Pembagian kelompok.</li>
+            <li>Tugas setiap anggota.</li>
+            <li>Alat dan bahan.</li>
+            <li>Langkah pelaksanaan.</li>
+            <li>Bentuk hasil pekerjaan.</li>
+            <li>Penilaian individu dan kelompok.</li>
+            <li>Pertanyaan refleksi.</li>
+          </ul>
+
+          <h2 id="n">N. Penutup dan Pengembangan Pemahaman</h2>
+          <p>Metode kerja kelompok merupakan metode pembelajaran yang memberikan kesempatan kepada siswa untuk mencapai tujuan melalui kolaborasi dan tanggung jawab bersama.</p>
+          <p>Melalui kegiatan kelompok, siswa tidak hanya memperoleh pengetahuan dari materi yang dipelajari, tetapi juga mengembangkan keterampilan sosial, komunikasi, koordinasi, dan kemampuan menyelesaikan masalah.</p>
+          <p>Penerapan metode ini di Sekolah Dasar membutuhkan perencanaan yang baik. Guru perlu menentukan tugas yang sesuai, membentuk kelompok secara tepat, membagi tanggung jawab, serta memastikan seluruh siswa memperoleh kesempatan berpartisipasi.</p>
+          <p>Keberhasilan kerja kelompok tidak cukup diukur dari bagusnya hasil pekerjaan. Proses saling membantu, keterlibatan anggota, tanggung jawab, dan kemampuan mencapai tujuan bersama juga menjadi bagian penting dari pembelajaran.</p>
+          <p>Dengan pengelolaan yang tepat, metode kerja kelompok dapat membantu menciptakan lingkungan belajar yang aktif, kolaboratif, dan menghargai keberagaman kemampuan peserta didik.</p>
+
+          <div style="margin-top:2rem; display:flex; justify-content:space-between;">
+            <a class="btn btn-ghost" href="penugasan.html">Metode Sebelumnya</a>
+            <a class="btn btn-primary" href="karyawisata.html">Metode Berikutnya</a>
+          </div>
+
+          <h2 id="quiz">Uji Pemahaman</h2>
+          <div class="quiz-box" id="quizContainer">
+            <div class="quiz-q" data-correct="b" data-explain="Metode kerja kelompok menekankan kolaborasi dan tanggung jawab bersama dalam menyelesaikan tugas.">
+              <p>1. Apa hakikat utama metode kerja kelompok?</p>
+              <label class="quiz-opt"><input type="radio" name="q1" value="a"> Siswa mengerjakan tugas tanpa berinteraksi.</label>
+              <label class="quiz-opt"><input type="radio" name="q1" value="b"> Siswa bekerja bersama dengan tanggung jawab untuk mencapai tujuan pembelajaran.</label>
+              <label class="quiz-opt"><input type="radio" name="q1" value="c"> Guru menyelesaikan seluruh tugas siswa.</label>
+              <label class="quiz-opt"><input type="radio" name="q1" value="d"> Siswa hanya mengikuti presentasi kelompok lain.</label>
+              <div class="quiz-feedback"></div>
+            </div>
+            <div class="quiz-q" data-correct="c" data-explain="Pembagian tugas membantu mengatur tanggung jawab dan mencegah pekerjaan hanya dilakukan oleh satu anggota.">
+              <p>2. Mengapa pembagian tugas diperlukan dalam kerja kelompok?</p>
+              <label class="quiz-opt"><input type="radio" name="q2" value="a"> Agar hanya ketua kelompok yang bekerja.</label>
+              <label class="quiz-opt"><input type="radio" name="q2" value="b"> Agar siswa tidak perlu berkomunikasi.</label>
+              <label class="quiz-opt"><input type="radio" name="q2" value="c"> Agar setiap anggota memiliki tanggung jawab dan kesempatan berkontribusi.</label>
+              <label class="quiz-opt"><input type="radio" name="q2" value="d"> Agar pekerjaan menjadi lebih rumit.</label>
+              <div class="quiz-feedback"></div>
+            </div>
+            <div class="quiz-q" data-correct="d" data-explain="Guru perlu memastikan setiap siswa mendapatkan kesempatan belajar dan berkontribusi.">
+              <p>3. Apa tindakan guru ketika terdapat anggota kelompok yang kurang terlibat?</p>
+              <label class="quiz-opt"><input type="radio" name="q3" value="a"> Langsung mengeluarkannya dari kelompok.</label>
+              <label class="quiz-opt"><input type="radio" name="q3" value="b"> Memberikan nilai rendah tanpa pengamatan.</label>
+              <label class="quiz-opt"><input type="radio" name="q3" value="c"> Membiarkannya sampai tugas selesai.</label>
+              <label class="quiz-opt"><input type="radio" name="q3" value="d"> Mengamati penyebabnya dan memberikan tugas atau pendampingan yang sesuai.</label>
+              <div class="quiz-feedback"></div>
+            </div>
+            <div class="quiz-q" data-correct="a" data-explain="Kerja kelompok dapat mencakup berbagai bentuk kolaborasi untuk menghasilkan suatu pekerjaan, sedangkan diskusi berfokus pada pertukaran dan pengembangan gagasan.">
+              <p>4. Apa perbedaan utama kerja kelompok dan diskusi?</p>
+              <label class="quiz-opt"><input type="radio" name="q4" value="a"> Kerja kelompok menekankan penyelesaian tugas melalui pembagian tanggung jawab, sedangkan diskusi lebih menekankan pertukaran gagasan dan pembahasan suatu persoalan.</label>
+              <label class="quiz-opt"><input type="radio" name="q4" value="b"> Kerja kelompok tidak membutuhkan interaksi.</label>
+              <label class="quiz-opt"><input type="radio" name="q4" value="c"> Diskusi selalu menghasilkan karya fisik.</label>
+              <label class="quiz-opt"><input type="radio" name="q4" value="d"> Keduanya tidak memiliki perbedaan.</label>
+              <div class="quiz-feedback"></div>
+            </div>
+            <div class="quiz-q" data-correct="b" data-explain="Penilaian individu membantu guru mengetahui keterlibatan dan kemampuan setiap siswa, sehingga nilai kelompok tidak menjadi satu-satunya dasar penilaian.">
+              <p>5. Mengapa penilaian individu tetap diperlukan dalam metode kerja kelompok?</p>
+              <label class="quiz-opt"><input type="radio" name="q5" value="a"> Agar hanya siswa tertentu yang memperoleh nilai.</label>
+              <label class="quiz-opt"><input type="radio" name="q5" value="b"> Agar guru dapat mengetahui kontribusi dan pemahaman masing-masing anggota.</label>
+              <label class="quiz-opt"><input type="radio" name="q5" value="c"> Agar hasil kelompok tidak perlu diperiksa.</label>
+              <label class="quiz-opt"><input type="radio" name="q5" value="d"> Agar siswa tidak perlu bekerja sama.</label>
+              <div class="quiz-feedback"></div>
+            </div>
+            <button class="btn btn-primary" id="submitQuiz">Periksa Jawaban</button>
+            <button class="btn btn-ghost" id="retryQuiz" style="display:none;margin-left:.5rem;">Ulangi Kuis</button>
+            <div class="quiz-result" id="quizResult"></div>
+          </div>
+
+        </article>
+      </div>
+    </div>
+  </main>
+  <button class="print-btn" onclick="window.print()">Cetak</button>
+  <button id="backToTop" class="back-to-top" aria-label="Kembali ke atas">^</button>
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="footer-brand-name">BIANCA EDUSPACE</div>
+          <div class="footer-slogan">Inspire to Learn, Empower to Grow</div>
+          <p class="footer-text">Ruang edukasi untuk belajar, berkarya, dan berkembang bersama.</p>
+        </div>
+        <div>
+          <div class="footer-heading">Navigasi</div>
+          <ul class="footer-list">
+            <li><a href="../index.html">Beranda</a></li>
+            <li><a href="../model-pembelajaran.html">Model Pembelajaran</a></li>
+            <li><a href="../metode-pembelajaran.html">Metode Pembelajaran</a></li>
+            <li><a href="../panduan-mengajar.html">Panduan Mengajar</a></li>
+            <li><a href="../tentang-kami.html">Tentang Kami</a></li>
+          </ul>
+        </div>
+        <div>
+          <div class="footer-heading">Informasi</div>
+          <ul class="footer-list">
+            <li><a href="../tentang-kami.html">Tentang Bianca EduSpace</a></li>
+            <li><a href="../tentang-kami.html">Visi dan Misi</a></li>
+            <li><a href="../tentang-kami.html">Tujuan Pendidikan</a></li>
+          </ul>
+        </div>
+        <div>
+          <div class="footer-heading">Brand Statement</div>
+          <p class="footer-statement">Creative Learning. Innovative Education. Collaborative Growth.</p>
+        </div>
+      </div>
+      <div class="footer-bottom">© 2026 BIANCA EDUSPACE. All Rights Reserved.</div>
+    </div>
+  </footer>
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script src="../script.js" defer></script>
+  <script>
+    (function () {
+      const submit = document.getElementById('submitQuiz');
+      const retry = document.getElementById('retryQuiz');
+      const result = document.getElementById('quizResult');
+      const qs = document.querySelectorAll('.quiz-q');
+
+      function grade() {
+        let score = 0;
+        qs.forEach((q, i) => {
+          const name = 'q' + (i + 1);
+          const sel = document.querySelector('input[name="' + name + '"]:checked');
+          const fb = q.querySelector('.quiz-feedback');
+          const correct = q.dataset.correct;
+          if (sel && sel.value === correct) {
+            score++;
+            fb.textContent = 'Benar. ' + q.dataset.explain;
+            fb.className = 'quiz-feedback ok';
+          } else {
+            fb.textContent = 'Salah. Jawaban benar: ' + correct.toUpperCase() + '. ' + q.dataset.explain;
+            fb.className = 'quiz-feedback err';
+          }
+        });
+        const pct = Math.round((score / qs.length) * 100);
+        result.textContent = 'Skor: ' + score + ' / ' + qs.length + ' (' + pct + '/100)';
+        retry.style.display = 'inline-block';
+      }
+
+      function reset() {
+        qs.forEach(q => {
+          q.querySelectorAll('input[type="radio"]').forEach(r => r.checked = false);
+          const fb = q.querySelector('.quiz-feedback');
+          if (fb) { fb.textContent = ''; fb.className = 'quiz-feedback'; }
+        });
+        result.textContent = '';
+        retry.style.display = 'none';
+      }
+
+      submit.addEventListener('click', grade);
+      retry.addEventListener('click', reset);
+    })();
+
+    window.addEventListener('scroll', () => {
+      const h = document.documentElement;
+      const pct = (h.scrollTop / (h.scrollHeight - h.clientHeight)) * 100;
+      document.getElementById('progressBar').style.width = pct + '%';
+    }, { passive: true });
+    const btn = document.getElementById('backToTop');
+    if (btn) { window.addEventListener('scroll', () => btn.classList.toggle('show', window.scrollY > 300), { passive: true }); btn.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' })); }
+  </script>
+</body>
+</html>

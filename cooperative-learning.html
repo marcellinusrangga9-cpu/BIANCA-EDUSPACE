@@ -1,0 +1,489 @@
+﻿<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cooperative Learning — BIANCA EDUSPACE</title>
+  <meta name="description" content="Materi mendalam Model Pembelajaran Cooperative Learning." />
+  <link rel="icon" type="image/png" href="../images/logo-bianca.jpg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../style.css" />
+  <link rel="stylesheet" href="../css/model-pembelajaran.css" />
+  <style>
+    .progress-bar { position: fixed; top: 0; left: 0; height: 4px; width: 0; background: linear-gradient(90deg,#2585F5,#38BDF8); z-index: 200; transition: width .1s; }
+    .quiz-box { background:#f5f8fd; padding:1.5rem; border-radius:.75rem; margin-top:1.5rem; }
+    .quiz-q { margin-bottom:1.25rem; }
+    .quiz-opt { display:block; margin:.4rem 0; }
+    .quiz-result { margin-top:1rem; font-weight:600; color:#1646A0; }
+    .print-btn { position:fixed; bottom:80px; right:24px; background:#1646A0; color:#fff; border:none; border-radius:999px; padding:.6rem 1rem; cursor:pointer; z-index:150; }
+    table { width:100%; border-collapse:collapse; margin:1rem 0; font-size:.9rem; }
+    th,td { border:1px solid rgba(7,21,46,.1); padding:.6rem; vertical-align:top; }
+    th { background:#1646A0; color:#fff; }
+    .quiz-feedback { margin-top:.5rem; font-size:.9rem; }
+    .quiz-feedback.ok { color:#16a34a; }
+    .quiz-feedback.err { color:#dc2626; }
+  </style>
+</head>
+<body>
+  <div class="progress-bar" id="progressBar"></div>
+  <header class="site-header">
+    <div class="container navbar">
+      <a class="brand" href="../index.html">
+        <img class="brand-logo" src="../images/logo-bianca.jpg" alt="Logo BIANCA EDUSPACE" />
+        <span class="brand-name">BIANCA EDUSPACE</span>
+      </a>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+      </button>
+      <nav class="nav-menu" aria-label="Main navigation">
+        <a class="nav-link" href="../index.html">Beranda</a>
+        <a class="nav-link" href="../model-pembelajaran.html">Model Pembelajaran</a>
+        <a class="nav-link" href="../metode-pembelajaran.html">Metode Pembelajaran</a>
+        <a class="nav-link" href="../panduan-mengajar.html">Panduan Mengajar</a>
+        <a class="nav-link" href="../tentang-kami.html">Tentang Kami</a>
+      </nav>
+    </div>
+  </header>
+  <main class="page-content">
+    <div class="container">
+      <nav class="breadcrumb" aria-label="Breadcrumb">
+        <a href="../index.html">Beranda</a> / <a href="../model-pembelajaran.html">Model Pembelajaran</a> / Cooperative Learning
+      </nav>
+      <h1 class="page-title">Cooperative Learning</h1>
+      <p class="page-desc">Model pembelajaran kooperatif.</p>
+
+      <div class="detail-layout">
+        <aside class="detail-toc">
+          <div class="footer-heading">Daftar Isi</div>
+          <ul class="footer-list">
+            <li><a href="#a">A. Pengenalan</a></li>
+            <li><a href="#b">B. Landasan Konseptual</a></li>
+            <li><a href="#c">C. Tujuan dan Manfaat</a></li>
+            <li><a href="#d">D. Karakteristik dan Prinsip</a></li>
+            <li><a href="#e">E. Jenis dan Variasi</a></li>
+            <li><a href="#f">F. Sintaks</a></li>
+            <li><a href="#g">G. Kelebihan dan Keterbatasan</a></li>
+            <li><a href="#h">H. Penerapan di SD</a></li>
+            <li><a href="#i">I. Rancangan Pembelajaran</a></li>
+            <li><a href="#j">J. Penilaian</a></li>
+            <li><a href="#k">K. Kesalahan Umum</a></li>
+            <li><a href="#l">L. Adaptasi</a></li>
+            <li><a href="#m">M. Refleksi dan Diskusi</a></li>
+            <li><a href="#n">N. Penutup</a></li>
+            <li><a href="#quiz">Uji Pemahaman</a></li>
+          </ul>
+        </aside>
+        <article class="detail-content">
+
+<h2 id="a">A. Pengenalan Cooperative Learning</h2>
+<p>Cooperative Learning atau pembelajaran kooperatif merupakan model pembelajaran yang mengorganisasikan siswa ke dalam kelompok-kelompok kecil untuk mencapai tujuan pembelajaran secara bersama-sama. Dalam prosesnya, siswa saling membantu, bertukar informasi, berdiskusi, dan bertanggung jawab terhadap keberhasilan belajar dirinya sendiri maupun anggota kelompoknya.</p>
+<p>Model ini menempatkan siswa sebagai peserta aktif dalam pembelajaran. Siswa tidak hanya menerima penjelasan dari guru, tetapi juga memperoleh kesempatan untuk membangun pemahaman melalui interaksi dengan teman sebaya.</p>
+<p>Pembelajaran kooperatif berangkat dari pemikiran bahwa keberhasilan belajar dapat dikembangkan melalui kerja sama. Setiap anggota kelompok memiliki kontribusi yang diperlukan sehingga tidak hanya satu atau dua siswa yang mendominasi kegiatan.</p>
+<p>Dalam konteks Sekolah Dasar, Cooperative Learning dapat digunakan untuk membangun kebiasaan bekerja sama, menghargai perbedaan pendapat, berkomunikasi dengan baik, dan menyelesaikan tugas bersama.</p>
+<p><strong>Inti pemahaman:</strong> Cooperative Learning bukan sekadar belajar dalam kelompok. Model ini mengatur bagaimana siswa saling membutuhkan, tetap bertanggung jawab secara individu, dan mencapai tujuan belajar melalui kerja sama yang terarah.</p>
+
+<h2 id="b">B. Landasan Konseptual</h2>
+<p>Cooperative Learning memiliki landasan konseptual yang menempatkan interaksi sosial sebagai bagian penting dari proses pembelajaran.</p>
+<p>Beberapa gagasan utama yang mendasarinya adalah:</p>
+<ol class="detail-list">
+  <li><strong>Teori ketergantungan sosial (Social Interdependence Theory)</strong> — Keberhasilan seseorang dalam kelompok berkaitan dengan keberhasilan anggota lainnya. Dalam pembelajaran kooperatif, siswa diarahkan untuk memahami bahwa tujuan bersama hanya dapat dicapai apabila setiap anggota memberikan kontribusi.</li>
+  <li><strong>Konstruktivisme sosial</strong> — Pengetahuan dapat dibangun melalui interaksi, komunikasi, dan pertukaran gagasan. Siswa memperoleh kesempatan untuk menjelaskan pemikirannya, mendengarkan pandangan orang lain, serta memperbaiki pemahaman berdasarkan hasil interaksi.</li>
+  <li><strong>Pembelajaran aktif</strong> — Siswa terlibat secara langsung dalam kegiatan belajar, seperti berdiskusi, mengelompokkan informasi, menyelesaikan masalah, dan mempresentasikan hasil kerja.</li>
+  <li><strong>Pengembangan keterampilan sosial</strong> — Proses belajar tidak hanya berorientasi pada penguasaan materi, tetapi juga mengembangkan kemampuan berkomunikasi, menghargai orang lain, bertanggung jawab, dan mengambil keputusan bersama.</li>
+</ol>
+<p>Landasan tersebut menunjukkan bahwa Cooperative Learning menggabungkan pencapaian akademik dengan perkembangan keterampilan sosial siswa.</p>
+
+<h2 id="c">C. Tujuan dan Manfaat Cooperative Learning</h2>
+<h3>Tujuan</h3>
+<ol class="detail-list">
+  <li>Meningkatkan pemahaman siswa terhadap materi pembelajaran melalui kegiatan kolaboratif.</li>
+  <li>Mengembangkan kemampuan bekerja sama dalam kelompok.</li>
+  <li>Melatih siswa menyampaikan pendapat dan mendengarkan orang lain.</li>
+  <li>Membentuk sikap saling menghargai perbedaan kemampuan dan pandangan.</li>
+  <li>Menumbuhkan tanggung jawab individu dan kelompok.</li>
+  <li>Meningkatkan partisipasi siswa dalam proses pembelajaran.</li>
+  <li>Membantu siswa mengembangkan kemampuan menyelesaikan tugas bersama.</li>
+</ol>
+<h3>Manfaat bagi siswa</h3>
+<ul class="detail-list">
+  <li><strong>Manfaat akademik:</strong> Siswa dapat memperoleh penjelasan tambahan dari teman dan menguji pemahamannya melalui diskusi.</li>
+  <li><strong>Manfaat sosial:</strong> Siswa belajar berkomunikasi, berbagi tugas, dan menghargai kontribusi orang lain.</li>
+  <li><strong>Manfaat personal:</strong> Siswa dapat meningkatkan rasa percaya diri dan tanggung jawab.</li>
+  <li><strong>Manfaat emosional:</strong> Siswa memperoleh pengalaman belajar yang melibatkan dukungan dan interaksi positif.</li>
+</ul>
+
+<h2 id="d">D. Karakteristik dan Prinsip Cooperative Learning</h2>
+<p>Cooperative Learning memiliki beberapa karakteristik utama yang membedakannya dari kegiatan kelompok biasa.</p>
+<h3>1. Ketergantungan positif</h3>
+<p>Setiap anggota memahami bahwa keberhasilan kelompok membutuhkan kontribusi seluruh anggota. Tugas dirancang agar siswa saling membutuhkan dalam mencapai tujuan.</p>
+<h3>2. Tanggung jawab individu</h3>
+<p>Meskipun bekerja dalam kelompok, setiap siswa tetap memiliki tanggung jawab untuk memahami materi dan menyelesaikan bagian tugasnya.</p>
+<h3>3. Interaksi langsung</h3>
+<p>Siswa saling berkomunikasi, memberikan penjelasan, bertanya, dan membantu teman memahami materi.</p>
+<h3>4. Keterampilan sosial</h3>
+<p>Siswa dilatih untuk mendengarkan, menghargai pendapat, menyampaikan gagasan, mengelola perbedaan, dan menyelesaikan konflik secara baik.</p>
+<h3>5. Evaluasi proses kelompok</h3>
+<p>Kelompok melakukan refleksi terhadap cara mereka bekerja, kontribusi anggota, serta hal-hal yang perlu diperbaiki.</p>
+<h3>Prinsip pelaksanaan</h3>
+<ul class="detail-list">
+  <li>Tujuan kelompok harus jelas.</li>
+  <li>Pembagian tugas harus memberikan kesempatan berpartisipasi kepada semua siswa.</li>
+  <li>Guru perlu memastikan setiap anggota memahami tanggung jawabnya.</li>
+  <li>Penilaian tidak hanya memperhatikan hasil kelompok, tetapi juga pemahaman individu.</li>
+  <li>Suasana kerja sama harus aman, terbuka, dan saling menghargai.</li>
+</ul>
+
+<h2 id="e">E. Jenis dan Variasi Cooperative Learning</h2>
+<p>Cooperative Learning dapat diterapkan melalui berbagai tipe pembelajaran. Setiap tipe memiliki pengaturan kegiatan yang berbeda.</p>
+<ol class="detail-list">
+  <li><strong>Student Teams Achievement Divisions (STAD)</strong> — Siswa dibagi ke dalam kelompok yang beragam. Guru menyampaikan materi, siswa belajar bersama dalam kelompok, kemudian mengerjakan evaluasi individu. Contoh SD: Siswa mempelajari pecahan melalui penjelasan guru, latihan bersama, dan kuis individu.</li>
+  <li><strong>Jigsaw</strong> — Materi dibagi menjadi beberapa bagian. Setiap siswa mempelajari satu bagian dalam kelompok ahli, kemudian kembali ke kelompok asal untuk menjelaskan materi yang telah dipelajari. Contoh SD: Materi ekosistem dibagi menjadi komponen tumbuhan, hewan, air, dan tanah. Setiap siswa mempelajari satu komponen lalu mengajarkannya kepada anggota kelompok asal.</li>
+  <li><strong>Think Pair Share (TPS)</strong> — Siswa berpikir secara mandiri, berdiskusi dengan seorang teman, kemudian menyampaikan hasil pemikirannya kepada kelas. Contoh SD: Siswa memikirkan cara menghemat air, membandingkan jawaban dengan pasangan, lalu berbagi pendapat.</li>
+  <li><strong>Numbered Heads Together (NHT)</strong> — Setiap anggota kelompok memperoleh nomor. Kelompok mendiskusikan pertanyaan dan memastikan seluruh anggota memahami jawaban. Guru kemudian memanggil nomor tertentu untuk menjawab. Contoh SD: Siswa berdiskusi tentang rantai makanan. Guru memanggil nomor secara acak untuk menyampaikan hasil diskusi.</li>
+  <li><strong>Group Investigation (GI)</strong> — Siswa bekerja dalam kelompok untuk memilih atau menerima topik, merencanakan penyelidikan, mengumpulkan informasi, menganalisis temuan, dan mempresentasikan hasilnya. Contoh SD: Kelompok menyelidiki jenis sampah yang paling banyak ditemukan di lingkungan sekolah.</li>
+  <li><strong>Teams Games Tournament (TGT)</strong> — Siswa mempelajari materi dalam kelompok, kemudian mengikuti permainan akademik atau turnamen yang dirancang sesuai dengan tujuan pembelajaran. Contoh SD: Siswa mengikuti permainan kartu soal perkalian dengan aturan yang mendorong persaingan sehat dan sportivitas.</li>
+  <li><strong>Team Assisted Individualization (TAI)</strong> — Siswa belajar dalam kelompok dengan tetap memperhatikan kebutuhan dan perkembangan belajar masing-masing. Anggota kelompok dapat saling membantu ketika menghadapi kesulitan. Contoh SD: Siswa mengerjakan latihan matematika sesuai tingkat kemampuannya dan memperoleh bantuan dari teman maupun guru.</li>
+</ol>
+<p><strong>Catatan:</strong> Guru tidak harus menggunakan seluruh tipe tersebut. Pemilihan tipe perlu disesuaikan dengan tujuan, materi, karakteristik siswa, waktu, dan kondisi kelas.</p>
+
+<h2 id="f">F. Langkah-Langkah Pelaksanaan Cooperative Learning</h2>
+<p>Berikut alur umum pembelajaran kooperatif yang dapat digunakan sebagai panduan pelaksanaan di kelas.</p>
+<h3>Tahap 1. Menyampaikan tujuan dan mempersiapkan siswa</h3>
+<p>Guru menjelaskan tujuan pembelajaran, materi yang akan dipelajari, manfaat kegiatan kelompok, serta aturan kerja sama.</p>
+<h3>Tahap 2. Menyajikan informasi atau materi</h3>
+<p>Guru memberikan pengantar materi melalui penjelasan, gambar, bacaan, demonstrasi, atau media pembelajaran yang relevan.</p>
+<h3>Tahap 3. Membentuk kelompok belajar</h3>
+<p>Guru membagi siswa menjadi kelompok kecil dengan mempertimbangkan keberagaman kemampuan dan karakteristik siswa. Jumlah anggota dapat disesuaikan dengan kebutuhan kegiatan.</p>
+<h3>Tahap 4. Mengorganisasikan tugas dan membimbing kerja kelompok</h3>
+<p>Guru menjelaskan tugas, pembagian tanggung jawab, aturan diskusi, serta hasil yang diharapkan. Guru berkeliling untuk memberikan bimbingan tanpa mengambil alih pekerjaan siswa.</p>
+<h3>Tahap 5. Melakukan evaluasi hasil belajar</h3>
+<p>Siswa menyampaikan hasil kerja kelompok melalui presentasi, laporan, demonstrasi, atau bentuk lainnya. Guru juga memeriksa pemahaman individu agar keberhasilan tidak hanya dinilai dari hasil kelompok.</p>
+<h3>Tahap 6. Memberikan penghargaan dan melakukan refleksi</h3>
+<p>Guru memberikan apresiasi terhadap usaha dan kerja sama siswa. Kelompok kemudian merefleksikan kontribusi anggota, hambatan yang dihadapi, dan cara meningkatkan kerja sama.</p>
+
+<h2 id="g">G. Kelebihan dan Keterbatasan Cooperative Learning</h2>
+<h3>Kelebihan</h3>
+<ol class="detail-list">
+  <li>Meningkatkan keterlibatan siswa dalam pembelajaran.</li>
+  <li>Membiasakan siswa saling membantu dan bertukar pengetahuan.</li>
+  <li>Mengembangkan keterampilan komunikasi dan sosial.</li>
+  <li>Melatih tanggung jawab individu serta kelompok.</li>
+  <li>Memberikan kesempatan kepada siswa untuk belajar dari sudut pandang teman.</li>
+  <li>Membantu membangun sikap toleransi dan menghargai perbedaan.</li>
+  <li>Membuat pembelajaran lebih interaktif dan partisipatif.</li>
+</ol>
+<h3>Keterbatasan</h3>
+<ol class="detail-list">
+  <li>Membutuhkan waktu untuk membentuk kelompok dan mengatur kegiatan.</li>
+  <li>Ada kemungkinan sebagian siswa mendominasi pekerjaan.</li>
+  <li>Siswa tertentu dapat bergantung kepada anggota kelompok yang lebih mampu.</li>
+  <li>Perbedaan pendapat dapat menimbulkan konflik jika tidak dikelola.</li>
+  <li>Kegiatan kelompok dapat menjadi kurang terarah apabila instruksi tidak jelas.</li>
+  <li>Penilaian kontribusi setiap individu membutuhkan pengamatan yang cermat.</li>
+</ol>
+<h3>Upaya mengatasi keterbatasan</h3>
+<ul class="detail-list">
+  <li>Menentukan peran setiap anggota secara jelas.</li>
+  <li>Menggunakan pertanyaan atau tugas yang mengharuskan setiap siswa berpartisipasi.</li>
+  <li>Mengombinasikan penilaian kelompok dengan evaluasi individu.</li>
+  <li>Menetapkan aturan komunikasi dan kerja sama.</li>
+  <li>Membatasi waktu setiap kegiatan.</li>
+  <li>Memberikan pendampingan kepada siswa yang membutuhkan bantuan.</li>
+</ul>
+
+<h2 id="h">H. Penerapan Cooperative Learning di Sekolah Dasar</h2>
+<p>Cooperative Learning dapat digunakan dalam berbagai mata pelajaran dan kegiatan pembelajaran.</p>
+<h3>1. Bahasa Indonesia</h3>
+<p><strong>Materi:</strong> Menentukan gagasan pokok paragraf.</p>
+<p>Siswa membaca teks pendek, kemudian berdiskusi untuk menentukan gagasan pokok setiap paragraf. Anggota kelompok saling menjelaskan alasan pemilihan jawaban.</p>
+<h3>2. Matematika</h3>
+<p><strong>Materi:</strong> Pecahan sederhana.</p>
+<p>Siswa menggunakan potongan kertas berbentuk lingkaran atau persegi untuk memahami bagian-bagian pecahan. Setiap anggota membantu menjelaskan hasil pengamatan dan menyelesaikan soal.</p>
+<h3>3. IPAS</h3>
+<p><strong>Materi:</strong> Hubungan antarmakhluk hidup dalam ekosistem.</p>
+<p>Siswa menyusun contoh rantai makanan menggunakan kartu gambar. Kelompok menjelaskan hubungan antara produsen, konsumen, dan pengurai.</p>
+<h3>4. Pendidikan Pancasila</h3>
+<p><strong>Materi:</strong> Sikap menghargai keberagaman.</p>
+<p>Siswa mendiskusikan contoh perilaku menghargai perbedaan di lingkungan sekolah dan menyusun kesepakatan kelompok.</p>
+<h3>5. Seni dan Prakarya</h3>
+<p><strong>Materi:</strong> Membuat karya kolase.</p>
+<p>Setiap anggota kelompok bertanggung jawab terhadap bagian tertentu, seperti menyiapkan bahan, menyusun pola, menempel, dan menjelaskan hasil karya.</p>
+<h3>Contoh penerapan berdasarkan kondisi siswa</h3>
+<ul class="detail-list">
+  <li>Siswa yang lebih percaya diri dapat dilatih untuk memberikan kesempatan berbicara kepada teman.</li>
+  <li>Siswa yang masih kesulitan dapat memperoleh dukungan melalui penjelasan sederhana dari teman dan guru.</li>
+  <li>Siswa yang memiliki kemampuan berbeda dapat diberikan peran yang sesuai tanpa membatasi kesempatan belajar.</li>
+  <li>Siswa yang kurang aktif dapat memperoleh tugas khusus agar kontribusinya terlihat.</li>
+</ul>
+
+<h2 id="i">I. Contoh Rancangan Pembelajaran Cooperative Learning</h2>
+<h3>Identitas pembelajaran</h3>
+<ul class="detail-list">
+  <li>Satuan pendidikan: Sekolah Dasar</li>
+  <li>Mata pelajaran: IPAS</li>
+  <li>Fase: B</li>
+  <li>Kelas: IV</li>
+  <li>Materi: Rantai Makanan dalam Ekosistem</li>
+  <li>Model: Cooperative Learning</li>
+  <li>Tipe: Numbered Heads Together (NHT)</li>
+  <li>Alokasi waktu: 2 x 35 menit</li>
+</ul>
+<h3>Tujuan pembelajaran</h3>
+<p>Setelah mengikuti kegiatan pembelajaran, siswa diharapkan mampu:</p>
+<ol class="detail-list">
+  <li>Mengidentifikasi peran produsen, konsumen, dan pengurai.</li>
+  <li>Menyusun contoh rantai makanan dengan benar.</li>
+  <li>Menjelaskan hubungan antarmakhluk hidup dalam rantai makanan.</li>
+  <li>Menunjukkan sikap bertanggung jawab dan menghargai pendapat anggota kelompok.</li>
+</ol>
+<h3>Media dan sumber belajar</h3>
+<ul class="detail-list">
+  <li>Kartu gambar tumbuhan dan hewan.</li>
+  <li>Kartu pertanyaan.</li>
+  <li>Papan tulis atau lembar kerja.</li>
+  <li>Gambar ekosistem sawah.</li>
+</ul>
+<h3>Kegiatan pembelajaran</h3>
+<p><strong>1. Pendahuluan (10 menit)</strong> — Guru membuka pembelajaran, menyampaikan tujuan, dan menunjukkan gambar ekosistem sawah. Guru mengajukan pertanyaan pemantik: "Apa yang akan terjadi jika jumlah belalang di sawah meningkat?"</p>
+<p><strong>2. Kegiatan inti (50 menit)</strong></p>
+<ul class="detail-list">
+  <li>Guru menjelaskan pengertian rantai makanan secara singkat.</li>
+  <li>Guru membentuk kelompok kecil yang terdiri atas empat siswa.</li>
+  <li>Setiap anggota memperoleh nomor 1 sampai 4.</li>
+  <li>Guru membagikan kartu gambar dan lembar kerja.</li>
+  <li>Siswa mendiskusikan susunan rantai makanan berdasarkan gambar.</li>
+  <li>Setiap anggota wajib memahami hasil diskusi kelompok.</li>
+  <li>Guru memberikan beberapa pertanyaan kepada kelompok.</li>
+  <li>Guru memanggil nomor secara acak untuk menjawab.</li>
+  <li>Siswa menyampaikan jawaban dan alasan berdasarkan hasil diskusi.</li>
+</ul>
+<p><strong>3. Penutup (10 menit)</strong> — Guru bersama siswa menyimpulkan materi. Siswa menyampaikan pengalaman bekerja sama dan hal yang perlu diperbaiki. Guru memberikan evaluasi individu singkat.</p>
+<h3>Contoh tugas kelompok</h3>
+<p>Susunlah kartu gambar berikut menjadi rantai makanan yang tepat:</p>
+<p>Padi, belalang, katak, ular, dan elang.</p>
+<p>Kemudian jawab pertanyaan:</p>
+<ol class="detail-list">
+  <li>Makhluk hidup mana yang berperan sebagai produsen?</li>
+  <li>Makhluk hidup mana yang menjadi konsumen tingkat pertama?</li>
+  <li>Apa yang mungkin terjadi jika populasi katak berkurang?</li>
+  <li>Mengapa setiap makhluk hidup memiliki peran dalam ekosistem?</li>
+</ol>
+<h3>Hasil yang diharapkan</h3>
+<p>Siswa mampu menyusun rantai makanan, menjelaskan hubungan antarmakhluk hidup, dan menunjukkan bahwa setiap anggota kelompok dapat memahami hasil kerja bersama.</p>
+
+<h2 id="j">J. Penilaian dalam Cooperative Learning</h2>
+<p>Penilaian dilakukan secara menyeluruh dengan memperhatikan pemahaman materi, kontribusi individu, dan proses kerja sama.</p>
+<h3>1. Penilaian pengetahuan</h3>
+<p>Dilakukan melalui pertanyaan lisan, kuis individu, lembar evaluasi, atau tugas tertulis.</p>
+<p>Contoh indikator:</p>
+<ul class="detail-list">
+  <li>Mampu menjelaskan konsep yang dipelajari.</li>
+  <li>Mampu memberikan alasan terhadap jawaban.</li>
+  <li>Mampu menerapkan konsep dalam contoh sederhana.</li>
+</ul>
+<h3>2. Penilaian keterampilan</h3>
+<p>Dilakukan melalui pengamatan terhadap kemampuan siswa dalam menyampaikan gagasan, menyelesaikan tugas, dan mempresentasikan hasil kelompok.</p>
+<h3>3. Penilaian sikap dan kerja sama</h3>
+<p>Guru mengamati perilaku siswa selama kegiatan.</p>
+<table>
+  <tr><th>Indikator</th><th>Hal yang diamati</th></tr>
+  <tr><td>Partisipasi</td><td>Aktif memberikan kontribusi</td></tr>
+  <tr><td>Tanggung jawab</td><td>Menyelesaikan tugas yang diberikan</td></tr>
+  <tr><td>Komunikasi</td><td>Menyampaikan pendapat dengan baik</td></tr>
+  <tr><td>Menghargai teman</td><td>Mendengarkan dan menerima perbedaan</td></tr>
+  <tr><td>Kerja sama</td><td>Membantu anggota kelompok</td></tr>
+</table>
+<h3>Contoh rubrik penilaian</h3>
+<p><strong>Skor 4:</strong> Sangat baik, menunjukkan perilaku secara konsisten tanpa perlu diingatkan.</p>
+<p><strong>Skor 3:</strong> Baik, menunjukkan perilaku dengan sedikit arahan.</p>
+<p><strong>Skor 2:</strong> Cukup, menunjukkan perilaku tetapi masih memerlukan beberapa kali bimbingan.</p>
+<p><strong>Skor 1:</strong> Perlu bimbingan, belum menunjukkan perilaku secara konsisten.</p>
+<p>Penilaian kerja sama tidak boleh menggantikan penilaian pengetahuan individu. Siswa yang aktif dalam kelompok tetap perlu menunjukkan pemahaman terhadap materi.</p>
+
+<h2 id="k">K. Kesalahan Umum dalam Penerapan Cooperative Learning</h2>
+<ol class="detail-list">
+  <li><strong>Menganggap semua kegiatan kelompok sebagai Cooperative Learning.</strong> Perbaikan: Guru perlu menerapkan prinsip ketergantungan positif, tanggung jawab individu, interaksi, dan evaluasi kelompok.</li>
+  <li><strong>Membiarkan satu siswa mengerjakan seluruh tugas.</strong> Perbaikan: Berikan tanggung jawab yang jelas dan pantau kontribusi setiap anggota.</li>
+  <li><strong>Membagi kelompok tanpa mempertimbangkan kebutuhan pembelajaran.</strong> Perbaikan: Susun kelompok dengan mempertimbangkan keberagaman dan tujuan kegiatan.</li>
+  <li><strong>Hanya memberikan nilai berdasarkan hasil kelompok.</strong> Perbaikan: Gunakan evaluasi individu untuk memastikan seluruh siswa memahami materi.</li>
+  <li><strong>Tidak memberikan aturan diskusi.</strong> Perbaikan: Buat kesepakatan tentang cara berbicara, mendengarkan, berbagi tugas, dan menyelesaikan perbedaan.</li>
+  <li><strong>Guru terlalu banyak mengambil alih kegiatan.</strong> Perbaikan: Guru berperan sebagai fasilitator yang mengarahkan dan memberikan bantuan sesuai kebutuhan.</li>
+</ol>
+
+<h2 id="l">L. Adaptasi Cooperative Learning terhadap Kondisi Siswa</h2>
+<p>Penerapan Cooperative Learning perlu memperhatikan kemampuan, kebutuhan, dan karakteristik siswa Sekolah Dasar.</p>
+<h3>1. Siswa dengan kemampuan akademik beragam</h3>
+<p>Kelompok dapat dibentuk secara heterogen. Guru memastikan setiap siswa mendapatkan kesempatan belajar dan berkontribusi.</p>
+<h3>2. Siswa yang kurang percaya diri</h3>
+<p>Guru dapat memberikan tugas sederhana terlebih dahulu, seperti membacakan hasil diskusi atau menyusun kartu gambar.</p>
+<h3>3. Siswa yang kesulitan memahami instruksi</h3>
+<p>Gunakan instruksi singkat, contoh visual, dan langkah kerja yang disampaikan secara bertahap.</p>
+<h3>4. Siswa yang memiliki kemampuan belajar lebih tinggi</h3>
+<p>Berikan tantangan tambahan, seperti menjelaskan alasan, menyusun pertanyaan, atau membantu teman tanpa mengambil alih tugasnya.</p>
+<h3>5. Kelas dengan jumlah siswa besar</h3>
+<p>Gunakan kelompok kecil, pembagian peran, batas waktu, dan lembar kerja agar kegiatan lebih mudah dikendalikan.</p>
+<h3>6. Keterbatasan fasilitas</h3>
+<p>Guru dapat menggunakan media sederhana seperti kertas bekas, kartu buatan sendiri, papan tulis, dan benda-benda di sekitar kelas.</p>
+<p>Prinsip utamanya adalah memastikan seluruh siswa memperoleh kesempatan berpartisipasi sesuai kemampuan dan kebutuhannya.</p>
+
+<h2 id="m">M. Pertanyaan Refleksi dan Diskusi</h2>
+<p>Gunakan pertanyaan berikut untuk memperdalam pemahaman mengenai Cooperative Learning.</p>
+<ol class="detail-list">
+  <li>Mengapa kegiatan belajar kelompok belum tentu dapat disebut Cooperative Learning?</li>
+  <li>Bagaimana cara guru memastikan setiap anggota kelompok memiliki tanggung jawab?</li>
+  <li>Mengapa penilaian individu tetap diperlukan dalam pembelajaran kooperatif?</li>
+  <li>Apa yang sebaiknya dilakukan guru ketika terdapat anggota kelompok yang mendominasi diskusi?</li>
+  <li>Tipe Cooperative Learning apa yang paling sesuai untuk mengajarkan materi rantai makanan? Jelaskan alasanmu.</li>
+  <li>Bagaimana model pembelajaran kooperatif dapat membantu siswa mengembangkan keterampilan sosial?</li>
+</ol>
+
+<h2 id="n">N. Penutup dan Pengembangan Pemahaman</h2>
+<p>Cooperative Learning merupakan model pembelajaran yang memanfaatkan kerja sama sebagai bagian dari proses membangun pengetahuan. Melalui kelompok yang terarah, siswa memperoleh kesempatan untuk berdiskusi, saling membantu, mengembangkan keterampilan sosial, dan mencapai tujuan pembelajaran bersama.</p>
+<p>Keberhasilan model ini tidak cukup diukur dari selesainya tugas kelompok. Guru perlu memastikan bahwa setiap siswa terlibat, bertanggung jawab, dan memahami materi yang dipelajari.</p>
+<p>Dengan demikian, Cooperative Learning dapat menjadi salah satu pilihan model pembelajaran di Sekolah Dasar untuk mengembangkan kemampuan akademik sekaligus membangun karakter kolaboratif.</p>
+<p><strong>Pesan utama:</strong> Belajar bersama bukan berarti menyerahkan tanggung jawab kepada kelompok. Setiap siswa tetap belajar, berkontribusi, dan bertumbuh bersama.</p>
+
+<h2 id="quiz">Uji Pemahaman</h2>
+<div class="quiz-box" id="quizContainer">
+  <div class="quiz-q" data-correct="b" data-explain="Cooperative Learning menekankan kerja sama, ketergantungan positif, dan tanggung jawab setiap anggota.">
+    <p>1. Apa yang menjadi ciri utama Cooperative Learning?</p>
+    <label class="quiz-opt"><input type="radio" name="q1" value="a"> Siswa mengerjakan seluruh tugas secara individu.</label>
+    <label class="quiz-opt"><input type="radio" name="q1" value="b"> Siswa bekerja sama dalam kelompok dengan tanggung jawab individu.</label>
+    <label class="quiz-opt"><input type="radio" name="q1" value="c"> Guru menjadi satu-satunya sumber informasi.</label>
+    <label class="quiz-opt"><input type="radio" name="q1" value="d"> Siswa hanya mendengarkan penjelasan guru.</label>
+    <div class="quiz-feedback"></div>
+  </div>
+  <div class="quiz-q" data-correct="c" data-explain="Dalam Jigsaw, siswa menjadi sumber informasi bagi anggota kelompok asal setelah mempelajari bagian materi dalam kelompok ahli.">
+    <p>2. Dalam tipe Jigsaw, siswa yang telah mempelajari bagian materi tertentu bertugas untuk ...</p>
+    <label class="quiz-opt"><input type="radio" name="q2" value="a"> Menyimpan informasi untuk dirinya sendiri.</label>
+    <label class="quiz-opt"><input type="radio" name="q2" value="b"> Menghindari diskusi dengan kelompok asal.</label>
+    <label class="quiz-opt"><input type="radio" name="q2" value="c"> Menjelaskan materi yang dipelajarinya kepada anggota kelompok asal.</label>
+    <label class="quiz-opt"><input type="radio" name="q2" value="d"> Menyerahkan seluruh tugas kepada guru.</label>
+    <div class="quiz-feedback"></div>
+  </div>
+  <div class="quiz-q" data-correct="b" data-explain="Penilaian individu memastikan setiap anggota benar-benar memahami materi, bukan sekadar mengandalkan hasil kerja teman.">
+    <p>3. Mengapa penilaian individu tetap diperlukan dalam Cooperative Learning?</p>
+    <label class="quiz-opt"><input type="radio" name="q3" value="a"> Agar hanya siswa terbaik yang memperoleh nilai.</label>
+    <label class="quiz-opt"><input type="radio" name="q3" value="b"> Agar guru dapat mengetahui pemahaman setiap siswa.</label>
+    <label class="quiz-opt"><input type="radio" name="q3" value="c"> Agar kelompok tidak perlu bekerja sama.</label>
+    <label class="quiz-opt"><input type="radio" name="q3" value="d"> Agar kegiatan diskusi dapat dihentikan.</label>
+    <div class="quiz-feedback"></div>
+  </div>
+  <div class="quiz-q" data-correct="c" data-explain="Guru perlu mengatur pembagian peran dan memantau kontribusi agar kerja sama berlangsung secara adil.">
+    <p>4. Seorang siswa selalu mengerjakan tugas kelompok sendiri, sementara anggota lain hanya mengikuti. Apa tindakan guru yang paling tepat?</p>
+    <label class="quiz-opt"><input type="radio" name="q4" value="a"> Membiarkan keadaan tersebut karena tugas selesai.</label>
+    <label class="quiz-opt"><input type="radio" name="q4" value="b"> Memberikan seluruh nilai kepada siswa tersebut.</label>
+    <label class="quiz-opt"><input type="radio" name="q4" value="c"> Membagi tanggung jawab dan memastikan semua anggota berpartisipasi.</label>
+    <label class="quiz-opt"><input type="radio" name="q4" value="d"> Menghentikan seluruh kegiatan kelompok.</label>
+    <div class="quiz-feedback"></div>
+  </div>
+  <div class="quiz-q" data-correct="a" data-explain="Numbered Heads Together mengharuskan anggota kelompok berdiskusi dan memastikan semua anggota memahami jawaban karena guru dapat memanggil nomor secara acak.">
+    <p>5. Dalam pembelajaran IPAS tentang rantai makanan, guru ingin memastikan semua anggota memahami hasil diskusi dan siap menjawab pertanyaan secara acak. Tipe yang paling sesuai adalah ...</p>
+    <label class="quiz-opt"><input type="radio" name="q5" value="a"> Numbered Heads Together.</label>
+    <label class="quiz-opt"><input type="radio" name="q5" value="b"> Ceramah.</label>
+    <label class="quiz-opt"><input type="radio" name="q5" value="c"> Demonstrasi.</label>
+    <label class="quiz-opt"><input type="radio" name="q5" value="d"> Penugasan individu.</label>
+    <div class="quiz-feedback"></div>
+  </div>
+  <button id="submitQuiz" class="print-btn" style="position:static;margin-top:1rem;">Kirim Jawaban</button>
+  <button id="retryQuiz" class="print-btn" style="position:static;margin-top:1rem;display:none;">Coba Lagi</button>
+  <div class="quiz-result" id="quizResult"></div>
+</div>
+
+<p><a href="../model-pembelajaran.html">← Kembali ke Katalog</a></p>
+
+        </article>
+      </div>
+    </div>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="footer-brand-name">BIANCA EDUSPACE</div>
+          <div class="footer-slogan">Inspire to Learn, Empower to Grow</div>
+          <p class="footer-text">Ruang edukasi untuk belajar, berkarya, dan berkembang bersama.</p>
+        </div>
+        <div>
+          <div class="footer-heading">Navigasi</div>
+          <ul class="footer-list">
+            <li><a href="../index.html">Beranda</a></li>
+            <li><a href="../model-pembelajaran.html">Model Pembelajaran</a></li>
+            <li><a href="../metode-pembelajaran.html">Metode Pembelajaran</a></li>
+            <li><a href="../panduan-mengajar.html">Panduan Mengajar</a></li>
+            <li><a href="../tentang-kami.html">Tentang Kami</a></li>
+          </ul>
+        </div>
+        <div>
+          <div class="footer-heading">Informasi</div>
+          <ul class="footer-list">
+            <li><a href="../tentang-kami.html">Tentang Bianca EduSpace</a></li>
+            <li><a href="../tentang-kami.html">Visi dan Misi</a></li>
+            <li><a href="../tentang-kami.html">Tujuan Pendidikan</a></li>
+          </ul>
+        </div>
+        <div>
+          <div class="footer-heading">Brand Statement</div>
+          <p class="footer-statement">Creative Learning. Innovative Education. Collaborative Growth.</p>
+        </div>
+      </div>
+      <div class="footer-bottom">© 2026 BIANCA EDUSPACE. All Rights Reserved.</div>
+    </div>
+  </footer>
+  <button id="backToTop" class="back-to-top" aria-label="Kembali ke atas">↑</button>
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script src="../script.js" defer></script>
+  <script>
+    (function () {
+      const submit = document.getElementById('submitQuiz');
+      const retry = document.getElementById('retryQuiz');
+      const result = document.getElementById('quizResult');
+      const qs = document.querySelectorAll('.quiz-q');
+
+      function grade() {
+        let score = 0;
+        qs.forEach((q, i) => {
+          const name = 'q' + (i + 1);
+          const sel = document.querySelector('input[name="' + name + '"]:checked');
+          const fb = q.querySelector('.quiz-feedback');
+          const correct = q.dataset.correct;
+          if (sel && sel.value === correct) {
+            score++;
+            fb.textContent = 'Benar. ' + q.dataset.explain;
+            fb.className = 'quiz-feedback ok';
+          } else {
+            fb.textContent = 'Salah. Jawaban benar: ' + correct.toUpperCase() + '. ' + q.dataset.explain;
+            fb.className = 'quiz-feedback err';
+          }
+        });
+        const pct = Math.round((score / qs.length) * 100);
+        result.textContent = 'Skor: ' + score + ' / ' + qs.length + ' (' + pct + '/100)';
+        retry.style.display = 'inline-block';
+      }
+
+      function reset() {
+        qs.forEach(q => {
+          q.querySelectorAll('input[type="radio"]').forEach(r => r.checked = false);
+          const fb = q.querySelector('.quiz-feedback');
+          if (fb) { fb.textContent = ''; fb.className = 'quiz-feedback'; }
+        });
+        result.textContent = '';
+        retry.style.display = 'none';
+      }
+
+      submit.addEventListener('click', grade);
+      retry.addEventListener('click', reset);
+    })();
+
+    window.addEventListener('scroll', () => {
+      const h = document.documentElement;
+      const pct = (h.scrollTop / (h.scrollHeight - h.clientHeight)) * 100;
+      document.getElementById('progressBar').style.width = pct + '%';
+    }, { passive: true });
+    const btn = document.getElementById('backToTop');
+    if (btn) { window.addEventListener('scroll', () => btn.classList.toggle('show', window.scrollY > 300), { passive: true }); btn.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' })); }
+  </script>
+</body>
+</html>

@@ -1,0 +1,706 @@
+﻿<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Project Based Learning (PjBL) — BIANCA EDUSPACE</title>
+  <meta name="description" content="Materi mendalam Model Pembelajaran Project Based Learning (PjBL)." />
+  <link rel="icon" type="image/png" href="../images/logo-bianca.jpg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../style.css" />
+  <link rel="stylesheet" href="../css/model-pembelajaran.css" />
+  <style>
+    .progress-bar { position: fixed; top: 0; left: 0; height: 4px; width: 0; background: linear-gradient(90deg,#2585F5,#38BDF8); z-index: 200; transition: width .1s; }
+    .quiz-box { background:#f5f8fd; padding:1.5rem; border-radius:.75rem; margin-top:1.5rem; }
+    .quiz-q { margin-bottom:1.25rem; }
+    .quiz-opt { display:block; margin:.4rem 0; }
+    .quiz-result { margin-top:1rem; font-weight:600; color:#1646A0; }
+    .print-btn { position:fixed; bottom:80px; right:24px; background:#1646A0; color:#fff; border:none; border-radius:999px; padding:.6rem 1rem; cursor:pointer; z-index:150; }
+    table { width:100%; border-collapse:collapse; margin:1rem 0; font-size:.9rem; }
+    th,td { border:1px solid rgba(7,21,46,.1); padding:.6rem; vertical-align:top; }
+    th { background:#1646A0; color:#fff; }
+    .quiz-feedback { margin-top:.5rem; font-size:.9rem; }
+    .quiz-feedback.ok { color:#16a34a; }
+    .quiz-feedback.err { color:#dc2626; }
+  </style>
+</head>
+<body>
+  <div class="progress-bar" id="progressBar"></div>
+  <header class="site-header">
+    <div class="container navbar">
+      <a class="brand" href="../index.html">
+        <img class="brand-logo" src="../images/logo-bianca.jpg" alt="Logo BIANCA EDUSPACE" />
+        <span class="brand-name">BIANCA EDUSPACE</span>
+      </a>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+      </button>
+      <nav class="nav-menu" aria-label="Main navigation">
+        <a class="nav-link" href="../index.html">Beranda</a>
+        <a class="nav-link" href="../model-pembelajaran.html">Model Pembelajaran</a>
+        <a class="nav-link" href="../metode-pembelajaran.html">Metode Pembelajaran</a>
+        <a class="nav-link" href="../panduan-mengajar.html">Panduan Mengajar</a>
+        <a class="nav-link" href="../tentang-kami.html">Tentang Kami</a>
+      </nav>
+    </div>
+  </header>
+  <main class="page-content">
+    <div class="container">
+      <nav class="breadcrumb" aria-label="Breadcrumb">
+        <a href="../index.html">Beranda</a> / <a href="../model-pembelajaran.html">Model Pembelajaran</a> / Project Based Learning (PjBL)
+      </nav>
+      <h1 class="page-title">Project Based Learning (PjBL)</h1>
+      <p class="page-desc">Model pembelajaran berbasis proyek nyata.</p>
+
+      <div class="detail-layout">
+        <aside class="detail-toc">
+          <div class="footer-heading">Daftar Isi</div>
+          <ul class="footer-list">
+            <li><a href="#a">A. Pengenalan</a></li>
+            <li><a href="#b">B. Landasan Konseptual</a></li>
+            <li><a href="#c">C. Tujuan dan Manfaat</a></li>
+            <li><a href="#d">D. Karakteristik dan Prinsip</a></li>
+            <li><a href="#e">E. Jenis dan Variasi</a></li>
+            <li><a href="#f">F. Sintaks</a></li>
+            <li><a href="#g">G. Kelebihan dan Keterbatasan</a></li>
+            <li><a href="#h">H. Penerapan di SD</a></li>
+            <li><a href="#i">I. Rancangan Pembelajaran</a></li>
+            <li><a href="#j">J. Penilaian</a></li>
+            <li><a href="#k">K. Kesalahan Umum</a></li>
+            <li><a href="#l">L. Adaptasi</a></li>
+            <li><a href="#m">M. Refleksi dan Diskusi</a></li>
+            <li><a href="#n">N. Penutup</a></li>
+            <li><a href="#quiz">Uji Pemahaman</a></li>
+          </ul>
+        </aside>
+        <article class="detail-content">
+
+          <h2 id="a">A. Pengenalan Project Based Learning (PjBL)</h2>
+          <p>Project Based Learning (PjBL) atau Model Pembelajaran Berbasis Proyek merupakan model pembelajaran yang melibatkan peserta didik dalam kegiatan merancang, melaksanakan, dan menyelesaikan suatu proyek untuk menghasilkan produk, karya, atau bentuk penyelesaian yang berkaitan dengan tujuan pembelajaran.</p>
+          <p>Dalam model ini, siswa memperoleh pengetahuan dan keterampilan melalui proses pengerjaan proyek yang dirancang berdasarkan pertanyaan mendasar atau tantangan tertentu. Mereka tidak hanya mempelajari materi melalui penjelasan guru, tetapi juga menggunakannya untuk menghasilkan sesuatu melalui serangkaian kegiatan yang terencana.</p>
+          <p>Guru berperan sebagai fasilitator yang membantu siswa memahami tujuan proyek, menyusun rencana, mengatur waktu, memantau kemajuan, dan mengevaluasi hasil pekerjaan. Sementara itu, siswa terlibat aktif dalam menentukan langkah kerja, mengumpulkan informasi, menggunakan alat dan bahan, bekerja sama, serta mempresentasikan hasil proyek.</p>
+          <p>Sebagai contoh, dalam pembelajaran IPAS tentang lingkungan, guru mengajak siswa membuat proyek berupa tempat sampah terpilah dari bahan bekas. Siswa terlebih dahulu mempelajari jenis sampah, menentukan rancangan, menyiapkan bahan, membuat produk, dan menjelaskan cara penggunaannya.</p>
+          <p>Melalui kegiatan tersebut, siswa tidak hanya mengetahui konsep pengelolaan sampah, tetapi juga menerapkannya dalam bentuk karya yang dapat digunakan di lingkungan sekolah.</p>
+          <p>Dengan demikian, inti Project Based Learning terletak pada proses pembelajaran melalui pengerjaan proyek yang menghasilkan suatu produk atau karya serta melibatkan penerapan pengetahuan dan keterampilan.</p>
+
+          <h2 id="b">B. Landasan Konseptual</h2>
+          <p>Project Based Learning memiliki landasan konseptual yang menempatkan pengalaman mengerjakan proyek sebagai bagian penting dalam membangun pengetahuan dan keterampilan.</p>
+          <p>Beberapa gagasan yang mendukung model ini meliputi:</p>
+          <h3>1. Konstruktivisme</h3>
+          <p>Peserta didik membangun pemahaman melalui pengalaman dan keterlibatan aktif dalam kegiatan pembelajaran. Dalam PjBL, siswa mengembangkan pengetahuan ketika merencanakan dan mengerjakan proyek.</p>
+          <h3>2. Pembelajaran berdasarkan pengalaman</h3>
+          <p>Siswa memperoleh pengalaman belajar melalui kegiatan nyata, mulai dari merancang, mencoba, memperbaiki, hingga menghasilkan karya.</p>
+          <h3>3. Pembelajaran kontekstual</h3>
+          <p>Proyek dapat dihubungkan dengan kebutuhan dan permasalahan di lingkungan sekitar sehingga siswa memahami manfaat pengetahuan dalam kehidupan sehari-hari.</p>
+          <h3>4. Pembelajaran kolaboratif</h3>
+          <p>Pengerjaan proyek dapat melibatkan kerja sama antarsiswa. Mereka belajar membagi tugas, menyampaikan gagasan, mengambil keputusan, dan bertanggung jawab terhadap pekerjaan bersama.</p>
+          <h3>5. Pembelajaran berorientasi pada produk atau karya</h3>
+          <p>Proses pembelajaran diarahkan pada penciptaan hasil yang dapat ditampilkan, digunakan, atau dipresentasikan. Produk menjadi salah satu bentuk penerapan pengetahuan yang telah dipelajari.</p>
+          <p>Landasan tersebut menunjukkan bahwa PjBL tidak sekadar memberikan tugas membuat kerajinan atau benda tertentu. Proyek harus menjadi bagian dari proses pembelajaran yang memiliki tujuan, tahapan, dan penilaian yang jelas.</p>
+
+          <h2 id="c">C. Tujuan dan Manfaat</h2>
+          <h3>1. Tujuan Project Based Learning</h3>
+          <ol class="detail-list">
+            <li>Mengembangkan kemampuan siswa dalam menerapkan pengetahuan melalui kegiatan proyek.</li>
+            <li>Melatih kreativitas dan kemampuan menghasilkan karya.</li>
+            <li>Mengembangkan keterampilan merencanakan dan mengelola kegiatan.</li>
+            <li>Meningkatkan kemampuan bekerja sama dan berkomunikasi.</li>
+            <li>Mendorong kemandirian dan tanggung jawab.</li>
+            <li>Menghubungkan materi pembelajaran dengan kehidupan nyata.</li>
+            <li>Melatih kemampuan menyelesaikan tantangan selama proses pengerjaan proyek.</li>
+            <li>Mengembangkan kemampuan mengevaluasi dan mempresentasikan hasil karya.</li>
+          </ol>
+          <h3>2. Manfaat bagi peserta didik</h3>
+          <ul class="detail-list">
+            <li>Memperoleh pengalaman belajar melalui kegiatan langsung.</li>
+            <li>Memahami penerapan materi dalam kehidupan sehari-hari.</li>
+            <li>Mengembangkan kreativitas dan keterampilan praktis.</li>
+            <li>Belajar mengatur waktu dan menyelesaikan tanggung jawab.</li>
+            <li>Memperoleh pengalaman bekerja dalam kelompok.</li>
+            <li>Belajar menghadapi kendala selama proses pembuatan proyek.</li>
+            <li>Mengembangkan rasa percaya diri melalui presentasi hasil karya.</li>
+          </ul>
+          <h3>3. Manfaat bagi guru</h3>
+          <ul class="detail-list">
+            <li>Mengembangkan pembelajaran yang aktif dan kontekstual.</li>
+            <li>Mengamati kemampuan siswa selama proses pengerjaan proyek.</li>
+            <li>Mengintegrasikan beberapa kompetensi dalam satu kegiatan.</li>
+            <li>Menilai pengetahuan, keterampilan, dan sikap secara lebih menyeluruh.</li>
+            <li>Memberikan pengalaman belajar yang berhubungan dengan kehidupan siswa.</li>
+          </ul>
+
+          <h2 id="d">D. Karakteristik dan Prinsip Pelaksanaan</h2>
+          <h3>1. Karakteristik Project Based Learning</h3>
+          <ol class="detail-list">
+            <li>Pembelajaran berpusat pada kegiatan proyek.</li>
+            <li>Proyek diawali dengan pertanyaan mendasar atau tantangan.</li>
+            <li>Siswa terlibat dalam perencanaan kegiatan.</li>
+            <li>Proses pengerjaan berlangsung melalui tahapan yang terstruktur.</li>
+            <li>Siswa menggunakan pengetahuan dan keterampilan untuk menghasilkan karya.</li>
+            <li>Kegiatan dapat melibatkan kerja sama kelompok.</li>
+            <li>Guru melakukan pemantauan selama pengerjaan proyek.</li>
+            <li>Hasil proyek dipresentasikan atau ditampilkan.</li>
+            <li>Penilaian memperhatikan proses dan produk yang dihasilkan.</li>
+          </ol>
+          <h3>2. Prinsip pelaksanaan</h3>
+          <ul class="detail-list">
+            <li><strong>Berorientasi pada tujuan:</strong> proyek harus mendukung kompetensi pembelajaran.</li>
+            <li><strong>Memiliki tantangan:</strong> kegiatan proyek memberikan kesempatan kepada siswa untuk menerapkan pengetahuan.</li>
+            <li><strong>Terencana:</strong> terdapat tahapan, pembagian tugas, dan jadwal pengerjaan.</li>
+            <li><strong>Autentik:</strong> proyek memiliki hubungan dengan situasi atau kebutuhan nyata.</li>
+            <li><strong>Aktif dan kolaboratif:</strong> siswa berperan langsung dalam proses pengerjaan.</li>
+            <li><strong>Menghasilkan karya:</strong> terdapat produk atau hasil yang dapat ditunjukkan.</li>
+            <li><strong>Reflektif:</strong> siswa mengevaluasi proses dan hasil proyek.</li>
+          </ul>
+
+          <h2 id="e">E. Jenis dan Variasi Proyek</h2>
+          <p>Proyek dalam pembelajaran dapat dikembangkan berdasarkan tujuan, materi, dan kemampuan peserta didik.</p>
+          <h3>1. Proyek produk atau kerajinan</h3>
+          <p>Siswa menghasilkan benda atau karya yang dapat digunakan maupun dipamerkan.</p>
+          <p><strong>Contoh:</strong> membuat tempat pensil dari botol bekas.</p>
+          <h3>2. Proyek media pembelajaran</h3>
+          <p>Siswa membuat media sederhana untuk menjelaskan suatu konsep.</p>
+          <p><strong>Contoh:</strong> membuat model tata surya dari bahan yang mudah ditemukan.</p>
+          <h3>3. Proyek lingkungan</h3>
+          <p>Siswa melakukan kegiatan yang berkaitan dengan pemeliharaan lingkungan.</p>
+          <p><strong>Contoh:</strong> membuat kebun kelas atau tempat sampah terpilah.</p>
+          <h3>4. Proyek penelitian sederhana</h3>
+          <p>Siswa melakukan pengamatan dan mengumpulkan informasi untuk menghasilkan laporan atau kesimpulan.</p>
+          <p><strong>Contoh:</strong> mengamati pertumbuhan tanaman selama beberapa hari.</p>
+          <h3>5. Proyek kampanye edukatif</h3>
+          <p>Siswa menghasilkan media komunikasi untuk menyampaikan informasi atau mengajak masyarakat melakukan tindakan positif.</p>
+          <p><strong>Contoh:</strong> membuat poster hemat air dan kebersihan sekolah.</p>
+          <h3>6. Proyek karya digital</h3>
+          <p>Siswa membuat produk sederhana menggunakan teknologi yang sesuai dengan fasilitas dan kemampuan mereka.</p>
+          <p><strong>Contoh:</strong> membuat presentasi digital tentang keberagaman budaya Indonesia.</p>
+          <h3>Variasi pelaksanaan proyek</h3>
+          <ul class="detail-list">
+            <li>Proyek individu.</li>
+            <li>Proyek kelompok.</li>
+            <li>Proyek lintas mata pelajaran.</li>
+            <li>Proyek berbasis lingkungan sekolah.</li>
+            <li>Proyek berbasis kehidupan sehari-hari.</li>
+            <li>Proyek berbasis kreativitas dan teknologi.</li>
+          </ul>
+          <p>Pemilihan proyek perlu mempertimbangkan keamanan, ketersediaan bahan, waktu pengerjaan, dan tingkat perkembangan siswa.</p>
+
+          <h2 id="f">F. Sintaks atau Langkah Langkah Pelaksanaan</h2>
+          <p>Project Based Learning umumnya dilaksanakan melalui enam tahapan utama.</p>
+          <h3>1. Menentukan pertanyaan mendasar</h3>
+          <p>Guru menyampaikan pertanyaan atau tantangan yang menjadi dasar pelaksanaan proyek.</p>
+          <p><strong>Kegiatan guru:</strong></p>
+          <ul class="detail-list">
+            <li>Menyampaikan tujuan pembelajaran.</li>
+            <li>Menampilkan situasi atau kebutuhan yang dapat dijadikan proyek.</li>
+            <li>Mengajukan pertanyaan pemantik.</li>
+            <li>Menghubungkan proyek dengan materi pembelajaran.</li>
+          </ul>
+          <p><strong>Kegiatan siswa:</strong></p>
+          <ul class="detail-list">
+            <li>Mengamati situasi yang disampaikan.</li>
+            <li>Mengidentifikasi hal yang perlu dibuat atau dikembangkan.</li>
+            <li>Mengajukan pertanyaan.</li>
+            <li>Menyampaikan gagasan awal.</li>
+          </ul>
+          <p><strong>Contoh pertanyaan:</strong> "Bagaimana kita dapat membuat tempat sampah terpilah yang sederhana dan bermanfaat untuk kelas?"</p>
+          <h3>2. Mendesain perencanaan proyek</h3>
+          <p>Guru membimbing siswa menyusun rancangan proyek.</p>
+          <p><strong>Kegiatan guru:</strong></p>
+          <ul class="detail-list">
+            <li>Menjelaskan ketentuan dan hasil yang diharapkan.</li>
+            <li>Membantu siswa menentukan alat dan bahan.</li>
+            <li>Mengarahkan penyusunan langkah kerja.</li>
+            <li>Memastikan rancangan sesuai kemampuan siswa.</li>
+          </ul>
+          <p><strong>Kegiatan siswa:</strong></p>
+          <ul class="detail-list">
+            <li>Menentukan bentuk produk.</li>
+            <li>Menyiapkan rancangan sederhana.</li>
+            <li>Menentukan bahan yang diperlukan.</li>
+            <li>Membagi tugas jika proyek dilakukan secara kelompok.</li>
+          </ul>
+          <h3>3. Menyusun jadwal pelaksanaan proyek</h3>
+          <p>Guru membantu siswa menentukan waktu dan urutan kegiatan.</p>
+          <p><strong>Kegiatan guru:</strong></p>
+          <ul class="detail-list">
+            <li>Menentukan batas waktu penyelesaian.</li>
+            <li>Membantu menyusun tahapan pengerjaan.</li>
+            <li>Menentukan waktu pemantauan.</li>
+            <li>Mengingatkan siswa terhadap jadwal.</li>
+          </ul>
+          <p><strong>Kegiatan siswa:</strong></p>
+          <ul class="detail-list">
+            <li>Menyusun jadwal kegiatan.</li>
+            <li>Menentukan target setiap tahap.</li>
+            <li>Membagi waktu pengerjaan.</li>
+            <li>Menjalankan kegiatan sesuai kesepakatan.</li>
+          </ul>
+          <h3>4. Memonitor keaktifan dan perkembangan proyek</h3>
+          <p>Guru memantau proses pengerjaan dan memberikan bimbingan.</p>
+          <p><strong>Kegiatan guru:</strong></p>
+          <ul class="detail-list">
+            <li>Mengamati perkembangan pekerjaan siswa.</li>
+            <li>Memeriksa kesesuaian kegiatan dengan rencana.</li>
+            <li>Memberikan bantuan ketika muncul kendala.</li>
+            <li>Mengingatkan aspek keselamatan penggunaan alat dan bahan.</li>
+          </ul>
+          <p><strong>Kegiatan siswa:</strong></p>
+          <ul class="detail-list">
+            <li>Melaksanakan tahapan proyek.</li>
+            <li>Mencatat perkembangan pekerjaan.</li>
+            <li>Mengatasi kendala bersama kelompok.</li>
+            <li>Melakukan perbaikan jika diperlukan.</li>
+          </ul>
+          <h3>5. Menguji dan menilai hasil</h3>
+          <p>Guru membantu siswa memeriksa kelayakan dan kualitas produk.</p>
+          <p><strong>Kegiatan guru:</strong></p>
+          <ul class="detail-list">
+            <li>Mengamati hasil proyek.</li>
+            <li>Mengajukan pertanyaan mengenai proses pembuatan.</li>
+            <li>Menilai kesesuaian produk dengan tujuan.</li>
+            <li>Memberikan kesempatan untuk memperbaiki hasil.</li>
+          </ul>
+          <p><strong>Kegiatan siswa:</strong></p>
+          <ul class="detail-list">
+            <li>Memeriksa hasil pekerjaan.</li>
+            <li>Menguji fungsi produk apabila memungkinkan.</li>
+            <li>Memperbaiki bagian yang belum sesuai.</li>
+            <li>Menyiapkan hasil untuk dipresentasikan.</li>
+          </ul>
+          <h3>6. Mengevaluasi pengalaman belajar</h3>
+          <p>Guru mengajak siswa merefleksikan proses dan hasil kegiatan.</p>
+          <p><strong>Kegiatan guru:</strong></p>
+          <ul class="detail-list">
+            <li>Memfasilitasi presentasi hasil proyek.</li>
+            <li>Mengajak siswa mengevaluasi pengalaman.</li>
+            <li>Memberikan penguatan terhadap materi.</li>
+            <li>Membahas kesulitan dan pembelajaran yang diperoleh.</li>
+          </ul>
+          <p><strong>Kegiatan siswa:</strong></p>
+          <ul class="detail-list">
+            <li>Mempresentasikan hasil proyek.</li>
+            <li>Menjelaskan tahapan pengerjaan.</li>
+            <li>Menyampaikan kendala yang dihadapi.</li>
+            <li>Menjelaskan hal yang dipelajari selama kegiatan.</li>
+          </ul>
+
+          <h2 id="g">G. Kelebihan dan Keterbatasan</h2>
+          <h3>1. Kelebihan</h3>
+          <ol class="detail-list">
+            <li>Memberikan pengalaman belajar melalui kegiatan nyata.</li>
+            <li>Mendorong kreativitas dan kemampuan menghasilkan karya.</li>
+            <li>Melatih perencanaan serta pengelolaan waktu.</li>
+            <li>Mengembangkan keterampilan komunikasi dan kolaborasi.</li>
+            <li>Membantu siswa menerapkan pengetahuan.</li>
+            <li>Mendorong kemandirian dan tanggung jawab.</li>
+            <li>Memberikan kesempatan kepada siswa untuk menunjukkan hasil belajar melalui produk.</li>
+            <li>Dapat mengintegrasikan beberapa bidang pembelajaran.</li>
+          </ol>
+          <h3>2. Keterbatasan</h3>
+          <ol class="detail-list">
+            <li>Membutuhkan waktu yang relatif panjang.</li>
+            <li>Membutuhkan persiapan alat dan bahan.</li>
+            <li>Tidak semua proyek dapat dilaksanakan dengan fasilitas yang tersedia.</li>
+            <li>Pembagian tugas kelompok dapat menjadi tidak seimbang.</li>
+            <li>Guru perlu memantau perkembangan proyek secara berkala.</li>
+            <li>Siswa dapat lebih fokus pada keindahan produk dibandingkan pemahaman materi.</li>
+            <li>Proyek yang terlalu rumit dapat membebani peserta didik.</li>
+          </ol>
+          <h3>3. Cara mengatasi keterbatasan</h3>
+          <p>Guru dapat memilih proyek sederhana dengan bahan yang mudah ditemukan, menentukan jadwal yang realistis, dan membagi tanggung jawab secara jelas. Penilaian juga harus memperhatikan proses pembelajaran, bukan hanya penampilan akhir produk.</p>
+
+          <h2 id="h">H. Penerapan Project Based Learning di Sekolah Dasar</h2>
+          <p>PjBL dapat diterapkan pada berbagai mata pelajaran dengan proyek yang sesuai.</p>
+          <h3>1. IPAS</h3>
+          <p><strong>Materi:</strong> Pertumbuhan dan perkembangan tumbuhan.</p>
+          <p><strong>Proyek:</strong> Membuat jurnal pengamatan pertumbuhan tanaman.</p>
+          <p><strong>Kegiatan:</strong></p>
+          <ul class="detail-list">
+            <li>Siswa memilih jenis tanaman yang mudah dirawat.</li>
+            <li>Siswa menyiapkan wadah dan media tanam.</li>
+            <li>Siswa melakukan penanaman.</li>
+            <li>Siswa mengamati pertumbuhan secara berkala.</li>
+            <li>Siswa mencatat hasil pengamatan dan membuat laporan.</li>
+          </ul>
+          <h3>2. Matematika</h3>
+          <p><strong>Materi:</strong> Bangun datar dan pengukuran.</p>
+          <p><strong>Proyek:</strong> Membuat denah sederhana ruang kelas.</p>
+          <p><strong>Kegiatan:</strong></p>
+          <ul class="detail-list">
+            <li>Siswa mengukur panjang dan lebar ruang kelas.</li>
+            <li>Siswa mengidentifikasi bentuk bangun datar.</li>
+            <li>Siswa membuat rancangan denah.</li>
+            <li>Siswa menggunakan ukuran yang sesuai.</li>
+            <li>Siswa mempresentasikan hasil denah.</li>
+          </ul>
+          <h3>3. Bahasa Indonesia</h3>
+          <p><strong>Materi:</strong> Menulis teks informatif.</p>
+          <p><strong>Proyek:</strong> Membuat majalah dinding kelas.</p>
+          <p><strong>Kegiatan:</strong></p>
+          <ul class="detail-list">
+            <li>Siswa menentukan tema.</li>
+            <li>Siswa mengumpulkan informasi.</li>
+            <li>Siswa menulis artikel sederhana.</li>
+            <li>Siswa menyunting tulisan.</li>
+            <li>Siswa menyusun hasil tulisan menjadi majalah dinding.</li>
+          </ul>
+          <h3>4. Pendidikan Pancasila</h3>
+          <p><strong>Materi:</strong> Keberagaman dan persatuan.</p>
+          <p><strong>Proyek:</strong> Membuat pameran keberagaman budaya Indonesia.</p>
+          <p><strong>Kegiatan:</strong></p>
+          <ul class="detail-list">
+            <li>Siswa memilih salah satu daerah.</li>
+            <li>Siswa mencari informasi mengenai budaya daerah.</li>
+            <li>Siswa membuat media informasi.</li>
+            <li>Siswa menyusun hasil karya.</li>
+            <li>Siswa mempresentasikan hasilnya.</li>
+          </ul>
+          <h3>5. Seni Budaya dan Prakarya</h3>
+          <p><strong>Materi:</strong> Karya seni dari bahan bekas.</p>
+          <p><strong>Proyek:</strong> Membuat karya dekoratif dari bahan yang dapat digunakan kembali.</p>
+          <p><strong>Kegiatan:</strong></p>
+          <ul class="detail-list">
+            <li>Siswa mengidentifikasi bahan yang tersedia.</li>
+            <li>Siswa membuat rancangan karya.</li>
+            <li>Siswa menyiapkan alat dan bahan.</li>
+            <li>Siswa membuat produk.</li>
+            <li>Siswa memamerkan dan menjelaskan hasilnya.</li>
+          </ul>
+
+          <h2 id="i">I. Contoh Rancangan Pembelajaran</h2>
+          <p><strong>Topik:</strong> Membuat Tempat Sampah Terpilah dari Bahan Bekas</p>
+          <p><strong>Mata Pelajaran:</strong> IPAS</p>
+          <p><strong>Kelas:</strong> IV SD</p>
+          <p><strong>Materi:</strong> Pengelolaan Sampah dan Kepedulian Lingkungan</p>
+          <p><strong>Model:</strong> Project Based Learning</p>
+          <p><strong>Tujuan Pembelajaran:</strong></p>
+          <p>Peserta didik mampu mengidentifikasi jenis sampah, menjelaskan pentingnya pemilahan sampah, serta menghasilkan rancangan tempat sampah terpilah sederhana melalui kegiatan proyek.</p>
+          <p><strong>Media dan Alat:</strong></p>
+          <ul class="detail-list">
+            <li>Kardus atau wadah bekas yang aman.</li>
+            <li>Kertas warna.</li>
+            <li>Alat tulis.</li>
+            <li>Gunting yang aman digunakan siswa.</li>
+            <li>Lem.</li>
+            <li>Gambar contoh pemilahan sampah.</li>
+            <li>Lembar perencanaan proyek.</li>
+          </ul>
+          <p><strong>Kegiatan Pembelajaran:</strong></p>
+          <p><strong>Pendahuluan</strong></p>
+          <p>Guru menunjukkan gambar kondisi tempat sampah yang mencampurkan berbagai jenis sampah. Guru mengajukan pertanyaan:</p>
+          <p>"Bagaimana cara membantu warga sekolah membedakan sampah yang dapat didaur ulang dan sampah lainnya?"</p>
+          <p>Guru menjelaskan tujuan pembelajaran dan proyek yang akan dikerjakan.</p>
+          <p><strong>Kegiatan Inti</strong></p>
+          <p><strong>Tahap 1. Menentukan pertanyaan mendasar</strong></p>
+          <ul class="detail-list">
+            <li>Siswa mengamati permasalahan pemilahan sampah.</li>
+            <li>Guru mengajukan pertanyaan mengenai manfaat pemilahan.</li>
+            <li>Siswa menyampaikan gagasan mengenai bentuk tempat sampah yang dibutuhkan.</li>
+          </ul>
+          <p><strong>Tahap 2. Mendesain perencanaan proyek</strong></p>
+          <ul class="detail-list">
+            <li>Siswa dibagi menjadi beberapa kelompok.</li>
+            <li>Setiap kelompok membuat rancangan tempat sampah terpilah.</li>
+            <li>Siswa menentukan bahan dan alat.</li>
+            <li>Siswa menentukan pembagian tugas.</li>
+          </ul>
+          <p><strong>Tahap 3. Menyusun jadwal</strong></p>
+          <ul class="detail-list">
+            <li>Siswa menyusun urutan pengerjaan.</li>
+            <li>Guru menentukan waktu penyelesaian.</li>
+            <li>Kelompok menentukan target setiap tahapan.</li>
+          </ul>
+          <p><strong>Tahap 4. Memonitor perkembangan proyek</strong></p>
+          <ul class="detail-list">
+            <li>Siswa membuat tempat sampah berdasarkan rancangan.</li>
+            <li>Siswa memberikan label sesuai jenis sampah yang dipelajari.</li>
+            <li>Guru memantau pekerjaan dan membantu jika diperlukan.</li>
+            <li>Siswa memperbaiki bagian yang belum sesuai.</li>
+          </ul>
+          <p><strong>Tahap 5. Menguji dan menilai hasil</strong></p>
+          <ul class="detail-list">
+            <li>Setiap kelompok memeriksa hasil produk.</li>
+            <li>Siswa menjelaskan fungsi setiap bagian.</li>
+            <li>Guru menilai kesesuaian produk dengan tujuan pembelajaran.</li>
+            <li>Siswa melakukan perbaikan jika ditemukan kekurangan.</li>
+          </ul>
+          <p><strong>Tahap 6. Mengevaluasi pengalaman</strong></p>
+          <ul class="detail-list">
+            <li>Setiap kelompok mempresentasikan hasil.</li>
+            <li>Siswa menjelaskan proses pembuatan dan pembagian tugas.</li>
+            <li>Guru mengajak siswa merefleksikan manfaat pemilahan sampah.</li>
+            <li>Siswa menyimpulkan pembelajaran.</li>
+          </ul>
+          <p><strong>Penutup</strong></p>
+          <p>Guru bersama siswa menyimpulkan pentingnya pengelolaan sampah dan pemanfaatan bahan bekas. Hasil proyek dapat digunakan sebagai media pendukung kebiasaan menjaga kebersihan kelas.</p>
+
+          <h2 id="j">J. Penilaian Pembelajaran</h2>
+          <p>Penilaian dalam PjBL perlu mencakup proses pengerjaan, pemahaman materi, keterampilan, dan kualitas produk.</p>
+          <h3>1. Penilaian perencanaan</h3>
+          <p>Aspek yang dinilai:</p>
+          <ul class="detail-list">
+            <li>Kesesuaian rancangan dengan tujuan.</li>
+            <li>Kelengkapan rencana alat dan bahan.</li>
+            <li>Kejelasan tahapan pengerjaan.</li>
+            <li>Pembagian tugas.</li>
+          </ul>
+          <h3>2. Penilaian proses</h3>
+          <p>Aspek yang diamati:</p>
+          <ul class="detail-list">
+            <li>Keaktifan dalam kegiatan.</li>
+            <li>Tanggung jawab terhadap tugas.</li>
+            <li>Kerja sama.</li>
+            <li>Kemampuan mengatasi kendala.</li>
+            <li>Kedisiplinan mengikuti jadwal.</li>
+          </ul>
+          <h3>3. Penilaian produk</h3>
+          <p>Aspek yang dinilai:</p>
+          <ul class="detail-list">
+            <li>Kesesuaian produk dengan tujuan.</li>
+            <li>Fungsi atau manfaat produk.</li>
+            <li>Kreativitas.</li>
+            <li>Ketepatan penggunaan bahan.</li>
+            <li>Kerapian dan keamanan produk.</li>
+          </ul>
+          <h3>4. Penilaian presentasi dan refleksi</h3>
+          <p>Aspek yang dinilai:</p>
+          <ul class="detail-list">
+            <li>Kemampuan menjelaskan proses.</li>
+            <li>Kemampuan menyampaikan manfaat produk.</li>
+            <li>Kemampuan menjawab pertanyaan.</li>
+            <li>Kemampuan mengevaluasi pengalaman.</li>
+          </ul>
+          <h3>5. Contoh rubrik penilaian</h3>
+          <table>
+            <tr><th>Skor</th><th>Kriteria</th></tr>
+            <tr><td>4</td><td>Perencanaan matang, proses terorganisasi, produk sesuai tujuan, dan presentasi jelas</td></tr>
+            <tr><td>3</td><td>Perencanaan dan proses cukup baik, produk sesuai tujuan dengan sedikit kekurangan</td></tr>
+            <tr><td>2</td><td>Perencanaan atau proses masih membutuhkan arahan dan produk belum sepenuhnya sesuai</td></tr>
+            <tr><td>1</td><td>Belum mampu menyelesaikan tahapan proyek dan membutuhkan pendampingan intensif</td></tr>
+          </table>
+          <p>Guru perlu memastikan bahwa nilai proyek tidak hanya ditentukan oleh hasil akhir kelompok. Kontribusi dan perkembangan setiap siswa juga perlu diperhatikan.</p>
+
+          <h2 id="k">K. Kesalahan Umum dalam Penerapan</h2>
+          <p>Beberapa kesalahan yang perlu dihindari dalam penerapan PjBL antara lain:</p>
+          <ol class="detail-list">
+            <li>Menganggap semua tugas membuat produk otomatis termasuk Project Based Learning.</li>
+            <li>Memberikan proyek tanpa hubungan yang jelas dengan tujuan pembelajaran.</li>
+            <li>Menentukan seluruh proses tanpa melibatkan siswa dalam perencanaan.</li>
+            <li>Memilih proyek yang terlalu rumit untuk usia siswa.</li>
+            <li>Tidak menyusun jadwal pengerjaan.</li>
+            <li>Membiarkan pembagian tugas kelompok tidak seimbang.</li>
+            <li>Hanya menilai keindahan atau bentuk produk.</li>
+            <li>Tidak memantau perkembangan proyek.</li>
+            <li>Tidak memberikan kesempatan kepada siswa untuk mempresentasikan hasil.</li>
+            <li>Mengabaikan refleksi setelah proyek selesai.</li>
+          </ol>
+          <p>PjBL harus memperhatikan keseluruhan proses pembelajaran. Produk merupakan hasil penting, tetapi proses merencanakan, mengerjakan, dan mengevaluasi juga memiliki nilai pendidikan.</p>
+
+          <h2 id="l">L. Adaptasi terhadap Kebutuhan Siswa</h2>
+          <p>Setiap peserta didik memiliki kemampuan, minat, dan keterampilan yang berbeda. Guru perlu menyesuaikan proyek agar seluruh siswa dapat berpartisipasi.</p>
+          <h3>Bagi siswa yang membutuhkan pendampingan</h3>
+          <ul class="detail-list">
+            <li>Pilih proyek dengan tahapan sederhana.</li>
+            <li>Sediakan contoh rancangan.</li>
+            <li>Gunakan petunjuk bergambar.</li>
+            <li>Berikan pembagian tugas yang jelas.</li>
+            <li>Sediakan waktu tambahan jika diperlukan.</li>
+          </ul>
+          <h3>Bagi siswa yang memiliki kemampuan lebih berkembang</h3>
+          <ul class="detail-list">
+            <li>Berikan tantangan tambahan dalam rancangan proyek.</li>
+            <li>Dorong penggunaan bahan atau teknik yang lebih bervariasi.</li>
+            <li>Ajak siswa mengevaluasi kelebihan dan kekurangan produk.</li>
+            <li>Berikan kesempatan mengembangkan ide secara mandiri.</li>
+          </ul>
+          <h3>Bagi kelas dengan kemampuan beragam</h3>
+          <ul class="detail-list">
+            <li>Susun kelompok dengan pembagian tugas yang adil.</li>
+            <li>Berikan pilihan peran sesuai kemampuan.</li>
+            <li>Pastikan setiap siswa memiliki kontribusi.</li>
+            <li>Gunakan proyek yang memungkinkan berbagai bentuk kreativitas.</li>
+            <li>Lakukan pemantauan terhadap keterlibatan individu.</li>
+          </ul>
+          <p>Guru juga perlu memperhatikan aspek keselamatan. Alat tajam, bahan berbahaya, dan kegiatan yang membutuhkan pengawasan khusus harus dikelola sesuai usia peserta didik.</p>
+
+          <h2 id="m">M. Pertanyaan Refleksi dan Diskusi</h2>
+          <p>Gunakan pertanyaan berikut untuk memperdalam pemahaman.</p>
+          <ol class="detail-list">
+            <li>Apa yang membedakan Project Based Learning dengan pemberian tugas biasa?</li>
+            <li>Mengapa proyek harus memiliki hubungan dengan tujuan pembelajaran?</li>
+            <li>Mengapa siswa perlu dilibatkan dalam perencanaan proyek?</li>
+            <li>Apa fungsi penyusunan jadwal dalam pelaksanaan PjBL?</li>
+            <li>Mengapa penilaian proyek tidak cukup hanya melihat hasil akhir?</li>
+            <li>Bagaimana guru memastikan setiap anggota kelompok memiliki tanggung jawab?</li>
+            <li>Apakah proyek sederhana dapat memberikan pengalaman belajar yang bermakna? Jelaskan alasanmu.</li>
+          </ol>
+          <p><strong>Aktivitas refleksi:</strong></p>
+          <p>Bayangkan kamu menjadi guru kelas V SD. Kamu ingin mengajarkan materi tentang keberagaman budaya Indonesia melalui Project Based Learning.</p>
+          <p>Rancang sebuah proyek pameran budaya sederhana. Tentukan:</p>
+          <ul class="detail-list">
+            <li>Tema proyek.</li>
+            <li>Pertanyaan mendasar.</li>
+            <li>Produk yang akan dihasilkan.</li>
+            <li>Alat dan bahan.</li>
+            <li>Pembagian tugas.</li>
+            <li>Jadwal kegiatan.</li>
+            <li>Bentuk presentasi.</li>
+            <li>Aspek penilaian.</li>
+          </ul>
+
+          <h2 id="n">N. Penutup dan Pengembangan Pemahaman</h2>
+          <p>Project Based Learning merupakan model pembelajaran yang memberikan kesempatan kepada peserta didik untuk membangun pengetahuan melalui kegiatan merancang dan mengerjakan proyek.</p>
+          <p>Melalui proses menentukan pertanyaan mendasar, menyusun perencanaan, mengatur jadwal, melaksanakan proyek, menguji hasil, dan mengevaluasi pengalaman, siswa belajar menerapkan pengetahuan dalam kegiatan nyata.</p>
+          <p>Dalam penerapannya di sekolah dasar, proyek perlu dirancang secara sederhana, aman, menarik, dan sesuai dengan tujuan pembelajaran. Guru juga perlu memastikan bahwa setiap siswa memiliki kesempatan untuk berpartisipasi dan memperoleh pengalaman belajar.</p>
+          <p>Keberhasilan PjBL tidak hanya ditentukan oleh bagus atau tidaknya produk yang dihasilkan. Hal yang lebih penting adalah proses belajar yang terjadi selama siswa merencanakan, bekerja sama, menghadapi kendala, melakukan perbaikan, dan menjelaskan hasil karyanya.</p>
+          <p>Dengan demikian, Project Based Learning dapat menjadi pendekatan pembelajaran yang membantu siswa mengembangkan pengetahuan, kreativitas, tanggung jawab, dan keterampilan melalui pengalaman menghasilkan karya yang bermakna.</p>
+          <p><strong>Refleksi akhir:</strong> Setelah mempelajari Project Based Learning, calon guru diharapkan mampu merancang proyek yang relevan dengan tujuan pembelajaran, membimbing proses pengerjaan, mengembangkan kreativitas siswa, serta menilai proses dan hasil karya secara seimbang.</p>
+
+          <div style="margin-top:2rem; display:flex; justify-content:space-between;">
+            <a class="btn btn-ghost" href="../model-pembelajaran.html">Kembali ke Katalog</a>
+            <a class="btn btn-primary" href="../model-pembelajaran.html">Daftar Model</a>
+          </div>
+
+          <h2 id="quiz">Uji Pemahaman</h2>
+          <div class="quiz-box" id="quizContainer">
+            <div class="quiz-q" data-correct="c" data-explain="PjBL menjadikan proyek sebagai bagian utama proses pembelajaran. Siswa belajar melalui kegiatan merencanakan, mengerjakan, dan mengevaluasi hasil proyek.">
+              <p>1. Apa yang menjadi ciri utama Project Based Learning?</p>
+              <label class="quiz-opt"><input type="radio" name="q1" value="a"> Pembelajaran hanya berpusat pada penjelasan guru.</label>
+              <label class="quiz-opt"><input type="radio" name="q1" value="b"> Siswa menghafalkan materi sebelum mengerjakan soal.</label>
+              <label class="quiz-opt"><input type="radio" name="q1" value="c"> Siswa belajar melalui pengerjaan proyek yang menghasilkan produk atau karya.</label>
+              <label class="quiz-opt"><input type="radio" name="q1" value="d"> Guru memberikan tugas tanpa tahapan pengerjaan.</label>
+              <div class="quiz-feedback"></div>
+            </div>
+            <div class="quiz-q" data-correct="a" data-explain="Keduanya menggunakan permasalahan atau tantangan sebagai bagian pembelajaran, tetapi PjBL menekankan pengembangan dan penyelesaian proyek sebagai proses utama.">
+              <p>2. Apa perbedaan utama Project Based Learning dengan Problem Based Learning?</p>
+              <label class="quiz-opt"><input type="radio" name="q2" value="a"> PjBL berorientasi pada pengerjaan proyek dan hasil karya, sedangkan PBL berorientasi pada penyelidikan dan penyelesaian masalah.</label>
+              <label class="quiz-opt"><input type="radio" name="q2" value="b"> PjBL hanya menggunakan ceramah, sedangkan PBL hanya menggunakan diskusi.</label>
+              <label class="quiz-opt"><input type="radio" name="q2" value="c"> PjBL tidak membutuhkan tujuan pembelajaran.</label>
+              <label class="quiz-opt"><input type="radio" name="q2" value="d"> PBL selalu menghasilkan benda, sedangkan PjBL tidak.</label>
+              <div class="quiz-feedback"></div>
+            </div>
+            <div class="quiz-q" data-correct="b" data-explain="Setelah pertanyaan mendasar ditentukan, siswa dan guru menyusun perencanaan mengenai produk, alat, bahan, dan tahapan pengerjaan.">
+              <p>3. Tahap yang dilakukan setelah menentukan pertanyaan mendasar dalam PjBL adalah ...</p>
+              <label class="quiz-opt"><input type="radio" name="q3" value="a"> Mengevaluasi pengalaman belajar.</label>
+              <label class="quiz-opt"><input type="radio" name="q3" value="b"> Mendesain perencanaan proyek.</label>
+              <label class="quiz-opt"><input type="radio" name="q3" value="c"> Menyampaikan nilai akhir.</label>
+              <label class="quiz-opt"><input type="radio" name="q3" value="d"> Mengakhiri kegiatan pembelajaran.</label>
+              <div class="quiz-feedback"></div>
+            </div>
+            <div class="quiz-q" data-correct="d" data-explain="Pemantauan membantu memastikan kegiatan berjalan sesuai rencana dan siswa memperoleh bimbingan yang diperlukan.">
+              <p>4. Mengapa guru perlu memantau perkembangan proyek?</p>
+              <label class="quiz-opt"><input type="radio" name="q4" value="a"> Agar siswa tidak memiliki kesempatan mengambil keputusan.</label>
+              <label class="quiz-opt"><input type="radio" name="q4" value="b"> Agar guru dapat mengerjakan proyek untuk siswa.</label>
+              <label class="quiz-opt"><input type="radio" name="q4" value="c"> Agar seluruh kelompok menghasilkan produk yang sama persis.</label>
+              <label class="quiz-opt"><input type="radio" name="q4" value="d"> Agar guru dapat mengetahui perkembangan dan memberikan bantuan ketika diperlukan.</label>
+              <div class="quiz-feedback"></div>
+            </div>
+            <div class="quiz-q" data-correct="c" data-explain="Penilaian PjBL perlu mencakup keseluruhan pengalaman belajar, bukan hanya produk akhir.">
+              <p>5. Penilaian yang tepat dalam Project Based Learning adalah ...</p>
+              <label class="quiz-opt"><input type="radio" name="q5" value="a"> Hanya menilai keindahan produk.</label>
+              <label class="quiz-opt"><input type="radio" name="q5" value="b"> Hanya menilai kelompok yang menyelesaikan proyek paling cepat.</label>
+              <label class="quiz-opt"><input type="radio" name="q5" value="c"> Menilai perencanaan, proses pengerjaan, produk, presentasi, dan refleksi.</label>
+              <label class="quiz-opt"><input type="radio" name="q5" value="d"> Hanya menilai jumlah bahan yang digunakan.</label>
+              <div class="quiz-feedback"></div>
+            </div>
+            <button class="btn btn-primary" id="submitQuiz">Periksa Jawaban</button>
+            <button class="btn btn-ghost" id="retryQuiz" style="display:none;margin-left:.5rem;">Ulangi Kuis</button>
+            <div class="quiz-result" id="quizResult"></div>
+          </div>
+
+        </article>
+      </div>
+    </div>
+  </main>
+  <button class="print-btn" onclick="window.print()">Cetak</button>
+  <button id="backToTop" class="back-to-top" aria-label="Kembali ke atas">^</button>
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="footer-brand-name">BIANCA EDUSPACE</div>
+          <div class="footer-slogan">Inspire to Learn, Empower to Grow</div>
+          <p class="footer-text">Ruang edukasi untuk belajar, berkarya, dan berkembang bersama.</p>
+        </div>
+        <div>
+          <div class="footer-heading">Navigasi</div>
+          <ul class="footer-list">
+            <li><a href="../index.html">Beranda</a></li>
+            <li><a href="../model-pembelajaran.html">Model Pembelajaran</a></li>
+            <li><a href="../metode-pembelajaran.html">Metode Pembelajaran</a></li>
+            <li><a href="../panduan-mengajar.html">Panduan Mengajar</a></li>
+            <li><a href="../tentang-kami.html">Tentang Kami</a></li>
+          </ul>
+        </div>
+        <div>
+          <div class="footer-heading">Informasi</div>
+          <ul class="footer-list">
+            <li><a href="../tentang-kami.html">Tentang Bianca EduSpace</a></li>
+            <li><a href="../tentang-kami.html">Visi dan Misi</a></li>
+            <li><a href="../tentang-kami.html">Tujuan Pendidikan</a></li>
+          </ul>
+        </div>
+        <div>
+          <div class="footer-heading">Brand Statement</div>
+          <p class="footer-statement">Creative Learning. Innovative Education. Collaborative Growth.</p>
+        </div>
+      </div>
+      <div class="footer-bottom">© 2026 BIANCA EDUSPACE. All Rights Reserved.</div>
+    </div>
+  </footer>
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script src="../script.js" defer></script>
+  <script>
+    (function () {
+      const submit = document.getElementById('submitQuiz');
+      const retry = document.getElementById('retryQuiz');
+      const result = document.getElementById('quizResult');
+      const qs = document.querySelectorAll('.quiz-q');
+
+      function grade() {
+        let score = 0;
+        qs.forEach((q, i) => {
+          const name = 'q' + (i + 1);
+          const sel = document.querySelector('input[name="' + name + '"]:checked');
+          const fb = q.querySelector('.quiz-feedback');
+          const correct = q.dataset.correct;
+          if (sel && sel.value === correct) {
+            score++;
+            fb.textContent = 'Benar. ' + q.dataset.explain;
+            fb.className = 'quiz-feedback ok';
+          } else {
+            fb.textContent = 'Salah. Jawaban benar: ' + correct.toUpperCase() + '. ' + q.dataset.explain;
+            fb.className = 'quiz-feedback err';
+          }
+        });
+        const pct = Math.round((score / qs.length) * 100);
+        result.textContent = 'Skor: ' + score + ' / ' + qs.length + ' (' + pct + '/100)';
+        retry.style.display = 'inline-block';
+      }
+
+      function reset() {
+        qs.forEach(q => {
+          q.querySelectorAll('input[type="radio"]').forEach(r => r.checked = false);
+          const fb = q.querySelector('.quiz-feedback');
+          if (fb) { fb.textContent = ''; fb.className = 'quiz-feedback'; }
+        });
+        result.textContent = '';
+        retry.style.display = 'none';
+      }
+
+      submit.addEventListener('click', grade);
+      retry.addEventListener('click', reset);
+    })();
+
+    window.addEventListener('scroll', () => {
+      const h = document.documentElement;
+      const pct = (h.scrollTop / (h.scrollHeight - h.clientHeight)) * 100;
+      document.getElementById('progressBar').style.width = pct + '%';
+    }, { passive: true });
+    const btn = document.getElementById('backToTop');
+    if (btn) { window.addEventListener('scroll', () => btn.classList.toggle('show', window.scrollY > 300), { passive: true }); btn.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' })); }
+  </script>
+</body>
+</html>

@@ -1,0 +1,664 @@
+﻿<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Discovery Learning — BIANCA EDUSPACE</title>
+  <meta name="description" content="Materi model pembelajaran Discovery Learning." />
+  <link rel="icon" type="image/png" href="../images/logo-bianca.jpg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../style.css" />
+  <link rel="stylesheet" href="../css/model-pembelajaran.css" />
+  <style>
+    .progress-bar { position: fixed; top: 0; left: 0; height: 4px; width: 0; background: linear-gradient(90deg,#2585F5,#38BDF8); z-index: 200; transition: width .1s; }
+    .quiz-box { background:#f5f8fd; padding:1.5rem; border-radius:.75rem; margin-top:1.5rem; }
+    .quiz-q { margin-bottom:1.25rem; }
+    .quiz-opt { display:block; margin:.4rem 0; }
+    .quiz-result { margin-top:1rem; font-weight:600; color:#1646A0; }
+    .print-btn { position:fixed; bottom:80px; right:24px; background:#1646A0; color:#fff; border:none; border-radius:999px; padding:.6rem 1rem; cursor:pointer; z-index:150; }
+    table { width:100%; border-collapse:collapse; margin:1rem 0; font-size:.9rem; }
+    th,td { border:1px solid rgba(7,21,46,.1); padding:.6rem; vertical-align:top; }
+    th { background:#1646A0; color:#fff; }
+    .quiz-feedback { margin-top:.5rem; font-size:.9rem; }
+    .quiz-feedback.ok { color:#16a34a; }
+    .quiz-feedback.err { color:#dc2626; }
+  </style>
+</head>
+<body>
+  <div class="progress-bar" id="progressBar"></div>
+  <header class="site-header">
+    <div class="container navbar">
+      <a class="brand" href="../index.html">
+        <img class="brand-logo" src="../images/logo-bianca.jpg" alt="Logo BIANCA EDUSPACE" />
+        <span class="brand-name">BIANCA EDUSPACE</span>
+      </a>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+      </button>
+      <nav class="nav-menu" aria-label="Main navigation">
+        <a class="nav-link" href="../index.html">Beranda</a>
+        <a class="nav-link" href="../model-pembelajaran.html">Model Pembelajaran</a>
+        <a class="nav-link" href="../metode-pembelajaran.html">Metode Pembelajaran</a>
+        <a class="nav-link" href="../panduan-mengajar.html">Panduan Mengajar</a>
+        <a class="nav-link" href="../tentang-kami.html">Tentang Kami</a>
+      </nav>
+    </div>
+  </header>
+  <main class="page-content">
+    <div class="container">
+      <nav class="breadcrumb" aria-label="Breadcrumb">
+        <a href="../index.html">Beranda</a> / <a href="../model-pembelajaran.html">Model Pembelajaran</a> / Discovery Learning
+      </nav>
+      <h1 class="page-title">Discovery Learning</h1>
+      <p class="page-desc">Model pembelajaran penemuan konsep.</p>
+
+      <div class="detail-layout">
+        <aside class="detail-toc">
+          <div class="footer-heading">Daftar Isi</div>
+          <ul class="footer-list">
+            <li><a href="#a">A. Pengenalan</a></li>
+            <li><a href="#b">B. Landasan Konseptual</a></li>
+            <li><a href="#c">C. Tujuan dan Manfaat</a></li>
+            <li><a href="#d">D. Karakteristik dan Prinsip</a></li>
+            <li><a href="#e">E. Variasi Kegiatan</a></li>
+            <li><a href="#f">F. Sintaks</a></li>
+            <li><a href="#g">G. Kelebihan dan Keterbatasan</a></li>
+            <li><a href="#h">H. Penerapan di SD</a></li>
+            <li><a href="#i">I. Rancangan Pembelajaran</a></li>
+            <li><a href="#j">J. Penilaian</a></li>
+            <li><a href="#k">K. Kesalahan Umum</a></li>
+            <li><a href="#l">L. Adaptasi</a></li>
+            <li><a href="#m">M. Refleksi dan Diskusi</a></li>
+            <li><a href="#n">N. Penutup</a></li>
+            <li><a href="#quiz">Uji Pemahaman</a></li>
+          </ul>
+        </aside>
+        <article class="detail-content">
+          <h2 id="a">A. Pengenalan Discovery Learning</h2>
+          <h3>1. Pengertian</h3>
+          <p>Discovery Learning merupakan model pembelajaran yang memberikan kesempatan kepada peserta didik untuk menemukan sendiri suatu konsep, prinsip, atau pengetahuan melalui proses belajar yang aktif dan terarah.</p>
+          <p>Dalam model ini, guru tidak langsung menyampaikan seluruh informasi atau jawaban kepada siswa. Guru merancang situasi belajar, memberikan rangsangan, menghadirkan pertanyaan atau permasalahan, serta membimbing siswa untuk memperoleh pemahaman melalui kegiatan pengamatan, pengumpulan informasi, pengolahan data, dan pembuktian.</p>
+          <p>Penemuan yang dilakukan siswa bukan berarti mereka harus menemukan pengetahuan baru bagi dunia ilmu pengetahuan. Penemuan yang dimaksud adalah proses ketika siswa memperoleh pemahaman melalui pengalaman belajarnya sendiri.</p>
+          <h3>2. Gambaran sederhana</h3>
+          <p>Misalnya, guru ingin mengajarkan materi tentang sifat benda.</p>
+          <p>Guru tidak langsung menjelaskan bahwa benda tertentu dapat mengapung atau tenggelam. Sebaliknya, guru menyediakan beberapa benda, seperti batu, kayu, plastik, dan koin. Siswa diminta memperkirakan apa yang akan terjadi ketika benda-benda tersebut dimasukkan ke dalam air.</p>
+          <p>Setelah melakukan pengamatan, siswa membandingkan hasilnya dan mencoba menemukan pola. Dari kegiatan tersebut, siswa membangun pemahaman mengenai karakteristik benda yang berkaitan dengan kemampuannya mengapung atau tenggelam.</p>
+          <h3>3. Inti pembelajaran</h3>
+          <p>Discovery Learning menempatkan siswa sebagai pihak yang aktif membangun pemahaman, sedangkan guru berperan sebagai fasilitator dan pembimbing proses penemuan.</p>
+
+          <h2 id="b">B. Landasan Konseptual</h2>
+          <h3>1. Dasar pemikiran</h3>
+          <p>Discovery Learning berkaitan erat dengan pandangan belajar yang menekankan keaktifan peserta didik dalam membangun pengetahuan.</p>
+          <p>Siswa tidak hanya menerima informasi, tetapi terlibat dalam proses menemukan hubungan, memahami pola, dan membentuk kesimpulan berdasarkan pengalaman belajar.</p>
+          <p>Model ini sering dikaitkan dengan pemikiran Jerome S. Bruner mengenai belajar melalui penemuan. Dalam pandangan tersebut, proses menemukan hubungan dan struktur pengetahuan dapat membantu siswa memahami materi secara lebih bermakna.</p>
+          <h3>2. Peran pengalaman belajar</h3>
+          <p>Pengalaman menjadi bagian penting karena siswa memperoleh kesempatan untuk berinteraksi langsung dengan objek, informasi, atau situasi yang sedang dipelajari.</p>
+          <p>Pengalaman tersebut dapat berupa:</p>
+          <ul class="detail-list">
+            <li>Mengamati objek atau fenomena.</li>
+            <li>Membandingkan beberapa informasi.</li>
+            <li>Mengajukan pertanyaan.</li>
+            <li>Melakukan percobaan sederhana.</li>
+            <li>Mengelompokkan hasil pengamatan.</li>
+            <li>Menemukan hubungan antarfakta.</li>
+            <li>Menyusun kesimpulan.</li>
+          </ul>
+          <h3>3. Prinsip utama</h3>
+          <p>Beberapa prinsip yang mendasari pelaksanaan Discovery Learning adalah:</p>
+          <p><strong>a. Keaktifan siswa</strong></p>
+          <p>Siswa terlibat langsung dalam kegiatan pembelajaran dan tidak hanya mendengarkan penjelasan guru.</p>
+          <p><strong>b. Pembelajaran berdasarkan pengalaman</strong></p>
+          <p>Pemahaman dibangun melalui pengalaman mengamati, mencoba, dan mengolah informasi.</p>
+          <p><strong>c. Pengetahuan dibangun secara bertahap</strong></p>
+          <p>Siswa memperoleh pemahaman melalui proses yang dimulai dari informasi sederhana hingga terbentuknya suatu konsep.</p>
+          <p><strong>d. Bimbingan guru</strong></p>
+          <p>Guru tetap memberikan arahan, pertanyaan pemantik, dan bantuan ketika siswa mengalami kesulitan.</p>
+          <p><strong>e. Pembuktian</strong></p>
+          <p>Kesimpulan yang diperoleh siswa perlu didukung oleh hasil pengamatan atau informasi yang relevan.</p>
+
+          <h2 id="c">C. Tujuan dan Manfaat Discovery Learning</h2>
+          <h3>1. Tujuan</h3>
+          <p>Discovery Learning bertujuan untuk:</p>
+          <ol class="detail-list">
+            <li>Mengembangkan kemampuan berpikir kritis dan logis.</li>
+            <li>Mendorong rasa ingin tahu siswa terhadap materi pembelajaran.</li>
+            <li>Membiasakan siswa mencari informasi sebelum menyimpulkan sesuatu.</li>
+            <li>Melatih kemampuan mengamati dan mengolah informasi.</li>
+            <li>Membantu siswa memahami konsep melalui pengalaman langsung.</li>
+            <li>Mengembangkan kemandirian dalam proses belajar.</li>
+            <li>Melatih kemampuan menyampaikan hasil penemuan.</li>
+          </ol>
+          <h3>2. Manfaat bagi siswa SD</h3>
+          <p><strong>a. Meningkatkan rasa ingin tahu</strong></p>
+          <p>Siswa terdorong untuk mencari jawaban atas fenomena yang mereka temui.</p>
+          <p><strong>b. Meningkatkan pemahaman konsep</strong></p>
+          <p>Siswa tidak hanya menghafalkan informasi, tetapi memahami bagaimana suatu konsep diperoleh.</p>
+          <p><strong>c. Melatih kemampuan berpikir</strong></p>
+          <p>Siswa belajar menghubungkan hasil pengamatan dengan pengetahuan yang sedang dipelajari.</p>
+          <p><strong>d. Meningkatkan kepercayaan diri</strong></p>
+          <p>Siswa memperoleh pengalaman menyampaikan hasil pengamatan dan kesimpulannya.</p>
+          <p><strong>e. Membangun kebiasaan belajar aktif</strong></p>
+          <p>Siswa terbiasa bertanya, mencoba, mengamati, dan mencari penjelasan.</p>
+          <h3>3. Manfaat bagi guru</h3>
+          <p>Guru dapat mengenali cara berpikir siswa, mengetahui kesulitan dalam memahami konsep, serta mengembangkan pembelajaran yang lebih kontekstual dan bermakna.</p>
+          <h2 id="d">D. Karakteristik dan Prinsip Pelaksanaan</h2>
+          <h3>1. Karakteristik Discovery Learning</h3>
+          <p><strong>a. Berpusat pada peserta didik</strong></p>
+          <p>Kegiatan pembelajaran memberikan ruang bagi siswa untuk melakukan proses penemuan.</p>
+          <p><strong>b. Menggunakan rangsangan pembelajaran</strong></p>
+          <p>Guru menghadirkan fenomena, gambar, benda, pertanyaan, atau situasi yang memunculkan rasa ingin tahu.</p>
+          <p><strong>c. Mengandung proses penyelidikan sederhana</strong></p>
+          <p>Siswa mengumpulkan informasi melalui pengamatan, percobaan, bacaan, atau sumber belajar lainnya.</p>
+          <p><strong>d. Mengembangkan kemampuan mengolah informasi</strong></p>
+          <p>Siswa mengelompokkan, membandingkan, dan menganalisis informasi yang telah diperoleh.</p>
+          <p><strong>e. Mengutamakan proses pembuktian</strong></p>
+          <p>Siswa memeriksa apakah kesimpulan yang dibuat sesuai dengan informasi atau hasil pengamatan.</p>
+          <p><strong>f. Menghasilkan pemahaman atau kesimpulan</strong></p>
+          <p>Siswa merumuskan konsep berdasarkan proses pembelajaran yang telah dilakukan.</p>
+          <h3>2. Prinsip pelaksanaan</h3>
+          <ul class="detail-list">
+            <li>Materi perlu disesuaikan dengan tingkat perkembangan siswa.</li>
+            <li>Kegiatan penemuan harus memiliki tujuan yang jelas.</li>
+            <li>Guru menyediakan sumber dan alat belajar yang memadai.</li>
+            <li>Pertanyaan guru harus membantu siswa berpikir, bukan langsung memberikan jawaban.</li>
+            <li>Siswa perlu mendapatkan kesempatan untuk menjelaskan hasil penemuannya.</li>
+            <li>Kesimpulan harus didasarkan pada bukti yang diperoleh.</li>
+          </ul>
+          <h3>3. Perbedaan penemuan terbimbing dan penemuan mandiri</h3>
+          <p><strong>Penemuan terbimbing (Guided Discovery)</strong> dilakukan dengan arahan dan bantuan guru secara bertahap. Bentuk ini lebih sesuai untuk banyak situasi pembelajaran di SD.</p>
+          <p><strong>Penemuan dengan kemandirian lebih tinggi</strong> memberikan ruang lebih luas kepada siswa untuk menentukan cara memperoleh informasi dan mengembangkan kesimpulan. Pelaksanaannya membutuhkan kesiapan belajar yang lebih baik.</p>
+
+          <h2 id="e">E. Variasi Kegiatan Discovery Learning</h2>
+          <p>Discovery Learning dapat diterapkan melalui beberapa bentuk kegiatan.</p>
+          <h3>1. Penemuan melalui pengamatan</h3>
+          <p>Siswa mengamati objek atau fenomena untuk menemukan ciri dan hubungan tertentu.</p>
+          <p><strong>Contoh:</strong> mengamati bagian tumbuhan dan mengelompokkan bagian-bagiannya berdasarkan fungsi.</p>
+          <h3>2. Penemuan melalui percobaan</h3>
+          <p>Siswa melakukan percobaan sederhana untuk mengetahui suatu fenomena.</p>
+          <p><strong>Contoh:</strong> mengamati perubahan wujud es ketika diletakkan pada tempat yang berbeda.</p>
+          <h3>3. Penemuan melalui pengelompokan</h3>
+          <p>Siswa mengelompokkan benda atau informasi berdasarkan karakteristik yang ditemukan.</p>
+          <p><strong>Contoh:</strong> mengelompokkan hewan berdasarkan jenis makanannya.</p>
+          <h3>4. Penemuan melalui perbandingan</h3>
+          <p>Siswa membandingkan dua atau lebih objek untuk menemukan persamaan dan perbedaan.</p>
+          <p><strong>Contoh:</strong> membandingkan karakteristik bangun datar berdasarkan jumlah sisi dan sudut.</p>
+          <h3>5. Penemuan melalui sumber informasi</h3>
+          <p>Siswa menggunakan buku, gambar, teks, atau sumber belajar lain untuk memperoleh informasi yang diperlukan.</p>
+          <p><strong>Contoh:</strong> menemukan hubungan antara kegiatan manusia dan perubahan lingkungan melalui bacaan sederhana.</p>
+          <h2 id="f">F. Sintaks atau Langkah Langkah Discovery Learning</h2>
+          <p>Discovery Learning memiliki enam tahapan utama yang dapat diterapkan secara sistematis.</p>
+          <h3>1. Stimulation (Pemberian Rangsangan)</h3>
+          <p>Guru menghadirkan rangsangan untuk membangkitkan rasa ingin tahu siswa terhadap materi yang akan dipelajari.</p>
+          <p>Bentuk rangsangan dapat berupa gambar, video, benda nyata, cerita singkat, demonstrasi, atau fenomena di sekitar siswa.</p>
+          <p><strong>Kegiatan guru:</strong></p>
+          <ul class="detail-list">
+            <li>Menyiapkan media atau objek pembelajaran.</li>
+            <li>Menampilkan fenomena yang menarik perhatian.</li>
+            <li>Mengajukan pertanyaan pemantik.</li>
+            <li>Menghubungkan fenomena dengan pengalaman siswa.</li>
+          </ul>
+          <p><strong>Kegiatan siswa:</strong></p>
+          <ul class="detail-list">
+            <li>Mengamati objek atau fenomena.</li>
+            <li>Memperhatikan informasi yang disampaikan.</li>
+            <li>Menyampaikan tanggapan awal.</li>
+            <li>Mengungkapkan pertanyaan berdasarkan pengamatan.</li>
+          </ul>
+          <p><strong>Contoh:</strong> Guru memperlihatkan dua tanaman. Tanaman pertama tumbuh subur, sedangkan tanaman kedua tampak layu. Guru bertanya, "Mengapa kondisi kedua tanaman ini berbeda?"</p>
+          <h3>2. Problem Statement (Identifikasi Masalah)</h3>
+          <p>Siswa diberikan kesempatan untuk mengidentifikasi masalah dan merumuskan pertanyaan yang akan dicari jawabannya.</p>
+          <p><strong>Kegiatan guru:</strong></p>
+          <ul class="detail-list">
+            <li>Membimbing siswa menemukan masalah.</li>
+            <li>Membantu menyusun pertanyaan yang dapat diselidiki.</li>
+            <li>Mengarahkan siswa menentukan fokus pembelajaran.</li>
+          </ul>
+          <p><strong>Kegiatan siswa:</strong></p>
+          <ul class="detail-list">
+            <li>Mengidentifikasi hal yang belum diketahui.</li>
+            <li>Menyampaikan pertanyaan.</li>
+            <li>Merumuskan dugaan awal atau hipotesis sederhana.</li>
+          </ul>
+          <p><strong>Contoh:</strong> Siswa merumuskan pertanyaan, "Apakah jumlah air yang diberikan memengaruhi kondisi tanaman?"</p>
+          <h3>3. Data Collection (Pengumpulan Data)</h3>
+          <p>Siswa mengumpulkan informasi yang relevan untuk menjawab pertanyaan atau permasalahan.</p>
+          <p><strong>Kegiatan guru:</strong></p>
+          <ul class="detail-list">
+            <li>Menyediakan alat, bahan, dan sumber belajar.</li>
+            <li>Menjelaskan prosedur kegiatan.</li>
+            <li>Memastikan kegiatan berjalan aman.</li>
+            <li>Membimbing siswa ketika mengalami kesulitan.</li>
+          </ul>
+          <p><strong>Kegiatan siswa:</strong></p>
+          <ul class="detail-list">
+            <li>Melakukan pengamatan atau percobaan.</li>
+            <li>Membaca sumber informasi.</li>
+            <li>Mencatat hasil pengamatan.</li>
+            <li>Mengumpulkan informasi yang berkaitan dengan masalah.</li>
+          </ul>
+          <p><strong>Contoh:</strong> Siswa mengamati tanaman dengan kondisi penyiraman yang berbeda melalui kegiatan yang telah disiapkan guru.</p>
+          <h3>4. Data Processing (Pengolahan Data)</h3>
+          <p>Siswa mengolah informasi yang telah dikumpulkan agar dapat menemukan pola, hubungan, atau makna dari data tersebut.</p>
+          <p><strong>Kegiatan guru:</strong></p>
+          <ul class="detail-list">
+            <li>Membantu siswa mengorganisasi informasi.</li>
+            <li>Memberikan pertanyaan pengarah.</li>
+            <li>Membimbing siswa membandingkan hasil pengamatan.</li>
+          </ul>
+          <p><strong>Kegiatan siswa:</strong></p>
+          <ul class="detail-list">
+            <li>Mengelompokkan hasil pengamatan.</li>
+            <li>Membandingkan informasi.</li>
+            <li>Menyusun tabel atau catatan sederhana.</li>
+            <li>Mengidentifikasi hubungan antara beberapa informasi.</li>
+          </ul>
+          <p><strong>Contoh:</strong> Siswa membandingkan kondisi tanaman berdasarkan jumlah penyiraman dan mencatat perbedaannya.</p>
+          <h3>5. Verification (Pembuktian)</h3>
+          <p>Siswa memeriksa apakah dugaan atau kesimpulan sementara sesuai dengan data dan informasi yang telah diperoleh.</p>
+          <p><strong>Kegiatan guru:</strong></p>
+          <ul class="detail-list">
+            <li>Mengarahkan siswa memeriksa kembali hasil pengamatan.</li>
+            <li>Mengajukan pertanyaan untuk menguji kesimpulan.</li>
+            <li>Membantu memperbaiki pemahaman yang belum tepat.</li>
+          </ul>
+          <p><strong>Kegiatan siswa:</strong></p>
+          <ul class="detail-list">
+            <li>Membandingkan dugaan awal dengan hasil pengamatan.</li>
+            <li>Memeriksa kesesuaian informasi.</li>
+            <li>Menjelaskan bukti yang mendukung hasil penemuan.</li>
+          </ul>
+          <p><strong>Contoh:</strong> Siswa memeriksa apakah hasil pengamatan mendukung dugaan mengenai pengaruh penyiraman terhadap kondisi tanaman.</p>
+          <h3>6. Generalization (Menarik Kesimpulan)</h3>
+          <p>Siswa merumuskan kesimpulan berdasarkan hasil pengolahan dan pembuktian informasi.</p>
+          <p><strong>Kegiatan guru:</strong></p>
+          <ul class="detail-list">
+            <li>Membimbing siswa menyusun kesimpulan.</li>
+            <li>Meluruskan konsep yang kurang tepat.</li>
+            <li>Menghubungkan hasil penemuan dengan materi pembelajaran.</li>
+            <li>Memberikan penguatan.</li>
+          </ul>
+          <p><strong>Kegiatan siswa:</strong></p>
+          <ul class="detail-list">
+            <li>Menyampaikan hasil penemuan.</li>
+            <li>Merumuskan kesimpulan.</li>
+            <li>Menjelaskan alasan berdasarkan bukti.</li>
+            <li>Menghubungkan pengetahuan baru dengan pengalaman sehari-hari.</li>
+          </ul>
+          <p><strong>Contoh:</strong> Siswa menyimpulkan bahwa ketersediaan air merupakan salah satu faktor yang memengaruhi kondisi pertumbuhan tanaman.</p>
+
+          <h2 id="g">G. Kelebihan dan Keterbatasan</h2>
+          <h3>1. Kelebihan</h3>
+          <p><strong>a. Mendorong pembelajaran aktif</strong></p>
+          <p>Siswa terlibat langsung dalam proses memperoleh pengetahuan.</p>
+          <p><strong>b. Mengembangkan rasa ingin tahu</strong></p>
+          <p>Siswa terbiasa mencari jawaban atas pertanyaan yang muncul selama pembelajaran.</p>
+          <p><strong>c. Melatih kemampuan berpikir kritis</strong></p>
+          <p>Siswa belajar menganalisis informasi dan memeriksa kebenaran suatu dugaan.</p>
+          <p><strong>d. Membantu memahami konsep</strong></p>
+          <p>Pengetahuan diperoleh melalui pengalaman dan proses berpikir, sehingga pembelajaran berpotensi lebih bermakna.</p>
+          <p><strong>e. Meningkatkan kemandirian</strong></p>
+          <p>Siswa dilatih untuk mencari informasi dan menyelesaikan tugas dengan tanggung jawab.</p>
+          <p><strong>f. Meningkatkan keterampilan komunikasi</strong></p>
+          <p>Siswa belajar menjelaskan hasil pengamatan dan menyampaikan kesimpulan.</p>
+          <h3>2. Keterbatasan</h3>
+          <p><strong>a. Membutuhkan waktu lebih panjang</strong></p>
+          <p>Proses pengamatan, pengumpulan data, dan pembuktian memerlukan waktu yang cukup.</p>
+          <p><strong>b. Membutuhkan persiapan guru</strong></p>
+          <p>Guru harus menyiapkan masalah, media, alat, bahan, serta sumber belajar yang sesuai.</p>
+          <p><strong>c. Tidak semua materi cocok</strong></p>
+          <p>Materi yang sangat abstrak atau membutuhkan informasi khusus mungkin tidak mudah ditemukan melalui kegiatan penemuan sederhana.</p>
+          <p><strong>d. Kemampuan siswa beragam</strong></p>
+          <p>Sebagian siswa mungkin membutuhkan bimbingan lebih intensif dalam mengamati dan mengolah informasi.</p>
+          <p><strong>e. Membutuhkan ketersediaan sumber belajar</strong></p>
+          <p>Kegiatan tertentu dapat terhambat apabila alat, bahan, atau media tidak tersedia.</p>
+          <h3>3. Upaya mengatasi keterbatasan</h3>
+          <ul class="detail-list">
+            <li>Memilih materi yang memungkinkan siswa menemukan konsep melalui pengalaman.</li>
+            <li>Menggunakan kegiatan sederhana sesuai fasilitas sekolah.</li>
+            <li>Menyediakan lembar kerja dengan petunjuk yang jelas.</li>
+            <li>Memberikan pertanyaan pengarah secara bertahap.</li>
+            <li>Mengatur waktu untuk setiap tahapan.</li>
+            <li>Mengelompokkan siswa secara fleksibel.</li>
+            <li>Memberikan bantuan sesuai kebutuhan masing-masing siswa.</li>
+          </ul>
+          <h2 id="h">H. Penerapan Discovery Learning di Sekolah Dasar</h2>
+          <p>Discovery Learning dapat digunakan pada berbagai mata pelajaran di SD selama materi dan aktivitasnya sesuai dengan perkembangan siswa.</p>
+          <h3>1. Bahasa Indonesia</h3>
+          <p><strong>Materi:</strong> Ciri-ciri teks deskripsi.</p>
+          <p>Siswa membaca beberapa contoh teks, mengamati informasi yang disampaikan, kemudian menemukan ciri-ciri teks deskripsi melalui perbandingan dengan jenis teks lain.</p>
+          <h3>2. Matematika</h3>
+          <p><strong>Materi:</strong> Sifat bangun datar.</p>
+          <p>Guru menyediakan beberapa bentuk bangun datar. Siswa mengamati jumlah sisi dan sudut, membandingkan bentuk, lalu menemukan karakteristik masing-masing bangun.</p>
+          <h3>3. IPAS</h3>
+          <p><strong>Materi:</strong> Perubahan wujud benda.</p>
+          <p>Siswa mengamati es yang mencair dan mencatat perubahan yang terjadi. Melalui pengamatan, siswa menemukan bahwa benda dapat mengalami perubahan wujud karena kondisi lingkungan.</p>
+          <h3>4. Pendidikan Pancasila</h3>
+          <p><strong>Materi:</strong> Aturan di lingkungan sekolah.</p>
+          <p>Siswa mengamati situasi di lingkungan sekolah, mengidentifikasi perilaku yang sesuai dan tidak sesuai aturan, kemudian menemukan alasan pentingnya aturan dalam kehidupan bersama.</p>
+          <h3>5. Seni Rupa</h3>
+          <p><strong>Materi:</strong> Unsur garis dalam karya seni.</p>
+          <p>Siswa mengamati beberapa karya gambar, menemukan variasi garis, lalu mengelompokkan garis berdasarkan bentuk dan karakteristiknya.</p>
+          <h3>6. Pendidikan Jasmani</h3>
+          <p><strong>Materi:</strong> Gerak lokomotor.</p>
+          <p>Siswa mengamati dan mencoba beberapa bentuk gerak, kemudian menemukan perbedaan antara berjalan, berlari, dan melompat berdasarkan karakteristik gerakannya.</p>
+
+          <h2 id="i">I. Contoh Rancangan Pembelajaran</h2>
+          <h3>Topik: Menemukan Sifat Benda yang Mengapung dan Tenggelam</h3>
+          <p><strong>Satuan pendidikan:</strong> Sekolah Dasar</p>
+          <p><strong>Mata pelajaran:</strong> IPAS</p>
+          <p><strong>Materi:</strong> Sifat benda dalam air</p>
+          <p><strong>Model:</strong> Discovery Learning</p>
+          <p><strong>Alokasi waktu:</strong> 2 x 35 menit</p>
+          <p><strong>Tujuan pembelajaran:</strong></p>
+          <p>Setelah mengikuti pembelajaran, siswa diharapkan mampu:</p>
+          <ol class="detail-list">
+            <li>Mengamati perilaku beberapa benda ketika dimasukkan ke dalam air.</li>
+            <li>Mencatat hasil pengamatan secara sistematis.</li>
+            <li>Membandingkan karakteristik benda yang mengapung dan tenggelam.</li>
+            <li>Menyampaikan kesimpulan berdasarkan hasil pengamatan.</li>
+          </ol>
+          <p><strong>Media dan alat</strong></p>
+          <ul class="detail-list">
+            <li>Wadah transparan berisi air.</li>
+            <li>Batu kecil.</li>
+            <li>Potongan kayu.</li>
+            <li>Koin.</li>
+            <li>Tutup botol plastik.</li>
+            <li>Lembar pengamatan.</li>
+            <li>Alat tulis.</li>
+          </ul>
+          <p><strong>Langkah pembelajaran</strong></p>
+          <p><strong>1. Stimulation</strong></p>
+          <p>Guru memperlihatkan wadah berisi air dan beberapa benda. Guru bertanya, "Menurut kalian, apakah semua benda akan tenggelam ketika dimasukkan ke dalam air?"</p>
+          <p>Siswa menyampaikan perkiraan masing-masing.</p>
+          <p><strong>2. Problem Statement</strong></p>
+          <p>Guru membimbing siswa menyusun pertanyaan: "Mengapa ada benda yang mengapung dan ada benda yang tenggelam?"</p>
+          <p>Siswa menyampaikan dugaan awal.</p>
+          <p><strong>3. Data Collection</strong></p>
+          <p>Siswa secara bergantian mengamati benda yang dimasukkan ke dalam air. Hasil pengamatan dicatat pada lembar kerja.</p>
+          <p><strong>4. Data Processing</strong></p>
+          <p>Siswa mengelompokkan benda berdasarkan hasil pengamatan, yaitu mengapung atau tenggelam.</p>
+          <p><strong>5. Verification</strong></p>
+          <p>Siswa memeriksa kembali hasil pengamatan dan membandingkannya dengan dugaan awal.</p>
+          <p>Guru mengajak siswa mendiskusikan apakah semua benda dengan ukuran yang sama akan menunjukkan perilaku yang sama.</p>
+          <p><strong>6. Generalization</strong></p>
+          <p>Siswa menyampaikan kesimpulan berdasarkan percobaan. Guru memberikan penguatan bahwa perilaku benda di dalam air berkaitan dengan karakteristik bahan, bentuk, dan massa jenis benda.</p>
+          <h3>Contoh lembar pengamatan</h3>
+          <table>
+            <tr><th>Nama benda</th><th>Hasil pengamatan</th></tr>
+            <tr><td>Batu kecil</td><td>Tenggelam</td></tr>
+            <tr><td>Potongan kayu</td><td>Mengapung</td></tr>
+            <tr><td>Koin</td><td>Tenggelam</td></tr>
+            <tr><td>Tutup botol plastik</td><td>Mengapung</td></tr>
+          </table>
+          <p>Catatan: Hasil dapat berbeda bergantung pada bahan, bentuk, dan kondisi benda yang digunakan.</p>
+          <p><strong>Penutup</strong></p>
+          <p>Guru mengajak siswa menyampaikan hal baru yang dipelajari, kesulitan selama percobaan, dan contoh benda lain di lingkungan sekitar yang dapat mengapung atau tenggelam.</p>
+          <h2 id="j">J. Penilaian dalam Discovery Learning</h2>
+          <p>Penilaian tidak hanya berfokus pada jawaban akhir, tetapi juga memperhatikan proses siswa memperoleh pengetahuan.</p>
+          <h3>1. Penilaian sikap</h3>
+          <p>Aspek yang dapat diamati:</p>
+          <ul class="detail-list">
+            <li>Rasa ingin tahu.</li>
+            <li>Ketelitian.</li>
+            <li>Tanggung jawab.</li>
+            <li>Kerja sama.</li>
+            <li>Kejujuran dalam mencatat hasil pengamatan.</li>
+          </ul>
+          <h3>2. Penilaian pengetahuan</h3>
+          <p>Dilakukan melalui pertanyaan, kuis, penjelasan lisan, atau tugas tertulis untuk mengetahui pemahaman siswa terhadap konsep yang ditemukan.</p>
+          <h3>3. Penilaian keterampilan</h3>
+          <p>Aspek yang dapat dinilai:</p>
+          <ul class="detail-list">
+            <li>Kemampuan melakukan pengamatan.</li>
+            <li>Ketepatan mencatat informasi.</li>
+            <li>Kemampuan mengelompokkan data.</li>
+            <li>Kemampuan menyampaikan hasil.</li>
+            <li>Kemampuan menyusun kesimpulan berdasarkan bukti.</li>
+          </ul>
+          <h3>4. Contoh rubrik sederhana</h3>
+          <table>
+            <tr><th>Aspek</th><th>Baik sekali</th><th>Baik</th><th>Perlu bimbingan</th></tr>
+            <tr><td>Pengamatan</td><td>Mengamati dengan teliti dan mandiri</td><td>Mengamati dengan sedikit arahan</td><td>Membutuhkan banyak arahan</td></tr>
+            <tr><td>Pencatatan</td><td>Mencatat hasil secara lengkap</td><td>Ada informasi yang belum lengkap</td><td>Catatan belum sesuai</td></tr>
+            <tr><td>Pengolahan data</td><td>Mengelompokkan data dengan tepat</td><td>Ada sedikit kesalahan</td><td>Belum mampu mengelompokkan</td></tr>
+            <tr><td>Kesimpulan</td><td>Sesuai dengan bukti</td><td>Sebagian sesuai bukti</td><td>Belum didukung bukti</td></tr>
+          </table>
+          <p>Penilaian dapat disesuaikan dengan tujuan pembelajaran, usia siswa, dan karakteristik materi.</p>
+
+          <h2 id="k">K. Kesalahan Umum dalam Penerapan</h2>
+          <h3>1. Guru terlalu cepat memberikan jawaban</h3>
+          <p>Jika guru langsung menjelaskan seluruh konsep, kesempatan siswa untuk menemukan pengetahuan menjadi berkurang.</p>
+          <p><strong>Perbaikan:</strong> Gunakan pertanyaan pemantik dan berikan waktu kepada siswa untuk mengamati serta berpikir.</p>
+          <h3>2. Kegiatan tidak memiliki arah</h3>
+          <p>Siswa melakukan percobaan atau pengamatan, tetapi tidak mengetahui tujuan kegiatan.</p>
+          <p><strong>Perbaikan:</strong> Sampaikan tujuan dan pertanyaan utama sebelum kegiatan dimulai.</p>
+          <h3>3. Menganggap penemuan harus selalu berupa eksperimen</h3>
+          <p>Discovery Learning tidak selalu memerlukan percobaan laboratorium.</p>
+          <p><strong>Perbaikan:</strong> Gunakan pengamatan, perbandingan, pengelompokan, bacaan, gambar, atau sumber informasi lain.</p>
+          <h3>4. Guru tidak memberikan bimbingan</h3>
+          <p>Siswa dibiarkan mencari jawaban tanpa arahan yang memadai.</p>
+          <p><strong>Perbaikan:</strong> Berikan bantuan secara bertahap sesuai kebutuhan siswa.</p>
+          <h3>5. Kesimpulan tidak didasarkan pada bukti</h3>
+          <p>Siswa membuat kesimpulan hanya berdasarkan perkiraan atau pendapat pribadi.</p>
+          <p><strong>Perbaikan:</strong> Minta siswa menunjukkan hasil pengamatan atau informasi yang mendukung kesimpulannya.</p>
+          <h3>6. Semua siswa diberikan tuntutan yang sama</h3>
+          <p>Kemampuan mengamati dan mengolah informasi setiap siswa dapat berbeda.</p>
+          <p><strong>Perbaikan:</strong> Sediakan variasi tingkat bantuan, pertanyaan, dan lembar kerja.</p>
+
+          <h2 id="l">L. Adaptasi terhadap Kebutuhan Siswa</h2>
+          <h3>1. Untuk kelas rendah</h3>
+          <p>Kegiatan dibuat konkret, sederhana, dan dekat dengan kehidupan sehari-hari.</p>
+          <p><strong>Contoh:</strong></p>
+          <ul class="detail-list">
+            <li>Mengelompokkan benda berdasarkan warna.</li>
+            <li>Mengamati bagian tumbuhan.</li>
+            <li>Membandingkan benda yang berat dan ringan.</li>
+          </ul>
+          <p>Guru memberikan arahan langsung dan menggunakan pertanyaan sederhana.</p>
+          <h3>2. Untuk kelas tinggi</h3>
+          <p>Siswa dapat diberikan kegiatan dengan proses pengamatan dan pengolahan informasi yang lebih kompleks.</p>
+          <p><strong>Contoh:</strong></p>
+          <ul class="detail-list">
+            <li>Membandingkan beberapa kondisi lingkungan.</li>
+            <li>Mengamati hubungan antara kegiatan manusia dan sampah.</li>
+            <li>Menemukan pola pada bangun datar.</li>
+          </ul>
+          <p>Siswa dapat menyusun tabel, membuat penjelasan, dan menyampaikan hasil secara mandiri dengan bimbingan guru.</p>
+          <h3>3. Untuk siswa yang membutuhkan bantuan tambahan</h3>
+          <ul class="detail-list">
+            <li>Gunakan instruksi singkat dan bertahap.</li>
+            <li>Sediakan gambar atau contoh konkret.</li>
+            <li>Berikan lembar pengamatan dengan format sederhana.</li>
+            <li>Pasangkan dengan teman yang dapat membantu.</li>
+            <li>Berikan tambahan waktu apabila diperlukan.</li>
+          </ul>
+          <h3>4. Untuk siswa yang berkembang lebih cepat</h3>
+          <ul class="detail-list">
+            <li>Berikan pertanyaan lanjutan.</li>
+            <li>Ajak membandingkan lebih banyak objek.</li>
+            <li>Minta siswa menjelaskan alasan di balik hasil penemuan.</li>
+            <li>Berikan kesempatan merancang pengamatan sederhana.</li>
+          </ul>
+          <h3>5. Pemanfaatan teknologi</h3>
+          <p>Teknologi dapat membantu ketika objek atau fenomena sulit diamati secara langsung.</p>
+          <p><strong>Contoh:</strong></p>
+          <ul class="detail-list">
+            <li>Video perubahan wujud benda.</li>
+            <li>Gambar interaktif bagian tumbuhan.</li>
+            <li>Simulasi digital sederhana.</li>
+            <li>Kuis untuk memeriksa pemahaman.</li>
+          </ul>
+          <p>Teknologi berfungsi sebagai pendukung. Pengalaman langsung tetap digunakan apabila memungkinkan dan aman dilakukan.</p>
+
+          <h2 id="m">M. Pertanyaan Refleksi dan Diskusi</h2>
+          <p>Pertanyaan berikut dapat digunakan oleh guru, mahasiswa PGSD, maupun calon pendidik untuk memperdalam pemahaman.</p>
+          <ol class="detail-list">
+            <li>Mengapa Discovery Learning menempatkan siswa sebagai pihak yang aktif dalam pembelajaran?</li>
+            <li>Apa perbedaan antara siswa menemukan konsep sendiri dan siswa hanya menerima penjelasan guru?</li>
+            <li>Mengapa guru tetap perlu memberikan bimbingan selama proses penemuan?</li>
+            <li>Apakah semua materi pembelajaran SD cocok menggunakan Discovery Learning? Jelaskan alasanmu.</li>
+            <li>Bagaimana cara menerapkan Discovery Learning apabila fasilitas sekolah terbatas?</li>
+            <li>Apa yang harus dilakukan guru ketika kesimpulan siswa tidak sesuai dengan hasil pengamatan?</li>
+            <li>Bagaimana cara memastikan semua siswa terlibat dalam proses penemuan?</li>
+          </ol>
+          <p><strong>Refleksi calon guru</strong></p>
+          <p>Bayangkan kamu sedang mengajar kelas IV SD. Kamu ingin menjelaskan materi perubahan wujud benda.</p>
+          <p>Apakah kamu akan langsung menjelaskan pengertian mencair, membeku, dan menguap? Ataukah kamu akan menghadirkan fenomena sederhana agar siswa dapat mengamati perubahan tersebut terlebih dahulu?</p>
+          <p>Tuliskan rancangan singkat kegiatan pembelajaranmu dengan menggunakan enam tahapan Discovery Learning.</p>
+
+          <h2 id="n">N. Penutup dan Penguatan Pemahaman</h2>
+          <p>Discovery Learning merupakan model pembelajaran yang memberikan kesempatan kepada siswa untuk membangun pengetahuan melalui proses penemuan yang terarah.</p>
+          <p>Melalui enam tahapan, yaitu Stimulation, Problem Statement, Data Collection, Data Processing, Verification, dan Generalization, siswa dilatih untuk mengamati, bertanya, mengumpulkan informasi, mengolah data, memeriksa bukti, serta menyusun kesimpulan.</p>
+          <p>Dalam penerapannya di sekolah dasar, guru perlu memperhatikan karakteristik materi, tingkat perkembangan siswa, ketersediaan sumber belajar, serta kebutuhan bimbingan setiap peserta didik.</p>
+          <p>Hal penting yang perlu diingat adalah Discovery Learning bukan sekadar membuat siswa melakukan kegiatan. Setiap kegiatan harus membantu siswa menemukan hubungan atau pemahaman yang sesuai dengan tujuan pembelajaran.</p>
+          <p><strong>Pesan utama:</strong></p>
+          <p>Belajar bukan hanya tentang menerima jawaban, tetapi juga tentang memahami bagaimana sebuah pengetahuan dapat ditemukan.</p>
+
+          <div style="margin-top:2rem; display:flex; justify-content:space-between;">
+            <a class="btn btn-ghost" href="../model-pembelajaran.html">Kembali ke Katalog</a>
+            <a class="btn btn-primary" href="../model-pembelajaran.html">Daftar Model</a>
+          </div>
+
+          <h2 id="quiz">Uji Pemahaman</h2>
+          <div class="quiz-box" id="quizContainer">
+            <div class="quiz-q" data-correct="b" data-explain="Discovery Learning mendorong siswa membangun pemahaman melalui pengamatan, pengumpulan informasi, pengolahan data, dan pembuktian.">
+              <p>1. Apa tujuan utama model Discovery Learning?</p>
+              <label class="quiz-opt"><input type="radio" name="q1" value="a"> Membuat siswa menghafalkan seluruh materi</label>
+              <label class="quiz-opt"><input type="radio" name="q1" value="b"> Membantu siswa menemukan konsep melalui proses belajar aktif</label>
+              <label class="quiz-opt"><input type="radio" name="q1" value="c"> Mengurangi keterlibatan siswa dalam pembelajaran</label>
+              <label class="quiz-opt"><input type="radio" name="q1" value="d"> Menggantikan seluruh penjelasan guru dengan tugas tertulis</label>
+              <div class="quiz-feedback"></div>
+            </div>
+            <div class="quiz-q" data-correct="c" data-explain="Stimulation merupakan tahap pemberian rangsangan untuk membangkitkan rasa ingin tahu siswa.">
+              <p>2. Tahap ketika guru memberikan rangsangan berupa gambar atau fenomena disebut ...</p>
+              <label class="quiz-opt"><input type="radio" name="q2" value="a"> Verification</label>
+              <label class="quiz-opt"><input type="radio" name="q2" value="b"> Data Processing</label>
+              <label class="quiz-opt"><input type="radio" name="q2" value="c"> Stimulation</label>
+              <label class="quiz-opt"><input type="radio" name="q2" value="d"> Generalization</label>
+              <div class="quiz-feedback"></div>
+            </div>
+            <div class="quiz-q" data-correct="a" data-explain="Data Collection merupakan proses memperoleh informasi yang relevan untuk menjawab permasalahan.">
+              <p>3. Pada tahap Data Collection, siswa melakukan kegiatan ...</p>
+              <label class="quiz-opt"><input type="radio" name="q3" value="a"> Mengumpulkan informasi melalui pengamatan atau sumber belajar</label>
+              <label class="quiz-opt"><input type="radio" name="q3" value="b"> Menyampaikan kesimpulan akhir</label>
+              <label class="quiz-opt"><input type="radio" name="q3" value="c"> Mengabaikan hasil percobaan</label>
+              <label class="quiz-opt"><input type="radio" name="q3" value="d"> Menerima seluruh jawaban dari guru</label>
+              <div class="quiz-feedback"></div>
+            </div>
+            <div class="quiz-q" data-correct="c" data-explain="Verification membantu siswa memeriksa apakah dugaan dan kesimpulan sementara sesuai dengan data yang diperoleh.">
+              <p>4. Mengapa tahap Verification penting dalam Discovery Learning?</p>
+              <label class="quiz-opt"><input type="radio" name="q4" value="a"> Agar siswa dapat menyelesaikan pembelajaran lebih cepat</label>
+              <label class="quiz-opt"><input type="radio" name="q4" value="b"> Agar guru tidak perlu melakukan penilaian</label>
+              <label class="quiz-opt"><input type="radio" name="q4" value="c"> Agar siswa dapat memeriksa kesesuaian dugaan dengan bukti</label>
+              <label class="quiz-opt"><input type="radio" name="q4" value="d"> Agar siswa menghafalkan hasil percobaan</label>
+              <div class="quiz-feedback"></div>
+            </div>
+            <div class="quiz-q" data-correct="b" data-explain="Siswa mengamati dan membandingkan objek untuk menemukan karakteristik bangun datar secara aktif.">
+              <p>5. Seorang guru ingin mengajarkan sifat bangun datar. Ia menyediakan beberapa bentuk bangun, lalu meminta siswa mengamati jumlah sisi dan sudutnya. Kegiatan tersebut menunjukkan penerapan ...</p>
+              <label class="quiz-opt"><input type="radio" name="q5" value="a"> Ceramah</label>
+              <label class="quiz-opt"><input type="radio" name="q5" value="b"> Discovery Learning</label>
+              <label class="quiz-opt"><input type="radio" name="q5" value="c"> Latihan hafalan</label>
+              <label class="quiz-opt"><input type="radio" name="q5" value="d"> Pemberian tugas tanpa pengamatan</label>
+              <div class="quiz-feedback"></div>
+            </div>
+            <button id="submitQuiz" class="print-btn" style="position:static;margin-top:1rem;">Kirim Jawaban</button>
+            <button id="retryQuiz" class="print-btn" style="position:static;margin-top:1rem;display:none;">Coba Lagi</button>
+            <div class="quiz-result" id="quizResult"></div>
+          </div>
+
+        </article>
+      </div>
+    </div>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="footer-brand-name">BIANCA EDUSPACE</div>
+          <div class="footer-slogan">Inspire to Learn, Empower to Grow</div>
+          <p class="footer-text">Ruang edukasi untuk belajar, berkarya, dan berkembang bersama.</p>
+        </div>
+        <div>
+          <div class="footer-heading">Navigasi</div>
+          <ul class="footer-list">
+            <li><a href="../index.html">Beranda</a></li>
+            <li><a href="../model-pembelajaran.html">Model Pembelajaran</a></li>
+            <li><a href="../metode-pembelajaran.html">Metode Pembelajaran</a></li>
+            <li><a href="../panduan-mengajar.html">Panduan Mengajar</a></li>
+            <li><a href="../tentang-kami.html">Tentang Kami</a></li>
+          </ul>
+        </div>
+        <div>
+          <div class="footer-heading">Informasi</div>
+          <ul class="footer-list">
+            <li><a href="../tentang-kami.html">Tentang Bianca EduSpace</a></li>
+            <li><a href="../tentang-kami.html">Visi dan Misi</a></li>
+            <li><a href="../tentang-kami.html">Tujuan Pendidikan</a></li>
+          </ul>
+        </div>
+        <div>
+          <div class="footer-heading">Brand Statement</div>
+          <p class="footer-statement">Creative Learning. Innovative Education. Collaborative Growth.</p>
+        </div>
+      </div>
+      <div class="footer-bottom">© 2026 BIANCA EDUSPACE. All Rights Reserved.</div>
+    </div>
+  </footer>
+  <button id="backToTop" class="back-to-top" aria-label="Kembali ke atas">↑</button>
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script src="../script.js" defer></script>
+  <script>
+    (function () {
+      const submit = document.getElementById('submitQuiz');
+      const retry = document.getElementById('retryQuiz');
+      const result = document.getElementById('quizResult');
+      const qs = document.querySelectorAll('.quiz-q');
+
+      function grade() {
+        let score = 0;
+        qs.forEach((q, i) => {
+          const name = 'q' + (i + 1);
+          const sel = document.querySelector('input[name="' + name + '"]:checked');
+          const fb = q.querySelector('.quiz-feedback');
+          const correct = q.dataset.correct;
+          if (sel && sel.value === correct) {
+            score++;
+            fb.textContent = 'Benar. ' + q.dataset.explain;
+            fb.className = 'quiz-feedback ok';
+          } else {
+            fb.textContent = 'Salah. Jawaban benar: ' + correct.toUpperCase() + '. ' + q.dataset.explain;
+            fb.className = 'quiz-feedback err';
+          }
+        });
+        const pct = Math.round((score / qs.length) * 100);
+        result.textContent = 'Skor: ' + score + ' / ' + qs.length + ' (' + pct + '/100)';
+        retry.style.display = 'inline-block';
+      }
+
+      function reset() {
+        qs.forEach(q => {
+          q.querySelectorAll('input[type="radio"]').forEach(r => r.checked = false);
+          const fb = q.querySelector('.quiz-feedback');
+          if (fb) { fb.textContent = ''; fb.className = 'quiz-feedback'; }
+        });
+        result.textContent = '';
+        retry.style.display = 'none';
+      }
+
+      submit.addEventListener('click', grade);
+      retry.addEventListener('click', reset);
+    })();
+
+    window.addEventListener('scroll', () => {
+      const h = document.documentElement;
+      const pct = (h.scrollTop / (h.scrollHeight - h.clientHeight)) * 100;
+      document.getElementById('progressBar').style.width = pct + '%';
+    }, { passive: true });
+    const btn = document.getElementById('backToTop');
+    if (btn) { window.addEventListener('scroll', () => btn.classList.toggle('show', window.scrollY > 300), { passive: true }); btn.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' })); }
+  </script>
+</body>
+</html>

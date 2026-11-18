@@ -1,0 +1,373 @@
+﻿<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Metode Penugasan (Assignment) — BIANCA EDUSPACE</title>
+  <meta name="description" content="Materi mendalam Metode Penugasan untuk guru dan calon guru SD." />
+  <link rel="icon" type="image/png" href="../images/logo-bianca.jpg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../style.css" />
+  <link rel="stylesheet" href="../css/model-pembelajaran.css" />
+  <style>
+    .progress-bar { position: fixed; top: 0; left: 0; height: 4px; width: 0; background: linear-gradient(90deg,#2585F5,#38BDF8); z-index: 200; transition: width .1s; }
+    .quiz-box { background:#f5f8fd; padding:1.5rem; border-radius:.75rem; margin-top:1.5rem; }
+    .quiz-q { margin-bottom:1rem; }
+    .quiz-opt { display:block; margin:.4rem 0; }
+    .quiz-result { margin-top:1rem; font-weight:600; color:#1646A0; }
+    .print-btn { position:fixed; bottom:80px; right:24px; background:#1646A0; color:#fff; border:none; border-radius:999px; padding:.6rem 1rem; cursor:pointer; z-index:150; }
+    table { width:100%; border-collapse:collapse; margin:1rem 0; font-size:.9rem; }
+    th,td { border:1px solid rgba(7,21,46,.1); padding:.6rem; vertical-align:top; }
+    th { background:#1646A0; color:#fff; }
+  </style>
+</head>
+<body>
+  <div class="progress-bar" id="progressBar"></div>
+  <header class="site-header">
+    <div class="container navbar">
+      <a class="brand" href="../index.html">
+        <img class="brand-logo" src="../images/logo-bianca.jpg" alt="Logo BIANCA EDUSPACE" />
+        <span class="brand-name">BIANCA EDUSPACE</span>
+      </a>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+      </button>
+      <nav class="nav-menu" aria-label="Main navigation">
+        <a class="nav-link" href="../index.html">Beranda</a>
+        <a class="nav-link" href="../model-pembelajaran.html">Model Pembelajaran</a>
+        <a class="nav-link" href="../metode-pembelajaran.html">Metode Pembelajaran</a>
+        <a class="nav-link" href="../panduan-mengajar.html">Panduan Mengajar</a>
+        <a class="nav-link" href="../tentang-kami.html">Tentang Kami</a>
+      </nav>
+    </div>
+  </header>
+  <main class="page-content">
+    <div class="container">
+      <nav class="breadcrumb" aria-label="Breadcrumb">
+        <a href="../index.html">Beranda</a> / <a href="../metode-pembelajaran.html">Metode Pembelajaran</a> / Metode Penugasan
+      </nav>
+      <h1 class="page-title">Metode Penugasan (Assignment)</h1>
+      <p class="page-desc">Pemberian tugas terstruktur untuk melatih kemandirian dan tanggung jawab.</p>
+
+      <div class="detail-layout">
+        <aside class="detail-toc">
+          <div class="footer-heading">Daftar Isi</div>
+          <ul class="footer-list">
+            <li><a href="#a">A. Pengenalan</a></li>
+            <li><a href="#b">B. Landasan Konseptual</a></li>
+            <li><a href="#c">C. Tujuan dan Manfaat</a></li>
+            <li><a href="#d">D. Karakteristik dan Prinsip</a></li>
+            <li><a href="#e">E. Jenis dan Variasi</a></li>
+            <li><a href="#f">F. Langkah Langkah</a></li>
+            <li><a href="#g">G. Kelebihan dan Keterbatasan</a></li>
+            <li><a href="#h">H. Penerapan di SD</a></li>
+            <li><a href="#i">I. Rancangan Pembelajaran</a></li>
+            <li><a href="#j">J. Penilaian</a></li>
+            <li><a href="#k">K. Kesalahan Umum</a></li>
+            <li><a href="#l">L. Adaptasi</a></li>
+            <li><a href="#m">M. Refleksi dan Diskusi</a></li>
+            <li><a href="#n">N. Penutup</a></li>
+            <li><a href="#quiz">Uji Pemahaman</a></li>
+          </ul>
+        </aside>
+        <article class="detail-content">
+
+          <h2 id="a">A. Pengenalan Metode Penugasan</h2>
+          <h3>1. Pengertian Metode Penugasan</h3>
+          <p>Metode penugasan merupakan metode pembelajaran yang memberikan tugas tertentu kepada siswa untuk dikerjakan secara mandiri maupun kelompok, dengan tujuan melatih tanggung jawab, kedisiplinan, dan kemampuan belajar mandiri.</p>
+          <p>Tugas dapat berupa penyelesaian soal, pencarian informasi, pengamatan, pembuatan produk, laporan, atau aktivitas lain yang relevan dengan tujuan pembelajaran.</p>
+          <p>Metode penugasan menempatkan siswa sebagai subjek yang aktif. Guru berperan sebagai pembimbing, pengarah, dan pengevaluasi kegiatan.</p>
+          <h3>2. Hakikat Metode Penugasan</h3>
+          <p>Hakikat metode penugasan adalah belajar melalui pelaksanaan tugas yang terstruktur dan bermakna. Siswa belajar tidak hanya dari penjelasan guru, tetapi juga dari pengalaman menyelesaikan tugas.</p>
+          <p>Tugas yang diberikan harus memiliki tujuan jelas, petunjuk yang dapat dipahami, dan hasil yang dapat dievaluasi.</p>
+          <h3>3. Peran Guru dan Siswa</h3>
+          <p><strong>Peran guru:</strong></p>
+          <ul class="detail-list">
+            <li>Menentukan tujuan tugas.</li>
+            <li>Menyusun petunjuk tugas yang jelas.</li>
+            <li>Menyesuaikan tugas dengan kemampuan siswa.</li>
+            <li>Memberikan bimbingan selama pengerjaan.</li>
+            <li>Memantau proses dan hasil tugas.</li>
+            <li>Memberikan umpan balik.</li>
+          </ul>
+          <p><strong>Peran siswa:</strong></p>
+          <ul class="detail-list">
+            <li>Memahami tujuan dan petunjuk tugas.</li>
+            <li>Mengerjakan tugas secara bertanggung jawab.</li>
+            <li>Mengelola waktu dan sumber belajar.</li>
+            <li>Melaporkan hasil tugas.</li>
+            <li>Memperbaiki tugas berdasarkan umpan balik.</li>
+          </ul>
+
+          <h2 id="b">B. Landasan Konseptual Metode Penugasan</h2>
+          <p>Metode penugasan berlandaskan pada prinsip-prinsip berikut:</p>
+          <h3>1. Belajar Mandiri</h3>
+          <p>Siswa dilatih untuk mencari informasi, menyelesaikan masalah, dan mengelola kegiatan belajarnya sendiri.</p>
+          <h3>2. Tanggung Jawab</h3>
+          <p>Siswa belajar bertanggung jawab atas pekerjaan yang diberikan dan hasil yang diperoleh.</p>
+          <h3>3. Penguatan Konsep</h3>
+          <p>Tugas membantu siswa mengulang, memperdalam, dan menerapkan materi yang telah dipelajari.</p>
+          <h3>4. Pembelajaran Berbasis Masalah</h3>
+          <p>Tugas dapat dirancang agar siswa menyelesaikan permasalahan yang berkaitan dengan kehidupan nyata.</p>
+          <h3>5. Pembelajaran Berdiferensiasi</h3>
+          <p>Tugas dapat disesuaikan dengan tingkat kemampuan, minat, dan kecepatan belajar siswa.</p>
+
+          <h2 id="c">C. Tujuan dan Manfaat Metode Penugasan</h2>
+          <h3>1. Tujuan</h3>
+          <ol class="detail-list">
+            <li>Melatih kemandirian siswa dalam belajar.</li>
+            <li>Mengembangkan tanggung jawab dan kedisiplinan.</li>
+            <li>Memperdalam pemahaman terhadap materi.</li>
+            <li>Mengembangkan keterampilan mencari informasi.</li>
+            <li>Melatih pengelolaan waktu.</li>
+            <li>Mengembangkan keterampilan presentasi dan pelaporan.</li>
+          </ol>
+          <h3>2. Manfaat bagi Siswa</h3>
+          <ul class="detail-list">
+            <li>Melatih keterampilan organisasi diri.</li>
+            <li>Meningkatkan rasa percaya diri.</li>
+            <li>Memperkaya pengalaman belajar.</li>
+            <li>Melatih kebiasaan menyelesaikan pekerjaan.</li>
+            <li>Mengembangkan keterampilan penyelesaian masalah.</li>
+          </ul>
+
+          <h2 id="d">D. Karakteristik dan Prinsip Metode Penugasan</h2>
+          <h3>1. Karakteristik</h3>
+          <p><strong>a. Terdapat tugas yang jelas:</strong> Siswa mengetahui apa yang harus dikerjakan.</p>
+          <p><strong>b. Memiliki petunjuk:</strong> Langkah pengerjaan dijelaskan secara sederhana.</p>
+          <p><strong>c. Memiliki tujuan:</strong> Tugas berkaitan dengan tujuan pembelajaran.</p>
+          <p><strong>d. Memiliki hasil:</strong> Siswa menghasilkan produk atau jawaban yang dapat dinilai.</p>
+          <p><strong>e. Memiliki batas waktu:</strong> Pengerjaan dilakukan dalam waktu yang ditentukan.</p>
+          <p><strong>f. Memerlukan tanggung jawab:</strong> Siswa bertanggung jawab atas hasil tugas.</p>
+          <h3>2. Prinsip Pelaksanaan</h3>
+          <ul class="detail-list">
+            <li>Tugas harus sesuai dengan kemampuan siswa.</li>
+            <li>Petunjuk harus sederhana dan jelas.</li>
+            <li>Tugas tidak boleh terlalu banyak sehingga membebani siswa.</li>
+            <li>Guru perlu mempertimbangkan waktu dan sarana yang tersedia.</li>
+            <li>Tugas harus bermakna dan tidak sekadar pengulangan.</li>
+            <li>Umpan balik diberikan secara konstruktif.</li>
+          </ul>
+
+          <h2 id="e">E. Jenis dan Variasi Metode Penugasan</h2>
+          <h3>1. Penugasan Individu</h3>
+          <p>Siswa mengerjakan tugas sendiri. Contoh: Menulis ringkasan materi atau menjawab soal.</p>
+          <h3>2. Penugasan Kelompok</h3>
+          <p>Siswa mengerjakan tugas bersama dalam kelompok. Contoh: Membuat poster atau laporan kelompok.</p>
+          <h3>3. Penugasan Rumah</h3>
+          <p>Tugas diberikan untuk dikerjakan di rumah. Contoh: Mengamati kegiatan di lingkungan rumah.</p>
+          <h3>4. Penugasan Lapangan</h3>
+          <p>Siswa melakukan pengamatan atau pengumpulan data di luar kelas. Contoh: Mengamati tanaman di sekitar sekolah.</p>
+          <h3>5. Penugasan Produk</h3>
+          <p>Siswa membuat produk tertentu. Contoh: Membuat alat peraga sederhana.</p>
+          <h3>6. Penugasan Penelitian Sederhana</h3>
+          <p>Siswa mencari informasi dan menyusun laporan. Contoh: Membuat laporan tentang pekerjaan di lingkungan sekitar.</p>
+
+          <h2 id="f">F. Langkah Langkah Pelaksanaan Metode Penugasan</h2>
+          <ol class="detail-list">
+            <li>Menentukan tujuan tugas.</li>
+            <li>Menyusun tugas dan petunjuk.</li>
+            <li>Menerangkan tugas kepada siswa.</li>
+            <li>Memberikan kesempatan bertanya.</li>
+            <li>Melaksanakan pengerjaan tugas.</li>
+            <li>Memantau dan membimbing.</li>
+            <li>Mengumpulkan hasil tugas.</li>
+            <li>Mengevaluasi hasil tugas.</li>
+            <li>Memberikan umpan balik.</li>
+            <li>Melakukan refleksi.</li>
+          </ol>
+
+          <h2 id="g">G. Kelebihan dan Keterbatasan Metode Penugasan</h2>
+          <h3>Kelebihan</h3>
+          <ul class="detail-list">
+            <li>Melatih kemandirian.</li>
+            <li>Mengembangkan tanggung jawab.</li>
+            <li>Memperdalam pemahaman materi.</li>
+            <li>Melatih pengelolaan waktu.</li>
+            <li>Mengembangkan keterampilan pencarian informasi.</li>
+          </ul>
+          <h3>Keterbatasan</h3>
+          <ul class="detail-list">
+            <li>Berpotensi membebani siswa jika tugas terlalu banyak.</li>
+            <li>Kualitas hasil bervariasi.</li>
+            <li>Membutuhkan kemandirian yang belum dimiliki semua siswa.</li>
+            <li>Membutuhkan pengawasan guru.</li>
+          </ul>
+
+          <h2 id="h">H. Penerapan Metode Penugasan di Sekolah Dasar</h2>
+          <p><strong>Bahasa Indonesia:</strong> Menulis ringkasan cerita.</p>
+          <p><strong>Matematika:</strong> Menyelesaikan soal cerita tentang uang.</p>
+          <p><strong>IPAS:</strong> Mengamati kebutuhan hidup manusia.</p>
+          <p><strong>Pendidikan Pancasila:</strong> Mencari contoh sikap gotong royong.</p>
+          <p><strong>Pendidikan Agama:</strong> Membuat jurnal perilaku baik.</p>
+          <p><strong>Seni Budaya:</strong> Membuat gambar bertema lingkungan.</p>
+
+          <h2 id="i">I. Contoh Rancangan Pembelajaran dengan Metode Penugasan</h2>
+          <p><strong>Menulis Ringkasan Cerita</strong></p>
+          <p>Mata pelajaran: Bahasa Indonesia</p>
+          <p>Kelas: III</p>
+          <p>Materi: Ringkasan cerita</p>
+          <p>Metode: Penugasan Individu</p>
+          <p>Alokasi waktu: 2 x 35 menit</p>
+          <p><strong>Tujuan Pembelajaran:</strong> Setelah kegiatan, siswa mampu menulis ringkasan cerita dengan kalimat sendiri.</p>
+          <p><strong>Petunjuk Tugas:</strong></p>
+          <ol class="detail-list">
+            <li>Baca cerita yang diberikan guru.</li>
+            <li>Identifikasi tokoh, latar, dan peristiwa penting.</li>
+            <li>Tulis ringkasan dengan 4 sampai 6 kalimat.</li>
+            <li>Gunakan kalimat sendiri.</li>
+            <li>Kumpulkan hasil tugas tepat waktu.</li>
+          </ol>
+          <p><strong>Penilaian:</strong> Kelengkapan, kejelasan, penggunaan bahasa, dan ketepatan waktu.</p>
+
+          <h2 id="j">J. Penilaian dalam Metode Penugasan</h2>
+          <p>Penilaian mencakup pengetahuan, keterampilan, dan sikap. Aspek yang dinilai antara lain:</p>
+          <ul class="detail-list">
+            <li>Pemahaman materi.</li>
+            <li>Kualitas hasil tugas.</li>
+            <li>Ketepatan waktu.</li>
+            <li>Kerapian dan kreativitas.</li>
+            <li>Tanggung jawab.</li>
+          </ul>
+
+          <h2 id="k">K. Kesalahan Umum dalam Penerapan Metode Penugasan</h2>
+          <ul class="detail-list">
+            <li>Tugas terlalu banyak.</li>
+            <li>Petunjuk tidak jelas.</li>
+            <li>Tugas tidak sesuai kemampuan.</li>
+            <li>Kurangnya umpan balik.</li>
+            <li>Tugas tidak memiliki tujuan jelas.</li>
+          </ul>
+
+          <h2 id="l">L. Adaptasi Metode Penugasan terhadap Kondisi Siswa</h2>
+          <ul class="detail-list">
+            <li>Sesuaikan tingkat kesulitan tugas.</li>
+            <li>Berikan pilihan tugas.</li>
+            <li>Berikan bimbingan bagi siswa yang membutuhkan.</li>
+            <li>Gunakan tugas kelompok bagi siswa yang kesulitan bekerja mandiri.</li>
+            <li>Sesuaikan waktu pengerjaan.</li>
+          </ul>
+
+          <h2 id="m">M. Pertanyaan Refleksi dan Diskusi</h2>
+          <ol class="detail-list">
+            <li>Apa perbedaan penugasan individu dan kelompok?</li>
+            <li>Mengapa tugas harus memiliki tujuan jelas?</li>
+            <li>Bagaimana guru memastikan tugas tidak membebani siswa?</li>
+            <li>Apa yang dimaksud dengan umpan balik konstruktif?</li>
+            <li>Bagaimana guru menyesuaikan tugas bagi siswa dengan kemampuan berbeda?</li>
+          </ol>
+
+          <h2 id="n">N. Penutup dan Pengembangan Pemahaman</h2>
+          <p>Metode penugasan merupakan metode pembelajaran yang efektif untuk melatih kemandirian, tanggung jawab, dan pemahaman materi. Dengan perencanaan yang tepat, tugas dapat menjadi pengalaman belajar yang bermakna.</p>
+          <p>Guru perlu memastikan tugas memiliki tujuan jelas, petunjuk sederhana, dan umpan balik yang konstruktif.</p>
+
+          <div style="margin-top:2rem; display:flex; justify-content:space-between;">
+            <a class="btn btn-ghost" href="role-playing.html">Metode Sebelumnya</a>
+            <a class="btn btn-primary" href="kerja-kelompok.html">Metode Berikutnya</a>
+          </div>
+
+          <h2 id="quiz">Uji Pemahaman</h2>
+          <div class="quiz-box">
+            <div class="quiz-q" data-correct="b">
+              <p>1. Ciri utama metode penugasan adalah ...</p>
+              <label class="quiz-opt"><input type="radio" name="q1" value="a"> Guru menjelaskan sepanjang waktu.</label>
+              <label class="quiz-opt"><input type="radio" name="q1" value="b"> Siswa mengerjakan tugas dengan tanggung jawab tertentu.</label>
+              <label class="quiz-opt"><input type="radio" name="q1" value="c"> Siswa hanya mendengarkan penjelasan.</label>
+              <label class="quiz-opt"><input type="radio" name="q1" value="d"> Tidak ada evaluasi hasil.</label>
+            </div>
+            <div class="quiz-q" data-correct="c">
+              <p>2. Petunjuk tugas harus ...</p>
+              <label class="quiz-opt"><input type="radio" name="q2" value="a"> Panjang dan rumit.</label>
+              <label class="quiz-opt"><input type="radio" name="q2" value="b"> Tidak perlu dijelaskan.</label>
+              <label class="quiz-opt"><input type="radio" name="q2" value="c"> Jelas dan sederhana.</label>
+              <label class="quiz-opt"><input type="radio" name="q2" value="d"> Hanya diberikan kepada siswa pandai.</label>
+            </div>
+            <div class="quiz-q" data-correct="a">
+              <p>3. Tugas yang baik harus memiliki ...</p>
+              <label class="quiz-opt"><input type="radio" name="q3" value="a"> Tujuan yang jelas.</label>
+              <label class="quiz-opt"><input type="radio" name="q3" value="b"> Jumlah soal sebanyak mungkin.</label>
+              <label class="quiz-opt"><input type="radio" name="q3" value="c"> Tingkat kesulitan sangat tinggi.</label>
+              <label class="quiz-opt"><input type="radio" name="q3" value="d"> Tidak ada batas waktu.</label>
+            </div>
+            <div class="quiz-q" data-correct="d">
+              <p>4. Umpan balik dalam metode penugasan berfungsi untuk ...</p>
+              <label class="quiz-opt"><input type="radio" name="q4" value="a"> Memberikan nilai akhir.</label>
+              <label class="quiz-opt"><input type="radio" name="q4" value="b"> Menakut-nakuti siswa.</label>
+              <label class="quiz-opt"><input type="radio" name="q4" value="c"> Mengurangi waktu belajar.</label>
+              <label class="quiz-opt"><input type="radio" name="q4" value="d"> Membantu siswa memperbaiki hasil tugas.</label>
+            </div>
+            <div class="quiz-q" data-correct="b">
+              <p>5. Jika tugas terlalu banyak, maka ...</p>
+              <label class="quiz-opt"><input type="radio" name="q5" value="a"> Siswa menjadi lebih semangat.</label>
+              <label class="quiz-opt"><input type="radio" name="q5" value="b"> Siswa dapat merasa terbebani.</label>
+              <label class="quiz-opt"><input type="radio" name="q5" value="c"> Guru tidak perlu mengevaluasi.</label>
+              <label class="quiz-opt"><input type="radio" name="q5" value="d"> Pembelajaran menjadi lebih cepat.</label>
+            </div>
+            <button class="btn btn-primary" onclick="gradeQuiz()">Cek Skor</button>
+            <div class="quiz-result" id="quizResult"></div>
+          </div>
+
+        </article>
+      </div>
+    </div>
+  </main>
+  <button class="print-btn" onclick="window.print()">Cetak</button>
+  <button id="backToTop" class="back-to-top" aria-label="Kembali ke atas">^</button>
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="footer-brand-name">BIANCA EDUSPACE</div>
+          <div class="footer-slogan">Inspire to Learn, Empower to Grow</div>
+          <p class="footer-text">Ruang edukasi untuk belajar, berkarya, dan berkembang bersama.</p>
+        </div>
+        <div>
+          <div class="footer-heading">Navigasi</div>
+          <ul class="footer-list">
+            <li><a href="../index.html">Beranda</a></li>
+            <li><a href="../model-pembelajaran.html">Model Pembelajaran</a></li>
+            <li><a href="../metode-pembelajaran.html">Metode Pembelajaran</a></li>
+            <li><a href="../panduan-mengajar.html">Panduan Mengajar</a></li>
+            <li><a href="../tentang-kami.html">Tentang Kami</a></li>
+          </ul>
+        </div>
+        <div>
+          <div class="footer-heading">Informasi</div>
+          <ul class="footer-list">
+            <li><a href="../tentang-kami.html">Tentang Bianca EduSpace</a></li>
+            <li><a href="../tentang-kami.html">Visi dan Misi</a></li>
+            <li><a href="../tentang-kami.html">Tujuan Pendidikan</a></li>
+          </ul>
+        </div>
+        <div>
+          <div class="footer-heading">Brand Statement</div>
+          <p class="footer-statement">Creative Learning. Innovative Education. Collaborative Growth.</p>
+        </div>
+      </div>
+      <div class="footer-bottom">© 2026 BIANCA EDUSPACE. All Rights Reserved.</div>
+    </div>
+  </footer>
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script src="../script.js" defer></script>
+  <script>
+    function gradeQuiz() {
+      let score = 0; const total = 5;
+      for (let i = 1; i <= total; i++) {
+        const sel = document.querySelector('input[name="q'+i+'"]:checked');
+        const q = document.querySelector('.quiz-q:nth-of-type('+i+')');
+        if (sel && q && sel.value === q.dataset.correct) score++;
+      }
+      document.getElementById('quizResult').textContent = 'Skor: ' + score + ' / ' + total;
+    }
+    window.addEventListener('scroll', () => {
+      const h = document.documentElement;
+      const pct = (h.scrollTop / (h.scrollHeight - h.clientHeight)) * 100;
+      document.getElementById('progressBar').style.width = pct + '%';
+    }, { passive: true });
+    const btn = document.getElementById('backToTop');
+    if (btn) { window.addEventListener('scroll', () => btn.classList.toggle('show', window.scrollY > 300), { passive: true }); btn.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' })); }
+  </script>
+</body>
+</html>

@@ -1,0 +1,596 @@
+﻿<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Metode Simulasi — BIANCA EDUSPACE</title>
+  <meta name="description" content="Materi mendalam Metode Simulasi untuk guru dan calon guru SD." />
+  <link rel="icon" type="image/png" href="../images/logo-bianca.jpg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../style.css" />
+  <link rel="stylesheet" href="../css/model-pembelajaran.css" />
+  <style>
+    .progress-bar { position: fixed; top: 0; left: 0; height: 4px; width: 0; background: linear-gradient(90deg,#2585F5,#38BDF8); z-index: 200; transition: width .1s; }
+    .quiz-box { background:#f5f8fd; padding:1.5rem; border-radius:.75rem; margin-top:1.5rem; }
+    .quiz-q { margin-bottom:1rem; }
+    .quiz-opt { display:block; margin:.4rem 0; }
+    .quiz-result { margin-top:1rem; font-weight:600; color:#1646A0; }
+    .print-btn { position:fixed; bottom:80px; right:24px; background:#1646A0; color:#fff; border:none; border-radius:999px; padding:.6rem 1rem; cursor:pointer; z-index:150; }
+    .tip-box { background:rgba(56,189,248,.12); border-left:4px solid #38BDF8; padding:1rem; margin:1rem 0; border-radius:.5rem; }
+    table { width:100%; border-collapse:collapse; margin:1rem 0; font-size:.9rem; }
+    th,td { border:1px solid rgba(7,21,46,.1); padding:.6rem; vertical-align:top; }
+    th { background:#1646A0; color:#fff; }
+  </style>
+</head>
+<body>
+  <div class="progress-bar" id="progressBar"></div>
+  <header class="site-header">
+    <div class="container navbar">
+      <a class="brand" href="../index.html">
+        <img class="brand-logo" src="../images/logo-bianca.jpg" alt="Logo BIANCA EDUSPACE" />
+        <span class="brand-name">BIANCA EDUSPACE</span>
+      </a>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+      </button>
+      <nav class="nav-menu" aria-label="Main navigation">
+        <a class="nav-link" href="../index.html">Beranda</a>
+        <a class="nav-link" href="../model-pembelajaran.html">Model Pembelajaran</a>
+        <a class="nav-link" href="../metode-pembelajaran.html">Metode Pembelajaran</a>
+        <a class="nav-link" href="../panduan-mengajar.html">Panduan Mengajar</a>
+        <a class="nav-link" href="../tentang-kami.html">Tentang Kami</a>
+      </nav>
+    </div>
+  </header>
+  <main class="page-content">
+    <div class="container">
+      <nav class="breadcrumb" aria-label="Breadcrumb">
+        <a href="../index.html">Beranda</a> / <a href="../metode-pembelajaran.html">Metode Pembelajaran</a> / Metode Simulasi
+      </nav>
+      <h1 class="page-title">Metode Simulasi</h1>
+      <p class="page-desc">Situasi tiruan untuk memahami konsep melalui pengalaman.</p>
+
+      <div class="detail-layout">
+        <aside class="detail-toc">
+          <div class="footer-heading">Daftar Isi</div>
+          <ul class="footer-list">
+            <li><a href="#a">A. Pengenalan</a></li>
+            <li><a href="#b">B. Landasan Konseptual</a></li>
+            <li><a href="#c">C. Tujuan dan Manfaat</a></li>
+            <li><a href="#d">D. Karakteristik dan Prinsip</a></li>
+            <li><a href="#e">E. Jenis dan Variasi</a></li>
+            <li><a href="#f">F. Langkah Langkah</a></li>
+            <li><a href="#g">G. Kelebihan dan Keterbatasan</a></li>
+            <li><a href="#h">H. Penerapan di SD</a></li>
+            <li><a href="#i">I. Rancangan Pembelajaran</a></li>
+            <li><a href="#j">J. Penilaian</a></li>
+            <li><a href="#k">K. Kesalahan Umum</a></li>
+            <li><a href="#l">L. Adaptasi</a></li>
+            <li><a href="#m">M. Refleksi dan Diskusi</a></li>
+            <li><a href="#n">N. Penutup</a></li>
+            <li><a href="#quiz">Uji Pemahaman</a></li>
+          </ul>
+        </aside>
+        <article class="detail-content">
+
+          <h2 id="a">A. Pengenalan Metode Simulasi</h2>
+          <h3>1. Pengertian Metode Simulasi</h3>
+          <p>Metode simulasi merupakan metode pembelajaran yang menghadirkan suatu keadaan, peristiwa, atau aktivitas tertentu dalam bentuk tiruan agar peserta didik dapat mempelajari dan memahami situasi tersebut melalui pengalaman langsung.</p>
+          <p>Dalam metode ini, siswa diajak untuk memerankan, mencoba, atau menjalankan suatu kondisi yang dirancang menyerupai keadaan sebenarnya. Kegiatan tersebut dapat dilakukan melalui permainan peran, latihan menghadapi situasi tertentu, penggunaan model sederhana, maupun aktivitas yang menggambarkan kehidupan sehari-hari.</p>
+          <p>Simulasi tidak selalu membutuhkan peralatan yang rumit. Guru dapat merancang kegiatan sederhana di dalam kelas dengan memanfaatkan benda-benda yang tersedia di lingkungan sekolah.</p>
+          <p>Contohnya, ketika mempelajari kegiatan jual beli, siswa dapat membentuk kelompok yang terdiri atas penjual dan pembeli. Mereka menggunakan benda-benda di kelas sebagai barang dagangan, uang mainan sebagai alat pembayaran, serta melakukan percakapan seperti dalam kegiatan jual beli sebenarnya.</p>
+          <p>Melalui kegiatan tersebut, siswa tidak hanya mendengar penjelasan guru, tetapi juga mengalami proses pembelajaran dengan terlibat secara aktif.</p>
+          <h3>2. Hakikat Metode Simulasi</h3>
+          <p>Hakikat metode simulasi terletak pada pengalaman belajar melalui situasi tiruan yang memiliki tujuan pendidikan. Siswa memperoleh kesempatan untuk memahami suatu konsep dengan cara mencoba menjalankan situasi yang menggambarkan kenyataan.</p>
+          <p>Kegiatan simulasi perlu dirancang berdasarkan tujuan pembelajaran. Guru tidak cukup hanya membagi siswa menjadi beberapa kelompok dan meminta mereka bermain peran. Setiap aktivitas harus memiliki persoalan, aturan, peran, serta hasil belajar yang ingin dicapai.</p>
+          <h3>3. Peran Guru dan Siswa</h3>
+          <p><strong>Peran guru:</strong></p>
+          <ul class="detail-list">
+            <li>Menentukan tujuan dan materi yang akan disimulasikan.</li>
+            <li>Merancang situasi, skenario, aturan, dan pembagian peran.</li>
+            <li>Menjelaskan prosedur kegiatan kepada siswa.</li>
+            <li>Membimbing siswa selama simulasi berlangsung.</li>
+            <li>Mengamati keterlibatan dan proses belajar siswa.</li>
+            <li>Mengarahkan diskusi serta refleksi setelah kegiatan.</li>
+          </ul>
+          <p><strong>Peran siswa:</strong></p>
+          <ul class="detail-list">
+            <li>Memahami situasi dan aturan simulasi.</li>
+            <li>Menjalankan peran sesuai tugas yang diberikan.</li>
+            <li>Berinteraksi dan bekerja sama dengan peserta lain.</li>
+            <li>Mengambil keputusan berdasarkan situasi yang dihadapi.</li>
+            <li>Mengamati proses dan hasil simulasi.</li>
+            <li>Menyampaikan pengalaman serta kesimpulan pembelajaran.</li>
+          </ul>
+
+          <h2 id="b">B. Landasan Konseptual Metode Simulasi</h2>
+          <p>Metode simulasi dapat dipahami melalui beberapa prinsip pembelajaran berikut.</p>
+          <h3>1. Pembelajaran Berbasis Pengalaman</h3>
+          <p>Siswa belajar melalui keterlibatan langsung dalam suatu aktivitas. Pengalaman menjalankan peran membantu siswa menghubungkan pengetahuan dengan situasi yang digambarkan.</p>
+          <h3>2. Pembelajaran Kontekstual</h3>
+          <p>Situasi yang disimulasikan sebaiknya dekat dengan kehidupan siswa. Dengan demikian, konsep yang dipelajari tidak terasa terpisah dari pengalaman sehari-hari.</p>
+          <h3>3. Pembelajaran Sosial</h3>
+          <p>Simulasi memberikan kesempatan kepada siswa untuk berinteraksi, mengamati perilaku orang lain, berkomunikasi, dan belajar bekerja sama.</p>
+          <h3>4. Pembelajaran Aktif</h3>
+          <p>Siswa tidak hanya menjadi penerima informasi. Mereka terlibat dalam kegiatan, mengambil keputusan, mencoba strategi, dan menyampaikan pendapat.</p>
+          <h3>5. Refleksi Pembelajaran</h3>
+          <p>Pengalaman simulasi perlu diikuti dengan refleksi. Siswa diajak memahami apa yang terjadi, mengapa suatu tindakan dilakukan, serta pelajaran apa yang dapat diterapkan dalam kehidupan nyata.</p>
+
+          <h2 id="c">C. Tujuan dan Manfaat Metode Simulasi</h2>
+          <h3>1. Tujuan</h3>
+          <p>Metode simulasi bertujuan untuk:</p>
+          <ol class="detail-list">
+            <li>Membantu siswa memahami konsep melalui pengalaman yang menyerupai keadaan sebenarnya.</li>
+            <li>Mengembangkan kemampuan komunikasi dan interaksi sosial.</li>
+            <li>Melatih keberanian dalam menyampaikan pendapat dan menjalankan tanggung jawab.</li>
+            <li>Mengembangkan kemampuan mengambil keputusan.</li>
+            <li>Melatih kerja sama dan penyelesaian masalah.</li>
+            <li>Membantu siswa memahami peristiwa atau situasi yang sulit diamati secara langsung.</li>
+            <li>Menghubungkan pengetahuan dengan penerapannya dalam kehidupan sehari-hari.</li>
+          </ol>
+          <h3>2. Manfaat bagi Siswa</h3>
+          <p><strong>Manfaat kognitif:</strong></p>
+          <ul class="detail-list">
+            <li>Membantu memahami konsep melalui penerapan.</li>
+            <li>Melatih kemampuan menganalisis situasi.</li>
+            <li>Mendorong siswa menghubungkan sebab dan akibat.</li>
+            <li>Membantu mengingat materi melalui pengalaman.</li>
+          </ul>
+          <p><strong>Manfaat afektif:</strong></p>
+          <ul class="detail-list">
+            <li>Mengembangkan empati.</li>
+            <li>Melatih tanggung jawab.</li>
+            <li>Membangun kepercayaan diri.</li>
+            <li>Menghargai pendapat dan peran orang lain.</li>
+          </ul>
+          <p><strong>Manfaat keterampilan:</strong></p>
+          <ul class="detail-list">
+            <li>Melatih komunikasi.</li>
+            <li>Mengembangkan kemampuan bekerja sama.</li>
+            <li>Membiasakan siswa mengikuti prosedur.</li>
+            <li>Melatih pengambilan keputusan dan penyelesaian masalah.</li>
+          </ul>
+
+          <h2 id="d">D. Karakteristik dan Prinsip Metode Simulasi</h2>
+          <h3>1. Karakteristik</h3>
+          <p>Metode simulasi memiliki karakteristik sebagai berikut:</p>
+          <ol class="detail-list">
+            <li>Situasi tiruan yang terarah. Kegiatan menggambarkan kondisi tertentu yang dirancang untuk mencapai tujuan pembelajaran.</li>
+            <li>Adanya pembagian peran. Siswa dapat menjalankan tugas atau posisi yang berbeda sesuai skenario.</li>
+            <li>Keterlibatan aktif. Siswa menjadi pelaku utama dalam kegiatan.</li>
+            <li>Interaksi antarpeserta. Aktivitas mendorong komunikasi dan kerja sama.</li>
+            <li>Adanya aturan dan prosedur. Setiap kegiatan memiliki ketentuan yang harus dipahami.</li>
+            <li>Berorientasi pada tujuan pembelajaran. Aktivitas bukan sekadar hiburan, tetapi sarana mencapai kompetensi.</li>
+            <li>Memerlukan refleksi. Pengalaman kegiatan dibahas kembali agar siswa memahami maknanya.</li>
+          </ol>
+          <h3>2. Prinsip Pelaksanaan</h3>
+          <ul class="detail-list">
+            <li>Skenario harus sesuai dengan usia dan kemampuan siswa.</li>
+            <li>Situasi yang dipilih harus memiliki hubungan dengan materi pembelajaran.</li>
+            <li>Aturan dan tujuan kegiatan disampaikan secara jelas.</li>
+            <li>Setiap siswa memperoleh kesempatan berpartisipasi.</li>
+            <li>Guru menjaga agar kegiatan berlangsung aman dan tertib.</li>
+            <li>Simulasi tidak boleh mempermalukan atau merugikan siswa.</li>
+            <li>Hasil kegiatan perlu dibahas melalui refleksi.</li>
+            <li>Penilaian harus memperhatikan proses, bukan hanya penampilan akhir.</li>
+          </ul>
+
+          <h2 id="e">E. Jenis dan Variasi Metode Simulasi</h2>
+          <h3>1. Sosiodrama</h3>
+          <p>Sosiodrama merupakan simulasi yang menggambarkan hubungan sosial atau permasalahan dalam kehidupan masyarakat melalui pemeranan tokoh. Contoh di SD: Siswa memerankan situasi musyawarah kelas untuk menentukan kegiatan bersama.</p>
+          <h3>2. Role Playing atau Bermain Peran</h3>
+          <p>Siswa menjalankan peran sebagai tokoh tertentu dalam situasi yang telah ditentukan. Contoh di SD: Siswa memerankan dokter, pasien, dan petugas pendaftaran untuk memahami pentingnya menjaga kesehatan.</p>
+          <h3>3. Permainan Simulasi</h3>
+          <p>Siswa mengikuti permainan yang memiliki aturan dan tujuan pembelajaran tertentu. Contoh di SD: Permainan transaksi jual beli menggunakan uang mainan untuk memahami nilai uang dan kegiatan ekonomi.</p>
+          <h3>4. Simulasi Situasional</h3>
+          <p>Siswa menghadapi situasi tertentu dan menentukan tindakan yang tepat berdasarkan kondisi yang diberikan. Contoh di SD: Siswa mempraktikkan langkah yang perlu dilakukan ketika terjadi gempa bumi melalui skenario latihan keselamatan.</p>
+          <h3>5. Simulasi Prosedural</h3>
+          <p>Siswa mencoba menjalankan urutan tindakan atau prosedur tertentu. Contoh di SD: Siswa mempraktikkan langkah mencuci tangan dengan benar menggunakan fasilitas sederhana.</p>
+          <h3>6. Simulasi Pengambilan Keputusan</h3>
+          <p>Siswa diberikan suatu persoalan dan diminta menentukan pilihan berdasarkan informasi yang tersedia. Contoh di SD: Siswa berdiskusi menentukan cara menggunakan uang kas kelas secara bertanggung jawab.</p>
+
+          <h2 id="f">F. Langkah Langkah Pelaksanaan Metode Simulasi</h2>
+          <p>Pelaksanaan metode simulasi dapat dilakukan melalui lima tahap utama.</p>
+          <h3>1. Tahap Persiapan</h3>
+          <p>Guru:</p>
+          <ul class="detail-list">
+            <li>Menentukan tujuan pembelajaran.</li>
+            <li>Memilih materi yang sesuai untuk disimulasikan.</li>
+            <li>Menentukan bentuk dan situasi simulasi.</li>
+            <li>Menyiapkan skenario, aturan, alat, dan bahan.</li>
+            <li>Menentukan pembagian peran.</li>
+            <li>Memastikan kegiatan aman dan sesuai kemampuan siswa.</li>
+          </ul>
+          <h3>2. Tahap Orientasi</h3>
+          <p>Guru:</p>
+          <ul class="detail-list">
+            <li>Menjelaskan tujuan kegiatan.</li>
+            <li>Memperkenalkan situasi yang akan disimulasikan.</li>
+            <li>Menjelaskan aturan dan prosedur.</li>
+            <li>Memastikan siswa memahami tugasnya.</li>
+            <li>Memberikan kesempatan untuk bertanya.</li>
+          </ul>
+          <h3>3. Tahap Pelaksanaan Simulasi</h3>
+          <p>Guru:</p>
+          <ul class="detail-list">
+            <li>Mengarahkan siswa menjalankan simulasi.</li>
+            <li>Mengamati interaksi dan keterlibatan siswa.</li>
+            <li>Memberikan bantuan apabila diperlukan.</li>
+            <li>Menjaga kegiatan tetap sesuai tujuan.</li>
+          </ul>
+          <p>Siswa:</p>
+          <ul class="detail-list">
+            <li>Menjalankan peran masing-masing.</li>
+            <li>Mengikuti aturan kegiatan.</li>
+            <li>Berinteraksi dengan peserta lain.</li>
+            <li>Menyelesaikan situasi sesuai skenario.</li>
+          </ul>
+          <h3>4. Tahap Diskusi dan Refleksi</h3>
+          <p>Guru mengajak siswa membahas:</p>
+          <ul class="detail-list">
+            <li>Apa yang terjadi selama simulasi?</li>
+            <li>Apakah setiap peran telah dijalankan dengan baik?</li>
+            <li>Kesulitan apa yang muncul?</li>
+            <li>Keputusan apa yang diambil?</li>
+            <li>Apa hubungan kegiatan dengan materi pembelajaran?</li>
+          </ul>
+          <h3>5. Tahap Evaluasi dan Tindak Lanjut</h3>
+          <p>Guru:</p>
+          <ul class="detail-list">
+            <li>Menilai pemahaman siswa.</li>
+            <li>Memberikan umpan balik.</li>
+            <li>Meluruskan kesalahpahaman.</li>
+            <li>Menghubungkan pengalaman simulasi dengan kehidupan nyata.</li>
+            <li>Memberikan kegiatan lanjutan apabila diperlukan.</li>
+          </ul>
+
+          <h2 id="g">G. Kelebihan dan Keterbatasan Metode Simulasi</h2>
+          <h3>1. Kelebihan</h3>
+          <p><strong>a. Memberikan pengalaman belajar yang konkret:</strong> Siswa dapat memahami materi melalui kegiatan yang menggambarkan situasi nyata.</p>
+          <p><strong>b. Meningkatkan keterlibatan siswa:</strong> Siswa memiliki kesempatan untuk berpartisipasi secara aktif.</p>
+          <p><strong>c. Melatih keterampilan sosial:</strong> Interaksi selama simulasi membantu siswa mengembangkan komunikasi, kerja sama, dan sikap menghargai orang lain.</p>
+          <p><strong>d. Mengembangkan kemampuan berpikir:</strong> Siswa belajar memahami situasi, mempertimbangkan pilihan, dan mengambil keputusan.</p>
+          <p><strong>e. Meningkatkan keberanian:</strong> Kegiatan menjalankan peran dapat membantu siswa berlatih menyampaikan pendapat dan tampil di hadapan orang lain.</p>
+          <p><strong>f. Menghubungkan teori dan praktik:</strong> Materi yang sebelumnya dipahami secara konseptual dapat dicoba melalui aktivitas pembelajaran.</p>
+          <h3>2. Keterbatasan</h3>
+          <p><strong>a. Membutuhkan persiapan:</strong> Guru perlu menyusun skenario, aturan, pembagian peran, serta alat pendukung.</p>
+          <p><strong>b. Membutuhkan waktu:</strong> Kegiatan simulasi dapat berlangsung lebih lama dibandingkan penjelasan langsung.</p>
+          <p><strong>c. Tidak semua siswa langsung percaya diri:</strong> Sebagian siswa mungkin merasa malu atau takut menjalankan peran.</p>
+          <p><strong>d. Berpotensi kehilangan fokus:</strong> Jika tidak diarahkan, siswa dapat lebih memperhatikan aspek permainan daripada tujuan pembelajaran.</p>
+          <p><strong>e. Membutuhkan pengelolaan kelas:</strong> Aktivitas yang melibatkan banyak siswa dapat menimbulkan keramaian.</p>
+          <h3>3. Upaya Mengatasi Keterbatasan</h3>
+          <ul class="detail-list">
+            <li>Gunakan skenario sederhana dan sesuai waktu pembelajaran.</li>
+            <li>Berikan petunjuk yang jelas sebelum kegiatan dimulai.</li>
+            <li>Sediakan alternatif peran bagi siswa yang belum percaya diri.</li>
+            <li>Berikan kesempatan bergantian agar semua siswa terlibat.</li>
+            <li>Tetapkan aturan dan batas waktu.</li>
+            <li>Akhiri simulasi dengan diskusi dan refleksi.</li>
+          </ul>
+
+          <h2 id="h">H. Penerapan Metode Simulasi di Sekolah Dasar</h2>
+          <p>Metode simulasi dapat diterapkan dalam berbagai mata pelajaran.</p>
+          <h3>1. Bahasa Indonesia</h3>
+          <p><strong>Materi:</strong> Percakapan dan komunikasi.</p>
+          <p><strong>Kegiatan:</strong> Siswa memerankan situasi wawancara sederhana antara pewawancara dan narasumber.</p>
+          <p><strong>Tujuan:</strong> Melatih kemampuan berbicara, menyimak, bertanya, dan menyampaikan informasi.</p>
+          <h3>2. Matematika</h3>
+          <p><strong>Materi:</strong> Uang dan kegiatan jual beli.</p>
+          <p><strong>Kegiatan:</strong> Siswa melakukan simulasi pasar kelas dengan peran sebagai penjual dan pembeli.</p>
+          <p><strong>Tujuan:</strong> Melatih operasi hitung, mengenali nilai uang, dan memahami transaksi sederhana.</p>
+          <h3>3. IPAS</h3>
+          <p><strong>Materi:</strong> Kegiatan ekonomi masyarakat.</p>
+          <p><strong>Kegiatan:</strong> Siswa memerankan produsen, distributor, dan konsumen.</p>
+          <p><strong>Tujuan:</strong> Memahami hubungan antarpelaku kegiatan ekonomi.</p>
+          <h3>4. Pendidikan Pancasila</h3>
+          <p><strong>Materi:</strong> Musyawarah dan pengambilan keputusan.</p>
+          <p><strong>Kegiatan:</strong> Siswa melakukan simulasi rapat kelas untuk menentukan kesepakatan bersama.</p>
+          <p><strong>Tujuan:</strong> Melatih sikap demokratis, menghargai pendapat, dan bertanggung jawab.</p>
+          <h3>5. Pendidikan Jasmani, Olahraga, dan Kesehatan</h3>
+          <p><strong>Materi:</strong> Keselamatan diri.</p>
+          <p><strong>Kegiatan:</strong> Siswa mengikuti simulasi prosedur keselamatan ketika menghadapi kondisi darurat dengan arahan guru.</p>
+          <p><strong>Tujuan:</strong> Mengenali tindakan yang tepat dan membangun kesadaran keselamatan.</p>
+          <h3>6. Seni Budaya</h3>
+          <p><strong>Materi:</strong> Ekspresi dan apresiasi seni.</p>
+          <p><strong>Kegiatan:</strong> Siswa memerankan tokoh dalam cerita sederhana atau situasi pertunjukan.</p>
+          <p><strong>Tujuan:</strong> Mengembangkan kreativitas, ekspresi, dan keberanian.</p>
+
+          <h2 id="i">I. Contoh Rancangan Pembelajaran dengan Metode Simulasi</h2>
+          <p><strong>Simulasi Kegiatan Jual Beli di Pasar</strong></p>
+          <p><strong>Identitas pembelajaran:</strong></p>
+          <p>Mata pelajaran: Matematika</p>
+          <p>Jenjang: Sekolah Dasar</p>
+          <p>Kelas: III</p>
+          <p>Materi: Mengenal nilai uang dan transaksi sederhana</p>
+          <p>Metode: Simulasi</p>
+          <p>Alokasi waktu: 2 x 35 menit</p>
+          <p><strong>1. Tujuan Pembelajaran</strong></p>
+          <p>Setelah mengikuti kegiatan, siswa diharapkan mampu:</p>
+          <ol class="detail-list">
+            <li>Mengenali nilai beberapa pecahan uang.</li>
+            <li>Melakukan penjumlahan sederhana dalam transaksi jual beli.</li>
+            <li>Menghitung uang yang harus dibayarkan dan uang kembalian.</li>
+            <li>Mempraktikkan komunikasi yang santun dalam kegiatan jual beli.</li>
+          </ol>
+          <p><strong>2. Alat dan Bahan</strong></p>
+          <ul class="detail-list">
+            <li>Uang mainan atau kartu nominal uang.</li>
+            <li>Gambar atau benda yang dijadikan barang dagangan.</li>
+            <li>Label harga.</li>
+            <li>Meja sebagai tempat berjualan.</li>
+            <li>Lembar pencatatan transaksi.</li>
+          </ul>
+          <p><strong>3. Persiapan Guru</strong></p>
+          <p>Guru membagi siswa menjadi beberapa kelompok. Setiap kelompok mendapatkan peran sebagai penjual, pembeli, dan pengamat. Guru menyiapkan barang dagangan tiruan beserta harga yang mudah dihitung.</p>
+          <p>Contoh daftar barang:</p>
+          <ul class="detail-list">
+            <li>Pensil: Rp2.000</li>
+            <li>Penghapus: Rp1.000</li>
+            <li>Buku tulis: Rp4.000</li>
+            <li>Penggaris: Rp3.000</li>
+            <li>Buku gambar: Rp5.000</li>
+          </ul>
+          <p><strong>4. Pelaksanaan Kegiatan</strong></p>
+          <p>Kegiatan pendahuluan: Guru mengajak siswa membahas pengalaman mereka ketika membeli barang di warung atau pasar. Guru menghubungkan pengalaman tersebut dengan materi nilai uang dan transaksi.</p>
+          <p>Kegiatan inti:</p>
+          <ol class="detail-list">
+            <li>Guru menjelaskan aturan simulasi pasar kelas.</li>
+            <li>Siswa dibagi menjadi kelompok kecil.</li>
+            <li>Setiap siswa memperoleh peran.</li>
+            <li>Penjual menyiapkan barang dan label harga.</li>
+            <li>Pembeli memilih barang dan melakukan transaksi.</li>
+            <li>Siswa menghitung jumlah pembayaran.</li>
+            <li>Penjual menghitung uang kembalian.</li>
+            <li>Pengamat mencatat apakah transaksi berlangsung dengan benar.</li>
+            <li>Siswa bertukar peran agar memperoleh pengalaman yang berbeda.</li>
+          </ol>
+          <p>Kegiatan penutup: Guru mengajak siswa membahas pengalaman selama simulasi, kesulitan dalam menghitung, serta pentingnya bersikap jujur dan santun ketika melakukan transaksi.</p>
+          <p><strong>5. Contoh Lembar Kerja Siswa</strong></p>
+          <p>Nama: ....................................</p>
+          <p>Kelompok: ....................................</p>
+          <table>
+            <tr><th>No.</th><th>Barang</th><th>Harga</th><th>Jumlah</th></tr>
+            <tr><td>1</td><td>Pensil</td><td>Rp2.000</td><td>2</td></tr>
+            <tr><td>2</td><td>Penghapus</td><td>Rp1.000</td><td>1</td></tr>
+            <tr><td>3</td><td>Buku tulis</td><td>Rp4.000</td><td>1</td></tr>
+          </table>
+          <p>Pertanyaan:</p>
+          <ol class="detail-list">
+            <li>Berapa harga dua pensil?</li>
+            <li>Berapa total harga seluruh barang?</li>
+            <li>Jika pembeli membayar Rp10.000, berapa uang kembaliannya?</li>
+            <li>Apa yang harus dilakukan jika uang kembalian tidak sesuai?</li>
+            <li>Mengapa penjual dan pembeli harus bersikap jujur?</li>
+          </ol>
+          <p><strong>6. Penilaian</strong></p>
+          <p>Penilaian dilakukan melalui tiga aspek:</p>
+          <p><strong>Pengetahuan:</strong></p>
+          <ul class="detail-list">
+            <li>Kemampuan mengenali nilai uang.</li>
+            <li>Ketepatan menghitung total pembayaran.</li>
+            <li>Ketepatan menghitung uang kembalian.</li>
+          </ul>
+          <p><strong>Keterampilan:</strong></p>
+          <ul class="detail-list">
+            <li>Kemampuan melakukan transaksi.</li>
+            <li>Ketepatan menjalankan prosedur.</li>
+            <li>Kemampuan berkomunikasi.</li>
+          </ul>
+          <p><strong>Sikap:</strong></p>
+          <ul class="detail-list">
+            <li>Kejujuran.</li>
+            <li>Tanggung jawab.</li>
+            <li>Kerja sama.</li>
+            <li>Kesantunan.</li>
+          </ul>
+          <p><strong>7. Rubrik Penilaian Sederhana</strong></p>
+          <table>
+            <tr><th>Aspek</th><th>4 (Sangat Baik)</th><th>3 (Baik)</th><th>2 (Cukup)</th><th>1 (Perlu Bimbingan)</th></tr>
+            <tr><td>Pemahaman uang</td><td>Memahami dan menghitung dengan tepat</td><td>Memahami dengan sedikit kesalahan</td><td>Masih terdapat beberapa kesalahan</td><td>Belum memahami</td></tr>
+            <tr><td>Pelaksanaan peran</td><td>Menjalankan peran secara mandiri</td><td>Menjalankan peran dengan sedikit arahan</td><td>Membutuhkan beberapa arahan</td><td>Membutuhkan pendampingan intensif</td></tr>
+            <tr><td>Komunikasi</td><td>Santun dan jelas</td><td>Cukup jelas dan santun</td><td>Masih perlu dibimbing</td><td>Belum mampu berkomunikasi sesuai kegiatan</td></tr>
+            <tr><td>Kerja sama</td><td>Aktif membantu kelompok</td><td>Bekerja sama dengan baik</td><td>Kurang aktif</td><td>Belum menunjukkan kerja sama</td></tr>
+          </table>
+
+          <h2 id="j">J. Penilaian dalam Metode Simulasi</h2>
+          <p>Penilaian metode simulasi tidak hanya berorientasi pada hasil akhir, tetapi juga memperhatikan proses yang dilalui siswa.</p>
+          <h3>1. Penilaian Pengetahuan</h3>
+          <p>Dilakukan untuk mengetahui pemahaman siswa terhadap konsep yang disimulasikan.</p>
+          <p>Bentuk penilaian:</p>
+          <ul class="detail-list">
+            <li>Pertanyaan lisan.</li>
+            <li>Tes tertulis.</li>
+            <li>Lembar kerja.</li>
+            <li>Pertanyaan reflektif.</li>
+          </ul>
+          <h3>2. Penilaian Keterampilan</h3>
+          <p>Dilakukan untuk melihat kemampuan siswa dalam menjalankan peran dan prosedur kegiatan.</p>
+          <p>Bentuk penilaian:</p>
+          <ul class="detail-list">
+            <li>Observasi praktik.</li>
+            <li>Rubrik kinerja.</li>
+            <li>Penilaian proses.</li>
+            <li>Hasil aktivitas kelompok.</li>
+          </ul>
+          <h3>3. Penilaian Sikap</h3>
+          <p>Dilakukan untuk mengamati perilaku siswa selama kegiatan.</p>
+          <p>Aspek yang diamati:</p>
+          <ul class="detail-list">
+            <li>Tanggung jawab.</li>
+            <li>Kerja sama.</li>
+            <li>Kedisiplinan.</li>
+            <li>Kejujuran.</li>
+            <li>Sikap menghargai orang lain.</li>
+          </ul>
+          <h3>4. Prinsip Penilaian</h3>
+          <p>Penilaian perlu dilakukan secara objektif, transparan, sesuai tujuan, dan mempertimbangkan kondisi siswa. Siswa yang belum percaya diri tidak seharusnya langsung mendapatkan penilaian rendah tanpa mempertimbangkan bentuk partisipasi lainnya.</p>
+
+          <h2 id="k">K. Kesalahan Umum dalam Penerapan Metode Simulasi</h2>
+          <h3>1. Simulasi Hanya Menjadi Permainan</h3>
+          <p><strong>Masalah:</strong> Siswa terlalu fokus pada kesenangan kegiatan. <strong>Solusi:</strong> Guru perlu menghubungkan setiap aktivitas dengan tujuan pembelajaran dan mengadakan refleksi.</p>
+          <h3>2. Tujuan Kegiatan Tidak Jelas</h3>
+          <p><strong>Masalah:</strong> Siswa tidak memahami hal yang perlu dipelajari. <strong>Solusi:</strong> Sampaikan tujuan dan indikator keberhasilan sebelum kegiatan dimulai.</p>
+          <h3>3. Pembagian Peran Tidak Merata</h3>
+          <p><strong>Masalah:</strong> Hanya siswa tertentu yang aktif. <strong>Solusi:</strong> Atur pergantian peran dan berikan kesempatan kepada seluruh siswa.</p>
+          <h3>4. Skenario Terlalu Rumit</h3>
+          <p><strong>Masalah:</strong> Siswa kesulitan memahami alur kegiatan. <strong>Solusi:</strong> Gunakan situasi sederhana yang dekat dengan kehidupan anak.</p>
+          <h3>5. Tidak Ada Refleksi</h3>
+          <p><strong>Masalah:</strong> Siswa selesai melakukan simulasi tanpa memahami makna kegiatan. <strong>Solusi:</strong> Sisihkan waktu untuk diskusi, pertanyaan, dan penarikan kesimpulan.</p>
+          <h3>6. Penilaian Hanya Berdasarkan Keberanian Tampil</h3>
+          <p><strong>Masalah:</strong> Siswa yang pemalu dapat dirugikan. <strong>Solusi:</strong> Nilai pemahaman, tanggung jawab, proses, dan kontribusi siswa melalui berbagai bentuk partisipasi.</p>
+
+          <h2 id="l">L. Adaptasi Metode Simulasi terhadap Kondisi Siswa</h2>
+          <h3>1. Siswa yang Pemalu</h3>
+          <p>Berikan peran sederhana terlebih dahulu, seperti pengamat atau pencatat. Secara bertahap, siswa dapat diberi kesempatan menjalankan peran yang membutuhkan komunikasi lebih aktif.</p>
+          <h3>2. Perbedaan Kemampuan Belajar</h3>
+          <p>Sederhanakan instruksi bagi siswa yang membutuhkan bantuan. Berikan tugas tambahan yang menantang bagi siswa yang sudah memahami kegiatan.</p>
+          <h3>3. Kelas dengan Jumlah Siswa Besar</h3>
+          <p>Buat beberapa kelompok kecil dan gunakan stasiun simulasi agar seluruh siswa memperoleh kesempatan berpartisipasi.</p>
+          <h3>4. Keterbatasan Sarana</h3>
+          <p>Manfaatkan benda yang tersedia di sekitar kelas. Tidak semua simulasi membutuhkan kostum, alat khusus, atau perlengkapan mahal.</p>
+          <h3>5. Keterbatasan Waktu</h3>
+          <p>Pilih skenario singkat dengan alur sederhana. Guru dapat membatasi durasi setiap tahap tanpa menghilangkan refleksi.</p>
+          <h3>6. Kebutuhan Belajar yang Beragam</h3>
+          <p>Berikan alternatif partisipasi melalui berbicara, menulis, menunjuk kartu, mengamati, atau membantu menyiapkan perlengkapan. Pastikan setiap siswa memperoleh kesempatan belajar yang bermakna.</p>
+
+          <h2 id="m">M. Pertanyaan Refleksi dan Diskusi</h2>
+          <p>Pertanyaan berikut dapat digunakan oleh guru, mahasiswa PGSD, maupun calon pendidik untuk memperdalam pemahaman.</p>
+          <ol class="detail-list">
+            <li>Mengapa metode simulasi dapat membantu siswa memahami materi yang berkaitan dengan kehidupan sehari-hari?</li>
+            <li>Apa perbedaan antara simulasi yang memiliki tujuan pembelajaran dengan permainan biasa?</li>
+            <li>Mengapa guru perlu melakukan refleksi setelah kegiatan simulasi?</li>
+            <li>Bagaimana cara melibatkan siswa yang kurang percaya diri?</li>
+            <li>Apakah semua materi pelajaran cocok menggunakan metode simulasi? Jelaskan alasanmu.</li>
+            <li>Bagaimana guru dapat memastikan bahwa setiap siswa memperoleh kesempatan berpartisipasi?</li>
+            <li>Apa yang harus dilakukan jika kegiatan simulasi tidak berjalan sesuai skenario?</li>
+            <li>Bagaimana cara mengukur keberhasilan pembelajaran melalui metode simulasi?</li>
+          </ol>
+          <p><strong>Aktivitas refleksi:</strong></p>
+          <p>Bayangkan kamu menjadi seorang guru kelas IV SD. Kamu ingin mengajarkan materi tentang pentingnya menjaga lingkungan sekolah. Rancanglah satu kegiatan simulasi sederhana yang melibatkan seluruh siswa.</p>
+          <p>Tuliskan:</p>
+          <ul class="detail-list">
+            <li>Situasi yang akan disimulasikan.</li>
+            <li>Tujuan kegiatan.</li>
+            <li>Pembagian peran.</li>
+            <li>Aturan kegiatan.</li>
+            <li>Langkah pelaksanaan.</li>
+            <li>Cara menilai keberhasilan siswa.</li>
+          </ul>
+
+          <h2 id="n">N. Penutup dan Pengembangan Pemahaman</h2>
+          <p>Metode simulasi merupakan salah satu alternatif pembelajaran yang memberikan kesempatan kepada siswa untuk memahami materi melalui pengalaman dalam situasi tiruan yang dirancang secara terarah.</p>
+          <p>Melalui kegiatan simulasi, siswa dapat mengembangkan pengetahuan, keterampilan, dan sikap secara bersamaan. Mereka belajar memahami situasi, menjalankan tanggung jawab, berkomunikasi, bekerja sama, serta mengambil keputusan.</p>
+          <p>Dalam penerapannya di Sekolah Dasar, guru perlu memperhatikan kesesuaian skenario dengan usia, kemampuan, karakteristik, dan kebutuhan belajar siswa. Kegiatan simulasi juga harus disertai tujuan yang jelas, aturan yang mudah dipahami, pendampingan, serta refleksi.</p>
+          <p>Hal terpenting bukan seberapa menarik atau rumit simulasi yang dilaksanakan, melainkan seberapa bermakna pengalaman tersebut dalam membantu siswa mencapai tujuan pembelajaran.</p>
+          <p>Dengan perencanaan yang tepat, metode simulasi dapat menjadikan pembelajaran lebih aktif, kontekstual, dan dekat dengan kehidupan peserta didik.</p>
+
+          <div style="margin-top:2rem; display:flex; justify-content:space-between;">
+            <a class="btn btn-ghost" href="penugasan.html">Metode Sebelumnya</a>
+            <a class="btn btn-primary" href="role-playing.html">Metode Berikutnya</a>
+          </div>
+
+          <h2 id="quiz">Uji Pemahaman</h2>
+          <div class="quiz-box">
+            <div class="quiz-q" data-correct="c">
+              <p>1. Apa yang menjadi ciri utama metode simulasi?</p>
+              <label class="quiz-opt"><input type="radio" name="q1" value="a"> Guru menyampaikan materi melalui ceramah sepanjang pembelajaran.</label>
+              <label class="quiz-opt"><input type="radio" name="q1" value="b"> Siswa menghafalkan seluruh materi dari buku.</label>
+              <label class="quiz-opt"><input type="radio" name="q1" value="c"> Siswa mempelajari situasi melalui kegiatan tiruan yang dirancang untuk tujuan pembelajaran.</label>
+              <label class="quiz-opt"><input type="radio" name="q1" value="d"> Siswa mengerjakan soal tanpa interaksi.</label>
+            </div>
+            <div class="quiz-q" data-correct="b">
+              <p>2. Seorang guru membagi siswa menjadi penjual dan pembeli untuk mempelajari nilai uang. Kegiatan tersebut merupakan contoh ...</p>
+              <label class="quiz-opt"><input type="radio" name="q2" value="a"> Metode ceramah.</label>
+              <label class="quiz-opt"><input type="radio" name="q2" value="b"> Metode simulasi.</label>
+              <label class="quiz-opt"><input type="radio" name="q2" value="c"> Metode penugasan.</label>
+              <label class="quiz-opt"><input type="radio" name="q2" value="d"> Metode membaca.</label>
+            </div>
+            <div class="quiz-q" data-correct="c">
+              <p>3. Mengapa refleksi diperlukan setelah kegiatan simulasi?</p>
+              <label class="quiz-opt"><input type="radio" name="q3" value="a"> Agar siswa dapat langsung meninggalkan kelas.</label>
+              <label class="quiz-opt"><input type="radio" name="q3" value="b"> Agar guru tidak perlu melakukan penilaian.</label>
+              <label class="quiz-opt"><input type="radio" name="q3" value="c"> Agar siswa dapat memahami pengalaman dan menghubungkannya dengan tujuan pembelajaran.</label>
+              <label class="quiz-opt"><input type="radio" name="q3" value="d"> Agar kegiatan berlangsung lebih lama.</label>
+            </div>
+            <div class="quiz-q" data-correct="d">
+              <p>4. Apa tindakan yang tepat ketika terdapat siswa yang malu menjalankan peran di depan kelas?</p>
+              <label class="quiz-opt"><input type="radio" name="q4" value="a"> Memaksanya tampil tanpa persiapan.</label>
+              <label class="quiz-opt"><input type="radio" name="q4" value="b"> Mengeluarkannya dari kegiatan.</label>
+              <label class="quiz-opt"><input type="radio" name="q4" value="c"> Memberikan nilai rendah karena tidak berani tampil.</label>
+              <label class="quiz-opt"><input type="radio" name="q4" value="d"> Memberikan peran sederhana dan kesempatan berpartisipasi secara bertahap.</label>
+            </div>
+            <div class="quiz-q" data-correct="c">
+              <p>5. Hal yang paling tepat dijadikan dasar keberhasilan metode simulasi adalah ...</p>
+              <label class="quiz-opt"><input type="radio" name="q5" value="a"> Seberapa ramai kegiatan berlangsung.</label>
+              <label class="quiz-opt"><input type="radio" name="q5" value="b"> Seberapa mahal alat yang digunakan.</label>
+              <label class="quiz-opt"><input type="radio" name="q5" value="c"> Seberapa sesuai pengalaman simulasi membantu siswa mencapai tujuan pembelajaran.</label>
+              <label class="quiz-opt"><input type="radio" name="q5" value="d"> Seberapa banyak siswa menggunakan kostum.</label>
+            </div>
+            <button class="btn btn-primary" onclick="gradeQuiz()">Cek Skor</button>
+            <div class="quiz-result" id="quizResult"></div>
+          </div>
+
+        </article>
+      </div>
+    </div>
+  </main>
+  <button class="print-btn" onclick="window.print()">Cetak</button>
+  <button id="backToTop" class="back-to-top" aria-label="Kembali ke atas">^</button>
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="footer-brand-name">BIANCA EDUSPACE</div>
+          <div class="footer-slogan">Inspire to Learn, Empower to Grow</div>
+          <p class="footer-text">Ruang edukasi untuk belajar, berkarya, dan berkembang bersama.</p>
+        </div>
+        <div>
+          <div class="footer-heading">Navigasi</div>
+          <ul class="footer-list">
+            <li><a href="../index.html">Beranda</a></li>
+            <li><a href="../model-pembelajaran.html">Model Pembelajaran</a></li>
+            <li><a href="../metode-pembelajaran.html">Metode Pembelajaran</a></li>
+            <li><a href="../panduan-mengajar.html">Panduan Mengajar</a></li>
+            <li><a href="../tentang-kami.html">Tentang Kami</a></li>
+          </ul>
+        </div>
+        <div>
+          <div class="footer-heading">Informasi</div>
+          <ul class="footer-list">
+            <li><a href="../tentang-kami.html">Tentang Bianca EduSpace</a></li>
+            <li><a href="../tentang-kami.html">Visi dan Misi</a></li>
+            <li><a href="../tentang-kami.html">Tujuan Pendidikan</a></li>
+          </ul>
+        </div>
+        <div>
+          <div class="footer-heading">Brand Statement</div>
+          <p class="footer-statement">Creative Learning. Innovative Education. Collaborative Growth.</p>
+        </div>
+      </div>
+      <div class="footer-bottom">© 2026 BIANCA EDUSPACE. All Rights Reserved.</div>
+    </div>
+  </footer>
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script src="../script.js" defer></script>
+  <script>
+    function gradeQuiz() {
+      let score = 0; const total = 5;
+      for (let i = 1; i <= total; i++) {
+        const sel = document.querySelector('input[name="q'+i+'"]:checked');
+        const q = document.querySelector('.quiz-q:nth-of-type('+i+')');
+        if (sel && q && sel.value === q.dataset.correct) score++;
+      }
+      document.getElementById('quizResult').textContent = 'Skor: ' + score + ' / ' + total;
+    }
+    window.addEventListener('scroll', () => {
+      const h = document.documentElement;
+      const pct = (h.scrollTop / (h.scrollHeight - h.clientHeight)) * 100;
+      document.getElementById('progressBar').style.width = pct + '%';
+    }, { passive: true });
+    const btn = document.getElementById('backToTop');
+    if (btn) { window.addEventListener('scroll', () => btn.classList.toggle('show', window.scrollY > 300), { passive: true }); btn.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' })); }
+  </script>
+</body>
+</html>

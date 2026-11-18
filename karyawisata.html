@@ -1,0 +1,717 @@
+﻿<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Metode Karyawisata (Field Trip) — BIANCA EDUSPACE</title>
+  <meta name="description" content="Materi mendalam Metode Karyawisata untuk guru dan calon guru SD." />
+  <link rel="icon" type="image/png" href="../images/logo-bianca.jpg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../style.css" />
+  <link rel="stylesheet" href="../css/model-pembelajaran.css" />
+  <style>
+    .progress-bar { position: fixed; top: 0; left: 0; height: 4px; width: 0; background: linear-gradient(90deg,#2585F5,#38BDF8); z-index: 200; transition: width .1s; }
+    .quiz-box { background:#f5f8fd; padding:1.5rem; border-radius:.75rem; margin-top:1.5rem; }
+    .quiz-q { margin-bottom:1.25rem; }
+    .quiz-opt { display:block; margin:.4rem 0; }
+    .quiz-result { margin-top:1rem; font-weight:600; color:#1646A0; }
+    .print-btn { position:fixed; bottom:80px; right:24px; background:#1646A0; color:#fff; border:none; border-radius:999px; padding:.6rem 1rem; cursor:pointer; z-index:150; }
+    table { width:100%; border-collapse:collapse; margin:1rem 0; font-size:.9rem; }
+    th,td { border:1px solid rgba(7,21,46,.1); padding:.6rem; vertical-align:top; }
+    th { background:#1646A0; color:#fff; }
+    .quiz-feedback { margin-top:.5rem; font-size:.9rem; }
+    .quiz-feedback.ok { color:#16a34a; }
+    .quiz-feedback.err { color:#dc2626; }
+  </style>
+</head>
+<body>
+  <div class="progress-bar" id="progressBar"></div>
+  <header class="site-header">
+    <div class="container navbar">
+      <a class="brand" href="../index.html">
+        <img class="brand-logo" src="../images/logo-bianca.jpg" alt="Logo BIANCA EDUSPACE" />
+        <span class="brand-name">BIANCA EDUSPACE</span>
+      </a>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+      </button>
+      <nav class="nav-menu" aria-label="Main navigation">
+        <a class="nav-link" href="../index.html">Beranda</a>
+        <a class="nav-link" href="../model-pembelajaran.html">Model Pembelajaran</a>
+        <a class="nav-link" href="../metode-pembelajaran.html">Metode Pembelajaran</a>
+        <a class="nav-link" href="../panduan-mengajar.html">Panduan Mengajar</a>
+        <a class="nav-link" href="../tentang-kami.html">Tentang Kami</a>
+      </nav>
+    </div>
+  </header>
+  <main class="page-content">
+    <div class="container">
+      <nav class="breadcrumb" aria-label="Breadcrumb">
+        <a href="../index.html">Beranda</a> / <a href="../metode-pembelajaran.html">Metode Pembelajaran</a> / Metode Karyawisata
+      </nav>
+      <h1 class="page-title">Metode Karyawisata (Field Trip)</h1>
+      <p class="page-desc">Pembelajaran di luar kelas melalui kunjungan dan pengamatan langsung.</p>
+
+      <div class="detail-layout">
+        <aside class="detail-toc">
+          <div class="footer-heading">Daftar Isi</div>
+          <ul class="footer-list">
+            <li><a href="#a">A. Pengenalan</a></li>
+            <li><a href="#b">B. Landasan Konseptual</a></li>
+            <li><a href="#c">C. Tujuan dan Manfaat</a></li>
+            <li><a href="#d">D. Karakteristik dan Prinsip</a></li>
+            <li><a href="#e">E. Jenis dan Variasi</a></li>
+            <li><a href="#f">F. Langkah Langkah</a></li>
+            <li><a href="#g">G. Kelebihan dan Keterbatasan</a></li>
+            <li><a href="#h">H. Penerapan di SD</a></li>
+            <li><a href="#i">I. Rancangan Pembelajaran</a></li>
+            <li><a href="#j">J. Penilaian</a></li>
+            <li><a href="#k">K. Kesalahan Umum</a></li>
+            <li><a href="#l">L. Adaptasi</a></li>
+            <li><a href="#m">M. Refleksi dan Diskusi</a></li>
+            <li><a href="#n">N. Penutup</a></li>
+            <li><a href="#quiz">Uji Pemahaman</a></li>
+          </ul>
+        </aside>
+        <article class="detail-content">
+
+          <h2 id="a">A. Pengenalan Metode Karyawisata</h2>
+          <h3>1. Pengertian Metode Karyawisata</h3>
+          <p>Metode karyawisata merupakan metode pembelajaran yang mengajak peserta didik mengunjungi suatu tempat atau lingkungan tertentu untuk memperoleh pengalaman dan informasi secara langsung yang berkaitan dengan materi pembelajaran.</p>
+          <p>Tempat yang dikunjungi dapat berupa lingkungan alam, tempat bersejarah, lembaga pelayanan masyarakat, pusat kegiatan ekonomi, museum, kebun, atau lokasi lain yang memiliki nilai edukatif.</p>
+          <p>Melalui kegiatan tersebut, siswa memperoleh kesempatan untuk mengamati objek, mengenali kondisi lingkungan, mengumpulkan informasi, bertanya, dan menghubungkan pengetahuan yang dipelajari di kelas dengan keadaan sebenarnya.</p>
+          <p>Sebagai contoh, ketika mempelajari materi tentang tumbuhan dan lingkungan, guru dapat mengajak siswa mengunjungi kebun sekolah atau taman sekitar. Siswa mengamati berbagai jenis tumbuhan, mencatat bagian-bagiannya, dan membandingkan karakteristik setiap tanaman.</p>
+          <p>Kegiatan tersebut memberikan pengalaman belajar yang berbeda dibandingkan hanya membaca gambar atau mendengarkan penjelasan di dalam kelas.</p>
+          <h3>2. Hakikat Metode Karyawisata</h3>
+          <p>Hakikat metode karyawisata terletak pada pemanfaatan lingkungan dan objek nyata sebagai sumber belajar.</p>
+          <p>Siswa memperoleh pengetahuan melalui interaksi langsung dengan tempat yang dikunjungi. Mereka dapat melihat, mendengar, mengamati, bertanya, dan mencatat informasi berdasarkan objek yang ditemukan.</p>
+          <p>Karyawisata bukan sekadar kegiatan rekreasi atau perjalanan keluar sekolah. Kegiatan ini harus direncanakan berdasarkan tujuan pembelajaran yang jelas.</p>
+          <p>Setiap kunjungan perlu memiliki objek pengamatan, aktivitas siswa, aturan pelaksanaan, serta kegiatan tindak lanjut agar pengalaman di lapangan benar-benar mendukung pencapaian kompetensi.</p>
+          <h3>3. Peran Guru dan Siswa</h3>
+          <p><strong>Peran guru:</strong></p>
+          <ul class="detail-list">
+            <li>Menentukan tujuan dan materi pembelajaran.</li>
+            <li>Memilih lokasi yang relevan dan aman.</li>
+            <li>Mengurus perizinan dan koordinasi kegiatan.</li>
+            <li>Menyiapkan jadwal, perlengkapan, dan lembar pengamatan.</li>
+            <li>Menjelaskan aturan keselamatan.</li>
+            <li>Membimbing siswa selama kunjungan.</li>
+            <li>Mengarahkan kegiatan observasi dan pengumpulan informasi.</li>
+            <li>Melakukan evaluasi setelah kegiatan.</li>
+          </ul>
+          <p><strong>Peran siswa:</strong></p>
+          <ul class="detail-list">
+            <li>Memahami tujuan kunjungan.</li>
+            <li>Mengikuti arahan dan aturan keselamatan.</li>
+            <li>Mengamati objek sesuai tugas.</li>
+            <li>Mengajukan pertanyaan yang relevan.</li>
+            <li>Mencatat informasi yang ditemukan.</li>
+            <li>Menjaga sikap dan lingkungan.</li>
+            <li>Menyampaikan hasil pengamatan.</li>
+            <li>Menghubungkan pengalaman dengan materi pembelajaran.</li>
+          </ul>
+
+          <h2 id="b">B. Landasan Konseptual Metode Karyawisata</h2>
+          <p>Metode karyawisata dapat dikembangkan melalui beberapa prinsip pembelajaran berikut.</p>
+          <h3>1. Pembelajaran Kontekstual</h3>
+          <p>Siswa mempelajari konsep melalui lingkungan dan peristiwa yang berkaitan dengan kehidupan nyata.</p>
+          <p>Contohnya, materi kegiatan ekonomi dapat dipelajari melalui kunjungan ke pasar tradisional.</p>
+          <h3>2. Pembelajaran Berbasis Pengalaman</h3>
+          <p>Pengalaman langsung memberikan kesempatan kepada siswa untuk mengenali objek dan situasi yang sebelumnya hanya dipelajari melalui penjelasan.</p>
+          <h3>3. Pembelajaran Berbasis Lingkungan</h3>
+          <p>Lingkungan sekitar dapat dimanfaatkan sebagai sumber belajar yang dekat dengan kehidupan siswa.</p>
+          <p>Lingkungan tidak hanya menjadi tempat berlangsungnya pembelajaran, tetapi juga menjadi objek yang diamati dan dipelajari.</p>
+          <h3>4. Pembelajaran Inkuiri</h3>
+          <p>Siswa didorong untuk mengajukan pertanyaan, mengamati, mencari informasi, dan menarik kesimpulan berdasarkan temuan di lapangan.</p>
+          <h3>5. Pembelajaran Reflektif</h3>
+          <p>Setelah kegiatan kunjungan, siswa perlu mengolah pengalaman dan informasi yang diperoleh agar menjadi pemahaman yang lebih terarah.</p>
+
+          <h2 id="c">C. Tujuan dan Manfaat Metode Karyawisata</h2>
+          <h3>1. Tujuan</h3>
+          <p>Metode karyawisata bertujuan untuk:</p>
+          <ol class="detail-list">
+            <li>Memberikan pengalaman belajar secara langsung kepada siswa.</li>
+            <li>Menghubungkan materi pelajaran dengan keadaan nyata.</li>
+            <li>Mengembangkan kemampuan mengamati lingkungan.</li>
+            <li>Melatih keterampilan mengumpulkan informasi.</li>
+            <li>Mengembangkan rasa ingin tahu.</li>
+            <li>Melatih kemampuan bertanya dan berkomunikasi.</li>
+            <li>Menumbuhkan kepedulian terhadap lingkungan dan masyarakat.</li>
+            <li>Mengembangkan kemampuan menyusun laporan berdasarkan hasil pengamatan.</li>
+          </ol>
+          <h3>2. Manfaat bagi Siswa</h3>
+          <p><strong>Manfaat kognitif:</strong></p>
+          <ul class="detail-list">
+            <li>Memperluas pengetahuan melalui objek nyata.</li>
+            <li>Memahami konsep secara lebih konkret.</li>
+            <li>Menghubungkan teori dengan kenyataan.</li>
+            <li>Mengembangkan kemampuan mengidentifikasi dan mengelompokkan informasi.</li>
+            <li>Melatih penarikan kesimpulan berdasarkan hasil pengamatan.</li>
+          </ul>
+          <p><strong>Manfaat afektif:</strong></p>
+          <ul class="detail-list">
+            <li>Meningkatkan rasa ingin tahu.</li>
+            <li>Menumbuhkan kepedulian terhadap lingkungan.</li>
+            <li>Mengembangkan sikap menghargai tempat dan masyarakat.</li>
+            <li>Melatih kedisiplinan dan tanggung jawab.</li>
+            <li>Meningkatkan apresiasi terhadap lingkungan sekitar.</li>
+          </ul>
+          <p><strong>Manfaat keterampilan:</strong></p>
+          <ul class="detail-list">
+            <li>Melatih observasi.</li>
+            <li>Mengembangkan keterampilan bertanya.</li>
+            <li>Melatih pencatatan informasi.</li>
+            <li>Mengembangkan kemampuan menyusun laporan.</li>
+            <li>Melatih komunikasi dan kerja sama.</li>
+          </ul>
+
+          <h2 id="d">D. Karakteristik dan Prinsip Metode Karyawisata</h2>
+          <h3>1. Karakteristik</h3>
+          <p><strong>a. Memanfaatkan objek nyata</strong></p>
+          <p>Pembelajaran dilakukan dengan mengamati tempat, benda, peristiwa, atau lingkungan secara langsung.</p>
+          <p><strong>b. Dilaksanakan di luar ruang kelas</strong></p>
+          <p>Kegiatan dapat berlangsung di lingkungan sekolah maupun lokasi lain yang relevan.</p>
+          <p><strong>c. Berorientasi pada tujuan pembelajaran</strong></p>
+          <p>Kunjungan harus memiliki keterkaitan yang jelas dengan materi.</p>
+          <p><strong>d. Melibatkan pengamatan langsung</strong></p>
+          <p>Siswa mengumpulkan informasi melalui pengamatan terhadap objek yang dikunjungi.</p>
+          <p><strong>e. Memberikan pengalaman kontekstual</strong></p>
+          <p>Siswa menghubungkan pengetahuan dengan keadaan yang ditemukan di lapangan.</p>
+          <p><strong>f. Membutuhkan perencanaan</strong></p>
+          <p>Kegiatan memerlukan persiapan lokasi, waktu, pendamping, perlengkapan, dan prosedur keselamatan.</p>
+          <p><strong>g. Memiliki tindak lanjut</strong></p>
+          <p>Hasil kunjungan perlu diolah melalui diskusi, laporan, presentasi, atau aktivitas pembelajaran lainnya.</p>
+          <h3>2. Prinsip Pelaksanaan</h3>
+          <ul class="detail-list">
+            <li>Lokasi harus sesuai dengan tujuan pembelajaran.</li>
+            <li>Kegiatan disesuaikan dengan usia dan kemampuan siswa.</li>
+            <li>Keselamatan menjadi prioritas utama.</li>
+            <li>Guru perlu memperoleh izin yang diperlukan.</li>
+            <li>Jumlah pendamping harus mempertimbangkan jumlah siswa dan risiko lokasi.</li>
+            <li>Setiap siswa memiliki tugas pengamatan yang jelas.</li>
+            <li>Kegiatan tidak boleh mengganggu masyarakat atau lingkungan yang dikunjungi.</li>
+            <li>Informasi yang diperoleh harus diolah setelah kunjungan.</li>
+            <li>Guru perlu menyiapkan alternatif jika kunjungan tidak dapat dilaksanakan.</li>
+          </ul>
+
+          <h2 id="e">E. Jenis dan Variasi Metode Karyawisata</h2>
+          <h3>1. Karyawisata Lingkungan Alam</h3>
+          <p>Kunjungan dilakukan ke lingkungan alam untuk mengamati objek dan fenomena alam.</p>
+          <p><strong>Contoh:</strong> Mengunjungi taman, kebun, sungai yang aman, atau kawasan pertanian untuk mempelajari tumbuhan dan lingkungan.</p>
+          <h3>2. Karyawisata Sejarah dan Budaya</h3>
+          <p>Kunjungan dilakukan ke tempat yang memiliki nilai sejarah atau budaya.</p>
+          <p><strong>Contoh:</strong> Mengunjungi museum atau situs bersejarah untuk mengenali peninggalan masa lalu.</p>
+          <h3>3. Karyawisata Ekonomi</h3>
+          <p>Kegiatan dilakukan di lokasi yang berkaitan dengan aktivitas ekonomi masyarakat.</p>
+          <p><strong>Contoh:</strong> Mengunjungi pasar tradisional untuk mempelajari kegiatan jual beli dan interaksi ekonomi.</p>
+          <h3>4. Karyawisata Sosial</h3>
+          <p>Siswa mengunjungi lembaga atau lingkungan yang berkaitan dengan kehidupan masyarakat.</p>
+          <p><strong>Contoh:</strong> Mengunjungi kantor pelayanan masyarakat untuk mengenali fungsi pelayanan publik.</p>
+          <h3>5. Karyawisata Pendidikan</h3>
+          <p>Kunjungan dilakukan ke tempat yang memiliki fungsi edukatif.</p>
+          <p><strong>Contoh:</strong> Mengunjungi perpustakaan umum untuk mengenal layanan, koleksi, dan tata cara peminjaman buku.</p>
+          <h3>6. Karyawisata Berbasis Lingkungan Sekolah</h3>
+          <p>Kegiatan dilakukan dengan memanfaatkan lingkungan di sekitar sekolah tanpa harus melakukan perjalanan jauh.</p>
+          <p><strong>Contoh:</strong> Mengamati taman, kebun sekolah, tempat pengelolaan sampah, atau fasilitas sekolah.</p>
+          <h3>7. Karyawisata Virtual</h3>
+          <p>Jika kunjungan langsung tidak memungkinkan, guru dapat menggunakan tur virtual, video dokumentasi, atau media digital yang menampilkan tempat tertentu.</p>
+          <p><strong>Contoh:</strong> Mengamati museum melalui tur virtual dan mencatat objek yang ditemukan.</p>
+          <p>Karyawisata virtual dapat menjadi alternatif pembelajaran berbasis pengamatan, tetapi tidak sepenuhnya menggantikan pengalaman langsung di lokasi.</p>
+
+          <h2 id="f">F. Langkah Langkah Pelaksanaan Metode Karyawisata</h2>
+          <p>Pelaksanaan metode karyawisata dapat dibagi menjadi tiga tahap besar.</p>
+          <h3>1. Tahap Persiapan Sebelum Kunjungan</h3>
+          <p><strong>Guru:</strong></p>
+          <ul class="detail-list">
+            <li>Menentukan tujuan pembelajaran.</li>
+            <li>Memilih lokasi yang relevan.</li>
+            <li>Mengidentifikasi risiko dan kebutuhan keselamatan.</li>
+            <li>Melakukan koordinasi dengan pihak lokasi.</li>
+            <li>Mengurus izin sekolah dan persetujuan orang tua atau wali sesuai ketentuan.</li>
+            <li>Menentukan jadwal dan transportasi.</li>
+            <li>Menyiapkan pendamping.</li>
+            <li>Menyusun lembar pengamatan.</li>
+            <li>Menjelaskan aturan kepada siswa.</li>
+            <li>Menyiapkan rencana alternatif.</li>
+          </ul>
+          <p><strong>Siswa:</strong></p>
+          <ul class="detail-list">
+            <li>Memahami tujuan kunjungan.</li>
+            <li>Menyiapkan perlengkapan.</li>
+            <li>Memahami aturan keselamatan.</li>
+            <li>Mengetahui tugas pengamatan masing-masing.</li>
+          </ul>
+          <h3>2. Tahap Pelaksanaan Kunjungan</h3>
+          <p><strong>Guru:</strong></p>
+          <ul class="detail-list">
+            <li>Memastikan kehadiran seluruh siswa.</li>
+            <li>Memberikan pengarahan sebelum kegiatan.</li>
+            <li>Menjaga siswa tetap dalam kelompok.</li>
+            <li>Mengarahkan kegiatan observasi.</li>
+            <li>Mengingatkan siswa untuk menjaga kebersihan dan ketertiban.</li>
+            <li>Mengawasi interaksi dengan lingkungan sekitar.</li>
+            <li>Mencatat perkembangan kegiatan.</li>
+          </ul>
+          <p><strong>Siswa:</strong></p>
+          <ul class="detail-list">
+            <li>Mengikuti arahan guru dan pendamping.</li>
+            <li>Mengamati objek yang telah ditentukan.</li>
+            <li>Mencatat hasil pengamatan.</li>
+            <li>Mengajukan pertanyaan dengan sopan.</li>
+            <li>Tidak meninggalkan kelompok tanpa izin.</li>
+            <li>Menjaga fasilitas dan lingkungan.</li>
+          </ul>
+          <h3>3. Tahap Tindak Lanjut Setelah Kunjungan</h3>
+          <p><strong>Guru:</strong></p>
+          <ul class="detail-list">
+            <li>Mengajak siswa mengulas pengalaman.</li>
+            <li>Membimbing pengolahan informasi.</li>
+            <li>Mengarahkan penyusunan laporan.</li>
+            <li>Memberikan umpan balik.</li>
+            <li>Melakukan penilaian.</li>
+          </ul>
+          <p><strong>Siswa:</strong></p>
+          <ul class="detail-list">
+            <li>Mengelompokkan hasil pengamatan.</li>
+            <li>Menyusun laporan atau karya.</li>
+            <li>Menyampaikan hasil kepada teman.</li>
+            <li>Menarik kesimpulan.</li>
+            <li>Merefleksikan pengalaman belajar.</li>
+          </ul>
+
+          <h2 id="g">G. Kelebihan dan Keterbatasan Metode Karyawisata</h2>
+          <h3>1. Kelebihan</h3>
+          <p><strong>a. Memberikan pengalaman nyata</strong></p>
+          <p>Siswa dapat melihat dan mengamati objek secara langsung.</p>
+          <p><strong>b. Membuat pembelajaran lebih kontekstual</strong></p>
+          <p>Materi pelajaran dapat dihubungkan dengan keadaan sebenarnya.</p>
+          <p><strong>c. Meningkatkan rasa ingin tahu</strong></p>
+          <p>Lingkungan baru dapat mendorong siswa mengajukan pertanyaan dan mencari informasi.</p>
+          <p><strong>d. Memperkaya sumber belajar</strong></p>
+          <p>Siswa memperoleh informasi dari objek, lingkungan, dan interaksi dengan narasumber.</p>
+          <p><strong>e. Mengembangkan keterampilan observasi</strong></p>
+          <p>Siswa belajar memperhatikan kondisi dan mencatat temuan secara terarah.</p>
+          <p><strong>f. Menumbuhkan kepedulian lingkungan</strong></p>
+          <p>Siswa dapat memahami hubungan antara manusia, masyarakat, dan lingkungan.</p>
+          <p><strong>g. Memberikan variasi pengalaman belajar</strong></p>
+          <p>Pembelajaran tidak hanya berlangsung melalui kegiatan di dalam kelas.</p>
+          <h3>2. Keterbatasan</h3>
+          <p><strong>a. Membutuhkan biaya</strong></p>
+          <p>Transportasi, tiket masuk, dan perlengkapan tertentu dapat menambah kebutuhan biaya.</p>
+          <p><strong>b. Membutuhkan waktu</strong></p>
+          <p>Perjalanan dan kegiatan di lokasi dapat mengurangi waktu pembelajaran lainnya.</p>
+          <p><strong>c. Memerlukan persiapan kompleks</strong></p>
+          <p>Guru perlu mengatur perizinan, pendampingan, jadwal, lokasi, dan keselamatan.</p>
+          <p><strong>d. Memiliki risiko keselamatan</strong></p>
+          <p>Kegiatan di luar kelas menghadirkan kondisi yang perlu diawasi secara cermat.</p>
+          <p><strong>e. Bergantung pada kondisi lokasi</strong></p>
+          <p>Cuaca, akses, keramaian, dan ketersediaan tempat dapat memengaruhi kegiatan.</p>
+          <p><strong>f. Informasi tidak selalu mudah diperoleh</strong></p>
+          <p>Siswa mungkin mengalami kesulitan memahami objek atau mendapatkan informasi yang dibutuhkan.</p>
+          <h3>3. Upaya Mengatasi Keterbatasan</h3>
+          <ul class="detail-list">
+            <li>Pilih lokasi yang dekat dan mudah dijangkau.</li>
+            <li>Manfaatkan lingkungan sekolah sebagai sumber belajar.</li>
+            <li>Susun kegiatan sesuai alokasi waktu.</li>
+            <li>Lakukan survei lokasi sebelum kunjungan.</li>
+            <li>Siapkan prosedur keselamatan dan rencana darurat.</li>
+            <li>Gunakan lembar pengamatan sederhana.</li>
+            <li>Koordinasikan kegiatan dengan pihak terkait.</li>
+            <li>Siapkan alternatif virtual atau pengamatan di lingkungan sekolah.</li>
+          </ul>
+
+          <h2 id="h">H. Penerapan Metode Karyawisata di Sekolah Dasar</h2>
+          <h3>1. Bahasa Indonesia</h3>
+          <p><strong>Materi:</strong> Menulis teks deskripsi.</p>
+          <p><strong>Kegiatan:</strong> Siswa mengunjungi taman sekolah untuk mengamati suasana, tumbuhan, warna, dan kondisi lingkungan.</p>
+          <p><strong>Tujuan:</strong> Mengembangkan kemampuan mengamati dan menyusun deskripsi berdasarkan objek nyata.</p>
+          <h3>2. Matematika</h3>
+          <p><strong>Materi:</strong> Pengukuran dan pengolahan data sederhana.</p>
+          <p><strong>Kegiatan:</strong> Siswa mengamati beberapa objek di lingkungan sekolah, mengukur panjang atau tinggi objek yang aman diukur, lalu mencatat hasilnya.</p>
+          <p><strong>Tujuan:</strong> Menerapkan konsep pengukuran dalam kehidupan nyata.</p>
+          <h3>3. IPAS</h3>
+          <p><strong>Materi:</strong> Ekosistem dan hubungan makhluk hidup dengan lingkungan.</p>
+          <p><strong>Kegiatan:</strong> Siswa mengunjungi kebun sekolah atau taman untuk mengamati tumbuhan, hewan kecil, dan kondisi lingkungan.</p>
+          <p><strong>Tujuan:</strong> Mengenali komponen lingkungan serta hubungan antarmakhluk hidup.</p>
+          <h3>4. Pendidikan Pancasila</h3>
+          <p><strong>Materi:</strong> Aturan dan tanggung jawab dalam masyarakat.</p>
+          <p><strong>Kegiatan:</strong> Siswa mengunjungi perpustakaan umum untuk mengamati tata tertib dan cara menggunakan fasilitas bersama.</p>
+          <p><strong>Tujuan:</strong> Memahami pentingnya menaati aturan dan menjaga fasilitas publik.</p>
+          <h3>5. Seni Budaya</h3>
+          <p><strong>Materi:</strong> Ragam karya seni dan budaya lokal.</p>
+          <p><strong>Kegiatan:</strong> Siswa mengunjungi galeri atau tempat budaya untuk mengamati bentuk, warna, motif, dan fungsi karya seni.</p>
+          <p><strong>Tujuan:</strong> Mengembangkan apresiasi terhadap karya dan budaya.</p>
+          <h3>6. Pendidikan Jasmani, Olahraga, dan Kesehatan</h3>
+          <p><strong>Materi:</strong> Lingkungan sehat dan kebugaran.</p>
+          <p><strong>Kegiatan:</strong> Siswa melakukan pengamatan terhadap fasilitas olahraga atau lingkungan terbuka yang aman.</p>
+          <p><strong>Tujuan:</strong> Mengenali lingkungan yang mendukung aktivitas fisik dan kesehatan.</p>
+
+          <h2 id="i">I. Contoh Rancangan Pembelajaran dengan Metode Karyawisata</h2>
+          <p><strong>Mengamati Ekosistem di Kebun Sekolah</strong></p>
+          <p><strong>Identitas pembelajaran:</strong></p>
+          <p>Mata pelajaran: IPAS</p>
+          <p>Jenjang: Sekolah Dasar</p>
+          <p>Kelas: IV</p>
+          <p>Materi: Komponen lingkungan dan hubungan makhluk hidup</p>
+          <p>Metode: Karyawisata</p>
+          <p>Alokasi waktu: 2 x 35 menit</p>
+          <p>Lokasi: Kebun sekolah atau taman yang aman</p>
+          <p><strong>1. Tujuan Pembelajaran</strong></p>
+          <p>Setelah mengikuti kegiatan, siswa diharapkan mampu:</p>
+          <ol class="detail-list">
+            <li>Mengidentifikasi komponen biotik dan abiotik.</li>
+            <li>Mengamati berbagai objek yang terdapat di lingkungan.</li>
+            <li>Menjelaskan hubungan sederhana antara makhluk hidup dan lingkungannya.</li>
+            <li>Mencatat hasil pengamatan secara sistematis.</li>
+            <li>Menunjukkan sikap peduli dan bertanggung jawab terhadap lingkungan.</li>
+          </ol>
+          <p><strong>2. Alat dan Bahan</strong></p>
+          <ul class="detail-list">
+            <li>Lembar pengamatan.</li>
+            <li>Pensil dan papan alas tulis.</li>
+            <li>Alat tulis.</li>
+            <li>Kamera atau perangkat dokumentasi jika diizinkan.</li>
+            <li>Perlengkapan keselamatan sesuai kebutuhan.</li>
+          </ul>
+          <p><strong>3. Persiapan Guru</strong></p>
+          <p>Sebelum kegiatan, guru:</p>
+          <ul class="detail-list">
+            <li>Memeriksa lokasi pengamatan.</li>
+            <li>Memastikan area aman untuk siswa.</li>
+            <li>Menentukan batas area kegiatan.</li>
+            <li>Membagi siswa menjadi kelompok kecil.</li>
+            <li>Menyiapkan daftar objek yang perlu diamati.</li>
+            <li>Menjelaskan aturan dan prosedur keselamatan.</li>
+            <li>Memastikan siswa memperoleh izin sesuai ketentuan sekolah.</li>
+          </ul>
+          <p><strong>4. Pelaksanaan Kegiatan</strong></p>
+          <p><strong>Kegiatan pendahuluan</strong></p>
+          <p>Guru mengajak siswa membahas pengertian lingkungan dan komponen yang terdapat di dalamnya.</p>
+          <p>Guru kemudian menjelaskan bahwa siswa akan melakukan pengamatan langsung di kebun sekolah.</p>
+          <p><strong>Kegiatan inti</strong></p>
+          <ol class="detail-list">
+            <li>Guru membagi siswa menjadi kelompok kecil.</li>
+            <li>Setiap kelompok menerima lembar pengamatan.</li>
+            <li>Guru menjelaskan batas area yang boleh digunakan.</li>
+            <li>Siswa mengamati tumbuhan, tanah, batu, air, cahaya matahari, dan objek lain yang ditemukan.</li>
+            <li>Siswa mencatat objek yang termasuk komponen biotik dan abiotik.</li>
+            <li>Siswa mengamati hubungan sederhana antarkomponen.</li>
+            <li>Setiap kelompok mendiskusikan hasil pengamatan.</li>
+            <li>Siswa kembali ke kelas sesuai arahan guru.</li>
+          </ol>
+          <p><strong>Kegiatan penutup</strong></p>
+          <p>Guru mengajak siswa membahas temuan setiap kelompok dan menghubungkannya dengan konsep ekosistem.</p>
+          <p><strong>5. Contoh Lembar Pengamatan</strong></p>
+          <p><strong>Nama kelompok:</strong> ....................................</p>
+          <p><strong>Anggota:</strong> ....................................</p>
+          <p><strong>Lokasi:</strong> Kebun sekolah</p>
+          <table>
+            <tr><th>No.</th><th>Objek yang Diamati</th><th>Biotik/Abiotik</th><th>Hasil Pengamatan</th></tr>
+            <tr><td>1</td><td>Rumput</td><td>Biotik</td><td>Tumbuh di permukaan tanah</td></tr>
+            <tr><td>2</td><td>Tanah</td><td>Abiotik</td><td>Menjadi tempat tumbuh tanaman</td></tr>
+            <tr><td>3</td><td>Batu</td><td>Abiotik</td><td>Terdapat di sekitar taman</td></tr>
+            <tr><td>4</td><td>Semut</td><td>Biotik</td><td>Bergerak di sekitar tanaman</td></tr>
+            <tr><td>5</td><td>Cahaya matahari</td><td>Abiotik</td><td>Menyinari area kebun</td></tr>
+          </table>
+          <p>Pertanyaan:</p>
+          <ol class="detail-list">
+            <li>Apa saja komponen biotik yang ditemukan?</li>
+            <li>Apa saja komponen abiotik yang ditemukan?</li>
+            <li>Mengapa tumbuhan membutuhkan air dan cahaya matahari?</li>
+            <li>Bagaimana hubungan antara makhluk hidup dengan lingkungannya?</li>
+            <li>Apa yang dapat dilakukan untuk menjaga kebun sekolah?</li>
+          </ol>
+          <p><strong>6. Penilaian</strong></p>
+          <p><strong>Pengetahuan:</strong></p>
+          <ul class="detail-list">
+            <li>Ketepatan mengidentifikasi komponen biotik dan abiotik.</li>
+            <li>Pemahaman hubungan antarkomponen lingkungan.</li>
+          </ul>
+          <p><strong>Keterampilan:</strong></p>
+          <ul class="detail-list">
+            <li>Ketelitian melakukan pengamatan.</li>
+            <li>Kemampuan mencatat informasi.</li>
+            <li>Kemampuan menyampaikan hasil pengamatan.</li>
+          </ul>
+          <p><strong>Sikap:</strong></p>
+          <ul class="detail-list">
+            <li>Disiplin.</li>
+            <li>Tanggung jawab.</li>
+            <li>Kepedulian terhadap lingkungan.</li>
+            <li>Kepatuhan terhadap aturan keselamatan.</li>
+          </ul>
+          <p><strong>7. Rubrik Penilaian</strong></p>
+          <table>
+            <tr><th>Aspek</th><th>4 (Sangat Baik)</th><th>3 (Baik)</th><th>2 (Cukup)</th><th>1 (Perlu Bimbingan)</th></tr>
+            <tr><td>Identifikasi objek</td><td>Mengidentifikasi seluruh objek dengan tepat</td><td>Sebagian besar tepat</td><td>Masih terdapat beberapa kesalahan</td><td>Membutuhkan banyak bimbingan</td></tr>
+            <tr><td>Pengamatan</td><td>Teliti dan sistematis</td><td>Cukup teliti</td><td>Kurang sistematis</td><td>Belum mampu mengamati secara terarah</td></tr>
+            <tr><td>Pencatatan</td><td>Lengkap dan jelas</td><td>Cukup lengkap</td><td>Kurang lengkap</td><td>Belum mampu mencatat dengan baik</td></tr>
+            <tr><td>Tanggung jawab</td><td>Selalu menaati aturan dan menjaga lingkungan</td><td>Umumnya menaati aturan</td><td>Sesekali perlu diingatkan</td><td>Sering mengabaikan arahan</td></tr>
+          </table>
+
+          <h2 id="j">J. Penilaian dalam Metode Karyawisata</h2>
+          <p>Penilaian dalam metode karyawisata mencakup proses persiapan, kegiatan pengamatan, dan tindak lanjut setelah kunjungan.</p>
+          <h3>1. Penilaian Pengetahuan</h3>
+          <p>Mengukur pemahaman siswa terhadap objek dan informasi yang diperoleh.</p>
+          <p>Bentuk penilaian:</p>
+          <ul class="detail-list">
+            <li>Pertanyaan lisan.</li>
+            <li>Tes tertulis.</li>
+            <li>Lembar pengamatan.</li>
+            <li>Penjelasan hasil temuan.</li>
+          </ul>
+          <h3>2. Penilaian Keterampilan</h3>
+          <p>Mengamati kemampuan siswa dalam mengumpulkan dan mengolah informasi.</p>
+          <p>Aspek yang dinilai:</p>
+          <ul class="detail-list">
+            <li>Ketelitian mengamati.</li>
+            <li>Kemampuan mencatat.</li>
+            <li>Kemampuan mengelompokkan informasi.</li>
+            <li>Kemampuan menyusun laporan.</li>
+            <li>Kemampuan menyampaikan hasil.</li>
+          </ul>
+          <h3>3. Penilaian Sikap</h3>
+          <p>Mengamati perilaku siswa selama kegiatan.</p>
+          <p>Aspek yang dinilai:</p>
+          <ul class="detail-list">
+            <li>Kedisiplinan.</li>
+            <li>Tanggung jawab.</li>
+            <li>Kepatuhan terhadap aturan.</li>
+            <li>Kerja sama.</li>
+            <li>Kepedulian terhadap lingkungan.</li>
+          </ul>
+          <h3>4. Penilaian Hasil Tindak Lanjut</h3>
+          <p>Guru dapat menilai:</p>
+          <ul class="detail-list">
+            <li>Laporan pengamatan.</li>
+            <li>Poster atau peta konsep.</li>
+            <li>Presentasi kelompok.</li>
+            <li>Dokumentasi kegiatan yang relevan.</li>
+            <li>Refleksi individu.</li>
+          </ul>
+          <p>Penilaian harus memperhatikan proses dan hasil. Siswa yang tidak memiliki perangkat dokumentasi pribadi tetap harus memperoleh kesempatan yang sama dalam kegiatan.</p>
+
+          <h2 id="k">K. Kesalahan Umum dalam Penerapan Metode Karyawisata</h2>
+          <h3>1. Kunjungan Tidak Memiliki Tujuan yang Jelas</h3>
+          <p><strong>Masalah:</strong> Siswa hanya mengikuti perjalanan tanpa memahami materi yang harus dipelajari.</p>
+          <p><strong>Solusi:</strong> Tentukan tujuan, objek pengamatan, dan hasil belajar sebelum kegiatan.</p>
+          <h3>2. Tidak Melakukan Survei Lokasi</h3>
+          <p><strong>Masalah:</strong> Guru tidak mengetahui kondisi, akses, fasilitas, dan potensi risiko di lokasi.</p>
+          <p><strong>Solusi:</strong> Lakukan pemeriksaan lokasi sebelum kunjungan.</p>
+          <h3>3. Tidak Menyiapkan Lembar Pengamatan</h3>
+          <p><strong>Masalah:</strong> Siswa kesulitan menentukan informasi yang perlu dikumpulkan.</p>
+          <p><strong>Solusi:</strong> Berikan panduan pengamatan yang sederhana dan sesuai materi.</p>
+          <h3>4. Terlalu Berorientasi pada Rekreasi</h3>
+          <p><strong>Masalah:</strong> Kegiatan lebih banyak digunakan untuk bermain daripada belajar.</p>
+          <p><strong>Solusi:</strong> Seimbangkan pengalaman menyenangkan dengan tugas pembelajaran yang terarah.</p>
+          <h3>5. Mengabaikan Keselamatan</h3>
+          <p><strong>Masalah:</strong> Siswa tidak memahami batas area, aturan perjalanan, dan prosedur ketika terjadi keadaan darurat.</p>
+          <p><strong>Solusi:</strong> Susun prosedur keselamatan, pendampingan, daftar kehadiran, dan rencana penanganan keadaan darurat.</p>
+          <h3>6. Tidak Ada Kegiatan Tindak Lanjut</h3>
+          <p><strong>Masalah:</strong> Pengalaman kunjungan tidak diolah menjadi pengetahuan.</p>
+          <p><strong>Solusi:</strong> Lakukan diskusi, laporan, presentasi, atau refleksi setelah kegiatan.</p>
+          <h3>7. Lokasi Tidak Sesuai Materi</h3>
+          <p><strong>Masalah:</strong> Kunjungan tidak memberikan informasi yang relevan.</p>
+          <p><strong>Solusi:</strong> Pilih lokasi berdasarkan tujuan pembelajaran, bukan sekadar tempat yang menarik.</p>
+
+          <h2 id="l">L. Adaptasi Metode Karyawisata terhadap Kondisi Siswa</h2>
+          <h3>1. Keterbatasan Biaya</h3>
+          <p>Pilih lingkungan sekitar sekolah yang dapat digunakan sebagai sumber belajar. Kunjungan edukatif tidak harus dilakukan ke tempat yang jauh atau berbayar.</p>
+          <h3>2. Keterbatasan Akses dan Transportasi</h3>
+          <p>Manfaatkan taman sekolah, kebun, perpustakaan, atau fasilitas umum terdekat yang dapat dijangkau dengan aman.</p>
+          <h3>3. Siswa dengan Kebutuhan Mobilitas Berbeda</h3>
+          <p>Pilih lokasi yang memiliki akses memadai. Sesuaikan jalur, aktivitas, dan perlengkapan agar seluruh siswa dapat berpartisipasi.</p>
+          <h3>4. Perbedaan Kemampuan Belajar</h3>
+          <p>Berikan lembar pengamatan dengan tingkat bantuan yang sesuai. Sebagian siswa dapat menggunakan gambar, pertanyaan sederhana, atau pendampingan tambahan.</p>
+          <h3>5. Kelas dengan Jumlah Siswa Besar</h3>
+          <p>Bagi siswa menjadi kelompok kecil, tentukan pendamping, dan gunakan sistem pencatatan kehadiran pada setiap tahap kegiatan.</p>
+          <h3>6. Keterbatasan Waktu</h3>
+          <p>Pilih lokasi dekat sekolah dan fokuskan kegiatan pada beberapa objek utama yang berkaitan dengan tujuan pembelajaran.</p>
+          <h3>7. Cuaca atau Kondisi Lokasi Tidak Mendukung</h3>
+          <p>Tunda kunjungan jika keselamatan tidak dapat dijamin. Guru dapat menggantinya dengan pengamatan lingkungan sekolah, dokumentasi, video, atau tur virtual.</p>
+          <h3>8. Siswa yang Membutuhkan Pendampingan Khusus</h3>
+          <p>Koordinasikan dukungan bersama pihak sekolah dan keluarga sesuai kebutuhan siswa. Pastikan kegiatan tidak menghalangi hak siswa untuk memperoleh pengalaman belajar.</p>
+
+          <h2 id="m">M. Pertanyaan Refleksi dan Diskusi</h2>
+          <ol class="detail-list">
+            <li>Apa yang membedakan metode karyawisata dengan pembelajaran yang hanya menggunakan gambar atau video?</li>
+            <li>Mengapa kunjungan perlu memiliki tujuan pembelajaran yang jelas?</li>
+            <li>Bagaimana guru menentukan lokasi karyawisata yang tepat?</li>
+            <li>Mengapa lembar pengamatan diperlukan dalam kegiatan?</li>
+            <li>Apa saja risiko yang perlu dipertimbangkan sebelum membawa siswa keluar sekolah?</li>
+            <li>Bagaimana cara melibatkan siswa dengan kebutuhan belajar yang beragam?</li>
+            <li>Apa yang harus dilakukan jika cuaca atau kondisi lokasi tidak mendukung?</li>
+            <li>Mengapa kegiatan tindak lanjut diperlukan setelah kunjungan?</li>
+            <li>Apakah karyawisata harus selalu dilakukan di luar lingkungan sekolah? Jelaskan.</li>
+            <li>Bagaimana cara menilai keberhasilan pembelajaran melalui metode karyawisata?</li>
+          </ol>
+          <p><strong>Aktivitas refleksi mahasiswa PGSD:</strong></p>
+          <p>Bayangkan kamu menjadi guru kelas V SD. Kamu ingin mengajarkan materi tentang kegiatan ekonomi masyarakat.</p>
+          <p>Susun rancangan karyawisata sederhana dengan ketentuan:</p>
+          <ul class="detail-list">
+            <li>Tujuan pembelajaran.</li>
+            <li>Lokasi kunjungan.</li>
+            <li>Alasan memilih lokasi.</li>
+            <li>Objek yang diamati.</li>
+            <li>Persiapan sebelum kunjungan.</li>
+            <li>Aturan keselamatan.</li>
+            <li>Lembar pengamatan.</li>
+            <li>Kegiatan tindak lanjut.</li>
+            <li>Bentuk penilaian.</li>
+          </ul>
+
+          <h2 id="n">N. Penutup dan Pengembangan Pemahaman</h2>
+          <p>Metode karyawisata merupakan metode pembelajaran yang memanfaatkan lingkungan dan tempat tertentu sebagai sumber belajar melalui pengalaman langsung.</p>
+          <p>Melalui kegiatan kunjungan, siswa memperoleh kesempatan untuk mengamati objek nyata, mengumpulkan informasi, mengajukan pertanyaan, serta menghubungkan materi pembelajaran dengan kehidupan sehari-hari.</p>
+          <p>Penerapannya di Sekolah Dasar membutuhkan perencanaan yang matang. Guru harus memperhatikan kesesuaian lokasi, tujuan pembelajaran, kondisi siswa, perizinan, pendampingan, dan keselamatan.</p>
+          <p>Kegiatan karyawisata juga tidak berhenti ketika siswa kembali ke sekolah. Pengalaman yang diperoleh perlu diolah melalui diskusi, laporan, presentasi, atau kegiatan refleksi agar menjadi pemahaman yang bermakna.</p>
+          <p>Dengan perencanaan yang tepat, lingkungan dapat menjadi ruang belajar yang luas dan memberikan pengalaman pendidikan yang lebih kontekstual bagi peserta didik.</p>
+
+          <div style="margin-top:2rem; display:flex; justify-content:space-between;">
+            <a class="btn btn-ghost" href="kerja-kelompok.html">Metode Sebelumnya</a>
+            <a class="btn btn-primary" href="drill.html">Metode Berikutnya</a>
+          </div>
+
+          <h2 id="quiz">Uji Pemahaman</h2>
+          <div class="quiz-box" id="quizContainer">
+            <div class="quiz-q" data-correct="b" data-explain="Karyawisata memanfaatkan objek dan lingkungan nyata untuk memberikan pengalaman belajar yang berkaitan dengan tujuan pembelajaran.">
+              <p>1. Apa inti dari metode karyawisata?</p>
+              <label class="quiz-opt"><input type="radio" name="q1" value="a"> Mengajak siswa melakukan perjalanan tanpa tujuan pembelajaran.</label>
+              <label class="quiz-opt"><input type="radio" name="q1" value="b"> Menggunakan tempat atau lingkungan sebagai sumber belajar melalui pengamatan langsung.</label>
+              <label class="quiz-opt"><input type="radio" name="q1" value="c"> Meminta siswa menghafalkan informasi dari buku.</label>
+              <label class="quiz-opt"><input type="radio" name="q1" value="d"> Menggantikan seluruh pembelajaran di kelas dengan kegiatan rekreasi.</label>
+              <div class="quiz-feedback"></div>
+            </div>
+            <div class="quiz-q" data-correct="c" data-explain="Persiapan yang matang diperlukan untuk memastikan kegiatan relevan, terarah, dan aman.">
+              <p>2. Apa yang sebaiknya dilakukan guru sebelum melaksanakan karyawisata?</p>
+              <label class="quiz-opt"><input type="radio" name="q2" value="a"> Langsung membawa siswa ke lokasi.</label>
+              <label class="quiz-opt"><input type="radio" name="q2" value="b"> Membiarkan siswa menentukan sendiri seluruh kegiatan.</label>
+              <label class="quiz-opt"><input type="radio" name="q2" value="c"> Melakukan perencanaan, pemeriksaan lokasi, koordinasi, dan persiapan keselamatan.</label>
+              <label class="quiz-opt"><input type="radio" name="q2" value="d"> Mengutamakan kegiatan rekreasi.</label>
+              <div class="quiz-feedback"></div>
+            </div>
+            <div class="quiz-q" data-correct="a" data-explain="Lembar pengamatan membantu siswa mengumpulkan informasi secara sistematis sesuai tujuan pembelajaran.">
+              <p>3. Mengapa lembar pengamatan diperlukan dalam kegiatan karyawisata?</p>
+              <label class="quiz-opt"><input type="radio" name="q3" value="a"> Agar siswa memiliki panduan dalam mengamati dan mencatat informasi.</label>
+              <label class="quiz-opt"><input type="radio" name="q3" value="b"> Agar siswa tidak perlu memperhatikan lingkungan.</label>
+              <label class="quiz-opt"><input type="radio" name="q3" value="c"> Agar kegiatan dapat dilakukan tanpa arahan guru.</label>
+              <label class="quiz-opt"><input type="radio" name="q3" value="d"> Agar siswa hanya fokus menyelesaikan tulisan.</label>
+              <div class="quiz-feedback"></div>
+            </div>
+            <div class="quiz-q" data-correct="d" data-explain="Keselamatan siswa merupakan prioritas. Guru perlu menyiapkan alternatif kegiatan apabila kunjungan tidak memungkinkan.">
+              <p>4. Jika cuaca tidak mendukung dan kegiatan luar ruangan menjadi tidak aman, tindakan yang tepat adalah ...</p>
+              <label class="quiz-opt"><input type="radio" name="q4" value="a"> Tetap melaksanakan kunjungan tanpa perubahan.</label>
+              <label class="quiz-opt"><input type="radio" name="q4" value="b"> Membiarkan siswa beraktivitas sendiri.</label>
+              <label class="quiz-opt"><input type="radio" name="q4" value="c"> Mengabaikan kondisi keselamatan.</label>
+              <label class="quiz-opt"><input type="radio" name="q4" value="d"> Menunda kegiatan atau menggunakan alternatif pembelajaran yang aman.</label>
+              <div class="quiz-feedback"></div>
+            </div>
+            <div class="quiz-q" data-correct="b" data-explain="Tindak lanjut membantu siswa menghubungkan pengalaman di lapangan dengan konsep yang dipelajari.">
+              <p>5. Apa yang perlu dilakukan setelah kegiatan karyawisata selesai?</p>
+              <label class="quiz-opt"><input type="radio" name="q5" value="a"> Langsung mengakhiri pembelajaran tanpa pembahasan.</label>
+              <label class="quiz-opt"><input type="radio" name="q5" value="b"> Mengolah hasil pengamatan melalui diskusi, laporan, presentasi, atau refleksi.</label>
+              <label class="quiz-opt"><input type="radio" name="q5" value="c"> Menghapus seluruh catatan siswa.</label>
+              <label class="quiz-opt"><input type="radio" name="q5" value="d"> Menilai siswa hanya berdasarkan kedisiplinan selama perjalanan.</label>
+              <div class="quiz-feedback"></div>
+            </div>
+            <button class="btn btn-primary" id="submitQuiz">Periksa Jawaban</button>
+            <button class="btn btn-ghost" id="retryQuiz" style="display:none;margin-left:.5rem;">Ulangi Kuis</button>
+            <div class="quiz-result" id="quizResult"></div>
+          </div>
+
+        </article>
+      </div>
+    </div>
+  </main>
+  <button class="print-btn" onclick="window.print()">Cetak</button>
+  <button id="backToTop" class="back-to-top" aria-label="Kembali ke atas">^</button>
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="footer-brand-name">BIANCA EDUSPACE</div>
+          <div class="footer-slogan">Inspire to Learn, Empower to Grow</div>
+          <p class="footer-text">Ruang edukasi untuk belajar, berkarya, dan berkembang bersama.</p>
+        </div>
+        <div>
+          <div class="footer-heading">Navigasi</div>
+          <ul class="footer-list">
+            <li><a href="../index.html">Beranda</a></li>
+            <li><a href="../model-pembelajaran.html">Model Pembelajaran</a></li>
+            <li><a href="../metode-pembelajaran.html">Metode Pembelajaran</a></li>
+            <li><a href="../panduan-mengajar.html">Panduan Mengajar</a></li>
+            <li><a href="../tentang-kami.html">Tentang Kami</a></li>
+          </ul>
+        </div>
+        <div>
+          <div class="footer-heading">Informasi</div>
+          <ul class="footer-list">
+            <li><a href="../tentang-kami.html">Tentang Bianca EduSpace</a></li>
+            <li><a href="../tentang-kami.html">Visi dan Misi</a></li>
+            <li><a href="../tentang-kami.html">Tujuan Pendidikan</a></li>
+          </ul>
+        </div>
+        <div>
+          <div class="footer-heading">Brand Statement</div>
+          <p class="footer-statement">Creative Learning. Innovative Education. Collaborative Growth.</p>
+        </div>
+      </div>
+      <div class="footer-bottom">© 2026 BIANCA EDUSPACE. All Rights Reserved.</div>
+    </div>
+  </footer>
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script src="../script.js" defer></script>
+  <script>
+    (function () {
+      const submit = document.getElementById('submitQuiz');
+      const retry = document.getElementById('retryQuiz');
+      const result = document.getElementById('quizResult');
+      const qs = document.querySelectorAll('.quiz-q');
+
+      function grade() {
+        let score = 0;
+        qs.forEach((q, i) => {
+          const name = 'q' + (i + 1);
+          const sel = document.querySelector('input[name="' + name + '"]:checked');
+          const fb = q.querySelector('.quiz-feedback');
+          const correct = q.dataset.correct;
+          if (sel && sel.value === correct) {
+            score++;
+            fb.textContent = 'Benar. ' + q.dataset.explain;
+            fb.className = 'quiz-feedback ok';
+          } else {
+            fb.textContent = 'Salah. Jawaban benar: ' + correct.toUpperCase() + '. ' + q.dataset.explain;
+            fb.className = 'quiz-feedback err';
+          }
+        });
+        const pct = Math.round((score / qs.length) * 100);
+        result.textContent = 'Skor: ' + score + ' / ' + qs.length + ' (' + pct + '/100)';
+        retry.style.display = 'inline-block';
+      }
+
+      function reset() {
+        qs.forEach(q => {
+          q.querySelectorAll('input[type="radio"]').forEach(r => r.checked = false);
+          const fb = q.querySelector('.quiz-feedback');
+          if (fb) { fb.textContent = ''; fb.className = 'quiz-feedback'; }
+        });
+        result.textContent = '';
+        retry.style.display = 'none';
+      }
+
+      submit.addEventListener('click', grade);
+      retry.addEventListener('click', reset);
+    })();
+
+    window.addEventListener('scroll', () => {
+      const h = document.documentElement;
+      const pct = (h.scrollTop / (h.scrollHeight - h.clientHeight)) * 100;
+      document.getElementById('progressBar').style.width = pct + '%';
+    }, { passive: true });
+    const btn = document.getElementById('backToTop');
+    if (btn) { window.addEventListener('scroll', () => btn.classList.toggle('show', window.scrollY > 300), { passive: true }); btn.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' })); }
+  </script>
+</body>
+</html>

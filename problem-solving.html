@@ -1,0 +1,502 @@
+﻿<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Problem Solving — BIANCA EDUSPACE</title>
+  <meta name="description" content="Materi mendalam Model Pembelajaran Problem Solving." />
+  <link rel="icon" type="image/png" href="../images/logo-bianca.jpg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../style.css" />
+  <link rel="stylesheet" href="../css/model-pembelajaran.css" />
+  <style>
+    .progress-bar { position: fixed; top: 0; left: 0; height: 4px; width: 0; background: linear-gradient(90deg,#2585F5,#38BDF8); z-index: 200; transition: width .1s; }
+    .quiz-box { background:#f5f8fd; padding:1.5rem; border-radius:.75rem; margin-top:1.5rem; }
+    .quiz-q { margin-bottom:1.25rem; }
+    .quiz-opt { display:block; margin:.4rem 0; }
+    .quiz-result { margin-top:1rem; font-weight:600; color:#1646A0; }
+    .print-btn { position:fixed; bottom:80px; right:24px; background:#1646A0; color:#fff; border:none; border-radius:999px; padding:.6rem 1rem; cursor:pointer; z-index:150; }
+    table { width:100%; border-collapse:collapse; margin:1rem 0; font-size:.9rem; }
+    th,td { border:1px solid rgba(7,21,46,.1); padding:.6rem; vertical-align:top; }
+    th { background:#1646A0; color:#fff; }
+    .quiz-feedback { margin-top:.5rem; font-size:.9rem; }
+    .quiz-feedback.ok { color:#16a34a; }
+    .quiz-feedback.err { color:#dc2626; }
+  </style>
+</head>
+<body>
+  <div class="progress-bar" id="progressBar"></div>
+  <header class="site-header">
+    <div class="container navbar">
+      <a class="brand" href="../index.html">
+        <img class="brand-logo" src="../images/logo-bianca.jpg" alt="Logo BIANCA EDUSPACE" />
+        <span class="brand-name">BIANCA EDUSPACE</span>
+      </a>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+      </button>
+      <nav class="nav-menu" aria-label="Main navigation">
+        <a class="nav-link" href="../index.html">Beranda</a>
+        <a class="nav-link" href="../model-pembelajaran.html">Model Pembelajaran</a>
+        <a class="nav-link" href="../metode-pembelajaran.html">Metode Pembelajaran</a>
+        <a class="nav-link" href="../panduan-mengajar.html">Panduan Mengajar</a>
+        <a class="nav-link" href="../tentang-kami.html">Tentang Kami</a>
+      </nav>
+    </div>
+  </header>
+  <main class="page-content">
+    <div class="container">
+      <nav class="breadcrumb" aria-label="Breadcrumb">
+        <a href="../index.html">Beranda</a> / <a href="../model-pembelajaran.html">Model Pembelajaran</a> / Problem Solving
+      </nav>
+      <h1 class="page-title">Problem Solving</h1>
+      <p class="page-desc">Model pembelajaran pemecahan masalah.</p>
+
+      <div class="detail-layout">
+        <aside class="detail-toc">
+          <div class="footer-heading">Daftar Isi</div>
+          <ul class="footer-list">
+            <li><a href="#a">A. Pengenalan</a></li>
+            <li><a href="#b">B. Landasan Konseptual</a></li>
+            <li><a href="#c">C. Tujuan dan Manfaat</a></li>
+            <li><a href="#d">D. Karakteristik dan Prinsip</a></li>
+            <li><a href="#e">E. Jenis dan Variasi</a></li>
+            <li><a href="#f">F. Langkah-Langkah</a></li>
+            <li><a href="#g">G. Kelebihan dan Keterbatasan</a></li>
+            <li><a href="#h">H. Penerapan di SD</a></li>
+            <li><a href="#i">I. Rancangan Pembelajaran</a></li>
+            <li><a href="#j">J. Penilaian</a></li>
+            <li><a href="#k">K. Kesalahan Umum</a></li>
+            <li><a href="#l">L. Adaptasi</a></li>
+            <li><a href="#m">M. Refleksi dan Diskusi</a></li>
+            <li><a href="#n">N. Penutup</a></li>
+            <li><a href="#quiz">Uji Pemahaman</a></li>
+          </ul>
+        </aside>
+        <article class="detail-content">
+
+<h2 id="a">A. Pengenalan Problem Solving</h2>
+<p>Problem Solving atau pembelajaran pemecahan masalah merupakan model pembelajaran yang menempatkan suatu persoalan sebagai dasar bagi siswa untuk mengembangkan kemampuan berpikir, menganalisis informasi, menentukan alternatif penyelesaian, dan mengambil keputusan berdasarkan alasan yang dapat dipertanggungjawabkan.</p>
+<p>Melalui model ini, siswa tidak hanya diarahkan untuk memperoleh jawaban akhir, tetapi juga memahami proses yang digunakan untuk mencapai jawaban tersebut.</p>
+<p>Dalam kegiatan pembelajaran, guru menghadirkan masalah yang sesuai dengan materi dan tingkat perkembangan siswa. Siswa kemudian mengidentifikasi persoalan, mengumpulkan informasi, mempertimbangkan beberapa kemungkinan penyelesaian, memilih solusi, serta mengevaluasi hasilnya.</p>
+<p>Sebagai contoh, guru mengajukan persoalan mengenai banyaknya sampah plastik di lingkungan sekolah. Siswa diminta mengidentifikasi penyebab, mengamati kondisi tempat sampah, mendiskusikan alternatif penyelesaian, dan menentukan tindakan yang dapat dilakukan bersama.</p>
+<p>Problem Solving memberikan kesempatan kepada siswa untuk mengembangkan kemampuan berpikir kritis, kreatif, logis, dan sistematis.</p>
+<p><strong>Inti pemahaman:</strong> Problem Solving bukan hanya tentang menemukan jawaban yang benar, melainkan melatih siswa memahami masalah, menyusun strategi, memilih solusi, dan menilai keberhasilannya.</p>
+
+<h2 id="b">B. Landasan Konseptual</h2>
+<p>Model Problem Solving memiliki landasan konseptual yang berkaitan dengan proses berpikir, pengalaman, dan pengembangan kemampuan menyelesaikan persoalan.</p>
+<h3>1. Teori belajar kognitif</h3>
+<p>Pembelajaran melibatkan proses mental seperti memahami informasi, mengingat pengetahuan, menghubungkan konsep, dan mengambil keputusan. Dalam Problem Solving, siswa menggunakan pengetahuan yang telah dimiliki untuk memahami persoalan baru.</p>
+<h3>2. Konstruktivisme</h3>
+<p>Siswa membangun pemahaman melalui pengalaman dan kegiatan menemukan hubungan antara informasi yang tersedia. Guru memberikan kesempatan kepada siswa untuk menyusun pemikiran, menguji dugaan, dan memperbaiki pemahaman berdasarkan hasil penyelidikan.</p>
+<h3>3. Pemikiran reflektif John Dewey</h3>
+<p>Pemikiran reflektif menekankan proses menghadapi situasi yang membingungkan, merumuskan persoalan, mempertimbangkan kemungkinan jawaban, dan menguji pemikiran melalui bukti atau pengalaman. Gagasan ini berkaitan dengan pembelajaran yang menggunakan masalah sebagai pemicu kegiatan berpikir.</p>
+<h3>4. Pemecahan masalah menurut George Polya</h3>
+<p>Dalam pemecahan masalah matematika, Polya menjelaskan empat langkah utama:</p>
+<ol class="detail-list">
+  <li>Memahami masalah.</li>
+  <li>Menyusun rencana.</li>
+  <li>Melaksanakan rencana.</li>
+  <li>Memeriksa kembali hasil.</li>
+</ol>
+<p>Langkah tersebut dapat menjadi salah satu acuan untuk melatih siswa menyelesaikan persoalan secara teratur. Landasan tersebut menunjukkan bahwa Problem Solving mendorong siswa menggunakan pengetahuan, pengalaman, dan proses berpikir untuk menghadapi permasalahan.</p>
+
+<h2 id="c">C. Tujuan dan Manfaat Problem Solving</h2>
+<h3>Tujuan</h3>
+<ol class="detail-list">
+  <li>Mengembangkan kemampuan siswa dalam mengidentifikasi masalah.</li>
+  <li>Melatih kemampuan berpikir kritis dan logis.</li>
+  <li>Mendorong siswa mencari berbagai alternatif penyelesaian.</li>
+  <li>Membantu siswa mengambil keputusan berdasarkan informasi.</li>
+  <li>Mengembangkan kreativitas dalam menemukan solusi.</li>
+  <li>Melatih siswa mengevaluasi hasil penyelesaian masalah.</li>
+  <li>Menghubungkan pengetahuan dengan persoalan dalam kehidupan sehari-hari.</li>
+</ol>
+<h3>Manfaat bagi siswa</h3>
+<ul class="detail-list">
+  <li><strong>Manfaat akademik:</strong> Siswa belajar memahami konsep dengan menggunakannya untuk menyelesaikan persoalan.</li>
+  <li><strong>Manfaat kognitif:</strong> Siswa mengembangkan kemampuan menganalisis, membandingkan, menyimpulkan, dan mengevaluasi.</li>
+  <li><strong>Manfaat praktis:</strong> Siswa belajar menghadapi situasi yang membutuhkan keputusan dan tindakan.</li>
+  <li><strong>Manfaat sosial:</strong> Siswa dapat berdiskusi, mendengarkan pendapat, dan mempertimbangkan gagasan orang lain.</li>
+  <li><strong>Manfaat personal:</strong> Siswa menjadi lebih percaya diri, mandiri, dan bertanggung jawab terhadap keputusan yang dibuat.</li>
+</ul>
+
+<h2 id="d">D. Karakteristik dan Prinsip Problem Solving</h2>
+<h3>1. Berangkat dari suatu masalah</h3>
+<p>Pembelajaran diawali dengan persoalan yang perlu dipahami atau diselesaikan oleh siswa.</p>
+<h3>2. Melibatkan proses berpikir</h3>
+<p>Siswa menggunakan kemampuan mengamati, mengidentifikasi, menganalisis, membandingkan, dan menyimpulkan.</p>
+<h3>3. Memanfaatkan pengetahuan awal</h3>
+<p>Siswa menghubungkan informasi yang telah dimiliki dengan situasi baru yang sedang dihadapi.</p>
+<h3>4. Mendorong pencarian alternatif solusi</h3>
+<p>Siswa tidak langsung diarahkan pada satu jawaban. Mereka memperoleh kesempatan mempertimbangkan beberapa kemungkinan penyelesaian.</p>
+<h3>5. Menggunakan informasi dan bukti</h3>
+<p>Solusi perlu didasarkan pada informasi yang relevan, bukan sekadar dugaan tanpa alasan.</p>
+<h3>6. Melibatkan pengambilan keputusan</h3>
+<p>Siswa menentukan solusi yang dianggap paling sesuai dengan mempertimbangkan kondisi dan akibatnya.</p>
+<h3>7. Melakukan evaluasi</h3>
+<p>Siswa memeriksa apakah solusi yang dipilih dapat menyelesaikan masalah dan mempertimbangkan perbaikan jika diperlukan.</p>
+<h3>Prinsip pelaksanaan</h3>
+<ul class="detail-list">
+  <li>Masalah harus sesuai dengan usia dan kemampuan siswa.</li>
+  <li>Persoalan harus memiliki hubungan dengan tujuan pembelajaran.</li>
+  <li>Informasi yang dibutuhkan harus dapat dijangkau siswa.</li>
+  <li>Guru memberikan bantuan tanpa mengambil alih seluruh proses berpikir.</li>
+  <li>Siswa diberi kesempatan mengemukakan berbagai kemungkinan jawaban.</li>
+  <li>Proses dan hasil penyelesaian sama-sama diperhatikan.</li>
+  <li>Kesalahan diperlakukan sebagai bagian dari proses belajar.</li>
+</ul>
+
+<h2 id="e">E. Jenis dan Variasi Problem Solving</h2>
+<p>Problem Solving dapat diterapkan melalui berbagai jenis persoalan sesuai dengan tujuan pembelajaran.</p>
+<ol class="detail-list">
+  <li><strong>Masalah terstruktur</strong> — Masalah memiliki informasi dan tujuan yang jelas. Siswa menggunakan prosedur atau strategi tertentu untuk memperoleh jawaban. Contoh SD: Menghitung jumlah buku yang dibutuhkan apabila setiap kelompok memperoleh jumlah buku yang sama.</li>
+  <li><strong>Masalah terbuka</strong> — Masalah memungkinkan lebih dari satu alternatif penyelesaian. Siswa perlu memberikan alasan terhadap solusi yang dipilih. Contoh SD: Menentukan beberapa cara menghemat penggunaan air di sekolah.</li>
+  <li><strong>Masalah kontekstual</strong> — Persoalan berkaitan dengan kehidupan sehari-hari sehingga siswa dapat menghubungkan pengetahuan dengan situasi nyata. Contoh SD: Menentukan cara mengurangi sampah makanan di kantin.</li>
+  <li><strong>Masalah analitis</strong> — Siswa diminta mengidentifikasi penyebab, hubungan, atau akibat dari suatu permasalahan. Contoh SD: Menganalisis penyebab tanaman di taman sekolah menjadi layu.</li>
+  <li><strong>Masalah pengambilan keputusan</strong> — Siswa membandingkan beberapa pilihan dan menentukan alternatif yang paling sesuai berdasarkan kriteria tertentu. Contoh SD: Memilih bahan yang tepat untuk membuat pot tanaman sederhana dengan mempertimbangkan keamanan dan ketersediaan bahan.</li>
+</ol>
+<p>Jenis persoalan tersebut dapat dikombinasikan sesuai kebutuhan pembelajaran.</p>
+
+<h2 id="f">F. Langkah-Langkah Pelaksanaan Problem Solving</h2>
+<p>Berikut alur umum pemecahan masalah yang dapat digunakan guru dalam kegiatan pembelajaran.</p>
+<h3>Tahap 1. Mengidentifikasi dan memahami masalah</h3>
+<p>Guru menghadirkan persoalan melalui cerita, gambar, pengamatan, pertanyaan, atau situasi nyata. Siswa diminta menjelaskan: Apa masalah yang sedang terjadi? Siapa atau apa yang terlibat? Informasi apa yang sudah diketahui? Hal apa yang perlu dicari tahu?</p>
+<h3>Tahap 2. Mengumpulkan informasi</h3>
+<p>Siswa mencari informasi yang diperlukan untuk memahami penyebab dan kondisi masalah. Informasi dapat diperoleh melalui bacaan, pengamatan, wawancara sederhana, data, atau pengalaman.</p>
+<h3>Tahap 3. Menganalisis masalah dan menyusun alternatif solusi</h3>
+<p>Siswa menghubungkan informasi yang diperoleh, mempertimbangkan penyebab, dan mengembangkan beberapa kemungkinan penyelesaian. Guru dapat memberikan pertanyaan pemandu agar siswa tidak langsung mengambil kesimpulan.</p>
+<h3>Tahap 4. Memilih dan merencanakan solusi</h3>
+<p>Siswa membandingkan alternatif berdasarkan manfaat, kemungkinan pelaksanaan, sumber daya, dan dampaknya. Kemudian siswa menentukan solusi yang paling sesuai disertai alasan.</p>
+<h3>Tahap 5. Melaksanakan atau menguji solusi</h3>
+<p>Siswa menerapkan solusi apabila memungkinkan. Dalam persoalan yang bersifat konseptual, siswa dapat menguji jawabannya melalui perhitungan, simulasi, atau pembuktian sederhana.</p>
+<h3>Tahap 6. Mengevaluasi hasil dan melakukan refleksi</h3>
+<p>Siswa menilai keberhasilan solusi, mengidentifikasi kekurangan, dan menyusun perbaikan apabila diperlukan. Guru membantu siswa menyimpulkan proses yang telah dilakukan.</p>
+<p><strong>Catatan:</strong> Alur ini merupakan panduan pembelajaran yang dapat disesuaikan dengan karakteristik persoalan. Dalam pembelajaran matematika, guru juga dapat menggunakan empat langkah pemecahan masalah Polya sebagai strategi khusus.</p>
+
+<h2 id="g">G. Kelebihan dan Keterbatasan Problem Solving</h2>
+<h3>Kelebihan</h3>
+<ol class="detail-list">
+  <li>Mengembangkan kemampuan berpikir kritis dan logis.</li>
+  <li>Melatih siswa memahami persoalan sebelum menentukan jawaban.</li>
+  <li>Mendorong kreativitas dalam mencari alternatif solusi.</li>
+  <li>Menghubungkan konsep pembelajaran dengan kehidupan nyata.</li>
+  <li>Melatih kemampuan mengambil keputusan.</li>
+  <li>Mengembangkan kemandirian dan tanggung jawab.</li>
+  <li>Memberikan pengalaman belajar yang menekankan proses berpikir.</li>
+</ol>
+<h3>Keterbatasan</h3>
+<ol class="detail-list">
+  <li>Membutuhkan waktu lebih panjang dibandingkan pembelajaran yang hanya berfokus pada penyampaian informasi.</li>
+  <li>Tidak semua siswa langsung mampu memahami persoalan yang kompleks.</li>
+  <li>Siswa dapat mengalami kesulitan ketika informasi yang tersedia terlalu banyak atau tidak jelas.</li>
+  <li>Guru membutuhkan keterampilan dalam menyusun masalah yang sesuai.</li>
+  <li>Penilaian proses berpikir membutuhkan instrumen yang tepat.</li>
+  <li>Beberapa persoalan membutuhkan sumber informasi atau fasilitas yang tidak selalu tersedia.</li>
+</ol>
+<h3>Upaya mengatasi keterbatasan</h3>
+<ul class="detail-list">
+  <li>Mulai dari masalah sederhana dan tingkatkan kompleksitas secara bertahap.</li>
+  <li>Gunakan gambar, benda konkret, atau cerita untuk memperjelas persoalan.</li>
+  <li>Berikan pertanyaan pemandu kepada siswa yang membutuhkan bantuan.</li>
+  <li>Tentukan batas waktu setiap tahap.</li>
+  <li>Sediakan sumber informasi yang sesuai.</li>
+  <li>Nilai proses berpikir dan alasan siswa, bukan hanya jawaban akhir.</li>
+</ul>
+
+<h2 id="h">H. Penerapan Problem Solving di Sekolah Dasar</h2>
+<h3>1. Bahasa Indonesia</h3>
+<p><strong>Materi:</strong> Memahami isi teks.</p>
+<p>Guru memberikan cerita mengenai seorang anak yang terlambat ke sekolah. Siswa diminta mengidentifikasi penyebab dan menyusun alternatif solusi agar kejadian tersebut tidak terulang.</p>
+<h3>2. Matematika</h3>
+<p><strong>Materi:</strong> Operasi hitung dalam kehidupan sehari-hari.</p>
+<p>Guru memberikan persoalan tentang pembelian alat tulis dengan uang yang terbatas. Siswa menghitung jumlah barang yang dapat dibeli dan menentukan pilihan berdasarkan anggaran.</p>
+<h3>3. IPAS</h3>
+<p><strong>Materi:</strong> Lingkungan dan pencemaran.</p>
+<p>Guru menghadirkan masalah mengenai banyaknya sampah di halaman sekolah. Siswa mengamati kondisi, mengidentifikasi penyebab, dan mengusulkan tindakan perbaikan.</p>
+<h3>4. Pendidikan Pancasila</h3>
+<p><strong>Materi:</strong> Musyawarah dan pengambilan keputusan.</p>
+<p>Guru menyampaikan persoalan tentang penggunaan fasilitas kelas yang harus dibagi secara adil. Siswa mempertimbangkan beberapa pilihan dan menentukan keputusan bersama.</p>
+<h3>5. Seni dan Prakarya</h3>
+<p><strong>Materi:</strong> Pemanfaatan bahan bekas.</p>
+<p>Siswa menghadapi persoalan mengenai banyaknya bahan bekas yang tidak digunakan. Mereka mencari cara mengubah bahan tersebut menjadi benda yang bermanfaat.</p>
+
+<h2 id="i">I. Contoh Rancangan Pembelajaran Problem Solving</h2>
+<h3>Identitas pembelajaran</h3>
+<ul class="detail-list">
+  <li>Satuan pendidikan: Sekolah Dasar</li>
+  <li>Mata pelajaran: IPAS</li>
+  <li>Fase: B</li>
+  <li>Kelas: IV</li>
+  <li>Materi: Pengelolaan Sampah di Lingkungan Sekolah</li>
+  <li>Model: Problem Solving</li>
+  <li>Alokasi waktu: 2 x 35 menit</li>
+</ul>
+<h3>Tujuan pembelajaran</h3>
+<p>Setelah mengikuti pembelajaran, siswa diharapkan mampu:</p>
+<ol class="detail-list">
+  <li>Mengidentifikasi permasalahan sampah di lingkungan sekolah.</li>
+  <li>Menjelaskan beberapa kemungkinan penyebab permasalahan.</li>
+  <li>Mengumpulkan informasi melalui pengamatan sederhana.</li>
+  <li>Menyusun alternatif penyelesaian masalah.</li>
+  <li>Memilih solusi berdasarkan alasan yang tepat.</li>
+  <li>Menjelaskan hasil pemikiran dan refleksi pembelajaran.</li>
+</ol>
+<h3>Media dan sumber belajar</h3>
+<ul class="detail-list">
+  <li>Gambar kondisi lingkungan sekolah.</li>
+  <li>Lembar kerja siswa.</li>
+  <li>Alat tulis.</li>
+  <li>Tempat sampah terpilah jika tersedia.</li>
+  <li>Lingkungan sekolah sebagai objek pengamatan.</li>
+</ul>
+<h3>Kegiatan pembelajaran</h3>
+<p><strong>1. Pendahuluan (10 menit)</strong> — Guru membuka pembelajaran dan menunjukkan gambar halaman sekolah yang dipenuhi sampah. Guru mengajukan pertanyaan: "Mengapa sampah masih ditemukan di halaman sekolah meskipun sudah tersedia tempat sampah?" Siswa menyampaikan pendapat awal. Guru menjelaskan tujuan pembelajaran.</p>
+<p><strong>2. Kegiatan inti (50 menit)</strong></p>
+<p><strong>Tahap 1. Memahami masalah</strong> — Guru menyampaikan persoalan utama: lingkungan sekolah masih ditemukan sampah yang tidak dibuang pada tempatnya. Siswa mengidentifikasi kondisi yang terlihat.</p>
+<p><strong>Tahap 2. Mengumpulkan informasi</strong> — Siswa melakukan pengamatan sederhana terhadap area sekolah yang aman dan diizinkan guru. Mereka mencatat jenis sampah yang ditemukan dan lokasi keberadaannya.</p>
+<p><strong>Tahap 3. Menganalisis masalah</strong> — Siswa mendiskusikan kemungkinan penyebab, seperti kurangnya kebiasaan membuang sampah pada tempatnya atau kurangnya pemahaman mengenai pemilahan sampah.</p>
+<p><strong>Tahap 4. Memilih solusi</strong> — Setiap kelompok menyusun beberapa alternatif, misalnya: Membuat pengingat membuang sampah, Menyediakan petunjuk pemilahan sampah, Membuat jadwal pemeriksaan kebersihan, Mengadakan kegiatan edukasi kebersihan. Kelompok memilih solusi yang paling memungkinkan diterapkan.</p>
+<p><strong>Tahap 5. Menguji atau merencanakan solusi</strong> — Siswa membuat rancangan tindakan sederhana, seperti poster ajakan menjaga kebersihan dan panduan pemilahan sampah.</p>
+<p><strong>Tahap 6. Evaluasi dan refleksi</strong> — Setiap kelompok mempresentasikan solusi beserta alasannya. Guru dan siswa memberikan tanggapan terhadap kelayakan solusi.</p>
+<p><strong>3. Penutup (10 menit)</strong> — Guru bersama siswa menyimpulkan penyebab dan alternatif penyelesaian masalah. Siswa menuliskan satu tindakan nyata yang dapat dilakukan untuk menjaga kebersihan sekolah.</p>
+<h3>Contoh lembar kerja siswa</h3>
+<p><strong>Permasalahan:</strong> Sampah masih ditemukan di lingkungan sekolah.</p>
+<p>Jawablah pertanyaan berikut:</p>
+<ol class="detail-list">
+  <li>Apa masalah utama yang ditemukan?</li>
+  <li>Informasi apa yang perlu dikumpulkan?</li>
+  <li>Apa saja kemungkinan penyebabnya?</li>
+  <li>Tuliskan minimal tiga alternatif penyelesaian.</li>
+  <li>Solusi mana yang paling tepat menurut kelompokmu?</li>
+  <li>Mengapa solusi tersebut dipilih?</li>
+  <li>Bagaimana cara mengetahui apakah solusi berhasil?</li>
+</ol>
+<h3>Hasil yang diharapkan</h3>
+<p>Siswa mampu mengidentifikasi persoalan, menggunakan informasi hasil pengamatan, menyusun alternatif penyelesaian, dan memberikan alasan terhadap solusi yang dipilih.</p>
+
+<h2 id="j">J. Penilaian dalam Problem Solving</h2>
+<p>Penilaian dilakukan dengan memperhatikan proses berpikir dan hasil penyelesaian masalah.</p>
+<h3>1. Penilaian pengetahuan</h3>
+<p>Guru menilai kemampuan siswa dalam:</p>
+<ul class="detail-list">
+  <li>Memahami persoalan.</li>
+  <li>Mengidentifikasi informasi penting.</li>
+  <li>Menjelaskan penyebab masalah.</li>
+  <li>Memahami konsep yang berkaitan dengan persoalan.</li>
+</ul>
+<h3>2. Penilaian keterampilan</h3>
+<p>Guru menilai kemampuan siswa dalam:</p>
+<ul class="detail-list">
+  <li>Mengumpulkan informasi.</li>
+  <li>Menganalisis kondisi.</li>
+  <li>Menyusun alternatif penyelesaian.</li>
+  <li>Memilih solusi.</li>
+  <li>Menyampaikan hasil pemikiran.</li>
+</ul>
+<h3>3. Penilaian sikap</h3>
+<p>Guru mengamati:</p>
+<ul class="detail-list">
+  <li>Tanggung jawab.</li>
+  <li>Ketekunan.</li>
+  <li>Keterbukaan terhadap pendapat.</li>
+  <li>Kemampuan bekerja sama.</li>
+  <li>Kesungguhan menyelesaikan tugas.</li>
+</ul>
+<h3>Contoh rubrik penilaian pemecahan masalah</h3>
+<p><strong>Skor 4:</strong> Mampu memahami masalah secara tepat, menggunakan informasi relevan, menyusun beberapa alternatif, memilih solusi dengan alasan kuat, dan mengevaluasi hasilnya.</p>
+<p><strong>Skor 3:</strong> Mampu memahami masalah dan memilih solusi yang sesuai, tetapi analisis atau evaluasinya belum mendalam.</p>
+<p><strong>Skor 2:</strong> Mampu mengenali sebagian masalah, tetapi masih membutuhkan bantuan dalam menyusun dan memilih solusi.</p>
+<p><strong>Skor 1:</strong> Belum mampu memahami persoalan dan membutuhkan bimbingan intensif dalam proses penyelesaian.</p>
+<h3>Contoh penilaian hasil kerja</h3>
+<p>Guru dapat menggunakan lembar kerja, hasil diskusi, presentasi, dan catatan pengamatan untuk memperoleh gambaran kemampuan siswa secara menyeluruh. Penilaian sebaiknya tidak hanya didasarkan pada apakah solusi siswa sama dengan jawaban guru. Alternatif solusi yang berbeda tetap dapat diterima selama masuk akal, sesuai informasi, dan dapat dijelaskan.</p>
+
+<h2 id="k">K. Kesalahan Umum dalam Penerapan Problem Solving</h2>
+<ol class="detail-list">
+  <li><strong>Memberikan masalah tanpa tujuan pembelajaran yang jelas</strong> — Perbaikan: Pastikan persoalan berkaitan dengan kompetensi dan materi yang sedang dipelajari.</li>
+  <li><strong>Masalah terlalu sulit untuk tingkat perkembangan siswa</strong> — Perbaikan: Gunakan persoalan yang dekat dengan pengalaman siswa dan tingkatkan tantangan secara bertahap.</li>
+  <li><strong>Guru langsung memberikan jawaban</strong> — Perbaikan: Berikan pertanyaan pemandu dan kesempatan kepada siswa untuk menyusun pemikirannya sendiri.</li>
+  <li><strong>Hanya menerima satu solusi</strong> — Perbaikan: Berikan ruang untuk beberapa alternatif penyelesaian selama memiliki alasan yang logis.</li>
+  <li><strong>Tidak menyediakan informasi yang cukup</strong> — Perbaikan: Sediakan bahan bacaan, data, gambar, atau kesempatan pengamatan yang relevan.</li>
+  <li><strong>Hanya menilai jawaban akhir</strong> — Perbaikan: Perhatikan cara siswa memahami persoalan, mengumpulkan informasi, menyusun strategi, dan mengevaluasi solusi.</li>
+  <li><strong>Diskusi tidak menghasilkan keputusan</strong> — Perbaikan: Berikan panduan agar siswa membandingkan alternatif dan memilih solusi berdasarkan kriteria yang jelas.</li>
+</ol>
+
+<h2 id="l">L. Adaptasi Problem Solving terhadap Kondisi Siswa</h2>
+<h3>1. Siswa yang masih kesulitan memahami masalah</h3>
+<p>Gunakan gambar, cerita pendek, atau demonstrasi untuk memperjelas persoalan.</p>
+<h3>2. Siswa dengan kemampuan berpikir yang beragam</h3>
+<p>Sediakan pertanyaan bertahap dari mengenali masalah hingga mengevaluasi solusi.</p>
+<h3>3. Siswa yang kurang percaya diri</h3>
+<p>Mulai dengan diskusi berpasangan sebelum siswa menyampaikan pendapat di kelompok atau kelas.</p>
+<h3>4. Siswa yang cepat memahami persoalan</h3>
+<p>Berikan tantangan tambahan, seperti mempertimbangkan dampak jangka panjang atau membandingkan beberapa solusi.</p>
+<h3>5. Kelas dengan jumlah siswa besar</h3>
+<p>Gunakan kelompok kecil dan lembar kerja terstruktur agar guru dapat memantau perkembangan setiap kelompok.</p>
+<h3>6. Keterbatasan fasilitas</h3>
+<p>Pilih masalah yang dapat diamati di lingkungan sekolah atau disajikan melalui gambar dan cerita.</p>
+<h3>7. Siswa yang membutuhkan dukungan dalam komunikasi</h3>
+<p>Berikan pilihan untuk menyampaikan solusi melalui gambar, tulisan sederhana, atau penjelasan lisan sesuai kemampuan. Prinsip utamanya adalah memberikan kesempatan kepada seluruh siswa untuk terlibat dalam proses pemecahan masalah dengan dukungan yang sesuai.</p>
+
+<h2 id="m">M. Pertanyaan Refleksi dan Diskusi</h2>
+<ol class="detail-list">
+  <li>Mengapa Problem Solving tidak hanya berfokus pada jawaban akhir?</li>
+  <li>Apa perbedaan mengidentifikasi masalah dan menganalisis penyebab masalah?</li>
+  <li>Mengapa siswa perlu mempertimbangkan beberapa alternatif sebelum memilih solusi?</li>
+  <li>Bagaimana peran guru ketika siswa mengalami kesulitan menemukan penyelesaian?</li>
+  <li>Apakah semua masalah kehidupan sehari-hari cocok digunakan sebagai persoalan pembelajaran? Jelaskan.</li>
+  <li>Bagaimana cara menilai proses berpikir siswa ketika solusi yang diberikan berbeda-beda?</li>
+  <li>Berikan satu contoh persoalan di lingkungan sekolah yang dapat diselesaikan menggunakan model Problem Solving.</li>
+</ol>
+
+<h2 id="n">N. Penutup dan Pengembangan Pemahaman</h2>
+<p>Problem Solving merupakan model pembelajaran yang mengembangkan kemampuan siswa dalam memahami dan menyelesaikan persoalan melalui proses berpikir yang terarah.</p>
+<p>Melalui kegiatan mengidentifikasi masalah, mengumpulkan informasi, menganalisis, menyusun alternatif, menentukan solusi, dan melakukan evaluasi, siswa memperoleh pengalaman belajar yang melatih kemampuan berpikir kritis, kreatif, dan logis.</p>
+<p>Dalam penerapannya di Sekolah Dasar, guru perlu memilih persoalan yang sesuai dengan usia, pengalaman, dan kemampuan siswa. Guru juga perlu memberikan ruang bagi siswa untuk menyampaikan gagasan serta mempertimbangkan berbagai alternatif penyelesaian.</p>
+<p>Keberhasilan pembelajaran tidak hanya dilihat dari solusi yang diperoleh, tetapi juga dari perkembangan cara siswa memahami persoalan dan mempertanggungjawabkan keputusan.</p>
+<p><strong>Pesan utama:</strong> Siswa yang terampil memecahkan masalah bukan hanya siswa yang mampu menjawab, tetapi siswa yang mampu menjelaskan bagaimana dan mengapa suatu solusi dipilih.</p>
+
+<h2 id="quiz">Uji Pemahaman</h2>
+<div class="quiz-box" id="quizContainer">
+  <div class="quiz-q" data-correct="b" data-explain="Problem Solving menekankan proses memahami persoalan, mengumpulkan informasi, menyusun alternatif, menentukan solusi, dan mengevaluasi hasilnya.">
+    <p>1. Apa fokus utama model Problem Solving?</p>
+    <label class="quiz-opt"><input type="radio" name="q1" value="a"> Menghafalkan seluruh materi pelajaran.</label>
+    <label class="quiz-opt"><input type="radio" name="q1" value="b"> Memahami masalah dan menentukan penyelesaian berdasarkan proses berpikir.</label>
+    <label class="quiz-opt"><input type="radio" name="q1" value="c"> Menyelesaikan semua tugas melalui ceramah guru.</label>
+    <label class="quiz-opt"><input type="radio" name="q1" value="d"> Menghindari kegiatan analisis dan diskusi.</label>
+    <div class="quiz-feedback"></div>
+  </div>
+  <div class="quiz-q" data-correct="b" data-explain="Setelah memahami persoalan, siswa menyusun strategi atau rencana sebelum melaksanakan penyelesaian.">
+    <p>2. Dalam langkah pemecahan masalah Polya, kegiatan menyusun strategi penyelesaian termasuk tahap ...</p>
+    <label class="quiz-opt"><input type="radio" name="q2" value="a"> Memahami masalah.</label>
+    <label class="quiz-opt"><input type="radio" name="q2" value="b"> Menyusun rencana.</label>
+    <label class="quiz-opt"><input type="radio" name="q2" value="c"> Melaksanakan rencana.</label>
+    <label class="quiz-opt"><input type="radio" name="q2" value="d"> Memeriksa kembali.</label>
+    <div class="quiz-feedback"></div>
+  </div>
+  <div class="quiz-q" data-correct="a" data-explain="Siswa menghubungkan informasi hasil pengamatan untuk memahami faktor yang menyebabkan permasalahan.">
+    <p>3. Guru meminta siswa mengidentifikasi penyebab sampah di lingkungan sekolah sebelum menentukan tindakan perbaikan. Kegiatan tersebut termasuk ...</p>
+    <label class="quiz-opt"><input type="radio" name="q3" value="a"> Menganalisis masalah.</label>
+    <label class="quiz-opt"><input type="radio" name="q3" value="b"> Menghafalkan materi.</label>
+    <label class="quiz-opt"><input type="radio" name="q3" value="c"> Menyelesaikan tugas tanpa informasi.</label>
+    <label class="quiz-opt"><input type="radio" name="q3" value="d"> Menghindari pengambilan keputusan.</label>
+    <div class="quiz-feedback"></div>
+  </div>
+  <div class="quiz-q" data-correct="c" data-explain="Alternatif solusi membantu siswa mempertimbangkan kelebihan, kekurangan, dan kelayakan setiap pilihan sebelum mengambil keputusan.">
+    <p>4. Mengapa guru perlu memberikan kesempatan kepada siswa untuk menyusun beberapa alternatif solusi?</p>
+    <label class="quiz-opt"><input type="radio" name="q4" value="a"> Agar siswa tidak perlu menentukan keputusan.</label>
+    <label class="quiz-opt"><input type="radio" name="q4" value="b"> Agar seluruh siswa memberikan jawaban yang sama.</label>
+    <label class="quiz-opt"><input type="radio" name="q4" value="c"> Agar siswa dapat membandingkan pilihan dan menentukan solusi yang paling sesuai.</label>
+    <label class="quiz-opt"><input type="radio" name="q4" value="d"> Agar proses pembelajaran tidak memiliki tujuan.</label>
+    <div class="quiz-feedback"></div>
+  </div>
+  <div class="quiz-q" data-correct="c" data-explain="Proses berpikir merupakan bagian penting dari Problem Solving sehingga penilaian perlu mencakup proses dan hasil.">
+    <p>5. Dalam Problem Solving, penilaian yang tepat sebaiknya memperhatikan ...</p>
+    <label class="quiz-opt"><input type="radio" name="q5" value="a"> Jawaban akhir saja.</label>
+    <label class="quiz-opt"><input type="radio" name="q5" value="b"> Kecepatan siswa menjawab tanpa mempertimbangkan proses.</label>
+    <label class="quiz-opt"><input type="radio" name="q5" value="c"> Proses memahami masalah, penggunaan informasi, strategi, dan hasil penyelesaian.</label>
+    <label class="quiz-opt"><input type="radio" name="q5" value="d"> Jumlah pendapat yang disampaikan tanpa memperhatikan alasan.</label>
+    <div class="quiz-feedback"></div>
+  </div>
+  <button id="submitQuiz" class="print-btn" style="position:static;margin-top:1rem;">Kirim Jawaban</button>
+  <button id="retryQuiz" class="print-btn" style="position:static;margin-top:1rem;display:none;">Coba Lagi</button>
+  <div class="quiz-result" id="quizResult"></div>
+</div>
+
+<p><a href="../model-pembelajaran.html">← Kembali ke Katalog</a></p>
+
+        </article>
+      </div>
+    </div>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="footer-brand-name">BIANCA EDUSPACE</div>
+          <div class="footer-slogan">Inspire to Learn, Empower to Grow</div>
+          <p class="footer-text">Ruang edukasi untuk belajar, berkarya, dan berkembang bersama.</p>
+        </div>
+        <div>
+          <div class="footer-heading">Navigasi</div>
+          <ul class="footer-list">
+            <li><a href="../index.html">Beranda</a></li>
+            <li><a href="../model-pembelajaran.html">Model Pembelajaran</a></li>
+            <li><a href="../metode-pembelajaran.html">Metode Pembelajaran</a></li>
+            <li><a href="../panduan-mengajar.html">Panduan Mengajar</a></li>
+            <li><a href="../tentang-kami.html">Tentang Kami</a></li>
+          </ul>
+        </div>
+        <div>
+          <div class="footer-heading">Informasi</div>
+          <ul class="footer-list">
+            <li><a href="../tentang-kami.html">Tentang Bianca EduSpace</a></li>
+            <li><a href="../tentang-kami.html">Visi dan Misi</a></li>
+            <li><a href="../tentang-kami.html">Tujuan Pendidikan</a></li>
+          </ul>
+        </div>
+        <div>
+          <div class="footer-heading">Brand Statement</div>
+          <p class="footer-statement">Creative Learning. Innovative Education. Collaborative Growth.</p>
+        </div>
+      </div>
+      <div class="footer-bottom">© 2026 BIANCA EDUSPACE. All Rights Reserved.</div>
+    </div>
+  </footer>
+  <button id="backToTop" class="back-to-top" aria-label="Kembali ke atas">↑</button>
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script src="../script.js" defer></script>
+  <script>
+    (function () {
+      const submit = document.getElementById('submitQuiz');
+      const retry = document.getElementById('retryQuiz');
+      const result = document.getElementById('quizResult');
+      const qs = document.querySelectorAll('.quiz-q');
+
+      function grade() {
+        let score = 0;
+        qs.forEach((q, i) => {
+          const name = 'q' + (i + 1);
+          const sel = document.querySelector('input[name="' + name + '"]:checked');
+          const fb = q.querySelector('.quiz-feedback');
+          const correct = q.dataset.correct;
+          if (sel && sel.value === correct) {
+            score++;
+            fb.textContent = 'Benar. ' + q.dataset.explain;
+            fb.className = 'quiz-feedback ok';
+          } else {
+            fb.textContent = 'Salah. Jawaban benar: ' + correct.toUpperCase() + '. ' + q.dataset.explain;
+            fb.className = 'quiz-feedback err';
+          }
+        });
+        const pct = Math.round((score / qs.length) * 100);
+        result.textContent = 'Skor: ' + score + ' / ' + qs.length + ' (' + pct + '/100)';
+        retry.style.display = 'inline-block';
+      }
+
+      function reset() {
+        qs.forEach(q => {
+          q.querySelectorAll('input[type="radio"]').forEach(r => r.checked = false);
+          const fb = q.querySelector('.quiz-feedback');
+          if (fb) { fb.textContent = ''; fb.className = 'quiz-feedback'; }
+        });
+        result.textContent = '';
+        retry.style.display = 'none';
+      }
+
+      submit.addEventListener('click', grade);
+      retry.addEventListener('click', reset);
+    })();
+
+    window.addEventListener('scroll', () => {
+      const h = document.documentElement;
+      const pct = (h.scrollTop / (h.scrollHeight - h.clientHeight)) * 100;
+      document.getElementById('progressBar').style.width = pct + '%';
+    }, { passive: true });
+    const btn = document.getElementById('backToTop');
+    if (btn) { window.addEventListener('scroll', () => btn.classList.toggle('show', window.scrollY > 300), { passive: true }); btn.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' })); }
+  </script>
+</body>
+</html>

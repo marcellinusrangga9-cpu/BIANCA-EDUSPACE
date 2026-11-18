@@ -1,0 +1,506 @@
+﻿<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contextual Teaching and Learning (CTL) — BIANCA EDUSPACE</title>
+  <meta name="description" content="Materi mendalam Model Pembelajaran Contextual Teaching and Learning (CTL)." />
+  <link rel="icon" type="image/png" href="../images/logo-bianca.jpg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../style.css" />
+  <link rel="stylesheet" href="../css/model-pembelajaran.css" />
+  <style>
+    .progress-bar { position: fixed; top: 0; left: 0; height: 4px; width: 0; background: linear-gradient(90deg,#2585F5,#38BDF8); z-index: 200; transition: width .1s; }
+    .quiz-box { background:#f5f8fd; padding:1.5rem; border-radius:.75rem; margin-top:1.5rem; }
+    .quiz-q { margin-bottom:1.25rem; }
+    .quiz-opt { display:block; margin:.4rem 0; }
+    .quiz-result { margin-top:1rem; font-weight:600; color:#1646A0; }
+    .print-btn { position:fixed; bottom:80px; right:24px; background:#1646A0; color:#fff; border:none; border-radius:999px; padding:.6rem 1rem; cursor:pointer; z-index:150; }
+    table { width:100%; border-collapse:collapse; margin:1rem 0; font-size:.9rem; }
+    th,td { border:1px solid rgba(7,21,46,.1); padding:.6rem; vertical-align:top; }
+    th { background:#1646A0; color:#fff; }
+    .quiz-feedback { margin-top:.5rem; font-size:.9rem; }
+    .quiz-feedback.ok { color:#16a34a; }
+    .quiz-feedback.err { color:#dc2626; }
+  </style>
+</head>
+<body>
+  <div class="progress-bar" id="progressBar"></div>
+  <header class="site-header">
+    <div class="container navbar">
+      <a class="brand" href="../index.html">
+        <img class="brand-logo" src="../images/logo-bianca.jpg" alt="Logo BIANCA EDUSPACE" />
+        <span class="brand-name">BIANCA EDUSPACE</span>
+      </a>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+      </button>
+      <nav class="nav-menu" aria-label="Main navigation">
+        <a class="nav-link" href="../index.html">Beranda</a>
+        <a class="nav-link" href="../model-pembelajaran.html">Model Pembelajaran</a>
+        <a class="nav-link" href="../metode-pembelajaran.html">Metode Pembelajaran</a>
+        <a class="nav-link" href="../panduan-mengajar.html">Panduan Mengajar</a>
+        <a class="nav-link" href="../tentang-kami.html">Tentang Kami</a>
+      </nav>
+    </div>
+  </header>
+  <main class="page-content">
+    <div class="container">
+      <nav class="breadcrumb" aria-label="Breadcrumb">
+        <a href="../index.html">Beranda</a> / <a href="../model-pembelajaran.html">Model Pembelajaran</a> / Contextual Teaching and Learning (CTL)
+      </nav>
+      <h1 class="page-title">Contextual Teaching and Learning (CTL)</h1>
+      <p class="page-desc">Pembelajaran kontekstual.</p>
+
+      <div class="detail-layout">
+        <aside class="detail-toc">
+          <div class="footer-heading">Daftar Isi</div>
+          <ul class="footer-list">
+            <li><a href="#a">A. Pengenalan</a></li>
+            <li><a href="#b">B. Landasan Konseptual</a></li>
+            <li><a href="#c">C. Tujuan dan Manfaat</a></li>
+            <li><a href="#d">D. Karakteristik dan Prinsip</a></li>
+            <li><a href="#e">E. Komponen Utama</a></li>
+            <li><a href="#f">F. Langkah-Langkah</a></li>
+            <li><a href="#g">G. Kelebihan dan Keterbatasan</a></li>
+            <li><a href="#h">H. Penerapan di SD</a></li>
+            <li><a href="#i">I. Rancangan Pembelajaran</a></li>
+            <li><a href="#j">J. Penilaian</a></li>
+            <li><a href="#k">K. Kesalahan Umum</a></li>
+            <li><a href="#l">L. Adaptasi</a></li>
+            <li><a href="#m">M. Refleksi dan Diskusi</a></li>
+            <li><a href="#n">N. Penutup</a></li>
+            <li><a href="#quiz">Uji Pemahaman</a></li>
+          </ul>
+        </aside>
+        <article class="detail-content">
+
+<h2 id="a">A. Pengenalan Contextual Teaching and Learning</h2>
+<p>Contextual Teaching and Learning (CTL) atau pembelajaran kontekstual merupakan model pembelajaran yang menghubungkan materi pelajaran dengan situasi nyata yang dekat dengan kehidupan siswa. Melalui model ini, siswa diajak memahami hubungan antara pengetahuan yang dipelajari di sekolah dengan pengalaman, lingkungan, dan permasalahan yang mereka temui sehari-hari.</p>
+<p>Dalam pembelajaran kontekstual, pengetahuan tidak hanya diberikan sebagai kumpulan informasi untuk dihafalkan. Siswa memperoleh kesempatan untuk menemukan makna dari materi melalui pengamatan, pengalaman, diskusi, kegiatan praktik, dan penerapan konsep.</p>
+<p>Sebagai contoh, ketika mempelajari materi pengukuran panjang, guru tidak hanya menjelaskan satuan sentimeter dan meter melalui buku. Siswa dapat diminta mengukur panjang meja, lebar kelas, atau benda-benda yang berada di lingkungan sekolah. Dengan demikian, konsep pengukuran menjadi lebih mudah dipahami karena siswa mengalami penggunaannya secara langsung.</p>
+<p>CTL menempatkan pengalaman dan lingkungan siswa sebagai bagian penting dari proses pembelajaran. Guru berperan sebagai fasilitator yang membantu siswa menghubungkan pengetahuan awal dengan konsep baru.</p>
+<p><strong>Inti pemahaman:</strong> CTL membantu siswa memahami apa yang dipelajari, mengapa materi tersebut penting, dan bagaimana pengetahuan itu dapat digunakan dalam kehidupan nyata.</p>
+
+<h2 id="b">B. Landasan Konseptual</h2>
+<p>Contextual Teaching and Learning memiliki landasan konseptual yang berkaitan dengan proses membangun pengetahuan melalui pengalaman, interaksi, dan penerapan dalam kehidupan.</p>
+<p>Beberapa gagasan yang mendasari model ini meliputi:</p>
+<h3>1. Konstruktivisme</h3>
+<p>Konstruktivisme memandang bahwa siswa membangun pemahamannya melalui pengalaman dan pengetahuan yang telah dimiliki. Pengetahuan baru akan lebih bermakna ketika dihubungkan dengan pemahaman sebelumnya. Dalam CTL, guru mengajak siswa mengingat pengalaman yang berkaitan dengan materi sebelum mempelajari konsep baru.</p>
+<h3>2. Pembelajaran bermakna</h3>
+<p>Pembelajaran menjadi bermakna ketika siswa dapat memahami hubungan antara informasi baru dengan pengetahuan dan pengalaman yang sudah dimiliki. Sebagai contoh, siswa akan lebih mudah memahami konsep kebutuhan dan keinginan melalui pengalaman memilih barang yang diperlukan dalam kehidupan sehari-hari.</p>
+<h3>3. Pembelajaran berbasis pengalaman</h3>
+<p>Pengalaman langsung dapat membantu siswa memahami konsep secara lebih konkret. Kegiatan seperti mengamati lingkungan, melakukan pengukuran, mengelompokkan benda, dan mencoba suatu kegiatan dapat digunakan untuk memperkuat pemahaman.</p>
+<h3>4. Pembelajaran sosial</h3>
+<p>Proses belajar dapat berkembang melalui interaksi dengan orang lain. Siswa memperoleh kesempatan untuk bertanya, bertukar gagasan, membandingkan pengalaman, dan membangun pemahaman bersama.</p>
+<h3>5. Penerapan pengetahuan</h3>
+<p>Pengetahuan tidak hanya dipahami secara teoritis, tetapi juga digunakan untuk menjelaskan atau menghadapi situasi nyata. Landasan tersebut memperlihatkan bahwa CTL menghubungkan pengalaman siswa, proses membangun pemahaman, dan penggunaan pengetahuan dalam konteks kehidupan.</p>
+
+<h2 id="c">C. Tujuan dan Manfaat Contextual Teaching and Learning</h2>
+<h3>Tujuan</h3>
+<ol class="detail-list">
+  <li>Membantu siswa memahami hubungan antara materi pembelajaran dan kehidupan sehari-hari.</li>
+  <li>Mendorong siswa membangun pengetahuan berdasarkan pengalaman.</li>
+  <li>Mengembangkan kemampuan berpikir kritis dan pemecahan masalah.</li>
+  <li>Meningkatkan keterlibatan siswa dalam kegiatan pembelajaran.</li>
+  <li>Membantu siswa menerapkan konsep dalam situasi nyata.</li>
+  <li>Mengembangkan kemampuan bekerja sama dan berkomunikasi.</li>
+  <li>Menciptakan pembelajaran yang lebih bermakna dan tidak hanya berorientasi pada hafalan.</li>
+</ol>
+<h3>Manfaat bagi siswa</h3>
+<ul class="detail-list">
+  <li><strong>Manfaat akademik:</strong> Siswa dapat memahami konsep melalui contoh yang dekat dengan kehidupannya.</li>
+  <li><strong>Manfaat praktis:</strong> Siswa belajar menggunakan pengetahuan untuk menghadapi situasi nyata.</li>
+  <li><strong>Manfaat sosial:</strong> Siswa dapat berbagi pengalaman, berdiskusi, dan belajar dari lingkungan sekitarnya.</li>
+  <li><strong>Manfaat personal:</strong> Siswa menjadi lebih aktif, mandiri, dan percaya diri dalam mengemukakan pendapat.</li>
+  <li><strong>Manfaat jangka panjang:</strong> Siswa terbiasa melihat hubungan antara pengetahuan di sekolah dengan kebutuhan dan permasalahan dalam kehidupan.</li>
+</ul>
+
+<h2 id="d">D. Karakteristik dan Prinsip Contextual Teaching and Learning</h2>
+<p>CTL memiliki sejumlah karakteristik yang membantu guru menciptakan pembelajaran yang dekat dengan kehidupan siswa.</p>
+<ol class="detail-list">
+  <li><strong>Menghubungkan materi dengan kehidupan nyata</strong> — Materi pelajaran disampaikan melalui situasi yang dapat dikenali siswa, seperti rumah, sekolah, lingkungan sekitar, dan kegiatan masyarakat.</li>
+  <li><strong>Mengaktifkan pengetahuan awal</strong> — Guru menggali pengalaman dan pemahaman awal siswa sebagai dasar untuk mempelajari konsep baru.</li>
+  <li><strong>Mendorong siswa membangun pengetahuan</strong> — Siswa memperoleh kesempatan menemukan konsep melalui kegiatan mengamati, mencoba, bertanya, dan menyimpulkan.</li>
+  <li><strong>Melibatkan kegiatan penyelidikan</strong> — Siswa mempelajari suatu konsep dengan mengumpulkan informasi atau bukti melalui pengamatan dan kegiatan sederhana.</li>
+  <li><strong>Mengembangkan interaksi dan kerja sama</strong> — Siswa dapat bertukar pengalaman dan berdiskusi untuk memperluas pemahaman.</li>
+  <li><strong>Menghadirkan model atau contoh</strong> — Guru, teman, benda konkret, gambar, video, atau lingkungan dapat menjadi contoh yang membantu siswa memahami konsep.</li>
+  <li><strong>Melakukan refleksi</strong> — Siswa diajak mengingat kembali apa yang telah dipelajari, bagaimana prosesnya, dan manfaat pengetahuan tersebut.</li>
+  <li><strong>Melaksanakan penilaian autentik</strong> — Penilaian memperhatikan kemampuan siswa dalam memahami konsep dan menggunakannya melalui tugas, praktik, pengamatan, maupun hasil karya.</li>
+</ol>
+
+<h2 id="e">E. Komponen Utama Contextual Teaching and Learning</h2>
+<p>CTL umumnya dijelaskan melalui tujuh komponen utama yang saling berkaitan.</p>
+<ol class="detail-list">
+  <li><strong>Konstruktivisme (Constructivism)</strong> — Siswa membangun pemahaman berdasarkan pengalaman dan pengetahuan awal. Contoh: Sebelum mempelajari perubahan wujud benda, guru bertanya tentang pengalaman siswa melihat es batu mencair.</li>
+  <li><strong>Menemukan (Inquiry)</strong> — Siswa memperoleh pengetahuan melalui kegiatan mencari, mengamati, menyelidiki, dan menyimpulkan. Contoh: Siswa mengamati perubahan es batu ketika diletakkan di tempat yang berbeda.</li>
+  <li><strong>Bertanya (Questioning)</strong> — Pertanyaan digunakan untuk menggali pengetahuan awal, mendorong rasa ingin tahu, dan memperdalam pemahaman. Contoh: Guru bertanya, "Mengapa es batu yang diletakkan di luar lemari pendingin lama-kelamaan berubah menjadi air?"</li>
+  <li><strong>Masyarakat Belajar (Learning Community)</strong> — Siswa belajar melalui interaksi dengan teman, guru, atau sumber belajar lain. Contoh: Siswa membandingkan hasil pengamatan dengan anggota kelompoknya.</li>
+  <li><strong>Pemodelan (Modeling)</strong> — Guru atau sumber lain memberikan contoh nyata tentang cara melakukan suatu kegiatan atau menggunakan suatu konsep. Contoh: Guru memperagakan cara menggunakan termometer dengan benar.</li>
+  <li><strong>Refleksi (Reflection)</strong> — Siswa mengingat kembali pengalaman belajar dan menyampaikan pemahaman yang diperoleh. Contoh: Siswa menuliskan hal baru yang dipahami setelah melakukan percobaan.</li>
+  <li><strong>Penilaian Autentik (Authentic Assessment)</strong> — Guru menilai kemampuan siswa melalui proses dan hasil kegiatan yang mencerminkan penerapan pengetahuan. Contoh: Guru menilai kemampuan siswa menjelaskan proses mencair berdasarkan hasil pengamatan, bukan hanya melalui soal hafalan.</li>
+</ol>
+<p><strong>Catatan:</strong> Tujuh komponen tersebut merupakan unsur penting dalam merancang pembelajaran kontekstual. Guru dapat menggabungkannya secara fleksibel sesuai materi dan kebutuhan siswa.</p>
+
+<h2 id="f">F. Langkah-Langkah Pelaksanaan Contextual Teaching and Learning</h2>
+<p>CTL tidak harus diterapkan dengan urutan kegiatan yang kaku. Namun, guru dapat menggunakan alur berikut sebagai panduan pembelajaran.</p>
+<h3>Tahap 1. Mengaitkan pengalaman awal siswa</h3>
+<p>Guru membuka pembelajaran dengan menghadirkan pertanyaan, cerita, benda, atau situasi yang dekat dengan kehidupan siswa. Tujuannya adalah membangun hubungan antara pengetahuan awal dan materi yang akan dipelajari.</p>
+<h3>Tahap 2. Menyampaikan permasalahan atau konteks nyata</h3>
+<p>Guru menghadirkan situasi yang dapat diamati atau dipahami siswa. Contohnya, ketika mempelajari pengelolaan sampah, guru menunjukkan kondisi tempat sampah di lingkungan sekolah.</p>
+<h3>Tahap 3. Mendorong kegiatan menemukan</h3>
+<p>Siswa melakukan pengamatan, percobaan, pencarian informasi, atau kegiatan sederhana untuk memperoleh pemahaman.</p>
+<h3>Tahap 4. Mengembangkan diskusi dan interaksi</h3>
+<p>Siswa bertukar informasi, mengajukan pertanyaan, dan membandingkan hasil pengamatan dengan teman.</p>
+<h3>Tahap 5. Menghadirkan contoh atau pemodelan</h3>
+<p>Guru atau siswa menunjukkan cara melakukan kegiatan yang sesuai dengan konsep yang dipelajari.</p>
+<h3>Tahap 6. Menerapkan pengetahuan</h3>
+<p>Siswa menggunakan pemahaman yang telah diperoleh untuk menyelesaikan tugas atau menghadapi situasi yang berkaitan dengan kehidupan nyata.</p>
+<h3>Tahap 7. Melakukan refleksi dan penilaian</h3>
+<p>Guru mengajak siswa menyimpulkan pembelajaran dan menghubungkan hasil belajar dengan kehidupan sehari-hari. Penilaian dilakukan melalui proses dan hasil kegiatan.</p>
+
+<h2 id="g">G. Kelebihan dan Keterbatasan Contextual Teaching and Learning</h2>
+<h3>Kelebihan</h3>
+<ol class="detail-list">
+  <li>Membantu siswa memahami konsep melalui pengalaman nyata.</li>
+  <li>Mengurangi pembelajaran yang hanya berorientasi pada hafalan.</li>
+  <li>Mendorong rasa ingin tahu dan keterlibatan aktif.</li>
+  <li>Membantu siswa mengembangkan kemampuan berpikir kritis.</li>
+  <li>Menghubungkan materi pelajaran dengan lingkungan sekitar.</li>
+  <li>Memberikan kesempatan untuk menerapkan pengetahuan.</li>
+  <li>Mengembangkan kemampuan berkomunikasi dan bekerja sama.</li>
+  <li>Membuat pembelajaran lebih dekat dengan kebutuhan siswa.</li>
+</ol>
+<h3>Keterbatasan</h3>
+<ol class="detail-list">
+  <li>Membutuhkan persiapan yang matang dalam menentukan konteks pembelajaran.</li>
+  <li>Tidak semua materi mudah dihubungkan dengan pengalaman langsung.</li>
+  <li>Kegiatan pengamatan dan praktik dapat membutuhkan waktu lebih lama.</li>
+  <li>Kondisi lingkungan dan fasilitas sekolah dapat membatasi pilihan kegiatan.</li>
+  <li>Pengalaman siswa yang berbeda dapat menyebabkan perbedaan pemahaman awal.</li>
+  <li>Penilaian autentik membutuhkan pengamatan dan instrumen yang sesuai.</li>
+</ol>
+<h3>Upaya mengatasi keterbatasan</h3>
+<ul class="detail-list">
+  <li>Memilih contoh yang dekat dengan kehidupan mayoritas siswa.</li>
+  <li>Menggunakan benda sederhana yang tersedia di lingkungan sekolah.</li>
+  <li>Menyediakan alternatif gambar, cerita, atau video apabila pengalaman langsung tidak memungkinkan.</li>
+  <li>Menentukan waktu dan tahapan kegiatan secara jelas.</li>
+  <li>Menggunakan pertanyaan pemandu untuk membantu siswa yang mengalami kesulitan.</li>
+  <li>Menyiapkan rubrik penilaian yang sesuai dengan tujuan pembelajaran.</li>
+</ul>
+
+<h2 id="h">H. Penerapan Contextual Teaching and Learning di Sekolah Dasar</h2>
+<h3>1. Bahasa Indonesia</h3>
+<p><strong>Materi:</strong> Teks deskripsi.</p>
+<p>Guru mengajak siswa mengamati ruang kelas atau taman sekolah. Siswa kemudian menuliskan deskripsi berdasarkan objek yang diamati.</p>
+<p><strong>Hubungan kontekstual:</strong> Siswa mempelajari teks deskripsi melalui objek nyata yang berada di sekitarnya.</p>
+<h3>2. Matematika</h3>
+<p><strong>Materi:</strong> Pengukuran panjang.</p>
+<p>Siswa mengukur meja, papan tulis, buku, dan benda lain menggunakan penggaris atau meteran.</p>
+<p><strong>Hubungan kontekstual:</strong> Siswa memahami fungsi pengukuran dalam kehidupan sehari-hari.</p>
+<h3>3. IPAS</h3>
+<p><strong>Materi:</strong> Perubahan wujud benda.</p>
+<p>Siswa mengamati es batu yang mencair dan mendiskusikan perubahan yang terjadi.</p>
+<p><strong>Hubungan kontekstual:</strong> Siswa memahami perubahan wujud melalui peristiwa yang sering dijumpai.</p>
+<h3>4. Pendidikan Pancasila</h3>
+<p><strong>Materi:</strong> Hak dan kewajiban.</p>
+<p>Guru mengajak siswa mengidentifikasi hak dan kewajiban di rumah maupun sekolah.</p>
+<p><strong>Hubungan kontekstual:</strong> Siswa memahami konsep melalui pengalaman sebagai anggota keluarga dan warga sekolah.</p>
+<h3>5. Seni dan Prakarya</h3>
+<p><strong>Materi:</strong> Pemanfaatan bahan di lingkungan sekitar.</p>
+<p>Siswa membuat karya sederhana menggunakan bahan bekas yang aman dan tersedia di sekitar sekolah.</p>
+<p><strong>Hubungan kontekstual:</strong> Siswa memahami bahwa bahan yang dianggap tidak terpakai dapat dimanfaatkan menjadi karya baru.</p>
+
+<h2 id="i">I. Contoh Rancangan Pembelajaran Contextual Teaching and Learning</h2>
+<h3>Identitas pembelajaran</h3>
+<ul class="detail-list">
+  <li>Satuan pendidikan: Sekolah Dasar</li>
+  <li>Mata pelajaran: Matematika</li>
+  <li>Fase: B</li>
+  <li>Kelas: IV</li>
+  <li>Materi: Pengukuran Panjang</li>
+  <li>Model: Contextual Teaching and Learning</li>
+  <li>Alokasi waktu: 2 x 35 menit</li>
+</ul>
+<h3>Tujuan pembelajaran</h3>
+<p>Setelah mengikuti kegiatan pembelajaran, siswa diharapkan mampu:</p>
+<ol class="detail-list">
+  <li>Menjelaskan fungsi satuan panjang dalam kehidupan sehari-hari.</li>
+  <li>Menggunakan alat ukur panjang sederhana dengan benar.</li>
+  <li>Melakukan pengukuran terhadap benda di lingkungan kelas.</li>
+  <li>Mencatat dan membandingkan hasil pengukuran.</li>
+  <li>Menjelaskan manfaat kegiatan pengukuran dalam kehidupan sehari-hari.</li>
+</ol>
+<h3>Media dan sumber belajar</h3>
+<ul class="detail-list">
+  <li>Penggaris.</li>
+  <li>Meteran.</li>
+  <li>Buku tulis.</li>
+  <li>Meja dan kursi kelas.</li>
+  <li>Papan tulis.</li>
+  <li>Lembar kerja pengukuran.</li>
+</ul>
+<h3>Kegiatan pembelajaran</h3>
+<p><strong>1. Pendahuluan (10 menit)</strong> — Guru menunjukkan sebuah penggaris dan meteran. Guru mengajukan pertanyaan: "Bagaimana cara mengetahui panjang meja tanpa menebaknya?" Siswa menyampaikan pengalaman menggunakan alat ukur di rumah atau sekolah. Guru menjelaskan tujuan pembelajaran.</p>
+<p><strong>2. Kegiatan inti (50 menit)</strong></p>
+<ul class="detail-list">
+  <li>Guru mengaitkan materi dengan kegiatan mengukur benda sehari-hari.</li>
+  <li>Guru menunjukkan cara menggunakan penggaris dan meteran.</li>
+  <li>Siswa dibagi menjadi beberapa kelompok kecil.</li>
+  <li>Setiap kelompok menerima lembar kerja.</li>
+  <li>Siswa mengukur beberapa benda di lingkungan kelas.</li>
+  <li>Siswa mencatat hasil pengukuran menggunakan satuan yang tepat.</li>
+  <li>Setiap kelompok membandingkan hasil pengukurannya.</li>
+  <li>Siswa mendiskusikan alasan perbedaan hasil apabila ditemukan.</li>
+  <li>Perwakilan kelompok menyampaikan hasil pengamatan.</li>
+  <li>Guru mengarahkan siswa untuk menghubungkan kegiatan pengukuran dengan penggunaannya dalam kehidupan.</li>
+</ul>
+<p><strong>3. Penutup (10 menit)</strong> — Guru dan siswa menyimpulkan fungsi pengukuran panjang. Siswa menyampaikan pengalaman yang diperoleh dan manfaat kegiatan tersebut. Guru memberikan pertanyaan evaluasi singkat.</p>
+<h3>Contoh lembar kerja siswa</h3>
+<p>Ukurlah benda-benda berikut dan catat hasilnya.</p>
+<table>
+  <tr><th>No.</th><th>Nama benda</th><th>Hasil pengukuran</th></tr>
+  <tr><td>1</td><td>Buku tulis</td><td>... cm</td></tr>
+  <tr><td>2</td><td>Panjang meja</td><td>... cm</td></tr>
+  <tr><td>3</td><td>Lebar papan tulis</td><td>... cm</td></tr>
+  <tr><td>4</td><td>Tempat pensil</td><td>... cm</td></tr>
+</table>
+<p>Jawablah pertanyaan berikut:</p>
+<ol class="detail-list">
+  <li>Benda apa yang paling panjang dari hasil pengukuranmu?</li>
+  <li>Mengapa kita membutuhkan alat ukur?</li>
+  <li>Apa perbedaan menggunakan penggaris dan meteran?</li>
+  <li>Dalam kegiatan sehari-hari, kapan kamu membutuhkan pengukuran panjang?</li>
+</ol>
+<h3>Hasil yang diharapkan</h3>
+<p>Siswa mampu memahami konsep pengukuran melalui kegiatan langsung, menggunakan alat ukur dengan tepat, serta menjelaskan manfaat pengukuran dalam kehidupan sehari-hari.</p>
+
+<h2 id="j">J. Penilaian dalam Contextual Teaching and Learning</h2>
+<p>Penilaian CTL perlu memperhatikan pemahaman konsep, keterampilan penerapan, serta proses belajar siswa.</p>
+<h3>1. Penilaian pengetahuan</h3>
+<p>Dilakukan melalui pertanyaan lisan, kuis, dan tugas tertulis.</p>
+<p>Indikator:</p>
+<ul class="detail-list">
+  <li>Memahami konsep pengukuran.</li>
+  <li>Menjelaskan fungsi satuan panjang.</li>
+  <li>Mengidentifikasi penggunaan alat ukur.</li>
+</ul>
+<h3>2. Penilaian keterampilan</h3>
+<p>Dilakukan melalui praktik pengukuran benda.</p>
+<p>Indikator:</p>
+<ul class="detail-list">
+  <li>Menggunakan alat ukur dengan benar.</li>
+  <li>Menentukan titik awal dan akhir pengukuran.</li>
+  <li>Mencatat hasil pengukuran secara tepat.</li>
+  <li>Membandingkan hasil pengukuran.</li>
+</ul>
+<h3>3. Penilaian sikap</h3>
+<p>Dilakukan melalui pengamatan terhadap perilaku siswa selama pembelajaran.</p>
+<p>Indikator:</p>
+<ul class="detail-list">
+  <li>Teliti ketika melakukan pengukuran.</li>
+  <li>Bertanggung jawab menggunakan alat.</li>
+  <li>Menghargai pendapat teman.</li>
+  <li>Berpartisipasi dalam kegiatan.</li>
+</ul>
+<h3>4. Penilaian autentik</h3>
+<p>Guru dapat menggabungkan beberapa bukti belajar berikut:</p>
+<ul class="detail-list">
+  <li>Hasil lembar kerja.</li>
+  <li>Pengamatan praktik.</li>
+  <li>Penjelasan lisan siswa.</li>
+  <li>Hasil diskusi.</li>
+  <li>Refleksi pembelajaran.</li>
+</ul>
+<h3>Contoh rubrik keterampilan pengukuran</h3>
+<p><strong>Skor 4:</strong> Menggunakan alat ukur secara tepat, melakukan pengukuran mandiri, dan mencatat hasil dengan benar.</p>
+<p><strong>Skor 3:</strong> Menggunakan alat ukur dengan benar tetapi masih membutuhkan sedikit arahan.</p>
+<p><strong>Skor 2:</strong> Mampu melakukan sebagian proses pengukuran dengan beberapa kesalahan.</p>
+<p><strong>Skor 1:</strong> Masih memerlukan bimbingan intensif dalam menggunakan alat ukur.</p>
+
+<h2 id="k">K. Kesalahan Umum dalam Penerapan Contextual Teaching and Learning</h2>
+<ol class="detail-list">
+  <li><strong>Hanya memberikan contoh tanpa menghubungkan konsep</strong> — Perbaikan: Guru perlu membantu siswa memahami hubungan antara contoh nyata dan konsep yang sedang dipelajari.</li>
+  <li><strong>Menganggap pembelajaran di luar kelas selalu merupakan CTL</strong> — Perbaikan: Pembelajaran kontekstual tidak harus dilakukan di luar kelas. Pengalaman dan situasi nyata dapat dihadirkan melalui benda, gambar, cerita, atau permasalahan sederhana.</li>
+  <li><strong>Menggunakan konteks yang terlalu jauh dari kehidupan siswa</strong> — Perbaikan: Pilih situasi yang sesuai dengan lingkungan, usia, dan pengalaman siswa.</li>
+  <li><strong>Terlalu banyak memberikan penjelasan</strong> — Perbaikan: Berikan kesempatan kepada siswa untuk mengamati, bertanya, mencoba, dan membangun pemahamannya.</li>
+  <li><strong>Tidak mengarahkan siswa pada penerapan pengetahuan</strong> — Perbaikan: Berikan tugas yang membuat siswa menggunakan konsep dalam situasi nyata.</li>
+  <li><strong>Hanya menilai hasil akhir</strong> — Perbaikan: Perhatikan proses, keterampilan, pemahaman, dan kemampuan siswa dalam menerapkan konsep.</li>
+</ol>
+
+<h2 id="l">L. Adaptasi Contextual Teaching and Learning terhadap Kondisi Siswa</h2>
+<p>CTL perlu disesuaikan dengan pengalaman dan lingkungan tempat siswa belajar.</p>
+<h3>1. Siswa dengan pengalaman terbatas</h3>
+<p>Gunakan gambar, benda konkret, cerita, atau simulasi sederhana untuk memperkenalkan situasi yang belum dikenal.</p>
+<h3>2. Siswa dengan kemampuan belajar beragam</h3>
+<p>Berikan tugas dengan tingkat tantangan yang sesuai dan sediakan pertanyaan pemandu bagi siswa yang membutuhkan bantuan.</p>
+<h3>3. Siswa yang lebih mudah belajar melalui praktik</h3>
+<p>Libatkan mereka dalam kegiatan mengamati, mengukur, mengelompokkan, mencoba, atau membuat karya.</p>
+<h3>4. Siswa yang kurang percaya diri</h3>
+<p>Berikan kesempatan untuk menyampaikan hasil pengamatan secara berpasangan sebelum berbicara di depan kelas.</p>
+<h3>5. Sekolah dengan fasilitas terbatas</h3>
+<p>Manfaatkan lingkungan sekitar, benda sehari-hari, bahan bekas yang aman, dan sumber daya sederhana.</p>
+<h3>6. Perbedaan lingkungan tempat tinggal</h3>
+<p>Gunakan konteks yang dapat disesuaikan dengan pengalaman siswa. Contohnya, materi lingkungan dapat dikaitkan dengan sawah, pasar, sungai, kebun, atau lingkungan permukiman sesuai kondisi setempat. Prinsip utamanya adalah memilih konteks yang bermakna, mudah dipahami, dan memberikan kesempatan kepada semua siswa untuk belajar.</p>
+
+<h2 id="m">M. Pertanyaan Refleksi dan Diskusi</h2>
+<ol class="detail-list">
+  <li>Mengapa menghubungkan materi dengan kehidupan nyata dapat membantu siswa memahami pembelajaran?</li>
+  <li>Apa perbedaan pembelajaran kontekstual dengan pembelajaran yang hanya menggunakan contoh dalam penjelasan guru?</li>
+  <li>Bagaimana cara guru menerapkan CTL apabila sekolah memiliki fasilitas pembelajaran yang terbatas?</li>
+  <li>Mengapa pengalaman awal siswa perlu diperhatikan dalam pembelajaran kontekstual?</li>
+  <li>Bagaimana tujuh komponen utama CTL dapat diterapkan dalam satu kegiatan pembelajaran?</li>
+  <li>Berikan contoh materi di Sekolah Dasar yang menurutmu cocok menggunakan model CTL dan jelaskan alasannya.</li>
+</ol>
+
+<h2 id="n">N. Penutup dan Pengembangan Pemahaman</h2>
+<p>Contextual Teaching and Learning merupakan model pembelajaran yang membantu siswa menghubungkan pengetahuan dengan kehidupan nyata. Melalui pengalaman, pengamatan, diskusi, dan penerapan, siswa memperoleh kesempatan untuk membangun pemahaman yang lebih bermakna.</p>
+<p>Dalam penerapannya, guru perlu memilih konteks yang dekat dengan kehidupan siswa, mengaktifkan pengetahuan awal, memberikan kesempatan untuk menemukan konsep, dan menilai kemampuan siswa dalam menggunakan pengetahuan.</p>
+<p>CTL tidak selalu membutuhkan teknologi atau fasilitas yang kompleks. Benda sederhana, lingkungan sekolah, pengalaman sehari-hari, dan permasalahan yang dekat dengan siswa dapat menjadi sumber belajar yang bermakna.</p>
+<p><strong>Pesan utama:</strong> Pembelajaran menjadi lebih bermakna ketika siswa tidak hanya mengetahui sesuatu, tetapi juga memahami hubungan dan manfaatnya dalam kehidupan sehari-hari.</p>
+
+<h2 id="quiz">Uji Pemahaman</h2>
+<div class="quiz-box" id="quizContainer">
+  <div class="quiz-q" data-correct="b" data-explain="CTL membantu siswa memahami materi dengan menghubungkannya pada pengalaman dan situasi kehidupan sehari-hari.">
+    <p>1. Apa yang menjadi fokus utama Contextual Teaching and Learning?</p>
+    <label class="quiz-opt"><input type="radio" name="q1" value="a"> Menghafalkan seluruh materi pelajaran.</label>
+    <label class="quiz-opt"><input type="radio" name="q1" value="b"> Menghubungkan materi pembelajaran dengan kehidupan nyata siswa.</label>
+    <label class="quiz-opt"><input type="radio" name="q1" value="c"> Memberikan tugas sebanyak mungkin.</label>
+    <label class="quiz-opt"><input type="radio" name="q1" value="d"> Mengutamakan penjelasan guru sepanjang pembelajaran.</label>
+    <div class="quiz-feedback"></div>
+  </div>
+  <div class="quiz-q" data-correct="a" data-explain="Siswa menggunakan konsep pengukuran pada benda yang mereka temui secara langsung.">
+    <p>2. Ketika mempelajari pengukuran panjang, guru meminta siswa mengukur meja dan buku di kelas. Kegiatan tersebut menunjukkan penerapan prinsip ...</p>
+    <label class="quiz-opt"><input type="radio" name="q2" value="a"> Menghubungkan pembelajaran dengan konteks nyata.</label>
+    <label class="quiz-opt"><input type="radio" name="q2" value="b"> Menghafalkan definisi.</label>
+    <label class="quiz-opt"><input type="radio" name="q2" value="c"> Menghindari pengalaman langsung.</label>
+    <label class="quiz-opt"><input type="radio" name="q2" value="d"> Pembelajaran satu arah.</label>
+    <div class="quiz-feedback"></div>
+  </div>
+  <div class="quiz-q" data-correct="c" data-explain="Inquiry memberikan kesempatan kepada siswa untuk menemukan pemahaman melalui kegiatan pengamatan, pencarian informasi, dan penyelidikan.">
+    <p>3. Komponen CTL yang menekankan kegiatan mencari dan menyelidiki untuk memperoleh pengetahuan disebut ...</p>
+    <label class="quiz-opt"><input type="radio" name="q3" value="a"> Modeling.</label>
+    <label class="quiz-opt"><input type="radio" name="q3" value="b"> Reflection.</label>
+    <label class="quiz-opt"><input type="radio" name="q3" value="c"> Inquiry.</label>
+    <label class="quiz-opt"><input type="radio" name="q3" value="d"> Questioning.</label>
+    <div class="quiz-feedback"></div>
+  </div>
+  <div class="quiz-q" data-correct="b" data-explain="Modeling merupakan kegiatan menghadirkan contoh atau memperagakan cara melakukan sesuatu agar siswa memperoleh gambaran yang jelas.">
+    <p>4. Guru menunjukkan cara menggunakan termometer sebelum siswa mencoba mengukur suhu. Kegiatan tersebut merupakan contoh komponen ...</p>
+    <label class="quiz-opt"><input type="radio" name="q4" value="a"> Learning Community.</label>
+    <label class="quiz-opt"><input type="radio" name="q4" value="b"> Modeling.</label>
+    <label class="quiz-opt"><input type="radio" name="q4" value="c"> Reflection.</label>
+    <label class="quiz-opt"><input type="radio" name="q4" value="d"> Constructivism.</label>
+    <div class="quiz-feedback"></div>
+  </div>
+  <div class="quiz-q" data-correct="c" data-explain="Penilaian autentik memperhatikan proses dan hasil belajar, termasuk kemampuan menggunakan pengetahuan dalam kegiatan yang bermakna.">
+    <p>5. Mengapa penilaian autentik penting dalam CTL?</p>
+    <label class="quiz-opt"><input type="radio" name="q5" value="a"> Karena hanya nilai ujian tertulis yang diperlukan.</label>
+    <label class="quiz-opt"><input type="radio" name="q5" value="b"> Karena guru tidak perlu mengamati proses belajar.</label>
+    <label class="quiz-opt"><input type="radio" name="q5" value="c"> Karena penilaian dapat memperhatikan kemampuan siswa dalam menerapkan pengetahuan.</label>
+    <label class="quiz-opt"><input type="radio" name="q5" value="d"> Karena semua siswa harus memperoleh nilai yang sama.</label>
+    <div class="quiz-feedback"></div>
+  </div>
+  <button id="submitQuiz" class="print-btn" style="position:static;margin-top:1rem;">Kirim Jawaban</button>
+  <button id="retryQuiz" class="print-btn" style="position:static;margin-top:1rem;display:none;">Coba Lagi</button>
+  <div class="quiz-result" id="quizResult"></div>
+</div>
+
+<p><a href="../model-pembelajaran.html">← Kembali ke Katalog</a></p>
+
+        </article>
+      </div>
+    </div>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="footer-brand-name">BIANCA EDUSPACE</div>
+          <div class="footer-slogan">Inspire to Learn, Empower to Grow</div>
+          <p class="footer-text">Ruang edukasi untuk belajar, berkarya, dan berkembang bersama.</p>
+        </div>
+        <div>
+          <div class="footer-heading">Navigasi</div>
+          <ul class="footer-list">
+            <li><a href="../index.html">Beranda</a></li>
+            <li><a href="../model-pembelajaran.html">Model Pembelajaran</a></li>
+            <li><a href="../metode-pembelajaran.html">Metode Pembelajaran</a></li>
+            <li><a href="../panduan-mengajar.html">Panduan Mengajar</a></li>
+            <li><a href="../tentang-kami.html">Tentang Kami</a></li>
+          </ul>
+        </div>
+        <div>
+          <div class="footer-heading">Informasi</div>
+          <ul class="footer-list">
+            <li><a href="../tentang-kami.html">Tentang Bianca EduSpace</a></li>
+            <li><a href="../tentang-kami.html">Visi dan Misi</a></li>
+            <li><a href="../tentang-kami.html">Tujuan Pendidikan</a></li>
+          </ul>
+        </div>
+        <div>
+          <div class="footer-heading">Brand Statement</div>
+          <p class="footer-statement">Creative Learning. Innovative Education. Collaborative Growth.</p>
+        </div>
+      </div>
+      <div class="footer-bottom">© 2026 BIANCA EDUSPACE. All Rights Reserved.</div>
+    </div>
+  </footer>
+  <button id="backToTop" class="back-to-top" aria-label="Kembali ke atas">↑</button>
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script src="../script.js" defer></script>
+  <script>
+    (function () {
+      const submit = document.getElementById('submitQuiz');
+      const retry = document.getElementById('retryQuiz');
+      const result = document.getElementById('quizResult');
+      const qs = document.querySelectorAll('.quiz-q');
+
+      function grade() {
+        let score = 0;
+        qs.forEach((q, i) => {
+          const name = 'q' + (i + 1);
+          const sel = document.querySelector('input[name="' + name + '"]:checked');
+          const fb = q.querySelector('.quiz-feedback');
+          const correct = q.dataset.correct;
+          if (sel && sel.value === correct) {
+            score++;
+            fb.textContent = 'Benar. ' + q.dataset.explain;
+            fb.className = 'quiz-feedback ok';
+          } else {
+            fb.textContent = 'Salah. Jawaban benar: ' + correct.toUpperCase() + '. ' + q.dataset.explain;
+            fb.className = 'quiz-feedback err';
+          }
+        });
+        const pct = Math.round((score / qs.length) * 100);
+        result.textContent = 'Skor: ' + score + ' / ' + qs.length + ' (' + pct + '/100)';
+        retry.style.display = 'inline-block';
+      }
+
+      function reset() {
+        qs.forEach(q => {
+          q.querySelectorAll('input[type="radio"]').forEach(r => r.checked = false);
+          const fb = q.querySelector('.quiz-feedback');
+          if (fb) { fb.textContent = ''; fb.className = 'quiz-feedback'; }
+        });
+        result.textContent = '';
+        retry.style.display = 'none';
+      }
+
+      submit.addEventListener('click', grade);
+      retry.addEventListener('click', reset);
+    })();
+
+    window.addEventListener('scroll', () => {
+      const h = document.documentElement;
+      const pct = (h.scrollTop / (h.scrollHeight - h.clientHeight)) * 100;
+      document.getElementById('progressBar').style.width = pct + '%';
+    }, { passive: true });
+    const btn = document.getElementById('backToTop');
+    if (btn) { window.addEventListener('scroll', () => btn.classList.toggle('show', window.scrollY > 300), { passive: true }); btn.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' })); }
+  </script>
+</body>
+</html>
